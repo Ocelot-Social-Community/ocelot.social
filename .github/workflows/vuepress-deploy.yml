@@ -1,0 +1,28 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Setup Node 19
+        uses: actions/setup-node@v3
+        with:
+          node-version: '19'
+
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@v1.8.1
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        TARGET_REPO: Ocelot-Social-Community/ocelot.social
+        TARGET_BRANCH: gh-pages
+        BUILD_SCRIPT: npm install && npm run build
+        BUILD_DIR: docs/.vuepress/dist
+        CNAME: https://www.ocelot.social
