@@ -4,9 +4,9 @@ module.exports = {
     'no-start-duplicated-conjunction': {
       interval : 2, // interval of sentences
     },
-    'max-comma': {
+    /*'max-comma': {
       max : 4,
-    },
+    },*/
     /*'no-dead-link': {
       checkRelative: true,
       baseURI: null,
@@ -28,10 +28,10 @@ module.exports = {
       // Misspellings to be ignored (case-insensitive)
       ignore: [],
     },
-    'write-good': {
+    /*'write-good': {
       passive: false,
       thereIs: false
-    },
+    },*/
     'apostrophe': true,
   },
   filters: {

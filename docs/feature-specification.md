@@ -253,7 +253,7 @@ Shows automatically related actions for existing post.
 [Cucumber Features](https://github.com/Ocelot-Social-Community/Ocelot-Social/tree/master/cypress/integration/administration)
 
 * Provide Admin-Interface to send Users Invite Code
-* Static Pages for Data Privacy Statement ..
+* Static Pages for Data Privacy Statement
 * Create, edit and delete Announcements
 * Pin a post to inform users
 
