@@ -18,7 +18,7 @@ jobs:
         node-version: 19
 
     - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@v1.8.1
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: Ocelot-Social-Community/ocelot.social
