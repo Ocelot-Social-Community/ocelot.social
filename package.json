@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build docs",
+    "build-legacy": "vuepress build docs",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
     "test": "textlint \"*.md\" \"docs/**/*.md\""
   },
