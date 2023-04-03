@@ -2,7 +2,7 @@
 
 ## Setup with docker
 
-Are you running everything through docker? You're so lucky you don't have to
+Are you running everything through docker? You’re so lucky you don’t have to
 setup anything!
 
 Just:

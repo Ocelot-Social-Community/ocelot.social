@@ -62,7 +62,7 @@ If indexes or constraints are missing or not set correctly, the browser search w
 The indexes and constraints of our database are set in `backend/src/db/migrate/store.js`.
 This is where the magic happens.
 
-It's called by our `prod:migrate init` command.
+It’s called by our `prod:migrate init` command.
 This command initializes the Admin user and creates all necessary indexes and constraints in the Neo4j database.
 
 ***Calls in development***

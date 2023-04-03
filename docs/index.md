@@ -53,23 +53,23 @@ Try out our live demo network, see [here](#live-demo-and-developer-logins).
 
 ## Help us
 
-If you're wondering how you could help, there are plenty of ways, e.g.:
+If you’re wondering how you could help, there are plenty of ways, e.g.:
 
 * Spread the good word about ocelot.social to make it more popular:
-  * Add the link [ocelot.social](https://ocelot.social) to your website.
-  * Give ocelot.social a Like at https://alternativeto.net/software/ocelot-social/.
-  * Star our project on GitHub at https://github.com/Ocelot-Social-Community/Ocelot-Social/.
-  * Promote it on your social networks.
-  * Tell your friends about it by word-of-mouth.
-  * Write a press article on ocelot.social or contact the editorial office of your local newspage or radio station.
-* Take a [good first issue](https://github.com/Ocelot-Social-Community/Ocelot-Social/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or issues that need help. Make sure to read [CONTRIBUTING.md](/CONTRIBUTING.md) first though.
-* Testing and [reporting](/issues/new/choose) bugs.
-* Translating: Please [contact us](#contact).
-* Reviewing and testing pull requests.
+  * Add the link [ocelot.social](https://ocelot.social) to your website
+  * Give ocelot.social a Like at https://alternativeto.net/software/ocelot-social/
+  * Star our project on GitHub at https://github.com/Ocelot-Social-Community/Ocelot-Social/
+  * Promote it on your social networks
+  * Tell your friends about it by word-of-mouth
+  * Write a press article on ocelot.social or contact the editorial office of your local newspage or radio station
+* Take a [good first issue](https://github.com/Ocelot-Social-Community/Ocelot-Social/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or issues that need help. Make sure to read [CONTRIBUTING.md](/CONTRIBUTING.md) first though
+* Testing and [reporting](/issues/new/choose) bugs
+* Translating: Please [contact us](#contact)
+* Reviewing and testing pull requests
 
 ## Donate 
 
-Your donation is very welcome and helps to enhance and improve the network. This software is mostly developped and maintained by the association [busFaktor() e.V.](https://www.busfaktor.org/en). Please support us with a [donation](https://www.busfaktor.org/en/donations) to busFaktor() e.V.. Thanks a lot! ❤️
+Your donation is very welcome and helps to enhance and improve the network. This software is mostly developed and maintained by the association [busFaktor() e.V.](https://www.busfaktor.org/en). Please support us with a [donation](https://www.busfaktor.org/en/donations) to busFaktor() e.V.. Thanks a lot! ❤️
 
 ## Contact
 
@@ -97,8 +97,8 @@ setup **frontend** and **backend**.
 
 There are two approaches:
 
-1. [Local](#local-installation) installation, which means you have to take care of dependencies yourself.
-2. **Or** Install everything through [Docker](#docker-installation) which takes care of dependencies for you.
+1. [Local](#local-installation) installation, which means you have to take care of dependencies yourself
+2. **Or** Install everything through [Docker](#docker-installation) which takes care of dependencies for you
 
 ### Installation
 
@@ -221,7 +221,7 @@ For a full documentation see [SUMMARY](./SUMMARY.md).
 Choose an issue (consider our label [good-first-issue](https://github.com/Ocelot-Social-Community/Ocelot-Social/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)) and leave a comment there. We will then invite you to join our volunteers team.
 To have the necessary permission to push directly to this repository, please accept our invitation to join our volunteers team, you will receive via the email, Github will send you, once invited. If we did not invite you yet, please request an invitation via Discord.
 
-We are happy if you fork our repository, but we don't recommend it for development. You do not need a fork.
+We are happy if you fork our repository, but we don’t recommend it for development. You do not need a fork.
 
 Clone this repository locally as [described above](#clone-the-repository), create your branch named `<issue-number>-<description>`, add your code and push your branch to this repository. Then create a PR by comparing it to our `master`.
 

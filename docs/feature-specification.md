@@ -2,17 +2,17 @@
 
 ocelot.social is free and open-source social network code that connects information to action and promotes positive local and global change in all areas of life.
 
-* **Social**: Interact with other people not just by commenting their posts, but by providing **Pro & Contra** arguments, give a **Versus** or ask them by integrated **Chat** or **Let's Talk**
-* **Knowledge**: Read articles about interesting topics and find related posts in the **More Info** tab or by **Filtering** based on **Categories** and **Tagging** or by using the **Fulltext Search**.
-* **Action**: Don't just read about how to make the world a better place, but come into **Action** by following provided suggestions on the **Action** tab provided by other people or **Organisations**.
+* **Social**: Interact with other people not just by commenting their posts, but by providing **Pro & Contra** arguments, give a **Versus** or ask them by integrated **Chat** or **Let’s Talk**
+* **Knowledge**: Read articles about interesting topics and find related posts in the **More Info** tab or by **Filtering** based on **Categories** and **Tagging** or by using the **Fulltext Search**
+* **Action**: Don’t just read about how to make the world a better place, but come into **Action** by following provided suggestions on the **Action** tab provided by other people or **Organisations**
 
 ## Features
 
 The following features will be implemented. This gets done in three steps:
 
-1. First we will implement a basic feature set and provide a test system to test the basic network functionality.
-2. In a second step we will make our prototype publicly available with an advanced feature set including the technology and organizational structure to drive a bigger public social network.
-3. In a third step all the remaining features will be implemented to build the full product.
+1. First we will implement a basic feature set and provide a test system to test the basic network functionality
+2. In a second step we will make our prototype publicly available with an advanced feature set including the technology and organizational structure to drive a bigger public social network
+3. In a third step all the remaining features will be implemented to build the full product
 
 ### User Account
 
@@ -27,7 +27,7 @@ The following features will be implemented. This gets done in three steps:
 * Change Email Address
 * Change Password
 * Delete Account
-* Download User's Content
+* Download User’s Content
 * GDPR-Information about stored Content
 * Choosing Interface Language \(e.g. German / English / French\)
 * Persistent Links
@@ -55,7 +55,7 @@ The following features will be implemented. This gets done in three steps:
 * Show popular Hashtags Widget
 * Show Mini-Statistics Widget \(all time\)
 * Show Chatrooms Widget
-* Show List of Let's Talk requests with online status of requesting people
+* Show List of Let’s Talk requests with online status of requesting people
 
 ### Posts
 
@@ -73,7 +73,7 @@ The following features will be implemented. This gets done in three steps:
 * Choosing Visibility \(Public / Friends / Private\)
 * Shout Button for Posts
 * Bookmark Posts \(later\)
-* Optionally provide Let's Talk Feature
+* Optionally provide Let’s Talk Feature
 * Optionally provide Commenting Feature
 
 ### Comments
@@ -217,10 +217,10 @@ Shows automatically related actions for existing post.
 
 * Basic 1:1 Chat functionality
 
-### Let's Talk
+### Let’s Talk
 
-* Request Let's talk with Author of Post
-* Requestor can request private or public Let's Talk
+* Request Let’s talk with Author of Post
+* Requestor can request private or public Let’s Talk
 * Requestor can choose the Chat format \(Video, Audio, Text\)
 * Interact with interested People 1:1
 * Approve request from Requestor
@@ -253,7 +253,7 @@ Shows automatically related actions for existing post.
 [Cucumber Features](https://github.com/Ocelot-Social-Community/Ocelot-Social/tree/master/cypress/integration/administration)
 
 * Provide Admin-Interface to send Users Invite Code
-* Static Pages for Data Privacy Statement ...
+* Static Pages for Data Privacy Statement ..
 * Create, edit and delete Announcements
 * Pin a post to inform users
 

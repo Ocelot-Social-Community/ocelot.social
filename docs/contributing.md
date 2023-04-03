@@ -1,6 +1,6 @@
 # CONTRIBUTING
 
-Thank you so much for thinking of contributing to the [ocelot.social](https://ocelot.social) project! It's awesome you're here, we really appreciate it. :-\)
+Thank you so much for thinking of contributing to the [ocelot.social](https://ocelot.social) project! It’s awesome you’re here, we really appreciate it. :-\)
 
 ## Getting Set Up
 
@@ -12,19 +12,19 @@ We also can have pair programming sessions for you! We feel this is often the be
 
 ## Development Flow
 
-We operate in two week sprints that are planned, estimated and prioritised on [Zenhub](https://app.zenhub.com/workspaces/ocelotsocial-5fb21ff922cb410015dd6535/board?filterLogic=any&repos=301151089). All issues are also linked to and synced with [Github](https://github.com/Ocelot-Social-Community/Ocelot-Social/issues). Look for the `good first issue` label if you're not sure where to start!
+We operate in two week sprints that are planned, estimated and prioritised on [Zenhub](https://app.zenhub.com/workspaces/ocelotsocial-5fb21ff922cb410015dd6535/board?filterLogic=any&repos=301151089). All issues are also linked to and synced with [Github](https://github.com/Ocelot-Social-Community/Ocelot-Social/issues). Look for the `good first issue` label if you’re not sure where to start!
 
 We try to discuss all questions directly related to a feature or bug in the respective issue, in order to preserve it for the future and for other developers. We use [Discord](https://discord.gg/AJSX9DCSUA) for real-time communication.
 
 This is how we solve bugs and implement features, step by step:
 
-1. We find an issue we want to work on, usually during the sprint planning but as an open source contributor this can happen at any time.
-2. We communicate with the team to see if the issue is still available. (When you comment on an issue but don't get an answer there within 1-2 days try to mention @Ocelot-Social-Community/core-team to make sure we check in.)
+1. We find an issue we want to work on, usually during the sprint planning but as an open source contributor this can happen at any time
+2. We communicate with the team to see if the issue is still available. (When you comment on an issue but don’t get an answer there within 1-2 days try to mention @Ocelot-Social-Community/core-team to make sure we check in.)
 3. We make sure we understand the issue in detail – what problem is it solving and how should it be implemented?
-4. We assign ourselves to the issue and move it to `In Progress` on [Zenhub](https://app.zenhub.com/workspaces/ocelotsocial-5fb21ff922cb410015dd6535/board?filterLogic=any&repos=301151089).
-5. We start working on it in a `new branch` and open a `pull request` prefixed with `[WIP]` (work in progress) to which we regularly push our changes.
-6. When questions come up we clarify them with the team (directly in the issue on Github).
-7. When we are happy with our work and our PR is passing all tests we remove the `[WIP]` from the PR description and ask for reviews (if you're not sure who to ask there is @Ocelot-Social-Community/core-team which pings all core developers).
+4. We assign ourselves to the issue and move it to `In Progress` on [Zenhub](https://app.zenhub.com/workspaces/ocelotsocial-5fb21ff922cb410015dd6535/board?filterLogic=any&repos=301151089)
+5. We start working on it in a `new branch` and open a `pull request` prefixed with `[WIP]` (work in progress) to which we regularly push our changes
+6. When questions come up we clarify them with the team (directly in the issue on Github)
+7. When we are happy with our work and our PR is passing all tests we remove the `[WIP]` from the PR description and ask for reviews (if you’re not sure who to ask there is @Ocelot-Social-Community/core-team which pings all core developers)
 8. We then incorporate the suggestions from the reviews into our work and once it has been approved it can be merged into master!
 
 Every pull request needs to:
@@ -40,7 +40,7 @@ See [contributing in main README.md](/README.md#contributing)
 
 ## The Team
 
-There are many volunteers all around the world helping us build this network and without their contributions we wouldn't be where we are today. Big thank you to all of you!
+There are many volunteers all around the world helping us build this network and without their contributions we wouldn’t be where we are today. Big thank you to all of you!
 
 You can talk to our core team on [Discord](https://discord.gg/AJSX9DCSUA). And on Github you will mostly run into our core developers:
 
@@ -57,7 +57,7 @@ You can talk to our core team on [Discord](https://discord.gg/AJSX9DCSUA). And o
 
 ## Meetings and Pair Programming Sessions
 
-Times below refer to **German Time** – that's CET (GMT+1) in winter and CEST (GMT+2) in summer – because most ocelot.social Community core team members are living in Germany.
+Times below refer to **German Time** – that’s CET (GMT+1) in winter and CEST (GMT+2) in summer – because most ocelot.social Community core team members are living in Germany.
 
 Daily standup
 
@@ -107,8 +107,8 @@ Sprint retrospective
 
 We practice [collective code ownership](http://www.extremeprogramming.org/rules/collective.html) rather than strong code ownership, which means that:
 
-* developers can make contributions to other people's PRs (after checking in with them)
-* we avoid blocking because someone else isn't working, so we sometimes take over PRs from other developers
+* developers can make contributions to other people’s PRs (after checking in with them)
+* we avoid blocking because someone else isn’t working, so we sometimes take over PRs from other developers
 * everyone should always push their code to branches so others can see it
 
 We believe in open source contributions as a learning experience – everyone is welcome to join our team of volunteers and to contribute to the project, no matter their background or level of experience. To support your learning experience we founded the charity association [busFaktor() e.V.](https://www.busfaktor.org/en).
@@ -185,7 +185,7 @@ Or alternatively use a `YAML` docker compose overwrite file with `platform: linu
 
 ### Analyzing Docker Builds
 
-To analyze a Docker build, there is a wonderful tool called [dive](https://github.com/wagoodman/dive). Please sponsor if you're using it!
+To analyze a Docker build, there is a wonderful tool called [dive](https://github.com/wagoodman/dive). Please sponsor if you’re using it!
 
 The `dive build` command is exactly the right one to fulfill what we are looking for.
 We can use it just like the `docker build` command and get an analysis afterwards.

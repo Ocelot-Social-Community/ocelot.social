@@ -14,7 +14,7 @@ Individual Vue Components should also be documented and tested properly. This gu
 
 ## Unit Testing
 
-Expecially the Backend relies on Unit Tests, as there are no Vue Components.
+Especially the Backend relies on Unit Tests, as there are no Vue Components.
 
 [more...](backend/testing.md)
 
