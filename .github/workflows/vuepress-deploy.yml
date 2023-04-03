@@ -15,7 +15,7 @@ jobs:
     - name: Setup Node 19
       uses: actions/setup-node@v3
       with:
-        node-version: '19'
+        node-version: 19
 
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@v1.8.1
