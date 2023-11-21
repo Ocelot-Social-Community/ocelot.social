@@ -1,0 +1,22 @@
+name: build test CI
+
+on: push
+
+jobs:
+  build-test:
+    name: Build Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: npm-install
+        run: npm install
+      
+      - name: npm-build
+        run: npm run build
