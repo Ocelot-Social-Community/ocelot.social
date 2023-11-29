@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Impressum | Ocelot.Social
+title: Imprint | Ocelot.Social
 heroFullScreen: false
 heroImage: /logo.svg
 heroText: Free and open-source social network for active citizenship.
