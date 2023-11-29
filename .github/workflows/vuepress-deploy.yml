@@ -12,7 +12,15 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: vuepress-gh-pages-deploy
+    - name: Setup Node 20
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+
+    - name: Build Vuepress Pages
+      run: npm install && npm run build
+
+    - name: Deploy Vuepress to Github Pages
       uses: crazy-max/ghaction-github-pages@v4
       with:
         target_branch: gh-pages

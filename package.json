@@ -7,7 +7,6 @@
   "private": false,
   "scripts": {
     "build": "vuepress build docs",
-    "build-node16": "vuepress build docs",
     "dev": "vuepress dev docs",
     "test": "textlint \"*.md\" \"docs/**/*.md\""
   },
