@@ -2,10 +2,8 @@
 home: true
 # layout: BlogHome
 # icon: home
-title: Impressum
-heroFullScreen: false
-# heroImage: /logo.svg
-# heroText: Free and open-source social network for active citizenship.
+sidebar: false
+title: Mentions légales
 tagLine: 
 # actions:
 #   - text: Demo

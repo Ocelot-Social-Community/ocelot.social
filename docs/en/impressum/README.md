@@ -3,9 +3,7 @@ home: false
 # layout: BlogHome
 icon: home
 title: Imprint | Ocelot.Social
-heroFullScreen: false
-heroImage: /logo.svg
-heroText: Free and open-source social network for active citizenship.
+sidebar: false
 tagLine: 
 # actions:
 #   - text: Demo
