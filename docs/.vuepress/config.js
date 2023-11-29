@@ -7,6 +7,7 @@ export default defineUserConfig({
   ...meta,
   theme,
   plugins,
+  base: '/ocelot.social/',
   locales:{
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
@@ -15,7 +16,7 @@ export default defineUserConfig({
       title: 'Ocelot.Social',
       // description: ''
     },
-    '/de/': {
+    '/': {
       lang: 'de-DE',
       title: 'Ocelot.Social',
       // description: ''
