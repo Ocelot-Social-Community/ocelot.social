@@ -13,6 +13,6 @@ tagLine:
 ---
 ## En construction
 
-Notre site web est en construction. Revenez bientôt!
+Notre site web est en construction. Reviens bientôt!
 
 Entre-temps, tu peux nous trouver sur [GitHub](https://github.com/Ocelot-Social-Community/) ou [Discord](https://discord.gg/AGPJ7YgC).
