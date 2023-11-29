@@ -19,7 +19,7 @@ Wolfgang Huß, 2. Vorsitzender
 Haferstr. 5c  
 86179 Augsburg  
 E-Mail: <vorstand@busfaktor.org>  
-Telefon: +49 176 5552 3557
+Telefon: +49 173 622 60 91
 
 ## Inhaltlich verantwortlicher Redakteur
 
