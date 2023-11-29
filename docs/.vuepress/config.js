@@ -19,6 +19,10 @@ export default defineUserConfig({
       lang: 'de-DE',
       title: 'Ocelot.Social',
       // description: ''
+    },
+    '/fr/': {
+      lang: 'fr-FR',
+      title: 'Ocelot.Social',
     }
   }
 })
