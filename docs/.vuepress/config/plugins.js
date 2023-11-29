@@ -1,5 +1,4 @@
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
-import { redirectPlugin } from 'vuepress-plugin-redirect'
 
 export default [
   searchProPlugin({
@@ -16,7 +15,4 @@ export default [
       },
     ],
   }),
-  redirectPlugin({
-    autoLocale: true,
-  })
 ]
