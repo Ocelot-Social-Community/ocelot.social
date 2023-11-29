@@ -11,6 +11,21 @@ tagLine:
 #   - text: Demo
 #     link: https://stage.ocelot.social/
 ---
-## Coming soon
+## Responsible for the Operation of this Website
 
-We are rebuilding our website. Check back soon.
+busFaktor() e.V.  
+Wolfgang Huß, 2nd Chairman
+
+Haferstr. 5c  
+86179 Augsburg  
+E-Mail: <vorstand@busfaktor.org>  
+Telefon: +49 173 622 60 91
+
+## Contentwise Responsible Editor
+
+Wolfgang Huß  
+
+Steinburger Straße 38  
+22527 Hamburg  
+E-Mail: <vorstand@busfaktor.org>  
+Telefon: +49 173 622 60 91
