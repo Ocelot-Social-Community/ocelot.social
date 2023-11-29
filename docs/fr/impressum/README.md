@@ -9,7 +9,7 @@ tagLine:
 #   - text: Demo
 #     link: https://stage.ocelot.social/
 ---
-## Responsable de l‘exploitation de ce site Web
+## Responsable de l’exploitation de ce site Web
 
 busFaktor() e.V.  
 Wolfgang Huß, 2nd Chairman
