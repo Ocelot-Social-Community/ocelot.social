@@ -11,7 +11,7 @@ tagLine:
 #   - text: Demo
 #     link: https://stage.ocelot.social/
 ---
-## Responsable de l'exploitation de ce site Web
+## Responsible for the Operation of this Website
 
 busFaktor() e.V.  
 Wolfgang Huß, 2nd Chairman
@@ -21,7 +21,7 @@ Haferstr. 5c
 E-Mail: <vorstand@busfaktor.org>  
 Telefon: +49 173 622 60 91
 
-## Éditeur responsable du contenu
+## Contentwise Responsible Editor
 
 Wolfgang Huß  
 
