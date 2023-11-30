@@ -13,7 +13,6 @@ tagLine:
 ---
 ## Coming soon
 
-Unsere Website wird gerade überarbeitet und erweitert. Schau bald wieder rein!
+Our website is under construction. Come back soon!
 
-Inzwischen findest du uns auf [GitHub](https://github.com/Ocelot-Social-Community/) oder [Discord](https://discord.gg/AGPJ7YgC).
-
+In the meantime you can find us on [GitHub](https://github.com/Ocelot-Social-Community/) or [Discord](https://discord.gg/AGPJ7YgC).
