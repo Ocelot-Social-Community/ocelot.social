@@ -1,15 +1,15 @@
 ---
-home: false
+home: true
 # layout: BlogHome
-icon: home
-title: Imprint | Ocelot.Social
+# icon: home
 sidebar: false
+title: Mentions légales
 tagLine: 
 # actions:
 #   - text: Demo
 #     link: https://stage.ocelot.social/
 ---
-## Responsible for the Operation of this Website
+## Responsable de l’exploitation de ce site Web
 
 busFaktor() e.V.  
 Wolfgang Huß, 2nd Chairman
@@ -19,7 +19,7 @@ Haferstr. 5c
 E-Mail: <vorstand@busfaktor.org>  
 Telefon: +49 173 622 60 91
 
-## Contentwise Responsible Editor
+## Éditeur responsable du contenu
 
 Wolfgang Huß  
 
