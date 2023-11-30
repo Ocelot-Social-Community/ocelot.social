@@ -17,5 +17,5 @@ Our website is under construction. Come back soon!
 
 In the meantime you can find us on [GitHub](https://github.com/Ocelot-Social-Community/) or [Discord](https://discord.gg/AGPJ7YgC).
 
-If you would like to donate to our project, please visit:  
-[Donate for ocelot.social at the maintainer busFaktor() e.V.](https://busfaktor.org/en/spenden)
+If you want to support the project, you can make a [donation](https://busfaktor.org/en/spenden) for *ocelot.social*
+to the maintainer of the project (busFaktor() e.V.).
