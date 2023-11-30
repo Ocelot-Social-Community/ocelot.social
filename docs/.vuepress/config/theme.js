@@ -27,7 +27,7 @@ export default hopeTheme({
       footer: 'Unter der <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT Lizenz<!--]--><!----></a> ausgeliefert.',
       navbar: [
         {
-          text: 'Documentation',
+          text: 'Dokumentation',
           link: 'https://docs.ocelot.social/' ,
           target: '_self',
         },
@@ -61,7 +61,7 @@ export default hopeTheme({
         },
         {
           text: 'Imprint',
-          link: '/impressum/'
+          link: '/en/impressum/'
         },
       ],
     },
@@ -83,7 +83,7 @@ export default hopeTheme({
         },
         {
           text: 'Mentions légales',
-          link: '/impressum/'
+          link: '/fr/impressum/'
         },
       ],
     }
