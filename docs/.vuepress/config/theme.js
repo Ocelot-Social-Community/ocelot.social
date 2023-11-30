@@ -4,6 +4,7 @@ export default hopeTheme({
   favicon: 'favicon.ico',
   logo: '/logo.svg',
   docsRepo: 'https://github.com/Ocelot-Social-Community/ocelot.social',
+  repo: 'https://github.com/Ocelot-Social-Community/Ocelot-Social',
   docsBranch: 'master',
   docsDir: 'docs',
   editLink: true,
@@ -11,24 +12,82 @@ export default hopeTheme({
   contributors: false,
   displayFooter: true,
   print: false,
-  copyright: '&copy; by <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authors | <a href="/impressum/">Impressum</a>',
-  footer: 'Released under the <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT License<!--]--><!----></a>.',
-  navbar: [
-    { 
-      text: 'Documentation', link: 'https://docs.ocelot.social/' 
+  navbarLayout: {
+    start: ["Brand"],
+    center: ["Links"],
+    end: ["Language", "Repo", "Search"],
+  },
+  locales:{
+    // The key is the path for the locale to be nested under.
+    // As a special case, the default locale can use '/' as its path.
+    '/': {
+      lang: 'de-DE',
+      title: 'Ocelot.Social',
+      copyright: '&copy; von <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authoren | <a href="/impressum/">Impressum</a>',
+      footer: 'Unter der <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT Lizenz<!--]--><!----></a> ausgeliefert.',
+      navbar: [
+        {
+          text: 'Documentation',
+          link: 'https://docs.ocelot.social/' ,
+          target: '_self',
+        },
+        {
+          text: 'Demo',
+          link: 'https://stage.ocelot.social/',
+          target: '_self',
+        },
+        {
+          text: 'Impressum',
+          link: '/impressum/'
+        },
+      ],
     },
-    { 
-      text: 'Demo', link: 'https://stage.ocelot.social/' 
+    '/en/': {
+      lang: 'en-US', // this will be set as the lang attribute on <html>
+      title: 'Ocelot.Social',
+      // description: ''
+      copyright: '&copy; by <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authors | <a href="/en/impressum/">Impressum</a>',
+      footer: 'Released under the <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT License<!--]--><!----></a>.',
+      navbar: [
+        { 
+          text: 'Documentation',
+          link: 'https://docs.ocelot.social/',
+          target: '_self',
+        },
+        { 
+          text: 'Demo',
+          link: 'https://stage.ocelot.social/',
+          target: '_self',
+        },
+        {
+          text: 'Imprint',
+          link: '/impressum/'
+        },
+      ],
     },
-    {
-      text: 'Github',
-      link: 'https://github.com/Ocelot-Social-Community'
-    },
-    {
-      text: 'Impressum',
-      link: '/impressum/'
-    },
-  ],
+    '/fr/': {
+      lang: 'fr-FR',
+      title: 'Ocelot.Social',
+      copyright: '&copy; par <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Auteurs | <a href="/fr/impressum/">Mentions légales</a>',
+      footer: 'Publié sous la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->licence MIT<!--]--><!----></a>.',
+      navbar: [
+        { 
+          text: 'Documentation',
+          link: 'https://docs.ocelot.social/',
+          target: '_self',
+        },
+        { 
+          text: 'Demo',
+          link: 'https://stage.ocelot.social/',
+          target: '_self',
+        },
+        {
+          text: 'Mentions légales',
+          link: '/impressum/'
+        },
+      ],
+    }
+  },
   plugins: {
     mdEnhance: {
       align: true,
