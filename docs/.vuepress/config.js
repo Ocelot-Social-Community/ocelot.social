@@ -8,4 +8,15 @@ export default defineUserConfig({
   theme,
   plugins,
   base: process.env.VUEPRESS_BASE ?? '/',
+  locales: {
+    '/': {
+      lang: 'de-DE',
+    },
+    '/en/': {
+      lang: 'en-EN',
+    },
+    '/fr/': {
+      lang: 'fr-FR',
+    },
+  }
 })

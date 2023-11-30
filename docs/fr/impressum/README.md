@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 # layout: BlogHome
 # icon: home
 sidebar: false
