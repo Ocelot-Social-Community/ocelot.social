@@ -15,7 +15,7 @@ export default hopeTheme({
   navbarLayout: {
     start: ["Brand"],
     center: ["Links"],
-    end: ["Language", "Repo", "Search"],
+    end: ["Language", "Repo", "Outlook", "Search"],
   },
   locales:{
     // The key is the path for the locale to be nested under.
