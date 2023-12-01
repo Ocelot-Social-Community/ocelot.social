@@ -15,12 +15,12 @@ export default hopeTheme({
   navbarLayout: {
     start: ["Brand"],
     center: ["Links"],
-    end: ["Language", "Repo", "Search"],
+    end: ["Language", "Repo", "Outlook", "Search"],
   },
   locales:{
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
-    '/': {
+    '/de/': {
       lang: 'de-DE',
       title: 'Ocelot.Social',
       copyright: '&copy; von <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authoren | <a href="/impressum/">Impressum</a>',
@@ -38,7 +38,7 @@ export default hopeTheme({
         },
         {
           text: 'Impressum',
-          link: '/impressum/'
+          link: '/de/impressum/'
         },
       ],
     },
