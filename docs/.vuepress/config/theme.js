@@ -23,7 +23,7 @@ export default hopeTheme({
     '/de/': {
       lang: 'de-DE',
       title: 'Ocelot.Social',
-      copyright: '&copy; von <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authoren | <a href="/impressum/">Impressum</a>',
+      copyright: '&copy; von <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authoren | <a href="/de/impressum/">Impressum</a>',
       footer: 'Unter der <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT Lizenz<!--]--><!----></a> ausgeliefert.',
       navbar: [
         {
