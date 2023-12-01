@@ -8,8 +8,10 @@ export default defineUserConfig({
   theme,
   plugins,
   base: process.env.VUEPRESS_BASE ?? '/',
-  locales: {
-    '/': {
+  locales:{
+    // The key is the path for the locale to be nested under.
+    // As a special case, the default locale can use '/' as its path.
+    '/de/': {
       lang: 'de-DE',
     },
     '/en/': {
