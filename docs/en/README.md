@@ -43,7 +43,7 @@ Ocelot.social networks features:
 - Groups
 - Map
 
-[See all features](/features)
+[See all features](/en/features)
 <!-- Button
 <Button >See all features!</Button>
 -->
@@ -55,7 +55,7 @@ try out the application under the following link [Ocelot.Social](https://stage.o
 
 ## Get started
 
-If you want to install the application on a server or your local maschine follow the [link](/get-started)
+If you want to install the application on a server or your local maschine follow the [link](/en/get-started)
 <!-- Button to get started page  -->
 
 ## Testimonials
@@ -64,12 +64,12 @@ If you want to install the application on a server or your local maschine follow
 
 ## Donation
 
-Ocelot.Social is a not-for-profit which can only keep running thanks to your donations. Do you like what we do? Do you think we’re going in the right direction? If so, and you’re able to make a donation, we’d very much appreciate it! [Donation Page](/donations)
+Ocelot.Social is a not-for-profit which can only keep running thanks to your donations. Do you like what we do? Do you think we’re going in the right direction? If so, and you’re able to make a donation, we’d very much appreciate it! [Donation Page](/en/donations)
 <!-- Button to Donation Page -->
 
 ## Contact
 
 If you want more informations you can join us on [Discord](https://discord.gg/AGPJ7YgC), on GitHub or by email.
 
-[Contact](/contact)
+[Contact](/en/contact)
 <!-- Button to contact page-->
