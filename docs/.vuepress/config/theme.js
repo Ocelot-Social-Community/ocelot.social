@@ -31,6 +31,10 @@ export default hopeTheme({
           link: '/de/features/'
         },
         {
+          text: 'Get Started',
+          link: '/de/get-started/'
+        },
+        {
           text: 'Dokumentation',
           link: 'https://docs.ocelot.social/' ,
           target: '_self',
@@ -57,6 +61,10 @@ export default hopeTheme({
           text: 'Features',
           link: '/en/features/'
         },
+        {
+          text: 'Get Started',
+          link: '/en/get-started/'
+        },
         { 
           text: 'Documentation',
           link: 'https://docs.ocelot.social/',
@@ -82,6 +90,10 @@ export default hopeTheme({
         {
           text: 'Features',
           link: '/fr/features/'
+        },
+        {
+          text: 'Get Started',
+          link: '/fr/get-started/'
         },
         { 
           text: 'Documentation',
