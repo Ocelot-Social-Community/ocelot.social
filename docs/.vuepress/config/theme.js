@@ -27,6 +27,10 @@ export default hopeTheme({
       footer: 'Unter der <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT Lizenz<!--]--><!----></a> ausgeliefert.',
       navbar: [
         {
+          text: 'Features',
+          link: '/de/features/'
+        },
+        {
           text: 'Dokumentation',
           link: 'https://docs.ocelot.social/' ,
           target: '_self',
@@ -49,6 +53,10 @@ export default hopeTheme({
       copyright: '&copy; by <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authors | <a href="/en/impressum/">Impressum</a>',
       footer: 'Released under the <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT License<!--]--><!----></a>.',
       navbar: [
+        {
+          text: 'Features',
+          link: '/en/features/'
+        },
         { 
           text: 'Documentation',
           link: 'https://docs.ocelot.social/',
@@ -71,6 +79,10 @@ export default hopeTheme({
       copyright: '&copy; par <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Auteurs | <a href="/fr/impressum/">Mentions légales</a>',
       footer: 'Publié sous la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->licence MIT<!--]--><!----></a>.',
       navbar: [
+        {
+          text: 'Features',
+          link: '/fr/features/'
+        },
         { 
           text: 'Documentation',
           link: 'https://docs.ocelot.social/',
