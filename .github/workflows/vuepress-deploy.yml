@@ -19,8 +19,8 @@ jobs:
 
     - name: Build Vuepress Pages
       run: npm install && npm run build
-      env:
-        VUEPRESS_BASE: '/ocelot.social/'
+      # env:
+      #   VUEPRESS_BASE: '/ocelot.social/'
 
     - name: Deploy Vuepress to Github Pages
       uses: crazy-max/ghaction-github-pages@v4
