@@ -27,5 +27,7 @@ jobs:
       with:
         target_branch: gh-pages
         build_dir: docs/.vuepress/dist
+        author: Wolfgang Huß <vorstand@busfaktor.org>
+        fqdn: ocelot.social
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
