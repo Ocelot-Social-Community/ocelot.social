@@ -89,6 +89,9 @@ export default hopeTheme({
     }
   },
   plugins: {
+    blog: {
+      excerptLength: 0,
+    },
     mdEnhance: {
       align: true,
       demo: true,
