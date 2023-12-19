@@ -27,11 +27,11 @@ export default hopeTheme({
       footer: 'Unter der <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT Lizenz<!--]--><!----></a> ausgeliefert.',
       navbar: [
         {
-          text: 'Features',
+          text: 'Funktionen',
           link: '/de/features/'
         },
         {
-          text: 'Get Started',
+          text: 'Einstieg',
           link: '/de/get-started/'
         },
         {
@@ -88,11 +88,11 @@ export default hopeTheme({
       footer: 'Publié sous la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->licence MIT<!--]--><!----></a>.',
       navbar: [
         {
-          text: 'Features',
+          text: 'Fonctionnalités',
           link: '/fr/features/'
         },
         {
-          text: 'Get Started',
+          text: 'Entrée',
           link: '/fr/get-started/'
         },
         { 
