@@ -13,16 +13,32 @@ tagLine:
 ---
 ## Vorteile
 
+XXX
+
 ## Screenshots
+
+XXX
 
 ## Features
 
+XXX
+
 ## Demo
+
+XXX
 
 ## Get started
 
+XXX
+
 ## Testimonials
+
+XXX
 
 ## Donation
 
+XXX
+
 ## Contact
+
+XXX
