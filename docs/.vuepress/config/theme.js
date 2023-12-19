@@ -23,7 +23,7 @@ export default hopeTheme({
     '/de/': {
       lang: 'de-DE',
       title: 'Ocelot.Social',
-      copyright: '&copy; von <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authoren | <a href="/de/impressum/">Impressum</a>',
+      copyright: '&copy; von <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authoren | <a href="/de/imprint/">Impressum</a>',
       footer: 'Unter der <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT Lizenz<!--]--><!----></a> ausgeliefert.',
       navbar: [
         {
@@ -46,7 +46,7 @@ export default hopeTheme({
         },
         {
           text: 'Impressum',
-          link: '/de/impressum/'
+          link: '/de/imprint/'
         },
       ],
     },
@@ -54,7 +54,7 @@ export default hopeTheme({
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'Ocelot.Social',
       // description: ''
-      copyright: '&copy; by <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authors | <a href="/en/impressum/">Impressum</a>',
+      copyright: '&copy; by <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authors | <a href="/en/imprint/">Imprint</a>',
       footer: 'Released under the <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT License<!--]--><!----></a>.',
       navbar: [
         {
@@ -77,14 +77,14 @@ export default hopeTheme({
         },
         {
           text: 'Imprint',
-          link: '/en/impressum/'
+          link: '/en/imprint/'
         },
       ],
     },
     '/fr/': {
       lang: 'fr-FR',
       title: 'Ocelot.Social',
-      copyright: '&copy; par <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Auteurs | <a href="/fr/impressum/">Mentions légales</a>',
+      copyright: '&copy; par <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Auteurs | <a href="/fr/imprint/">Mentions légales</a>',
       footer: 'Publié sous la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->licence MIT<!--]--><!----></a>.',
       navbar: [
         {
@@ -107,7 +107,7 @@ export default hopeTheme({
         },
         {
           text: 'Mentions légales',
-          link: '/fr/impressum/'
+          link: '/fr/imprint/'
         },
       ],
     }

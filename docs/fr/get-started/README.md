@@ -2,11 +2,13 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Get Started
+title: Entrée | Ocelot.Social
 sidebar: false
 tagLine: 
 # actions:
 #   - text: Demo
 #     link: https://stage.ocelot.social/
 ---
-## Get Started
+## XXX
+
+XXX
