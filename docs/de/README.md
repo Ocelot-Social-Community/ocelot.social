@@ -11,11 +11,34 @@ tagLine:
 #   - text: Demo
 #     link: https://stage.ocelot.social/
 ---
-## Wir bauen um
+## Vorteile
 
-Unsere Website wird gerade überarbeitet und erweitert. Schau bald wieder rein!
+XXX
 
-Inzwischen findest du uns auf [GitHub](https://github.com/Ocelot-Social-Community/) oder [Discord](https://discord.gg/AGPJ7YgC).
+## Screenshots
 
-Wenn du dieses Projekt unterstützen möchtest, dann kannst du eine [Spende](https://busfaktor.org/en/spenden) für *ocelot.social* 
-bei dem Projektträger machen (busFaktor() e.V.).
+XXX
+
+## Features
+
+XXX
+
+## Demo
+
+XXX
+
+## Get started
+
+XXX
+
+## Testimonials
+
+XXX
+
+## Donation
+
+XXX
+
+## Contact
+
+XXX
