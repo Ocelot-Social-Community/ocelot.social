@@ -35,8 +35,9 @@
     "textlint-rule-period-in-list-item": "^1.0.1",
     "textlint-rule-write-good": "^2.0.0",
     "vuepress": "^2.0.0-rc.0",
-    "vuepress-plugin-redirect": "^2.0.0-rc.10",
-    "vuepress-plugin-search-pro": "^2.0.0-rc.10",
-    "vuepress-theme-hope": "^2.0.0-rc.11"
+    "vuepress-plugin-redirect": "^2.0.0-rc.12",
+    "vuepress-plugin-search-pro": "^2.0.0-rc.12",
+    "vuepress-plugin-seo2": "^2.0.0-rc.12",
+    "vuepress-theme-hope": "^2.0.0-rc.12"
   }
 }
