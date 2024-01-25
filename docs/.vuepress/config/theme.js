@@ -113,5 +113,6 @@ export default hopeTheme({
         },
       ],
     },
+    seo: true,
   }
 })
