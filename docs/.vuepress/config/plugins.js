@@ -1,4 +1,5 @@
-import { redirectPlugin } from 'vuepress-plugin-redirect'
+import { redirectPlugin } from '@vuepress/plugin-redirect'
+
 
 export default [
   redirectPlugin({
