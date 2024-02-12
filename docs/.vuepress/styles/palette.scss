@@ -1,1 +1,15 @@
 $theme-color: #17b53f;
+
+.md-button {
+  background-color: $theme-color;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+};
+
+.md-button:hover {
+  opacity: 0.85;
+  cursor: grab;
+};
