@@ -12,42 +12,15 @@ tagLine:
 ## Wie kannst du beitragen, mitmachen und unterstützen?
 
 Du kannst die freie Open-Source-Software *ocelot.social* und die aktiven Netzwerke auf vielfältige Art und Weise unterstützen, mitentwickeln oder mitprogrammieren.
-Hier einige Möglichkeiten – wähle aus, was dir gefällt.
 
-### Nutze die aktiven Netzwerke
+Klicke auf den Bereich, der dich interessiert:
 
-Sei mit dabei und werde Nutzer eines Netzwerks, das mit unserer Software läuft.
+- [Spenden](#spenden)
+- [Unterstütze dein Netzwerk](#unterstutze-dein-netzwerk)
+- [Betreibe ein eigenes Netzwerk](#betreibe-ein-eigenes-netzwerk)
+- [Unterstütze die Software](#unterstutze-die-software)
 
-- Registriere dich als Nutzer.
-- Ergänze dein Benutzerprofil mit einem Profilbild, deinem ungefähren Standort und weiteren Angaben über dich.
-- Schreibe lesenswerte und lesefreundliche Beiträge. Ergänze sie mit einem Bild und mit Hashtags.
-- Kommentiere die Beiträge anderer Nutzer.
-- Empfehle lesenswerte Beiträge.
-- Folge Nutzern.
-- Gründe eine Gruppe und lade Mitglieder ein.
-- Trage dazu bei, dass dein Netzwerk ein angenehmer und interessanter Ort für dich und deine Freunde ist.
-
-### Belebe dein Netzwerk
-
-Bist du Mitglied eines Netzwerks, dann möchtest du dort interessanten Menschen begegnen.
-Mit mehr Nutzern wird dein Netzwerk dynamisch und vielfältig.
-
-- Erzähle deinen Freunden und Verwandten vom Netzwerk.
-- Lade sie ins Netzwerk ein. (→ [Anleitung](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Invitations))
-- Veröffentliche den Link zum Netzwerk auf deiner Website, deinem Blog oder in anderen sozialen Netzwerken.
-- Berichte vor Publikum vom Netzwerk.
-
-### Mach die *ocelot.social*-Software bekannt
-
-*›Spread the word!‹*
-
-Ob Verein, Bewegung oder Institution – *ocelot.social* kann als soziales Netzwerk für viele Arten von Gruppen und Organisationen eingesetzt werden.
-
-- Veröffentliche den Link zu *ocelot.social* auf deiner Website, deinem Blog oder in sozialen Netzwerken.
-- Gib der Software *ocelot.social* auf der Vergleichsplattform [alternative.to](https://alternativeto.net/software/ocelot-social/about/) ein Like.
-- Gib der Software auf der Entwicklerplattform [GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social) einen Stern.
-
-### Unterstütze die Software finanziell
+### Spenden
 
 Die Software des Netzwerks ist frei verfügbar – Betrieb, Unterhalt und Weiterentwicklung kosten hingegen Geld.
 
@@ -60,17 +33,59 @@ Unterstütze die Nachhaltigkeit  der Software und deren Netzwerke gerne mit eine
   </Button>
 </a>
 
-### Sprichst du eine Fremdsprache?
+### Unterstütze dein Netzwerk
+
+#### Nutze die aktiven Netzwerke
+
+Sei mit dabei und werde Nutzer eines Netzwerks, das mit unserer Software läuft.
+
+- Registriere dich als Nutzer.
+- Ergänze dein Benutzerprofil mit einem Profilbild, deinem ungefähren Standort und weiteren Angaben über dich.
+- Schreibe lesenswerte und lesefreundliche Beiträge. Ergänze sie mit einem Bild und mit Hashtags.
+- Kommentiere die Beiträge anderer Nutzer.
+- Empfehle lesenswerte Beiträge.
+- Folge Nutzern.
+- Gründe eine Gruppe und lade Mitglieder ein.
+- Trage dazu bei, dass dein Netzwerk ein angenehmer und interessanter Ort für dich und deine Freunde ist.
+
+#### Belebe dein Netzwerk
+
+Bist du Mitglied eines Netzwerks, dann möchtest du dort interessanten Menschen begegnen.
+Mit mehr Nutzern wird dein Netzwerk dynamisch und vielfältig.
+
+- Erzähle deinen Freunden und Verwandten vom Netzwerk.
+- Lade sie ins Netzwerk ein. (→ [Anleitung](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Invitations))
+- Veröffentliche den Link zum Netzwerk auf deiner Website, deinem Blog oder in anderen sozialen Netzwerken.
+- Berichte vor Publikum vom Netzwerk.
+
+#### Weitere Möglichkeiten dich zu engagieren
+
+Viele Netzwerke sind Mitmach-Netzwerke und sind dankbar für deine Hilfe – vielleicht als Moderator?
+Für weitere Informationen besuche die Website des Betreibers oder kontaktiere ihn.
+
+### Betreibe ein eigenes Netzwerk
+
+Siehe diese [Anleitung](https://docs.ocelot.social/deployment/) (auf Englisch) oder [kontaktiere](/de/imprint/) die Entwickler der Software, die dich gerne unterstützen.
+
+### Unterstütze die Software
+
+#### Mach die *ocelot.social*-Software bekannt
+
+*›Spread the word!‹*
+
+Ob Verein, Bewegung oder Institution – *ocelot.social* kann als soziales Netzwerk für viele Arten von Gruppen und Organisationen eingesetzt werden.
+
+- Veröffentliche den Link zu *ocelot.social* auf deiner Website, deinem Blog oder in sozialen Netzwerken.
+- Gib der Software *ocelot.social* auf der Vergleichsplattform [alternative.to](https://alternativeto.net/software/ocelot-social/about/) ein Like.
+- Gib der Software auf der Entwicklerplattform [GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social) einen Stern.
+
+#### Sprichst du eine Fremdsprache?
 
 - Hilf mit, die Benutzeroberfläche oder die Benutzeranleitung in eine andere Sprache zu übersetzen.
 
-### Gestaltest du gerne?
+#### Gestaltest du gerne?
 
 - Optimiere das Layout des Netzwerks, um die Bedienbarkeit zu verbessern.
-
-### Unterstütze dein Netzwerk
-
-- Stelle dich als Moderator des Netzwerks zur Verfügung. Indem du die Beiträge moderierst, trägst du zur Zufriedenheit der Nutzer und insgesamt zur Qualität des Netzwerks bei.
 
 #### Verbessere das Netzwerk
 
@@ -89,11 +104,7 @@ Unterstütze die Nachhaltigkeit  der Software und deren Netzwerke gerne mit eine
 - Finanzierung für Funktionen
 - Veranstaltungen/Meetings planen
 
-### Betreibe ein eigenes Netzwerk
-
-- Siehe diese Anleitung (auf Englisch) <https://github.com/Ocelot-Social-Community/Ocelot-Social-Deploy-Rebranding> oder kontaktiere die Entwickler der Software, die das für dich übernehmen.
-
-### Entwickle die Software mit
+#### Entwickle die Software mit
 
 - XXX [Discord](https://discord.gg/AJSX9DCSUA)
 
@@ -103,7 +114,7 @@ Unterstütze die Nachhaltigkeit  der Software und deren Netzwerke gerne mit eine
 
 #### Programmieren
 
-- Die Software des Netzwerks ist frei und quelloffen ("Open-Source"). Beteilige dich gerne an deren Entwicklung, siehe <https://www.ocelot.social/contributing.html>.
+- Die Software des Netzwerks ist frei und quelloffen ("Open-Source"). Beteilige dich gerne an deren Entwicklung, siehe <https://ocelot.social/contributing.html>.
 - Unterstütze andere Entwickler beim Programmieren ("Pair Programming").
 
 #### Änderungen überprüfen
