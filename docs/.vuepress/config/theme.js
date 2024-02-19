@@ -140,6 +140,8 @@ export default hopeTheme({
         },
       ],
     },
-    seo: true,
+    seo: {
+      fallbackImage: '/logo.svg'
+    }
   }
 })
