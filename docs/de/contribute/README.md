@@ -19,6 +19,7 @@ Klicke auf den Bereich, der dich interessiert:
 - [Unterstütze dein Netzwerk](#unterstutze-dein-netzwerk)
 - [Betreibe ein eigenes Netzwerk](#betreibe-ein-eigenes-netzwerk)
 - [Unterstütze die Software](#unterstutze-die-software)
+- [Weitere Ideen zum Mitmachen?](#weitere-ideen-zum-mitmachen)
 
 ### Spenden
 
@@ -98,7 +99,7 @@ Wir suchen Nutzer, welche die neuen Funktionen der nächsten Softwareversion tes
 #### Sprichst du eine Fremdsprache?
 
 Das Netzwerk ist in [mehreren Sprachen](/de/features/) verfügbar.
-Möchtest du mithelfen die Benutzeroberfläche oder [Benutzeranleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Wiki:Editor's-Guide) zu übersetzen, zu vervollständigen oder zu verbessern, dann [kontaktiere](/de/contact/) uns gerne.
+Möchtest du mithelfen die Benutzeroberfläche oder [Benutzeranleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Wiki:Editor's-Guide) zu übersetzen, zu vervollständigen oder zu verbessern, dann kontaktiere uns gerne.
 
 #### Möchtest du zum Design beitragen?
 
@@ -121,3 +122,7 @@ Für Einsteiger eignen sich unsere [Good First Issues](https://github.com/Ocelot
 Wir freuen uns auch, wenn du auf GitHub [Änderungen am Programmcode](https://github.com/Ocelot-Social-Community/Ocelot-Social/pulls) anderer Entwickler sichtest, kommentierst oder freigibst.
 
 Du kannst auf [Discord](https://discord.gg/AJSX9DCSUA) mit uns chatten und wir lernen uns in einem Pair-Programming kennen.
+
+### Weitere Ideen zum Mitmachen?
+
+Möchtest du dich noch auf andere Art ins Projekt einbringen, dann [kontaktiere](/de/contact/) uns gerne.
