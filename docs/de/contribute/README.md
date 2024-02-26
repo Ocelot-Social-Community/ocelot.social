@@ -18,7 +18,7 @@ Klicke auf den Bereich, der dich interessiert:
 - [Spenden](#spenden)
 - [Unterstütze dein Netzwerk](#unterstutze-dein-netzwerk)
 - [Betreibe ein eigenes Netzwerk](#betreibe-ein-eigenes-netzwerk)
-- [Unterstütze die Software](#unterstutze-die-software)
+- [Entwickle und unterstütze die Software](#entwickle-und-unterstutze-die-software)
 - [Weitere Ideen zum Mitmachen?](#weitere-ideen-zum-mitmachen)
 
 ### Spenden
@@ -70,7 +70,7 @@ Mit der freien Software *ocelot.social* und dem nötigen Know-How kannst du ein 
 
 Benötigst du dabei Hilfe, dann [unterstützen](/de/contact/) dich unsere Entwickler gerne.
 
-### Unterstütze die Software
+### Entwickle und unterstütze die Software
 
 #### Mach die *ocelot.social*-Software bekannt
 
