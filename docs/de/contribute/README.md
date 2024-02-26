@@ -84,11 +84,11 @@ Ob Verein, Bewegung oder Institution – *ocelot.social* kann als soziales Netzw
 #### Verbessere das Netzwerk
 
 - Hast du einen Fehler im Netzwerk gefunden, dann melde ihn unseren Entwicklern (→ [Anleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:FAQ#wie-kann-ich-einen-fehler-des-netzwerks-melden)).
-- Möchtest du gute Ideen und Vorschläge zur Verbesserung der Software einbringen? Dann [kontaktiere](/de/contact/) uns gerne.
+- Möchtest du gute Ideen und Vorschläge zur Verbesserung der Software einbringen, dann [kontaktiere](/de/contact/) uns gerne.
 
 #### Möchtest du neue Funktionen mittesten?
 
-Wir suchen Nutzer, welche die neuen Funktionen der nächsten Softwareversion testen, bevor sie veröffentlicht werden. [Melde dich](/de/contact/) gerne bei uns.
+Wir suchen Nutzer, welche die neuen Funktionen der nächsten Softwareversion testen, bevor sie veröffentlicht werden.
 
 #### Schreibst du gerne?
 
@@ -102,18 +102,15 @@ Möchtest du mithelfen die Benutzeroberfläche oder [Benutzeranleitung im Wiki](
 
 #### Möchtest du zum Design beitragen?
 
-Hilf mit, das Design und die Bedienbarkeit des Netzwerks zu verbessern.
-Wir freuen uns über deine [Kontaktaufnahme](/de/contact/).
+Kontaktiere uns, um das Design und die Bedienbarkeit des Netzwerks zu verbessern.
 
 #### Organisierst du gerne?
 
-Hast du Lust …
+Sprich uns an, wenn du Lust hast, …
 
 … Konzepte für neue Funktionen zu erstellen,  
 … die Finanzierung der Entwicklung neuer Funktionen mitzuorganisieren  
 … oder Veranstaltungen, Meetings etc. zu planen?
-
-Wir freuen uns, von dir zu [hören](/de/contact/).
 
 #### Entwickle die Software mit
 
