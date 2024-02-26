@@ -35,18 +35,17 @@ export default hopeTheme({
           link: '/de/get-started/'
         },
         {
+          text: 'Mitmachen',
+          link: '/de/contribute/'
+        },
+        {
           text: 'Dokumentation',
           link: 'https://docs.ocelot.social/' ,
           target: '_self',
         },
         {
-          text: 'Demo',
-          link: 'https://stage.ocelot.social/',
-          target: '_self',
-        },
-        {
-          text: 'Impressum',
-          link: '/de/imprint/'
+          text: 'Kontakt',
+          link: '/de/contact/'
         },
       ],
     },
@@ -65,19 +64,18 @@ export default hopeTheme({
           text: 'Get Started',
           link: '/en/get-started/'
         },
+        {
+          text: 'Contribute',
+          link: '/en/contribute/'
+        },
         { 
           text: 'Documentation',
           link: 'https://docs.ocelot.social/',
           target: '_self',
         },
-        { 
-          text: 'Demo',
-          link: 'https://stage.ocelot.social/',
-          target: '_self',
-        },
         {
-          text: 'Imprint',
-          link: '/en/imprint/'
+          text: 'Contact',
+          link: '/en/contact/'
         },
       ],
     },
@@ -95,19 +93,18 @@ export default hopeTheme({
           text: 'Entrée',
           link: '/fr/get-started/'
         },
+        {
+          text: 'Contribuer',
+          link: '/fr/contribute/'
+        },
         { 
           text: 'Documentation',
           link: 'https://docs.ocelot.social/',
           target: '_self',
         },
-        { 
-          text: 'Demo',
-          link: 'https://stage.ocelot.social/',
-          target: '_self',
-        },
         {
-          text: 'Mentions légales',
-          link: '/fr/imprint/'
+          text: 'Contact',
+          link: '/fr/contact/'
         },
       ],
     }

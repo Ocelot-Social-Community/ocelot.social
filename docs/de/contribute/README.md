@@ -54,7 +54,7 @@ Bist du Mitglied eines Netzwerks, dann möchtest du dort interessanten Menschen 
 Mit mehr Nutzern wird dein Netzwerk dynamisch und vielfältig.
 
 - Erzähle deinen Freunden und Verwandten vom Netzwerk.
-- Lade sie ins Netzwerk ein (→ [Anleitung](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Invitations)).
+- Lade sie ins Netzwerk ein (→ [Anleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Invitations)).
 - Veröffentliche den Link zum Netzwerk auf deiner Website, deinem Blog oder in anderen sozialen Netzwerken.
 - Berichte vor Publikum vom Netzwerk.
 
@@ -65,9 +65,9 @@ Für weitere Informationen besuche die Website des Betreibers oder kontaktiere i
 
 ### Betreibe ein eigenes Netzwerk
 
-Mit der freien Software *ocelot.social* und dem nötigen Know-How kannst du ein eigenes Netzwerk betreiben (→ [Anleitung](https://docs.ocelot.social/deployment/), auf Englisch).
+Mit der freien Software *ocelot.social* und dem nötigen Know-How kannst du ein eigenes Netzwerk betreiben (→ [Dokumentation](https://docs.ocelot.social/deployment/), auf Englisch).
 
-Benötigst du dabei Hilfe, dann [unterstützen](/de/imprint/) dich unsere Entwickler gerne.
+Benötigst du dabei Hilfe, dann [unterstützen](/de/contact/) dich unsere Entwickler gerne.
 
 ### Unterstütze die Software
 
@@ -81,29 +81,29 @@ Ob Verein, Bewegung oder Institution – *ocelot.social* kann als soziales Netzw
 - Gib der Software *ocelot.social* auf der Vergleichsplattform [alternative.to](https://alternativeto.net/software/ocelot-social/about/) ein Like.
 - Gib der Software auf der Entwicklerplattform [GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social) einen Stern.
 
+#### Verbessere das Netzwerk
+
+- Hast du einen Fehler im Netzwerk gefunden, dann melde ihn unseren Entwicklern (→ [Anleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:FAQ#wie-kann-ich-einen-fehler-des-netzwerks-melden)).
+- Möchtest du gute Ideen und Vorschläge zur Verbesserung der Software einbringen? Dann [kontaktiere](/de/contact/) uns gerne.
+
 #### Möchtest du neue Funktionen mittesten?
 
-Wir suchen Nutzer, welche die neuen Funktionen der nächsten Softwareversion testen, bevor sie veröffentlicht werden. [Melde dich](/de/imprint/) gerne bei uns.
+Wir suchen Nutzer, welche die neuen Funktionen der nächsten Softwareversion testen, bevor sie veröffentlicht werden. [Melde dich](/de/contact/) gerne bei uns.
 
 #### Schreibst du gerne?
 
-- Hilf mit, die Benutzeranleitung zu schreiben (→ [Anleitung](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Wiki:Editor's-Guide)).
+- Hilf mit, die Benutzeranleitung zu schreiben (→ [Anleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Wiki:Editor's-Guide)).
 - Hilf mit, die Kommunikationskanäle der Software *ocelot.social* und unserer Entwicklergemeinschaft [busFaktor() e.V.](https://busfaktor.org/de/) zu pflegen und vielfältig zu beleben.
 
 #### Sprichst du eine Fremdsprache?
 
 Das Netzwerk ist in [mehreren Sprachen](/de/features/) verfügbar.
-Möchtest du mithelfen die Benutzeroberfläche oder [Benutzeranleitung](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Wiki:Editor's-Guide) zu übersetzen, zu vervollständigen oder zu verbessern, dann [kontaktiere](/de/imprint/) uns gerne.
+Möchtest du mithelfen die Benutzeroberfläche oder [Benutzeranleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Wiki:Editor's-Guide) zu übersetzen, zu vervollständigen oder zu verbessern, dann [kontaktiere](/de/contact/) uns gerne.
 
 #### Möchtest du zum Design beitragen?
 
 Hilf mit, das Design und die Bedienbarkeit des Netzwerks zu verbessern.
-Wir freuen uns über deine [Kontaktaufnahme](/de/imprint/).
-
-#### Verbessere das Netzwerk
-
-- Hast du einen Fehler im Netzwerk gefunden, dann melde ihn unseren Entwicklern (→ [Anleitung](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Trouble-shooting#fehler-melden)).
-- Möchtest du gute Ideen und Vorschläge zur Verbesserung der Software einbringen? Dann [kontaktiere](/de/imprint/) uns gerne.
+Wir freuen uns über deine [Kontaktaufnahme](/de/contact/).
 
 #### Organisierst du gerne?
 
@@ -113,14 +113,14 @@ Hast du Lust …
 … die Finanzierung der Entwicklung neuer Funktionen mitzuorganisieren  
 … oder Veranstaltungen, Meetings etc. zu planen?
 
-Wir freuen uns, von dir zu [hören](/de/imprint/).
+Wir freuen uns, von dir zu [hören](/de/contact/).
 
 #### Entwickle die Software mit
 
-Die Software *ocelot.social* ist frei und quelloffen – Open-Source. Möchtest du neue Funktionen entwickeln und testen? Dann folge unserer [Anleitung](https://docs.ocelot.social/CONTRIBUTING.html) (auf Englisch).
+Die Software *ocelot.social* ist frei und quelloffen – Open-Source. Möchtest du neue Funktionen entwickeln und testen? Dann folge unserer [Dokumentation](https://docs.ocelot.social/CONTRIBUTING.html) (auf Englisch).
 
-Für Einsteiger eignen sich unsere [Good First Issues](https://github.com/Ocelot-Social-Community/Ocelot-Social/labels/good%20first%20issue).
+Für Einsteiger eignen sich unsere [Good First Issues](https://github.com/Ocelot-Social-Community/Ocelot-Social/labels/good%20first%20issue) auf GitHub.
 
-Wir freuen uns auch, wenn du [Änderungen am Programmcode](https://github.com/Ocelot-Social-Community/Ocelot-Social/pulls) anderer Entwickler sichtest, kommentierst oder sie freigibst.
+Wir freuen uns auch, wenn du auf GitHub [Änderungen am Programmcode](https://github.com/Ocelot-Social-Community/Ocelot-Social/pulls) anderer Entwickler sichtest, kommentierst oder freigibst.
 
 Du kannst auf [Discord](https://discord.gg/AJSX9DCSUA) mit uns chatten und wir lernen uns in einem Pair-Programming kennen.
