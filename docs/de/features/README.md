@@ -9,6 +9,8 @@ tagLine:
 #   - text: Demo
 #     link: https://stage.ocelot.social/
 ---
+*Ocelot.social* bietet eine wachsende Vielzahl elementarer und weiterführender Netzwerkfunktionen. Folgende Features sind bisher integriert:
+
 ## Benutzer
 
 - Registrierung
