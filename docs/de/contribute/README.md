@@ -3,7 +3,7 @@ home: false
 # layout: BlogHome
 icon: home
 title: Mitmachen
-sidebar: false
+sidebar: true
 tagLine: 
 # actions:
 #   - text: Demo
