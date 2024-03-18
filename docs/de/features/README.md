@@ -9,7 +9,16 @@ tagLine:
 #   - text: Demo
 #     link: https://stage.ocelot.social/
 ---
-*Ocelot.social* bietet eine wachsende Vielzahl elementarer und weiterführender Netzwerkfunktionen. Folgende Features sind bisher integriert:
+*Ocelot.social* bietet eine wachsende Vielzahl elementarer und weiterführender Netzwerkfunktionen,
+die durch Spenden der Community erweitert werden können:
+
+<a href="https://busfaktor.org/de/spenden" target="_blank">
+  <Button class="md-button">
+    Hier spenden
+  </Button>
+</a>
+
+Folgende Features sind bisher integriert:
 
 ## Benutzer
 
@@ -65,7 +74,7 @@ tagLine:
 
 ## Moderation
 
-Benutzer mit den Rollen Administrator und Moderator können:
+Benutzer mit der Rolle Moderator können:
 
 - Moderieren
 - Liste gemeldeter Benutzer, Beiträge, Kommentare
@@ -74,12 +83,12 @@ Benutzer mit den Rollen Administrator und Moderator können:
 
 ## Administration
 
-Benutzer der Rolle Administrator können:
+Benutzer der Rolle Administrator können darüber hinaus:
 
-- Moderieren (siehe oben)
 - Beitrag in Beitragsübersicht (Newsfeed) oben anpinnen
 - Statistiken einsehen
 - Benutzerdaten einsehen (außer Passwörter)
+- Spendenfunktion mit Spendenstand aktivieren
 
 ## Sprachen
 
