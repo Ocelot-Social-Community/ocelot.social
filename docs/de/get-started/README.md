@@ -21,6 +21,21 @@ mit den folgenden Zugangsdaten:
 | `moderator@example.org` | 1234     | Moderator       |
 | `admin@example.org`     | 1234     | Administrator   |
 
+## Hosting auf einem Server
+
+### Selber hosten
+
+*Ocelot.social* kannst du selber hosten.
+Dafür benötigst du umfangreiche Fachkenntnis in der IT.  
+Bei Fragen helfen wir dir vom [busFaktor() e.V.](<https://busfaktor.org/de/>) gerne weiter.
+
+Weitere Informationen unter → [Installation](#installation)
+
+### Hosten lassen
+
+Du kannst die Software von einem Hoster deiner Wahl hosten lassen.  
+Der [busFaktor() e.V.](<https://busfaktor.org/de/>) berät dich gerne.
+
 ## Installation
 
 Die freie Open-Source-Software *ocelot.social* kannst du auf verschiedene Arten installieren und betreiben, nach Schwierigkeit sortiert:

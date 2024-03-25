@@ -23,6 +23,7 @@ export default hopeTheme({
     '/de/': {
       lang: 'de-DE',
       title: 'Ocelot.Social',
+      description: 'Hallo',
       copyright: '&copy; von <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authoren | <a href="/de/imprint/">Impressum</a>',
       footer: 'Unter der <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT Lizenz<!--]--><!----></a> ausgeliefert.',
       navbar: [
@@ -43,6 +44,10 @@ export default hopeTheme({
           link: '/de/learn/' ,
         },
         {
+          text: 'Spenden',
+          link: '/de/donate/'
+        },
+        {
           text: 'Kontakt',
           link: '/de/contact/'
         },
@@ -51,7 +56,7 @@ export default hopeTheme({
     '/en/': {
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'Ocelot.Social',
-      // description: ''
+      description: 'Free and open source software to create and run your own social network',
       copyright: '&copy; by <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authors | <a href="/en/imprint/">Imprint</a>',
       footer: 'Released under the <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT License<!--]--><!----></a>.',
       navbar: [
@@ -70,6 +75,10 @@ export default hopeTheme({
         { 
           text: 'Learn',
           link: '/en/learn/' ,
+        },
+        {
+          text: 'Donate',
+          link: '/en/donate/'
         },
         {
           text: 'Contact',
@@ -98,6 +107,10 @@ export default hopeTheme({
         { 
           text: 'Apprendre',
           link: '/fr/learn/' ,
+        },
+        {
+          text: 'Donner',
+          link: '/fr/donate/'
         },
         {
           text: 'Contact',
