@@ -39,9 +39,8 @@ export default hopeTheme({
           link: '/de/contribute/'
         },
         {
-          text: 'Dokumentation',
-          link: 'https://docs.ocelot.social/' ,
-          target: '_self',
+          text: 'Lernen',
+          link: '/de/learn/' ,
         },
         {
           text: 'Kontakt',
@@ -69,9 +68,8 @@ export default hopeTheme({
           link: '/en/contribute/'
         },
         { 
-          text: 'Documentation',
-          link: 'https://docs.ocelot.social/',
-          target: '_self',
+          text: 'Learn',
+          link: '/en/learn/' ,
         },
         {
           text: 'Contact',
@@ -98,9 +96,8 @@ export default hopeTheme({
           link: '/fr/contribute/'
         },
         { 
-          text: 'Documentation',
-          link: 'https://docs.ocelot.social/',
-          target: '_self',
+          text: 'Apprendre',
+          link: '/fr/learn/' ,
         },
         {
           text: 'Contact',
