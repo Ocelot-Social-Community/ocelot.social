@@ -12,11 +12,6 @@ tagLine:
 #     link: https://stage.ocelot.social/
 ---
 
-<!-- - Slider — Wie sieht es aus?
-- Was kann es?
-- Demo — Wo kann ich es ausprobieren?
-- Was kostet es?
-- Wie kann ich es einrichten? -->
 
 ## Vorteile
 
@@ -34,6 +29,93 @@ Betreiber:
 ## Screenshots
 
 XXX
+
+<div class="image-grid">
+  <figure>
+    <img src="./assets/login.png" />
+    <figcapture>
+        Login
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/newsfeed.png" />
+    <figcapture>
+        Newsfeed
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/single-post.png" />
+    <figcapture>
+        Einzelner Beitrag
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/single-event.png" />
+    <figcapture>
+        Einzelne Veranstaltung
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/user-profile.png" />
+    <figcapture>
+        Nutzerprofil
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/user-settings.png" />
+    <figcapture>
+        Einstellungen des Nutzerkontos
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/group-list.png" />
+    <figcapture>
+        Gruppenübersicht
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/group-profile.png" />
+    <figcapture>
+        Gruppenprofil
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/1-to-1-chat.png" />
+    <figcapture>
+        Eins-zu-Eins-Chat
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/notifications.png" />
+    <figcapture>
+        Benachrichtigungen
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/map.png" />
+    <figcapture>
+        Landkarte
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/language-selection.png" />
+    <figcapture>
+        Mehrsprachigkeit
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/moderation.png" />
+    <figcapture>
+        Moderation
+    </figcapture>
+  </figure>
+  <figure>
+    <img src="./assets/system-administration.png" />
+    <figcapture>
+        Systemverwaltung
+    </figcapture>
+  </figure>
+</div>
 
 ## Hauptfunktionen
 

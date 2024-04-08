@@ -13,3 +13,15 @@ $theme-color: #17b53f;
   opacity: 0.85;
   cursor: grab;
 };
+
+.image-grid {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.image-grid figure {
+  width: 300px;
+  height: auto;
+  flex-shrink: 1;
+}
