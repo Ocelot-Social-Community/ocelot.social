@@ -2,18 +2,32 @@
 home: true
 # layout: BlogHome
 icon: home
-title: Ocelot.Social
+# title: Ocelot.Social
 heroFullScreen: false
-heroImage: /logo.svg
-heroText: Das freie soziale Open-Source-Netzwerk für eine aktive Zivilgesellschaft.
+# heroImage: /logo.svg
+# heroText: Das freie soziale Open-Source-Netzwerk für eine aktive Zivilgesellschaft.
 tagLine: 
 # actions:
 #   - text: Demo
 #     link: https://stage.ocelot.social/
 ---
 
+<div class="hero-container">
+  <div class="hero-container-inner">
+    <img id="logo" src="/logo.svg" alt="ocelot.social" />
+    <div id="slogan-container">
+      <span id="slogan-1" class="slogan">Freie Open-Source-Software</span>
+      <span id="slogan-2" class="slogan">für dein soziales Netzwerk</span>
+    </div>
+    <a id="hero-button" href="#warum-ocelot-social">
+      <Button class="hero-button">
+        Entdecke mehr
+      </Button>
+    </a>
+  </div>
+</div>
 
-## Vorteile
+## Warum Ocelot.Social?
 
 Betreiber:
 

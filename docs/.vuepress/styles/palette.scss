@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/Noto_Sans/NotoSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'Noto Sans Bold';
+  font-style: bold;
+  font-weight: 600;
+  src: url('fonts/Noto_Sans/NotoSans-Bold.ttf');
+}
+
+// $font-family: XXX;
 $theme-color: #17b53f;
 
 .md-button {
@@ -18,6 +32,78 @@ $theme-color: #17b53f;
   display: flex;
   gap: 5px;
   flex-wrap: wrap;
+}
+
+.hero-container {
+  height: 800px;
+  width: auto;
+  background-image: linear-gradient(#282a82, #5e0d46);
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 450px;
+  margin-bottom: 1rem;
+  color: #eee;
+  font-family: var(--font-family-heading);
+}
+
+.hero-container-inner {
+  width: 90%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.hero-button {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.hero-button:hover {
+  background-color: rgba(255, 225, 255, 0.15);
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: grab;
+}
+
+#logo {
+  width: 150px;
+}
+
+#slogan-container {
+  margin: 30px auto;
+}
+
+#slogan-1 {
+  font-family: 'Noto Sans Bold';
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#slogan-2 {
+  font-family: 'Noto Sans';
+  font-size: 2em;
+}
+
+.slogan {
+  display: block;
+}
+
+#main-title {
+//  z-index: -1000 !important;
+  position: absolute;
+  top: -100;
+  opacity: 0 !important;
+}
+
+#main-description {
+  display: none;
 }
 
 .image-grid figure {
