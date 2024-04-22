@@ -2,13 +2,13 @@
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/Noto_Sans/NotoSans-Regular.ttf');
+  src: url('@theme/assets/fonts/Noto_Sans/NotoSans-Regular.ttf');
 }
 @font-face {
   font-family: 'Noto Sans Bold';
   font-style: bold;
   font-weight: 600;
-  src: url('fonts/Noto_Sans/NotoSans-Bold.ttf');
+  src: url('@theme/assets/fonts/Noto_Sans/NotoSans-Bold.ttf');
 }
 
 // $font-family: XXX;
