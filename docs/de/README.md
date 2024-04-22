@@ -27,22 +27,77 @@ tagLine:
   </div>
 </div>
 
-## Warum Ocelot.Social?
+<!-- ## Warum Ocelot.Social? -->
 
-Betreiber:
+<div class="benefits-grid">
+  <figure>
+    <HopeIcon icon="fa-solid fa-face-smile" />
+    <figcapture>
+      <h3>Freie und Open-Source-Software</h3>
+      XXX
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="fa-solid fa-filter" />
+    <figcapture>
+      <h3>Selbstbestimmtes Filtern des Inhalts möglich (keine undurchschaubare Auswahl)</h3>
+      XXX
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="fa-solid fa-gears" />
+    <figcapture>
+      <h3>Konfigurierbar</h3>
+      XXX
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="fa-solid fa-code" />
+    <figcapture>
+      <h3>Erweiterbar</h3>
+      XXX
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="fa-solid fa-up-right-and-down-left-from-center" />
+    <figcapture>
+      <h3>Skalierbar für alle Netzwerkgrößen</h3>
+      XXX
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="fa-solid fa-people-group" />
+    <figcapture>
+      <h3>Für alle: Zivilgesellschaft, Staat, private (auch kommerziell)</h3>
+      XXX
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="home" />
+    <figcapture>
+      <h3>Zum selber hosten oder hosten lassen</h3>
+      XXX
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="fa-solid fa-hand-middle-finger" />
+    <figcapture>
+      <h3>Deine eigenen Nutzungsbedingungen</h3>
+      XXX
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="fa-solid fa-shuttle-space" />
+    <figcapture>
+      <h3>Neueste Technologie</h3>
+      XXX
+    </figcapture>
+  </figure>
+</div>
 
-- Freie und Open-Source-Software
-- Konfigurierbar
-- Erweiterbar
-- Skalierbar für alle Netzwerkgrößen
-- Für alle: Zivilgesellschaft, Staat, private (auch kommerziell)
-- Zum **Selber-Hosten** oder hosten lassen
-- Deine eigenen Nutzungsbedingungen
-- Neueste Technologie
+<!-- ## Screenshots -->
 
-## Screenshots
-
-XXX
+<!-- XXX -->
 
 <div class="image-grid">
   <figure>

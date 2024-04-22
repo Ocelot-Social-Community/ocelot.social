@@ -11,8 +11,17 @@
   src: url('@theme/assets/fonts/Noto_Sans/NotoSans-Bold.ttf');
 }
 
-// $font-family: XXX;
+$font-family: '"Noto Sans", sans-serif' !default;
+$font-family-heading: '"Noto Sans Bold", sans-serif' !default;
 $theme-color: #17b53f;
+
+body {
+  font-family: 'Noto Sans';
+};
+
+h1, h2, h3, h4 {
+  font-family: 'Noto Sans Bold';
+};
 
 .md-button {
   background-color: $theme-color;
@@ -35,8 +44,8 @@ $theme-color: #17b53f;
 }
 
 .hero-container {
-  height: 800px;
   width: auto;
+  height: 800px;
   background-image: linear-gradient(#282a82, #5e0d46);
 
   position: relative;
@@ -46,7 +55,6 @@ $theme-color: #17b53f;
   height: 450px;
   margin-bottom: 1rem;
   color: #eee;
-  font-family: var(--font-family-heading);
 }
 
 .hero-container-inner {
@@ -56,6 +64,7 @@ $theme-color: #17b53f;
 }
 
 .hero-button {
+  color: white;
   background-color: rgba(0, 0, 0, 0);
   border-color: white;
   border-style: solid;
@@ -110,4 +119,24 @@ $theme-color: #17b53f;
   width: 300px;
   height: auto;
   flex-shrink: 1;
+}
+
+.benefits-grid {
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.benefits-grid figure {
+  width: 300px;
+  height: auto;
+  flex-shrink: 1;
+  align-items: stretch;
+}
+
+.benefits-grid span {
+  font-size: 3rem;
 }

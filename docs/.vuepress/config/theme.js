@@ -150,5 +150,6 @@ export default hopeTheme({
     seo: {
       fallbackImage: '/logo.svg'
     }
-  }
+  },
+  iconAssets: "fontawesome",
 })
