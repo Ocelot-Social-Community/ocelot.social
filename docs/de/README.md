@@ -19,7 +19,7 @@ tagLine:
       <span id="slogan-1" class="slogan">Freie Open-Source-Software</span>
       <span id="slogan-2" class="slogan">für dein soziales Netzwerk</span>
     </div>
-    <a id="hero-button" href="#warum-ocelot-social">
+    <a id="hero-button" href="#benefits">
       <Button class="hero-button">
         Entdecke mehr
       </Button>
@@ -27,77 +27,75 @@ tagLine:
   </div>
 </div>
 
-<!-- ## Warum Ocelot.Social? -->
+<h2 id="benefits" class="large-header">Warum Ocelot.Social?</h2>
 
 <div class="benefits-grid">
   <figure>
     <HopeIcon icon="fa-solid fa-face-smile" />
     <figcapture>
-      <h3>Freie und Open-Source-Software</h3>
-      XXX
+      <h3>Freie Open-Source-Software</h3>
+      Du kannst die Software nutzen und weiterentwickeln.
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="fa-solid fa-people-group" />
+    <figcapture>
+      <h3>Für alle</h3>
+      Ocelot.social eignet sich für die Zivilgesellschaft sowie für staatliche und private Organisationen.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-filter" />
     <figcapture>
-      <h3>Selbstbestimmtes Filtern des Inhalts möglich (keine undurchschaubare Auswahl)</h3>
-      XXX
+      <h3>Selbstbestimmtes Filtern</h3>
+      Du wählst selber, welchen Inhalt du siehst – keine undurchschaubare Auswahl.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-gears" />
     <figcapture>
       <h3>Konfigurierbar</h3>
-      XXX
+      Als Betreiber kannst du das Design und die Funktionen nach deinen Wünschen einstellen.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-code" />
     <figcapture>
       <h3>Erweiterbar</h3>
-      XXX
+      Neue Funktionen können hinzuprogrammiert werden, die allen zugute kommen.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-up-right-and-down-left-from-center" />
     <figcapture>
-      <h3>Skalierbar für alle Netzwerkgrößen</h3>
-      XXX
-    </figcapture>
-  </figure>
-  <figure>
-    <HopeIcon icon="fa-solid fa-people-group" />
-    <figcapture>
-      <h3>Für alle: Zivilgesellschaft, Staat, private (auch kommerziell)</h3>
-      XXX
+      <h3>Skalierbar</h3>
+      Dank neuster Technik kannst du die Software für alle Netzwerkgrößen einsetzen.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="home" />
     <figcapture>
-      <h3>Zum selber hosten oder hosten lassen</h3>
-      XXX
+      <h3>Flexibles Hosting</h3>
+      Du kannst dein Netzwerk selber hosten oder von deinem Dienstleister hosten lassen.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-hand-middle-finger" />
     <figcapture>
-      <h3>Deine eigenen Nutzungsbedingungen</h3>
-      XXX
+      <h3>Deine eigenen Regeln</h3>
+      Bestimme die Nutzungsbedingungen für dein Netzwerk selber.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-shuttle-space" />
     <figcapture>
       <h3>Neueste Technologie</h3>
-      XXX
+      Die Software ist technologisch am Puls der Zeit – flexibel, zuverlässig, performant.
     </figcapture>
   </figure>
 </div>
 
-<!-- ## Screenshots -->
-
-<!-- XXX -->
+<h2 id="feature-headline" class="large-header">Wichtigste Funktionen</h2>
 
 <div class="image-grid">
   <figure>
@@ -109,7 +107,7 @@ tagLine:
   <figure>
     <img src="./assets/newsfeed.png" />
     <figcapture>
-        Newsfeed
+        Beitragsübersicht (Newsfeed)
     </figcapture>
   </figure>
   <figure>
@@ -186,62 +184,73 @@ tagLine:
   </figure>
 </div>
 
-## Hauptfunktionen
+<div class="all-features">
+  <a id="hero-button" href="/de/features/">
+    <Button class="hero-button">
+      Alle Funktionen ansehen
+    </Button>
+  </a>
+</div>
 
-- Benutzerprofil
-- Benutzerrollen: Benutzer, Moderator, Administrator
-- Gruppen: öffentlich, geschlossen, versteckt
-- Beitragsformen: Beitrag, Veranstaltung
-- Kommentieren
-- Beitragsübersicht (Newsfeed)
-- Filtern und Sortieren
-- Chat: Privater 1:1-Chat
-- Karte
-- Suche
-- Benachrichtigungen
-- Mehrsprachig
-- Progressive Web App (PWA)
+<h2 class="large-header">Probier es aus</h2>
 
-→ [Alle Funktionen ansehen](/de/features/)
-
-## Demo
-
-Teste die Live-Demo auf
-[https://stage.ocelot.social](https://stage.ocelot.social)
-mit den folgenden Zugangsdaten:
-
+<!--
 | E-Mail                  | Passwort | Benutzerrolle   |
 | :---                    | :---     | :---            |
 | `user@example.org`      | 1234     | normaler Nutzer |
 | `moderator@example.org` | 1234     | Moderator       |
 | `admin@example.org`     | 1234     | Administrator   |
+-->
 
-## Loslegen
+<div class="center">
+  <p>
+    Teste die Live-Demo auf
+    <a href="https://stage.ocelot.social" target="_blank">https://stage.ocelot.social</a>
+    mit den folgenden Zugangsdaten:
+  </p>
 
-Möchtest du ein Netzwerk selber betreiben?
+  <table><thead><tr><th style="text-align:left;">E-Mail</th><th style="text-align:left;">Passwort</th><th style="text-align:left;">Benutzerrolle</th></tr></thead><tbody><tr><td style="text-align:left;"><code>user@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">normaler Nutzer</td></tr><tr><td style="text-align:left;"><code>moderator@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">Moderator</td></tr><tr><td style="text-align:left;"><code>admin@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">Administrator</td></tr></tbody></table>
+</div>
 
-*Ocelot.social* kannst du auf einem eigenen Server hosten oder es hosten lassen.  
-Schau dir an, welche Möglichkeiten es gibt:
+<h2 class="large-header">Loslegen</h2>
 
-→ [Los geht's](/de/get-started/)
+<div class="center">
+  <p>
+    <i>Ocelot.social</i> kannst du auf einem eigenen Server hosten oder es hosten lassen.  
+    Schau dir an, welche Möglichkeiten es gibt:<br>
+  </p>
+  <a id="hero-button" href="/de/get-started/">
+    <Button class="hero-button">
+      Los geht's
+    </Button>
+  </a>
+</div>
 
 <!-- ## Testimonials
 
 XXX -->
 
-## Spenden
+<h2 class="large-header">Spenden</h2>
 
-Die Software des Netzwerks ist frei verfügbar – Betrieb, Unterhalt und Weiterentwicklung kosten hingegen Geld.
+<div class="center">
+  <p>
+    Die Software des Netzwerks ist frei verfügbar – Betrieb, Unterhalt und Weiterentwicklung kosten hingegen Geld.
+  </p>
+  <p>
+    Der Verein <a href="https://busfaktor.org/de/" target="_blank">busFaktor() e.V.</a> koordiniert und fördert die Programmierung von <i>ocelot.social</i>.
+    Unterstütze die Nachhaltigkeit  der Software und deren Netzwerke gerne mit einer Einmal- oder Dauerspende:
+  </p>
+  <a href="https://busfaktor.org/de/spenden" target="_blank">
+    <Button class="md-button">
+      Hier spenden
+    </Button>
+  </a>
+</div>
 
-Der Verein [busFaktor() e.V.](https://busfaktor.org/de/) koordiniert und fördert die Programmierung von *ocelot.social*.
-Unterstütze die Nachhaltigkeit  der Software und deren Netzwerke gerne mit einer Einmal- oder Dauerspende:
+<h2 class="large-header">Kontakt</h2>
 
-<a href="https://busfaktor.org/de/spenden" target="_blank">
-  <Button class="md-button">
-    Hier spenden
-  </Button>
-</a>
-
-## Kontakt
-
-Hast du Fragen, Anregungen oder Wünsche, nehme gerne [Kontakt](/de/contact/) mit uns auf.
+<div class="center">
+  <p>
+    Hast du Fragen, Anregungen oder Wünsche, nehme gerne <a href="/de/contact/" target="_blank">Kontakt</a> mit uns auf.
+  </p>
+</div>

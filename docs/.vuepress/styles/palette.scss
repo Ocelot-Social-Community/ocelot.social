@@ -45,14 +45,12 @@ h1, h2, h3, h4 {
 
 .hero-container {
   width: auto;
-  height: 800px;
   background-image: linear-gradient(#282a82, #5e0d46);
 
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 450px;
   margin-bottom: 1rem;
   color: #eee;
 }
@@ -85,6 +83,10 @@ h1, h2, h3, h4 {
   width: 150px;
 }
 
+.slogan {
+  display: block;
+}
+
 #slogan-container {
   margin: 30px auto;
 }
@@ -100,12 +102,24 @@ h1, h2, h3, h4 {
   font-size: 2em;
 }
 
-.slogan {
-  display: block;
+@media screen and (max-width: 650px) {
+  .hero-button {
+    margin: 16px 0;
+  }
+  
+  #slogan-1 {
+    font-size: 2.7em;
+    line-height: 1.1em;
+  }
+
+  #slogan-2 {
+    font-size: 1.85em;
+    line-height: 1.1em;
+    margin-top: 0.5em;
+  }
 }
 
 #main-title {
-//  z-index: -1000 !important;
   position: absolute;
   top: -100;
   opacity: 0 !important;
@@ -115,14 +129,40 @@ h1, h2, h3, h4 {
   display: none;
 }
 
+.image-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
 .image-grid figure {
+  text-align: center;
   width: 300px;
   height: auto;
   flex-shrink: 1;
 }
 
+.all-features {
+  text-align: center;
+}
+
+h2.large-header {
+  font-size: 2.2em;
+  line-height: 1.2em;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 1em;
+  border: 0;
+}
+
+#feature-headline {
+  margin-bottom: 1em;
+}
+
 .benefits-grid {
-  height: 700px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -139,4 +179,14 @@ h1, h2, h3, h4 {
 
 .benefits-grid span {
   font-size: 3rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.center table {
+  // width: 500px;
+  margin: 0 auto !important;
+  text-align: center;
 }
