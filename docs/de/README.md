@@ -14,16 +14,18 @@ tagLine:
 
 <div class="hero-container">
   <div class="hero-container-inner">
-    <img id="logo" src="/logo.svg" alt="ocelot.social" />
-    <div id="slogan-container">
-      <span id="slogan-1" class="slogan">Freie Open-Source-Software</span>
-      <span id="slogan-2" class="slogan">für dein soziales Netzwerk</span>
+    <div class="hero-container-content">
+      <img id="logo" src="/logo.svg" alt="ocelot.social" />
+      <div id="slogan-container">
+        <span id="slogan-1" class="slogan">Freie Open-Source-Software</span>
+        <span id="slogan-2" class="slogan">für dein soziales Netzwerk</span>
+      </div>
+      <a id="hero-button" href="#benefits">
+        <Button class="hero-button">
+          Entdecke mehr
+        </Button>
+      </a>
     </div>
-    <a id="hero-button" href="#benefits">
-      <Button class="hero-button">
-        Entdecke mehr
-      </Button>
-    </a>
   </div>
 </div>
 
@@ -186,7 +188,7 @@ tagLine:
 
 <div class="all-features">
   <a id="hero-button" href="/de/features/">
-    <Button class="hero-button">
+    <Button>
       Alle Funktionen ansehen
     </Button>
   </a>
@@ -220,7 +222,7 @@ tagLine:
     Schau dir an, welche Möglichkeiten es gibt:<br>
   </p>
   <a id="hero-button" href="/de/get-started/">
-    <Button class="hero-button">
+    <Button>
       Los geht's
     </Button>
   </a>
@@ -241,7 +243,7 @@ XXX -->
     Unterstütze die Nachhaltigkeit  der Software und deren Netzwerke gerne mit einer Einmal- oder Dauerspende:
   </p>
   <a href="https://busfaktor.org/de/spenden" target="_blank">
-    <Button class="md-button">
+    <Button class="donate-button">
       Hier spenden
     </Button>
   </a>

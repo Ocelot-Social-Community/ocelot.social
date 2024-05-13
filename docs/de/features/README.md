@@ -13,7 +13,7 @@ tagLine:
 die durch Spenden der Community erweitert werden können:
 
 <a href="https://busfaktor.org/de/spenden" target="_blank">
-  <Button class="md-button">
+  <Button class="donate-button">
     Hier spenden
   </Button>
 </a>

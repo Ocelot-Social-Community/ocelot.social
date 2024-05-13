@@ -17,7 +17,7 @@ Der Verein [busFaktor() e.V.](https://busfaktor.org/de/) koordiniert und förder
 Unterstütze die Nachhaltigkeit  der Software und deren Netzwerke gerne mit einer Einmal- oder Dauerspende:
 
 <a href="https://busfaktor.org/de/spenden" target="_blank">
-  <Button class="md-button">
+  <Button class="donate-button">
     Hier spenden
   </Button>
 </a>

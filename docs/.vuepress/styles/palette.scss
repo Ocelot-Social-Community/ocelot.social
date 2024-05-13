@@ -15,6 +15,10 @@ $font-family: '"Noto Sans", sans-serif' !default;
 $font-family-heading: '"Noto Sans Bold", sans-serif' !default;
 $theme-color: #17b53f;
 
+html[data-theme="dark"] body {
+  color: #b3b3b3;
+}
+
 body {
   font-family: 'Noto Sans';
 };
@@ -23,18 +27,46 @@ h1, h2, h3, h4 {
   font-family: 'Noto Sans Bold';
 };
 
-.md-button {
-  background-color: $theme-color;
+Button {
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 0.85);
+  border-color: rgba(0, 0, 0, 0.85);
+  transition: 0.3s;
+  border-width: 2px !important;
+  border-style: solid;
   border-radius: 5px;
+  padding: 12px 16px;
+  cursor: grab;
+}
+
+html[data-theme="dark"] Button {
+  color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(255, 255, 255, 0.66);
+}
+
+.hero-button {
+  color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(255, 255, 255, 0.66);
+}
+
+.hero-button:hover {
+  color: white;
+  background-color: rgba(255, 225, 255, 0.15);
+  border-color: white;
+}
+
+.donate-button {
+  background-color: $theme-color;
+  opacity: 0.85;
   border: 0;
   color: white;
-  padding: 5px 10px;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
 };
 
-.md-button:hover {
-  opacity: 0.85;
-  cursor: grab;
+.donate-button:hover {
+  opacity: 1.0;
 };
 
 .image-grid {
@@ -46,7 +78,6 @@ h1, h2, h3, h4 {
 .hero-container {
   width: auto;
   background-image: linear-gradient(#282a82, #5e0d46);
-
   position: relative;
   display: flex;
   flex-direction: column;
@@ -56,26 +87,32 @@ h1, h2, h3, h4 {
 }
 
 .hero-container-inner {
+  background-image: url("/society-tile-399x122.png");
+  background-repeat: repeat-x;
+  background-position: center bottom;
+}
+
+.hero-container-content {
   width: 90%;
-  margin: 2em auto;
+  margin: 2.8em auto;
   text-align: center;
 }
 
 .hero-button {
-  color: white;
+  font-size: 1.1em;
+  color: rgba(255, 255, 255, 0.85);
   background-color: rgba(0, 0, 0, 0);
-  border-color: white;
+  border-color: rgba(255, 255, 255, 0.66);
+  transition: 0.3s;
   border-style: solid;
   border-radius: 5px;
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 
 .hero-button:hover {
+  color: white;
   background-color: rgba(255, 225, 255, 0.15);
   border-color: white;
-  border-style: solid;
-  border-radius: 5px;
-  padding: 8px 16px;
   cursor: grab;
 }
 
@@ -154,7 +191,7 @@ h2.large-header {
   line-height: 1.2em;
   text-align: center;
   margin-top: 0;
-  padding-top: 1em;
+  padding-top: 1.8em;
   border: 0;
 }
 
@@ -186,7 +223,7 @@ h2.large-header {
 }
 
 .center table {
-  // width: 500px;
+  width: 560px;
   margin: 0 auto !important;
   text-align: center;
 }
