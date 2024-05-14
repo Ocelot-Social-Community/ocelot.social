@@ -1,3 +1,6 @@
+// Style config: https://theme-hope.vuejs.press/config/style.html
+// Customize color: https://theme-hope.vuejs.press/guide/customize/color.html
+
 @font-face {
   font-family: 'Noto Sans';
   font-style: normal;
@@ -14,10 +17,10 @@
 $font-family: '"Noto Sans", sans-serif' !default;
 $font-family-heading: '"Noto Sans Bold", sans-serif' !default;
 $theme-color: #17b53f;
-
-html[data-theme="dark"] body {
-  color: #b3b3b3;
-}
+$text-color: (
+  light: #2c3e50,
+  dark: #b3b3b3,
+);
 
 body {
   font-family: 'Noto Sans';
@@ -27,46 +30,56 @@ h1, h2, h3, h4 {
   font-family: 'Noto Sans Bold';
 };
 
-Button {
+.theme-hope-content Button {
   font-size: 1.1em;
-  color: rgba(0, 0, 0, 0.85);
-  border-color: rgba(0, 0, 0, 0.85);
+  color: var(--text-color);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #e5e4e6;
   transition: 0.3s;
   border-width: 2px !important;
   border-style: solid;
   border-radius: 5px;
   padding: 12px 16px;
   cursor: grab;
+
+  html[data-theme="dark"] & {
+    background-color: rgba(0, 0, 0, 0);
+  }
 }
 
-html[data-theme="dark"] Button {
-  color: rgba(255, 255, 255, 0.85);
-  background-color: rgba(0, 0, 0, 0);
-  border-color: rgba(255, 255, 255, 0.66);
+.theme-hope-content Button:hover {
+  color: black;
+  background-color: #f5f4f6;
+  border-color: #e5e4e6;
+
+  html[data-theme="dark"] & {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border-color: white !important;
+  }
 }
 
 .hero-button {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.85) !important;
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(255, 255, 255, 0.66);
 }
 
 .hero-button:hover {
-  color: white;
-  background-color: rgba(255, 225, 255, 0.15);
-  border-color: white;
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  border-color: white !important;
 }
 
-.donate-button {
-  background-color: $theme-color;
-  opacity: 0.85;
-  border: 0;
-  color: white;
-  // margin-bottom: 20px;
+.theme-hope-content Button.donate-button {
+  background-color: $theme-color !important;
+  opacity: 0.85 !important;
+  border: 0 !important;
+  color: white !important;
 };
 
-.donate-button:hover {
-  opacity: 1.0;
+.theme-hope-content Button.donate-button:hover {
+  opacity: 1.0 !important;
 };
 
 .image-grid {
@@ -111,7 +124,7 @@ html[data-theme="dark"] Button {
 
 .hero-button:hover {
   color: white;
-  background-color: rgba(255, 225, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15);
   border-color: white;
   cursor: grab;
 }

@@ -20,7 +20,7 @@ tagLine:
         <span id="slogan-1" class="slogan">Freie Open-Source-Software</span>
         <span id="slogan-2" class="slogan">für dein soziales Netzwerk</span>
       </div>
-      <a id="hero-button" href="#benefits">
+      <a href="#benefits">
         <Button class="hero-button">
           Entdecke mehr
         </Button>
