@@ -20,7 +20,7 @@
   "homepage": "https://ocelot.social",
   "devDependencies": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.2",
-    "@vuepress/bundler-vite": "^2.0.0-rc.9",
+    "@vuepress/bundler-vite": "^2.0.0-rc.11",
     "@vuepress/plugin-redirect": "^2.0.0-rc.23",
     "textlint": "^14.0.4",
     "textlint-filter-rule-comments": "^1.2.2",
