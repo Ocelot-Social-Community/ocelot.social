@@ -31,7 +31,7 @@ tagLine:
 
 <h2 id="benefits" class="large-header">Warum Ocelot.Social?</h2>
 
-<div class="benefits-grid">
+<div class="benefits-grid center">
   <figure>
     <HopeIcon icon="fa-solid fa-face-smile" />
     <figcapture>
@@ -99,7 +99,7 @@ tagLine:
 
 <h2 id="feature-headline" class="large-header">Wichtigste Funktionen</h2>
 
-<div class="image-grid">
+<div class="image-grid center">
   <figure>
     <img src="./assets/login.png" />
     <figcapture>

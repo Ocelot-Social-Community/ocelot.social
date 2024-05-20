@@ -41,7 +41,7 @@ h1, h2, h3, h4 {
 };
 
 .vp-project-home .theme-hope-content:not(.custom) {
-  max-width: max-content;
+  max-width: 100%;
   padding: 0;
   margin: 0 auto;
 }
@@ -83,6 +83,7 @@ h1, h2, h3, h4 {
   transition: 0.3s;
   border-style: solid;
   border-radius: 5px;
+  margin: 40px;
   padding: 12px 16px;
 }
 
@@ -124,13 +125,15 @@ h1, h2, h3, h4 {
 }
 
 .hero-container-content {
-  width: 90%;
-  margin: 2.8em auto;
+  width: 100%;
+  // margin: 2.8em auto;
+  margin: 0;
   text-align: center;
 }
 
 #logo {
   width: 150px;
+  margin-top: 40px;
 }
 
 .slogan {
