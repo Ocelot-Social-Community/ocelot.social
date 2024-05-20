@@ -21,6 +21,12 @@ $text-color: (
   light: #2c3e50,
   dark: #b3b3b3,
 );
+$ocelot-background-transparent: rgba(0, 0, 0, 0);
+$ocelot-border-color: #e5e4e6;
+$ocelot-button-hover-background-color-light: #f5f4f6;
+$ocelot-button-hover-background-color-dark: rgba(255, 255, 255, 0.15);
+$ocelot-button-color: rgba(255, 255, 255, 0.85);
+$ocelot-button-border-color: rgba(255, 255, 255, 0.66);
 
 html {
   margin: 0;
@@ -34,21 +40,17 @@ h1, h2, h3, h4 {
   font-family: 'Noto Sans Bold';
 };
 
-.theme-hope-content {
-  width: 100%;
-  margin: 0;
-}
-
-.theme-hope-content:not(.custom) {
+.vp-project-home .theme-hope-content:not(.custom) {
   max-width: max-content;
   padding: 0;
+  margin: 0 auto;
 }
 
 .theme-hope-content Button {
   font-size: 1.1em;
   color: var(--text-color);
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #e5e4e6;
+  background-color: $ocelot-background-transparent;
+  border-color: $ocelot-border-color;
   transition: 0.3s;
   border-width: 2px !important;
   border-style: solid;
@@ -57,32 +59,38 @@ h1, h2, h3, h4 {
   cursor: grab;
 
   html[data-theme="dark"] & {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: $ocelot-background-transparent;
   }
 }
 
 .theme-hope-content Button:hover {
   color: black;
-  background-color: #f5f4f6;
-  border-color: #e5e4e6;
+  background-color: $ocelot-button-hover-background-color-light;
+  border-color: $ocelot-border-color;
 
   html[data-theme="dark"] & {
     color: white !important;
-    background-color: rgba(255, 255, 255, 0.15) !important;
+    background-color: $ocelot-button-hover-background-color-dark !important;
     border-color: white !important;
   }
 }
 
 .hero-button {
-  color: rgba(255, 255, 255, 0.85) !important;
-  background-color: rgba(0, 0, 0, 0);
-  border-color: rgba(255, 255, 255, 0.66);
+  font-size: 1.1em;
+  color: $ocelot-button-color !important;
+  background-color: $ocelot-background-transparent;
+  border-color: r$ocelot-button-border-color;
+  transition: 0.3s;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 12px 16px;
 }
 
 .hero-button:hover {
   color: white !important;
-  background-color: rgba(255, 255, 255, 0.15) !important;
+  background-color: $ocelot-button-hover-background-color-dark !important;
   border-color: white !important;
+  cursor: grab;
 }
 
 .theme-hope-content Button.donate-button {
@@ -119,24 +127,6 @@ h1, h2, h3, h4 {
   width: 90%;
   margin: 2.8em auto;
   text-align: center;
-}
-
-.hero-button {
-  font-size: 1.1em;
-  color: rgba(255, 255, 255, 0.85);
-  background-color: rgba(0, 0, 0, 0);
-  border-color: rgba(255, 255, 255, 0.66);
-  transition: 0.3s;
-  border-style: solid;
-  border-radius: 5px;
-  padding: 12px 16px;
-}
-
-.hero-button:hover {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.15);
-  border-color: white;
-  cursor: grab;
 }
 
 #logo {
@@ -242,11 +232,14 @@ h2.large-header {
 }
 
 .center {
+  max-width: 1160px;
   text-align: center;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .center table {
-  width: 560px;
+  width: fit-content;
   margin: 0 auto !important;
   text-align: center;
 }
