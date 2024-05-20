@@ -24,7 +24,7 @@ export default hopeTheme({
       lang: 'de-DE',
       title: 'Ocelot.Social',
       description: 'Hallo',
-      copyright: '&copy; von <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authoren | <a href="/de/imprint/">Impressum</a>',
+      copyright: '&copy; von <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authoren | <a href="/de/imprint/">Impressum</a> | <a href="/de/privacy-policy/">Datenschutz</a>',
       footer: 'Unter der <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT Lizenz<!--]--><!----></a> ausgeliefert.',
       navbar: [
         {
@@ -57,7 +57,7 @@ export default hopeTheme({
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'Ocelot.Social',
       description: 'Free and open source software to create and run your own social network',
-      copyright: '&copy; by <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authors | <a href="/en/imprint/">Imprint</a>',
+      copyright: '&copy; by <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authors | <a href="/en/imprint/">Imprint</a> | <a href="/en/privacy-policy/">Privacy Policy</a>',
       footer: 'Released under the <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT License<!--]--><!----></a>.',
       navbar: [
         {
@@ -89,7 +89,7 @@ export default hopeTheme({
     '/fr/': {
       lang: 'fr-FR',
       title: 'Ocelot.Social',
-      copyright: '&copy; par <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Auteurs | <a href="/fr/imprint/">Mentions légales</a>',
+      copyright: '&copy; par <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Auteurs | <a href="/fr/imprint/">Mentions légales</a> | <a href="/fr/privacy-policy/">Protection des données</a>',
       footer: 'Publié sous la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->licence MIT<!--]--><!----></a>.',
       navbar: [
         {

@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Déclaration de confidentialité
+title: Protection des données
 sidebar: false
 tagLine: 
 # actions:
