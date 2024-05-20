@@ -114,7 +114,8 @@ export default hopeTheme({
       ],
     },
     seo: {
-      fallbackImage: '/logo.svg'
+      fallbackImage: '/logo.svg',
+      hostname: 'https://ocelot.social/'
     }
   }
 })
