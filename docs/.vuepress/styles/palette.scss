@@ -22,6 +22,10 @@ $text-color: (
   dark: #b3b3b3,
 );
 
+html {
+  margin: 0;
+};
+
 body {
   font-family: 'Noto Sans';
 };
@@ -29,6 +33,16 @@ body {
 h1, h2, h3, h4 {
   font-family: 'Noto Sans Bold';
 };
+
+.theme-hope-content {
+  width: 100%;
+  margin: 0;
+}
+
+.theme-hope-content:not(.custom) {
+  max-width: max-content;
+  padding: 0;
+}
 
 .theme-hope-content Button {
   font-size: 1.1em;
@@ -89,13 +103,9 @@ h1, h2, h3, h4 {
 }
 
 .hero-container {
-  width: auto;
   background-image: linear-gradient(#282a82, #5e0d46);
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 1rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
   color: #eee;
 }
 
