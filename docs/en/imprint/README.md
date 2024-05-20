@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Imprint | Ocelot.Social
+title: Imprint
 sidebar: false
 tagLine: 
 # actions:

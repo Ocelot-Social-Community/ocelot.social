@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Impressum | Ocelot.Social
+title: Impressum
 sidebar: false
 tagLine: 
 # actions:

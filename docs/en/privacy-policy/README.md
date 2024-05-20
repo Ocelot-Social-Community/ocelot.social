@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Privacy Policy | Ocelot.Social
+title: Privacy Policy
 sidebar: false
 tagLine: 
 # actions:

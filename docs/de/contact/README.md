@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Kontakt | Ocelot.Social
+title: Kontakt
 sidebar: false
 tagLine: 
 # actions:

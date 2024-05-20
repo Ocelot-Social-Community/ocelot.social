@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Funktionen | Ocelot.Social
+title: Funktionen
 sidebar: false
 tagLine: 
 # actions:

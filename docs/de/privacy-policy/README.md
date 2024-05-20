@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Datenschutzerklärung | Ocelot.Social
+title: Datenschutzerklärung
 sidebar: false
 tagLine: 
 # actions:

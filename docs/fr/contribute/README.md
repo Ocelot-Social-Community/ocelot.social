@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Contribuer | Ocelot.Social
+title: Contribuer
 sidebar: false
 tagLine: 
 # actions:

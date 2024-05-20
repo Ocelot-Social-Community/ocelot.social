@@ -2,7 +2,7 @@
 home: false
 layout: BlogHome
 # icon: home
-title: Neuigkeiten | Ocelot.Social
+title: Neuigkeiten
 # sidebar: false
 # description of blog post, see https://vuepress-theme-hope.github.io/v1/guide/blog/home.html#
 # example, see https://github.com/Mister-Hope/Mister-Hope.github.io/blob/7c64e33d4dfcfa748fc80c5960d32c2bd2be8728/src/en/README.md?plain=1#L9

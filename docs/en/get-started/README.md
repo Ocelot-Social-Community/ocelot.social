@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Get Started | Ocelot.Social
+title: Get Started
 sidebar: false
 tagLine: 
 # actions:

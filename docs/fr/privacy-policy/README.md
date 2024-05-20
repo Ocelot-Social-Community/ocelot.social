@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Déclaration de confidentialité | Ocelot.Social
+title: Déclaration de confidentialité
 sidebar: false
 tagLine: 
 # actions:

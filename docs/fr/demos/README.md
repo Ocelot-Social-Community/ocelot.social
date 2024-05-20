@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Démos | Ocelot.Social
+title: Démos
 sidebar: false
 tagLine: 
 # actions:

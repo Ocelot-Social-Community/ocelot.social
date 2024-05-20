@@ -2,7 +2,7 @@
 home: false
 # layout: BlogHome
 icon: home
-title: News | Ocelot.Social
+title: News
 sidebar: false
 tagLine: 
 # actions:
