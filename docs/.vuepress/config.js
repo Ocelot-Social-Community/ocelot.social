@@ -3,12 +3,12 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 import meta from './config/meta'
 import theme from './config/theme'
-import plugins from './config/plugins'
+// import plugins from './config/plugins'
 
 export default defineUserConfig({
   ...meta,
   theme,
-  plugins,
+  // plugins,
   bundler: viteBundler(),
   base: process.env.VUEPRESS_BASE ? `/${process.env.VUEPRESS_BASE}/` : '/',
   locales: {

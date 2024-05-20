@@ -99,6 +99,9 @@ export default hopeTheme({
       sup: true,
       vPre: true,
     },
+    redirect: {
+      autoLocale: true,
+    },
     searchPro: {
       indexContent: true,
       autoSuggestions: true,
