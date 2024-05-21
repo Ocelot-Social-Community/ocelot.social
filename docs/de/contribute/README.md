@@ -88,7 +88,9 @@ Ob Verein, Bewegung oder Institution – *ocelot.social* kann als soziales Netzw
 
 #### Verbessere das Netzwerk
 
-- Hast du einen Fehler im Netzwerk gefunden, dann melde ihn unseren Entwicklern (→ [Anleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:FAQ#wie-kann-ich-einen-fehler-des-netzwerks-melden)).
+- Hast du einen Fehler im Netzwerk gefunden, dann melde ihn unseren Entwicklern:
+  - [Anleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:FAQ#wie-kann-ich-einen-fehler-des-netzwerks-melden)
+  - [Issue im Repository erstellen](https://github.com/Ocelot-Social-Community/Ocelot-Social/issues/new/choose)
 - Möchtest du gute Ideen und Vorschläge zur Verbesserung der Software einbringen, dann [kontaktiere](/de/contact/) uns gerne.
 
 #### Möchtest du neue Funktionen mittesten?
