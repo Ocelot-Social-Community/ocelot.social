@@ -135,7 +135,7 @@ export default hopeTheme({
       vPre: true,
     },
     redirect: {
-      autoLocale: true,
+      autoLocale: false,
     },
     searchPro: {
       indexContent: true,
