@@ -107,7 +107,7 @@ Möchtest du mithelfen die Benutzeroberfläche oder [Benutzeranleitung im Wiki](
 
 #### Möchtest du zum Design beitragen?
 
-Kontaktiere uns, um das Design und die Bedienbarkeit des Netzwerks zu verbessern.
+[Kontaktiere uns](/de/contact/), um das Design und die Bedienbarkeit des Netzwerks zu verbessern.
 
 #### Organisierst du gerne?
 
