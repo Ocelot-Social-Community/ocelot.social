@@ -82,7 +82,7 @@ Benötigst du dabei Hilfe, dann [unterstützen](/de/contact/) dich unsere Entwic
 
 Ob Verein, Bewegung oder Institution – *ocelot.social* kann als soziales Netzwerk für viele Arten von Gruppen und Organisationen eingesetzt werden.
 
-- Veröffentliche den Link zu *ocelot.social* auf deiner Website, deinem Blog oder in sozialen Netzwerken.
+- Veröffentliche den Link zu [*ocelot.social*](https://ocelot.social) auf deiner Website, deinem Blog oder in sozialen Netzwerken.
 - Gib der Software *ocelot.social* auf der Vergleichsplattform [alternative.to](https://alternativeto.net/software/ocelot-social/about/) ein Like.
 - Gib der Software auf der Entwicklerplattform [GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social) einen Stern.
 
