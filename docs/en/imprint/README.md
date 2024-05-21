@@ -2,28 +2,30 @@
 home: false
 # layout: BlogHome
 icon: home
-title: Impressum | Ocelot.Social
+title: Imprint
 sidebar: false
 tagLine: 
 # actions:
 #   - text: Demo
 #     link: https://stage.ocelot.social/
 ---
-## Verantwortlich für den Betrieb dieser Website
+## Responsible for the Operation of this Website
 
 busFaktor() e.V.  
-Wolfgang Huß, 2. Vorsitzender
-
+Wolfgang Huß, 2nd Chairman  
 Haferstr. 5c  
-86179 Augsburg  
+86179 Augsburg, Germany
+
 E-Mail: <vorstand@busfaktor.org>  
 Telefon: +49 173 622 60 91
 
-## Inhaltlich verantwortlicher Redakteur
+More [contact options](/en/contact/)
+
+## Contentwise Responsible Editor
 
 Wolfgang Huß  
-
 Steinburger Straße 38  
-22527 Hamburg  
+22527 Hamburg, Germany
+
 E-Mail: <vorstand@busfaktor.org>  
 Telefon: +49 173 622 60 91
