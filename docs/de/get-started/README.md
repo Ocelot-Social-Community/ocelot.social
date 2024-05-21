@@ -27,14 +27,14 @@ mit den folgenden Zugangsdaten:
 
 *Ocelot.social* kannst du selber hosten.
 Dafür benötigst du umfangreiche Fachkenntnis in der IT.  
-Bei Fragen helfen wir dir vom [busFaktor() e.V.](<https://busfaktor.org/de/>) gerne weiter.
+Bei Fragen helfen wir dir vom [busFaktor() e.V.](https://busfaktor.org/de/) gerne weiter.
 
 Weitere Informationen unter → [Installation](#installation)
 
 ### Hosten lassen
 
 Du kannst die Software von einem Hoster deiner Wahl hosten lassen.  
-Der [busFaktor() e.V.](<https://busfaktor.org/de/>) berät dich gerne.
+Der [busFaktor() e.V.](https://busfaktor.org/de/) berät dich gerne.
 
 ## Installation
 
@@ -49,7 +49,7 @@ Hier findest du die genauen Anleitungen für die verschiedenen Serverinstallatio
 → [Deployment](https://docs.ocelot.social/deployment/)
 
 Dafür benötigst du umfangreiche Fachkenntnis in der IT.
-Bei Fragen oder Problemen helfen wir dir vom [busFaktor() e.V.](<https://busfaktor.org/de/>) gerne weiter.
+Bei Fragen oder Problemen helfen wir dir vom [busFaktor() e.V.](https://busfaktor.org/de/) gerne weiter.
 
 ### Branding
 
