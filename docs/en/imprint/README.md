@@ -14,7 +14,7 @@ tagLine:
 busFaktor() e.V.  
 Wolfgang Huß, 2nd Chairman  
 Haferstr. 5c  
-86179 Augsburg
+86179 Augsburg, Germany
 
 E-Mail: <vorstand@busfaktor.org>  
 Telefon: +49 173 622 60 91
@@ -25,7 +25,7 @@ More [contact options](/en/contact/)
 
 Wolfgang Huß  
 Steinburger Straße 38  
-22527 Hamburg
+22527 Hamburg, Germany
 
 E-Mail: <vorstand@busfaktor.org>  
 Telefon: +49 173 622 60 91

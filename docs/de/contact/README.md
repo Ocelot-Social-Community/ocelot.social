@@ -14,7 +14,7 @@ tagLine:
 busFaktor() e.V.  
 Wolfgang Huß, 2. Vorsitzender  
 Haferstr. 5c  
-86179 Augsburg
+86179 Augsburg, Deutschland
 
 Telefon: +49 173 622 60 91  
 Discord: <https://discord.gg/2b55aHVgpM>

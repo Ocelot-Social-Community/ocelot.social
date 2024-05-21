@@ -14,7 +14,7 @@ tagLine:
 busFaktor() e.V.  
 Wolfgang Huß, 2e président  
 Haferstr. 5c  
-86179 Augsbourg  
+86179 Augsbourg, Allemagne
 
 Téléphone : +49 173 622 60 91  
 Discord : <https://discord.gg/2b55aHVgpM>

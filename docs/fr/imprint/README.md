@@ -14,7 +14,7 @@ tagLine:
 busFaktor() e.V.  
 Wolfgang Huß, 2ème Président  
 Haferstr. 5c  
-86179 Augsbourg
+86179 Augsbourg, Allemagne
 
 E-Mail: <vorstand@busfaktor.org>  
 Téléphone: +49 173 622 60 91
@@ -25,7 +25,7 @@ Plus [d'options de contact](/fr/contact/)
 
 Wolfgang Huß  
 Steinburger Straße 38  
-22527 Hambourg
+22527 Hambourg, Allemagne
 
 E-Mail: <vorstand@busfaktor.org>  
 Téléphone: +49 173 622 60 91
