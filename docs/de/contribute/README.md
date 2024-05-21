@@ -111,7 +111,7 @@ Möchtest du mithelfen die Benutzeroberfläche oder [Benutzeranleitung im Wiki](
 
 #### Organisierst du gerne?
 
-Sprich uns an, wenn du Lust hast, …
+[Sprich uns](/de/contact/) an, wenn du Lust hast, …
 
 … Konzepte für neue Funktionen zu erstellen,  
 … die Finanzierung der Entwicklung neuer Funktionen mitzuorganisieren  
