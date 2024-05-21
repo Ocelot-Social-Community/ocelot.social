@@ -99,6 +99,9 @@ export default hopeTheme({
       sup: true,
       vPre: true,
     },
+    redirect: {
+      autoLocale: true,
+    },
     searchPro: {
       indexContent: true,
       autoSuggestions: true,
@@ -114,7 +117,8 @@ export default hopeTheme({
       ],
     },
     seo: {
-      fallbackImage: '/logo.svg'
+      fallbackImage: '/logo.svg',
+      hostname: 'https://ocelot.social/'
     }
   }
 })
