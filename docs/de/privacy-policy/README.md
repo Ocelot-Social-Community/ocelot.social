@@ -20,12 +20,14 @@ Im Folgenden informieren wir Dich gemäß der seit dem 25. Mai 2018 geltenden Da
 
 Verantwortlich für die Verarbeitung von personenbezogenen Daten ist:
 
+<!-- markdownlint-disable-next-line no-emphasis-as-heading -->
 **Martin Döring**
 
 E-Mail: <vorstand@busfaktor.org>
 
 ### Vertreter
 
+<!-- markdownlint-disable-next-line no-emphasis-as-heading -->
 **Wolfgang Huß**
 
 E-Mail: <vorstand@busfaktor.org>

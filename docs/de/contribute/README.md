@@ -26,13 +26,15 @@ Klicke auf den Bereich, der dich interessiert:
 Die Software des Netzwerks ist frei verfügbar – Betrieb, Unterhalt und Weiterentwicklung kosten hingegen Geld.
 
 Der Verein [busFaktor() e.V.](https://busfaktor.org/de/) koordiniert und fördert die Programmierung von *ocelot.social*.
-Unterstütze die Nachhaltigkeit  der Software und deren Netzwerke gerne mit einer Einmal- oder Dauerspende:
+Unterstütze die Nachhaltigkeit der Software und deren Netzwerke gerne mit einer Einmal- oder Dauerspende:
 
+<!-- markdownlint-disable MD033 -->
 <a href="https://busfaktor.org/de/spenden" target="_blank">
   <Button class="donate-button">
     Hier spenden
   </Button>
 </a>
+<!-- markdownlint-enable MD033 -->
 
 ### Unterstütze dein Netzwerk
 
@@ -40,6 +42,7 @@ Unterstütze die Nachhaltigkeit  der Software und deren Netzwerke gerne mit eine
 
 Sei mit dabei und werde Nutzer eines Netzwerks, das mit unserer Software läuft.
 
+<!-- markdownlint-disable period-in-list-item -->
 - Registriere dich als Nutzer.
 - Ergänze dein Benutzerprofil mit einem Profilbild, deinem ungefähren Standort und weiteren Angaben über dich.
 - Schreibe lesenswerte und lesefreundliche Beiträge. Ergänze sie mit einem Bild und mit Hashtags.
@@ -48,6 +51,7 @@ Sei mit dabei und werde Nutzer eines Netzwerks, das mit unserer Software läuft.
 - Folge Nutzern.
 - Gründe eine Gruppe und lade Mitglieder ein.
 - Trage dazu bei, dass dein Netzwerk ein angenehmer und interessanter Ort für dich und deine Freunde ist.
+<!-- markdownlint-enable period-in-list-item -->
 
 #### Belebe dein Netzwerk
 

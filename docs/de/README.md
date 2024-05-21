@@ -12,6 +12,7 @@ tagLine:
 #     link: https://stage.ocelot.social/
 ---
 
+<!-- markdownlint-disable no-inline-html first-line-heading -->
 <div class="hero-container">
   <div class="hero-container-inner">
     <div class="hero-container-content">
@@ -101,85 +102,85 @@ tagLine:
 
 <div class="image-grid center">
   <figure>
-    <img src="./assets/login.png" />
+    <img src="./assets/login.png" alt="Login" />
     <figcapture>
         Login
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/newsfeed.png" />
+    <img src="./assets/newsfeed.png" alt="Beitragsübersicht (Newsfeed)" />
     <figcapture>
         Beitragsübersicht (Newsfeed)
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/single-post.png" />
+    <img src="./assets/single-post.png" alt="Einzelner Beitrag" />
     <figcapture>
         Einzelner Beitrag
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/single-event.png" />
+    <img src="./assets/single-event.png" alt="Einzelne Veranstaltung" />
     <figcapture>
         Einzelne Veranstaltung
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/user-profile.png" />
+    <img src="./assets/user-profile.png" alt="Nutzerprofil" />
     <figcapture>
         Nutzerprofil
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/user-settings.png" />
+    <img src="./assets/user-settings.png" alt="Einstellungen des Nutzerkontos" />
     <figcapture>
         Einstellungen des Nutzerkontos
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/group-list.png" />
+    <img src="./assets/group-list.png" alt="Gruppenübersicht" />
     <figcapture>
         Gruppenübersicht
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/group-profile.png" />
+    <img src="./assets/group-profile.png" alt="Gruppenprofil" />
     <figcapture>
         Gruppenprofil
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/1-to-1-chat.png" />
+    <img src="./assets/1-to-1-chat.png" alt="Eins-zu-Eins-Chat" />
     <figcapture>
         Eins-zu-Eins-Chat
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/notifications.png" />
+    <img src="./assets/notifications.png" alt="Benachrichtigungen" />
     <figcapture>
         Benachrichtigungen
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/map.png" />
+    <img src="./assets/map.png" alt="Landkarte" />
     <figcapture>
         Landkarte
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/language-selection.png" />
+    <img src="./assets/language-selection.png" alt="Mehrsprachigkeit" />
     <figcapture>
         Mehrsprachigkeit
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/moderation.png" />
+    <img src="./assets/moderation.png" alt="Moderation" />
     <figcapture>
         Moderation
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/system-administration.png" />
+    <img src="./assets/system-administration.png" alt="Systemverwaltung" />
     <figcapture>
         Systemverwaltung
     </figcapture>

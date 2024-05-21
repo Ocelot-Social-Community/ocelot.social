@@ -20,12 +20,14 @@ In the following, we inform you about our handling of your personal data and wha
 
 Is responsible for the processing of personal data:
 
+<!-- markdownlint-disable-next-line no-emphasis-as-heading -->
 **Martin Döring**
 
 E-mail: <vorstand@busfaktor.org>
 
 ### Deputy
 
+<!-- markdownlint-disable-next-line no-emphasis-as-heading -->
 **Wolfgang Huß**
 
 E-mail: <vorstand@busfaktor.org>
