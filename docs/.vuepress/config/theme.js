@@ -53,72 +53,72 @@ export default hopeTheme({
         },
       ],
     },
-    '/en/': {
-      lang: 'en-US', // this will be set as the lang attribute on <html>
-      title: 'Ocelot.Social',
-      description: 'Ocelot.Social – Free and open source software to create and run your own social network.',
-      copyright: '&copy; by <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authors | <a href="/en/imprint/">Imprint</a> | <a href="/en/privacy-policy/">Privacy Policy</a>',
-      footer: 'Released under the <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT License<!--]--><!----></a>.',
-      navbar: [
-        {
-          text: 'Features',
-          link: '/en/features/'
-        },
-        {
-          text: 'Get Started',
-          link: '/en/get-started/'
-        },
-        {
-          text: 'Contribute',
-          link: '/en/contribute/'
-        },
-        { 
-          text: 'Learn',
-          link: '/en/learn/' ,
-        },
-        {
-          text: 'Donate',
-          link: '/en/donate/'
-        },
-        {
-          text: 'Contact',
-          link: '/en/contact/'
-        },
-      ],
-    },
-    '/fr/': {
-      lang: 'fr-FR',
-      title: 'Ocelot.Social',
-      description: 'Ocelot.Social - Logiciel open source et gratuit pour créer et gérer votre propre réseau social.',
-      copyright: '&copy; par <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Auteurs | <a href="/fr/imprint/">Mentions légales</a> | <a href="/fr/privacy-policy/">Protection des données</a>',
-      footer: 'Publié sous la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->licence MIT<!--]--><!----></a>.',
-      navbar: [
-        {
-          text: 'Fonctionnalités',
-          link: '/fr/features/'
-        },
-        {
-          text: 'Entrée',
-          link: '/fr/get-started/'
-        },
-        {
-          text: 'Contribuer',
-          link: '/fr/contribute/'
-        },
-        { 
-          text: 'Apprendre',
-          link: '/fr/learn/' ,
-        },
-        {
-          text: 'Donner',
-          link: '/fr/donate/'
-        },
-        {
-          text: 'Contact',
-          link: '/fr/contact/'
-        },
-      ],
-    }
+    // '/en/': {
+    //   lang: 'en-US', // this will be set as the lang attribute on <html>
+    //   title: 'Ocelot.Social',
+    //   description: 'Ocelot.Social – Free and open source software to create and run your own social network.',
+    //   copyright: '&copy; by <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Authors | <a href="/en/imprint/">Imprint</a> | <a href="/en/privacy-policy/">Privacy Policy</a>',
+    //   footer: 'Released under the <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT License<!--]--><!----></a>.',
+    //   navbar: [
+    //     {
+    //       text: 'Features',
+    //       link: '/en/features/'
+    //     },
+    //     {
+    //       text: 'Get Started',
+    //       link: '/en/get-started/'
+    //     },
+    //     {
+    //       text: 'Contribute',
+    //       link: '/en/contribute/'
+    //     },
+    //     { 
+    //       text: 'Learn',
+    //       link: '/en/learn/' ,
+    //     },
+    //     {
+    //       text: 'Donate',
+    //       link: '/en/donate/'
+    //     },
+    //     {
+    //       text: 'Contact',
+    //       link: '/en/contact/'
+    //     },
+    //   ],
+    // },
+    // '/fr/': {
+    //   lang: 'fr-FR',
+    //   title: 'Ocelot.Social',
+    //   description: 'Ocelot.Social - Logiciel open source et gratuit pour créer et gérer votre propre réseau social.',
+    //   copyright: '&copy; par <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Auteurs | <a href="/fr/imprint/">Mentions légales</a> | <a href="/fr/privacy-policy/">Protection des données</a>',
+    //   footer: 'Publié sous la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->licence MIT<!--]--><!----></a>.',
+    //   navbar: [
+    //     {
+    //       text: 'Fonctionnalités',
+    //       link: '/fr/features/'
+    //     },
+    //     {
+    //       text: 'Entrée',
+    //       link: '/fr/get-started/'
+    //     },
+    //     {
+    //       text: 'Contribuer',
+    //       link: '/fr/contribute/'
+    //     },
+    //     { 
+    //       text: 'Apprendre',
+    //       link: '/fr/learn/' ,
+    //     },
+    //     {
+    //       text: 'Donner',
+    //       link: '/fr/donate/'
+    //     },
+    //     {
+    //       text: 'Contact',
+    //       link: '/fr/contact/'
+    //     },
+    //   ],
+    // }
   },
   plugins: {
     blog: {
@@ -136,6 +136,12 @@ export default hopeTheme({
     },
     redirect: {
       autoLocale: true,
+      defaultBehavior: 'defaultLocale',
+      defaultLocale: '/de/',
+      localeConfig: {
+        '/de/': ['de-DE', 'en'],
+      },
+      localeFallback: false,
     },
     searchPro: {
       indexContent: true,
