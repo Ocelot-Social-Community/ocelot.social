@@ -24,11 +24,11 @@ export default defineUserConfig({
     '/de/': {
       lang: 'de-DE',
     },
-    // '/en/': {
-    //   lang: 'en-EN',
-    // },
-    // '/fr/': {
-    //   lang: 'fr-FR',
-    // },
+    '/en/': {
+      lang: 'en-EN',
+    },
+    '/fr/': {
+      lang: 'fr-FR',
+    },
   }
 })
