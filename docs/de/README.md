@@ -83,7 +83,7 @@ tagLine:
     </figcapture>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-hand-middle-finger" />
+    <HopeIcon icon="fa-solid fa-scale-balanced" />
     <figcapture>
       <h3>Deine eigenen Regeln</h3>
       Bestimme die Nutzungsbedingungen für dein Netzwerk selber.
