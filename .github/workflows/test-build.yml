@@ -1,6 +1,6 @@
 name: build test CI
 
-on: push
+on: [push,pull_request_target]
 
 jobs:
   build-test:
