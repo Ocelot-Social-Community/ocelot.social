@@ -4,9 +4,7 @@ module.exports = {
     'no-start-duplicated-conjunction': {
       interval : 2, // interval of sentences
     },
-    'max-comma': {
-      max : 4,
-    },
+     'max-comma': false,
     /*'no-dead-link': {
       checkRelative: true,
       baseURI: null,
@@ -20,7 +18,7 @@ module.exports = {
     },*/
     'no-empty-section': true,
     'textlint-rule-no-empty-element': true,
-    'period-in-list-item': true,
+    'period-in-list-item': false,
     '@textlint-rule/no-unmatched-pair': true,
     'no-zero-width-spaces': true,
     'doubled-spaces': true,
@@ -28,10 +26,7 @@ module.exports = {
       // Misspellings to be ignored (case-insensitive)
       ignore: [],
     },
-    'write-good': {
-      passive: false,
-      thereIs: false
-    },
+    'write-good': false,
     'apostrophe': true,
   },
   filters: {

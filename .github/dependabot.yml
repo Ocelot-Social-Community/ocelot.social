@@ -2,6 +2,7 @@ version: 2
 updates:
 
 - package-ecosystem: "github-actions"
+  open-pull-requests-limit: 99
   directory: "/"
   rebase-strategy: "disabled"
   schedule:
@@ -11,6 +12,7 @@ updates:
     time: "03:00"
 
 - package-ecosystem: npm
+  open-pull-requests-limit: 99
   directory: "/"
   rebase-strategy: "disabled"
   schedule:
@@ -18,3 +20,12 @@ updates:
     day: "saturday"
     timezone: "Europe/Berlin"
     time: "03:00"
+  groups:
+    textlint:
+      applies-to: version-updates
+      patterns:
+        - "*textlint*"
+    vuepress:
+      applies-to: version-updates
+      patterns:
+        - "*vuepress*"
