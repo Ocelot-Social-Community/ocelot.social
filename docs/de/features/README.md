@@ -12,7 +12,7 @@ tagLine:
 *Ocelot.social* bietet eine wachsende Vielzahl elementarer und weiterführender Netzwerkfunktionen,
 die durch Spenden der Community erweitert werden können:
 
-<a href="https://busfaktor.org/de/spenden" target="_blank">
+<a href="/de/donate/">
   <Button class="donate-button">
     Hier spenden
   </Button>
