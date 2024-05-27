@@ -195,6 +195,39 @@ tagLine:
   </a>
 </div>
 
+<h2 id="benefits" class="large-header">Warum freie Open-Source-Software?</h2>
+
+<div class="benefits-grid center">
+  <figure>
+    <HopeIcon icon="fa-solid" />
+    <figcapture>
+      <h3>Frei verfügbar</h3>
+      Freie Software ist für jeden Menschen jederzeit zugänglich. Dass Lizenzen ablaufen, gibt es nicht.
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="fa-solid" />
+    <figcapture>
+      <h3>Transparent</h3>
+      Bei freier Software ist der Quellcode einsehbar. Jeder Mensch hat so die Möglichkeit nachzusehen, was im Hintergrund eines Programmes passiert.
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="fa-solid" />
+    <figcapture>
+      <h3>Kopierbar</h3>
+      Ich kann jederzeit mit allen meinen Kolleginnen und Kollegen zusammenarbeiten. Alle können es jederzeit verwenden, ohne Einschränkungen.
+    </figcapture>
+  </figure>
+  <figure>
+    <HopeIcon icon="fa-solid" />
+    <figcapture>
+      <h3>Veränderbar</h3>
+      Jede Person kann etwas zu ihrem Lieblingsprogramm beitragen, jederzeit. Ich kann das Programm so verwenden, wie ich es am liebsten will.
+    </figcapture>
+  </figure>
+</div>
+
 <h2 class="large-header">Probier es aus</h2>
 
 <!--
