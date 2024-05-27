@@ -18,7 +18,14 @@ Klicke auf den Bereich, der dich interessiert:
 - [Spenden](#spenden)
 - [Unterstütze dein Netzwerk](#unterstutze-dein-netzwerk)
 - [Betreibe ein eigenes Netzwerk](#betreibe-ein-eigenes-netzwerk)
-- [Entwickle und unterstütze die Software](#entwickle-und-unterstutze-die-software)
+- [Mach die *ocelot.social*-Software bekannt](#mach-die-ocelot-social-software-bekannt)
+- [Verbessere die Software](#verbessere-die-software)
+- [Möchtest du neue Funktionen mittesten?](#mochtest-du-neue-funktionen-mittesten)
+- [Schreibst du gerne?](#schreibst-du-gerne)
+- [Sprichst du eine Fremdsprache?](#sprichst-du-eine-fremdsprache)
+- [Möchtest du zum Design beitragen?](#mochtest-du-zum-design-beitragen)
+- [Organisierst du gerne?](#organisierst-du-gerne)
+- [Entwickle die Software mit](#entwickle-die-software-mit)
 - [Weitere Ideen zum Mitmachen?](#weitere-ideen-zum-mitmachen)
 
 ### Spenden
@@ -74,9 +81,7 @@ Mit der freien Software *ocelot.social* und dem nötigen Know-How kannst du ein 
 
 Benötigst du dabei Hilfe, dann [unterstützen](/de/contact/) dich unsere Entwickler gerne.
 
-### Entwickle und unterstütze die Software
-
-#### Mach die *ocelot.social*-Software bekannt
+### Mach die *ocelot.social*-Software bekannt
 
 *›Spread the word!‹*
 
@@ -86,46 +91,47 @@ Ob Verein, Bewegung oder Institution – *ocelot.social* kann als soziales Netzw
 - Gib der Software *ocelot.social* auf der Vergleichsplattform [alternative.to](https://alternativeto.net/software/ocelot-social/about/) ein Like.
 - Gib der Software auf der Entwicklerplattform [GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social) einen Stern.
 
-#### Verbessere das Netzwerk
+### Verbessere die Software
 
 - Hast du einen Fehler im Netzwerk gefunden, dann melde ihn unseren Entwicklern:
   - [Anleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:FAQ#wie-kann-ich-einen-fehler-des-netzwerks-melden)
   - [Issue im Repository erstellen](https://github.com/Ocelot-Social-Community/Ocelot-Social/issues/new/choose)
 - Möchtest du gute Ideen und Vorschläge zur Verbesserung der Software einbringen, dann [kontaktiere](/de/contact/) uns gerne.
 
-#### Möchtest du neue Funktionen mittesten?
+### Möchtest du neue Funktionen mittesten?
 
 Wir suchen Nutzer, welche die neuen Funktionen der nächsten Softwareversion testen, bevor sie veröffentlicht werden.
 
-#### Schreibst du gerne?
+### Schreibst du gerne?
 
 - Hilf mit, die Benutzeranleitung zu schreiben (→ [Anleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Wiki:Editor's-Guide)).
 - Hilf mit, die Kommunikationskanäle der Software *ocelot.social* und unserer Entwicklergemeinschaft [busFaktor() e.V.](https://busfaktor.org/de/) zu pflegen und vielfältig zu beleben.
 
-#### Sprichst du eine Fremdsprache?
+### Sprichst du eine Fremdsprache?
 
 Das Netzwerk ist in [mehreren Sprachen](/de/features/) verfügbar.
 Möchtest du mithelfen die Benutzeroberfläche oder [Benutzeranleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Wiki:Editor's-Guide) zu übersetzen, zu vervollständigen oder zu verbessern, dann kontaktiere uns gerne.
 
-#### Möchtest du zum Design beitragen?
+### Möchtest du zum Design beitragen?
 
 [Kontaktiere uns](/de/contact/), um das Design und die Bedienbarkeit des Netzwerks zu verbessern.
 
-#### Organisierst du gerne?
+### Organisierst du gerne?
 
 [Sprich uns](/de/contact/) an, wenn du Lust hast, …
 
 … Konzepte für neue Funktionen zu erstellen,  
 … die Finanzierung der Entwicklung neuer Funktionen mitzuorganisieren  
-… oder Veranstaltungen, Meetings etc. zu planen?
+… oder Veranstaltungen, Meetings etc. zu planen.
 
-#### Entwickle die Software mit
+### Entwickle die Software mit
 
 Die Software *ocelot.social* ist frei und quelloffen – Open-Source. Möchtest du neue Funktionen entwickeln und testen? Dann folge unserer [Dokumentation](https://docs.ocelot.social/CONTRIBUTING.html) (auf Englisch).
 
 Für Einsteiger eignen sich unsere [Good First Issues](https://github.com/Ocelot-Social-Community/Ocelot-Social/labels/good%20first%20issue) auf GitHub.
 
 Wir freuen uns auch, wenn du auf GitHub [Änderungen am Programmcode](https://github.com/Ocelot-Social-Community/Ocelot-Social/pulls) anderer Entwickler sichtest, kommentierst oder freigibst.
+Oder gib der [Software auf GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social) einen Stern.
 
 Du kannst auf [Discord](https://discord.gg/AJSX9DCSUA) mit uns chatten und wir lernen uns in einem Pair-Programming kennen.
 
