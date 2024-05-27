@@ -237,11 +237,8 @@ XXX -->
 
 <div class="center">
   <p>
-    Die Software des Netzwerks ist frei verfügbar – Betrieb, Unterhalt und Weiterentwicklung kosten hingegen Geld.
-  </p>
-  <p>
-    Der Verein <a href="https://busfaktor.org/de/" target="_blank">busFaktor() e.V.</a> koordiniert und fördert die Programmierung von <i>ocelot.social</i>.
-    Unterstütze die Nachhaltigkeit  der Software und deren Netzwerke gerne mit einer Einmal- oder Dauerspende:
+    Die Software <i>ocelot.social</i> ist frei verfügbar – Instandhaltung und Weiterentwicklung kosten hingegen Geld.<br>
+    Hilf uns mit deiner Spende:
   </p>
   <a href="/de/donate/">
     <Button class="donate-button">

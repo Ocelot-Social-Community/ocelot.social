@@ -9,16 +9,11 @@ tagLine:
 #   - text: Demo
 #     link: https://stage.ocelot.social/
 ---
+
 *Ocelot.social* bietet eine wachsende Vielzahl elementarer und weiterführender Netzwerkfunktionen,
-die durch Spenden der Community erweitert werden können:
+die durch [Spenden](/de/donate/) der Community erweitert werden können.
 
-<a href="/de/donate/">
-  <Button class="donate-button">
-    Hier spenden
-  </Button>
-</a>
-
-Folgende Features sind bisher integriert:
+Folgende Features sind bisher verfügbar:
 
 ## Benutzer
 
@@ -106,9 +101,22 @@ Die Benutzeroberfläche ist verfügbar in:
 
 ## Mobile App
 
-Ocelot.social-Netzwerke gibt es als sogenannte Progressive Web App (PWA) für:
+Für Netzwerke mit *ocelot.social* gibt es eine sogenannte Progressive Web App (PWA) für:
 
 - Android
 - iOS
 
 → [Anleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:FAQ#gibt-es-eine-app-f%C3%BCr-dieses-netzwerk)
+
+## Spenden
+
+Die Software *ocelot.social* des Netzwerks ist frei verfügbar – Instandhaltung und Weiterentwicklung kosten hingegen Geld.
+Mit deiner Spende unterstützt du ihre Beständigkeit:
+
+<!-- markdownlint-disable MD033 -->
+<a href="/de/donate/">
+  <Button class="donate-button">
+    Hier spenden
+  </Button>
+</a>
+<!-- markdownlint-enable MD033 -->

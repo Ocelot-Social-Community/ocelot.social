@@ -28,21 +28,6 @@ Klicke auf den Bereich, der dich interessiert:
 - [Entwickle die Software mit](#entwickle-die-software-mit)
 - [Weitere Ideen zum Mitmachen?](#weitere-ideen-zum-mitmachen)
 
-### Spenden
-
-Die Software des Netzwerks ist frei verfügbar – Betrieb, Unterhalt und Weiterentwicklung kosten hingegen Geld.
-
-Der Verein [busFaktor() e.V.](https://busfaktor.org/de/) koordiniert und fördert die Programmierung von *ocelot.social*.
-Unterstütze die Nachhaltigkeit der Software und deren Netzwerke gerne mit einer Einmal- oder Dauerspende:
-
-<!-- markdownlint-disable MD033 -->
-<a href="/de/donate/">
-  <Button class="donate-button">
-    Hier spenden
-  </Button>
-</a>
-<!-- markdownlint-enable MD033 -->
-
 ### Unterstütze dein Netzwerk
 
 #### Nutze die aktiven Netzwerke
@@ -138,3 +123,16 @@ Du kannst auf [Discord](https://discord.gg/AJSX9DCSUA) mit uns chatten und wir l
 ### Weitere Ideen zum Mitmachen?
 
 Möchtest du dich noch auf andere Art ins Projekt einbringen, dann [kontaktiere](/de/contact/) uns gerne.
+
+### Spenden
+
+Die Software *ocelot.social* ist frei verfügbar – Instandhaltung und Weiterentwicklung kosten hingegen Geld.
+Unterstütze uns gerne mit einer Spende:
+
+<!-- markdownlint-disable MD033 -->
+<a href="/de/donate/">
+  <Button class="donate-button">
+    Hier spenden
+  </Button>
+</a>
+<!-- markdownlint-enable MD033 -->
