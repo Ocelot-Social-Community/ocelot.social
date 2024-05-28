@@ -5,13 +5,13 @@ home: false
 title: Mitmachen
 sidebar: true
 ---
+
 ## Wie kannst du beitragen, mitmachen und unterstützen?
 
 Du kannst die freie Open-Source-Software *ocelot.social* und die aktiven Netzwerke auf vielfältige Art und Weise unterstützen, mitentwickeln oder mitprogrammieren.
 
 Klicke auf den Bereich, der dich interessiert:
 
-- [Spenden](#spenden)
 - [Unterstütze dein Netzwerk](#unterstutze-dein-netzwerk)
 - [Betreibe ein eigenes Netzwerk](#betreibe-ein-eigenes-netzwerk)
 - [Mach die *ocelot.social*-Software bekannt](#mach-die-ocelot-social-software-bekannt)
@@ -23,6 +23,7 @@ Klicke auf den Bereich, der dich interessiert:
 - [Organisierst du gerne?](#organisierst-du-gerne)
 - [Entwickle die Software mit](#entwickle-die-software-mit)
 - [Weitere Ideen zum Mitmachen?](#weitere-ideen-zum-mitmachen)
+- [Spenden](#spenden)
 
 ### Unterstütze dein Netzwerk
 
@@ -30,7 +31,6 @@ Klicke auf den Bereich, der dich interessiert:
 
 Sei mit dabei und werde Nutzer eines Netzwerks, das mit unserer Software läuft.
 
-<!-- markdownlint-disable period-in-list-item -->
 - Registriere dich als Nutzer.
 - Ergänze dein Benutzerprofil mit einem Profilbild, deinem ungefähren Standort und weiteren Angaben über dich.
 - Schreibe lesenswerte und lesefreundliche Beiträge. Ergänze sie mit einem Bild und mit Hashtags.
@@ -39,7 +39,6 @@ Sei mit dabei und werde Nutzer eines Netzwerks, das mit unserer Software läuft.
 - Folge Nutzern.
 - Gründe eine Gruppe und lade Mitglieder ein.
 - Trage dazu bei, dass dein Netzwerk ein angenehmer und interessanter Ort für dich und deine Freunde ist.
-<!-- markdownlint-enable period-in-list-item -->
 
 #### Belebe dein Netzwerk
 
@@ -64,13 +63,14 @@ Benötigst du dabei Hilfe, dann [unterstützen](/de/contact/) dich unsere Entwic
 
 ### Mach die *ocelot.social*-Software bekannt
 
+<!-- markdownlint-disable-next-line no-emphasis-as-heading -->
 *›Spread the word!‹*
 
 Ob Verein, Bewegung oder Institution – *ocelot.social* kann als soziales Netzwerk für viele Arten von Gruppen und Organisationen eingesetzt werden.
 
 - Veröffentliche den Link zu [*ocelot.social*](https://ocelot.social) auf deiner Website, deinem Blog oder in sozialen Netzwerken.
-- Gib der Software *ocelot.social* auf der Vergleichsplattform [alternative.to](https://alternativeto.net/software/ocelot-social/about/) ein Like.
-- Gib der Software auf der Entwicklerplattform [GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social) einen Stern.
+- Gib der Software *ocelot.social* auf der Vergleichsplattform [alternative.to](https://alternativeto.net/software/ocelot-social/about/) ein `Like`.
+- Gib der Software auf der Entwicklerplattform [GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social) einen `Stern`.
 
 ### Verbessere die Software
 
@@ -90,7 +90,7 @@ Wir suchen Nutzer, welche die neuen Funktionen der nächsten Softwareversion tes
 
 ### Sprichst du eine Fremdsprache?
 
-Das Netzwerk ist in [mehreren Sprachen](/de/features/) verfügbar.
+Das Netzwerk ist in [mehreren Sprachen](/de/features/#sprachen) verfügbar.
 Möchtest du mithelfen die Benutzeroberfläche oder [Benutzeranleitung im Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/de:Wiki:Editor's-Guide) zu übersetzen, zu vervollständigen oder zu verbessern, dann kontaktiere uns gerne.
 
 ### Möchtest du zum Design beitragen?
@@ -107,18 +107,19 @@ Möchtest du mithelfen die Benutzeroberfläche oder [Benutzeranleitung im Wiki](
 
 ### Entwickle die Software mit
 
-Die Software *ocelot.social* ist frei und quelloffen – Open-Source. Möchtest du neue Funktionen entwickeln und testen? Dann folge unserer [Dokumentation](https://docs.ocelot.social/CONTRIBUTING.html) (auf Englisch).
+Die Software *ocelot.social* ist frei und quelloffen – Open-Source.
+Möchtest du neue Funktionen entwickeln und testen? Dann folge unserer [Dokumentation](https://docs.ocelot.social/CONTRIBUTING.html) (auf Englisch).
 
 Für Einsteiger eignen sich unsere [Good First Issues](https://github.com/Ocelot-Social-Community/Ocelot-Social/labels/good%20first%20issue) auf GitHub.
 
 Wir freuen uns auch, wenn du auf GitHub [Änderungen am Programmcode](https://github.com/Ocelot-Social-Community/Ocelot-Social/pulls) anderer Entwickler sichtest, kommentierst oder freigibst.
-Oder gib der [Software auf GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social) einen Stern.
+Oder gib der [Software auf GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social) einen `Stern`.
 
 Du kannst auf [Discord](https://discord.gg/AJSX9DCSUA) mit uns chatten und wir lernen uns in einem Pair-Programming kennen.
 
 ### Weitere Ideen zum Mitmachen?
 
-Möchtest du dich noch auf andere Art ins Projekt einbringen, dann [kontaktiere](/de/contact/) uns gerne.
+Möchtest du dich noch auf andere Art ins Projekt einbringen, dann [kontaktiere uns](/de/contact/) gerne.
 
 ### Spenden
 
