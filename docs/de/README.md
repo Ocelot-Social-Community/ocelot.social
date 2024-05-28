@@ -44,7 +44,7 @@ tagLine:
     <HopeIcon icon="fa-solid fa-people-group" />
     <figcapture>
       <h3>Für alle</h3>
-      Ocelot.social eignet sich für die Zivilgesellschaft sowie für staatliche und private Organisationen.
+      <i>Ocelot.social</i> eignet sich für die Zivilgesellschaft sowie für staatliche und private Organisationen.
     </figcapture>
   </figure>
   <figure>
@@ -104,85 +104,85 @@ tagLine:
   <figure>
     <img src="./assets/login.png" alt="Login" />
     <figcapture>
-        Login
+      Login
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/newsfeed.png" alt="Beitragsübersicht (Newsfeed)" />
     <figcapture>
-        Beitragsübersicht (Newsfeed)
+      Beitragsübersicht (Newsfeed)
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/single-post.png" alt="Einzelner Beitrag" />
     <figcapture>
-        Einzelner Beitrag
+      Einzelner Beitrag
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/single-event.png" alt="Einzelne Veranstaltung" />
     <figcapture>
-        Einzelne Veranstaltung
+      Einzelne Veranstaltung
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/user-profile.png" alt="Nutzerprofil" />
     <figcapture>
-        Nutzerprofil
+      Nutzerprofil
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/user-settings.png" alt="Einstellungen des Nutzerkontos" />
     <figcapture>
-        Einstellungen des Nutzerkontos
+      Einstellungen des Nutzerkontos
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/group-list.png" alt="Gruppenübersicht" />
     <figcapture>
-        Gruppenübersicht
+      Gruppenübersicht
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/group-profile.png" alt="Gruppenprofil" />
     <figcapture>
-        Gruppenprofil
+      Gruppenprofil
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/1-to-1-chat.png" alt="Eins-zu-Eins-Chat" />
     <figcapture>
-        Eins-zu-Eins-Chat
+      Eins-zu-Eins-Chat
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/notifications.png" alt="Benachrichtigungen" />
     <figcapture>
-        Benachrichtigungen
+      Benachrichtigungen
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/map.png" alt="Landkarte" />
     <figcapture>
-        Landkarte
+      Landkarte
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/language-selection.png" alt="Mehrsprachigkeit" />
     <figcapture>
-        Mehrsprachigkeit
+      Mehrsprachigkeit
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/moderation.png" alt="Moderation" />
     <figcapture>
-        Moderation
+      Moderation
     </figcapture>
   </figure>
   <figure>
     <img src="./assets/system-administration.png" alt="Systemverwaltung" />
     <figcapture>
-        Systemverwaltung
+      Systemverwaltung
     </figcapture>
   </figure>
 </div>
@@ -252,12 +252,12 @@ tagLine:
 
 <div class="center">
   <p>
-    <i>Ocelot.social</i> kannst du auf einem eigenen Server hosten oder es hosten lassen.  
-    Schau dir an, welche Möglichkeiten es gibt:<br>
+    <i>Ocelot.social</i> kannst du auf einem eigenen Server hosten oder es hosten lassen.<br>
+    Schau dir an, welche Möglichkeiten es gibt:
   </p>
   <a id="hero-button" href="/de/get-started/">
     <Button>
-      Los geht's
+      Los geht’s
     </Button>
   </a>
 </div>
@@ -284,6 +284,6 @@ XXX -->
 
 <div class="center">
   <p>
-    Hast du Fragen, Anregungen oder Wünsche, nehme gerne <a href="/de/contact/" target="_blank">Kontakt</a> mit uns auf.
+    Hast du Fragen, Anregungen oder Wünsche, nehme gerne <a href="/de/contact/">Kontakt</a> mit uns auf.
   </p>
 </div>
