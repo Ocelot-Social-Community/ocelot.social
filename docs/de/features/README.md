@@ -1,13 +1,8 @@
 ---
 home: false
-# layout: BlogHome
 icon: home
 title: Funktionen
 sidebar: false
-tagLine: 
-# actions:
-#   - text: Demo
-#     link: https://stage.ocelot.social/
 ---
 
 *Ocelot.social* bietet eine wachsende Vielzahl elementarer und weiterführender Netzwerkfunktionen,
