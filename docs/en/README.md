@@ -197,7 +197,7 @@ tagLine:
 
 <!-- XXX translate -->
 
-<!-- <h2 id="benefits" class="large-header">Why free open source software?</h2>
+<!-- <h2 id="why-foss" class="large-header">Why free open source software?</h2>
 
 <div class="benefits-grid center">
   <figure>
