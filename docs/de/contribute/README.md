@@ -64,7 +64,7 @@ Benötigst du dabei Hilfe, dann [unterstützen](/de/contact/) dich unsere Entwic
 ### Mach die *ocelot.social*-Software bekannt
 
 <!-- markdownlint-disable-next-line no-emphasis-as-heading -->
-*›Spread the word!‹*
+*„Spread the word!“*
 
 Ob Verein, Bewegung oder Institution – *ocelot.social* kann als soziales Netzwerk für viele Arten von Gruppen und Organisationen eingesetzt werden.
 
