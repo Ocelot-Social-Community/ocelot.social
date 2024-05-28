@@ -1,13 +1,9 @@
 ---
 home: false
 # layout: BlogHome
-icon: home
+# icon: home
 title: Mitmachen
 sidebar: true
-tagLine: 
-# actions:
-#   - text: Demo
-#     link: https://stage.ocelot.social/
 ---
 ## Wie kannst du beitragen, mitmachen und unterstützen?
 
