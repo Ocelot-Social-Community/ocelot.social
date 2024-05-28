@@ -67,9 +67,9 @@ Folgende Features sind bisher verfügbar:
 Benutzer mit der Rolle Moderator können:
 
 - Moderieren
-- Liste gemeldeter Benutzer, Beiträge, Kommentare
+- Liste gemeldeter Benutzer, Beiträge, Kommentare einsehen und bearbeiten
 - Benutzer, Beträge oder Kommentare sperren und freigeben
-- Entscheidungsprotokoll
+- Entscheidungsprotokoll einsehen
 
 ## Administration
 
