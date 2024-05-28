@@ -64,7 +64,7 @@ If you need help with this, our developers will be happy to [support](/en/contac
 ### Make the *ocelot.social* software known
 
 <!-- markdownlint-disable-next-line no-emphasis-as-heading -->
-*›Spread the word!‹*
+*“Spread the word!”*
 
 Whether association, movement or institution – *ocelot.social* can be used as a social network for many types of groups and organizations.
 
@@ -86,7 +86,7 @@ We are looking for users to test the new functions of the next software version 
 ### Do you like writing?
 
 - help write the user guide (→ [Guide in the Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:Wiki:Editor's-Guide)).
-- help maintain the communication channels of the ocelot.social software and our developer community [busFaktor() e.V.](https://busfaktor.org/en/) and animate them in a variety of ways
+- help maintain the communication channels of the *ocelot.social* software and our developer community [busFaktor() e.V.](https://busfaktor.org/en/) and animate them in a variety of ways
 
 ### Do you speak a foreign language?
 
@@ -102,7 +102,7 @@ The network is available in [several languages](/en/features/#languages). If you
 
 … create concepts for new functions,  
 … help organize the financing of the development of new functions  
-… or plan events, meetings etc.?
+… or plan events, meetings etc.
 
 ### Help develop the software
 
