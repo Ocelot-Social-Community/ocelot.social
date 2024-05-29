@@ -43,6 +43,8 @@ Lors de l'utilisation de notre site web, différents types de données à caract
 
 **Données personnelles :** Ces données ne sont pas stockées par nous, mais uniquement utilisées lorsque tu accédes à notre application web.
 
+<!-- XXX translate check: why RGPD and 6 para. without DU? -->
+
 **Base juridique :** Notre intérêt légitime à présenter notre association au public conformément à l'art. 6 para. 1 lit. f) du RGPD.
 
 **Destinataire :** Les données d'accès à votre navigateur ne peuvent être consultées que par nous en tant qu'exploitant et, le cas échéant, par notre fournisseur.
@@ -68,6 +70,8 @@ Lors de l'utilisation de notre site web, différents types de données à caract
 ### Tes droits
 
 La loi sur la protection des données t'accorde les droits suivants en ce qui concerne le traitement de tes données personnelles, dont tu peux lire la formulation exacte dans les articles liés du GDPR :
+
+<!-- XXX translate check: why GDPR and RGPD and 7 para. without DU? -->
 
 - Droit d'accès conformément à l'art [15 DU GDPR](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId22)
 - Droit de rectification conformément à l'art [16 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId24)
