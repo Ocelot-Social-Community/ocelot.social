@@ -19,7 +19,7 @@ tagLine:
       <img id="logo" src="/logo.svg" alt="ocelot.social" />
       <div id="slogan-container">
         <span id="slogan-1" class="slogan">Free Open Source Software</span>
-        <span id="slogan-2" class="slogan">For Your Social Network</span>
+        <span id="slogan-2" class="slogan">for your social network</span>
       </div>
       <a href="#benefits">
         <Button class="hero-button">
