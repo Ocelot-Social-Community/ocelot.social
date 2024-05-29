@@ -1,14 +1,10 @@
 ---
 home: false
-# layout: BlogHome
-icon: home
+# icon: home
 title: Learn
-sidebar: true
-tagLine: 
-# actions:
-#   - text: Demo
-#     link: https://stage.ocelot.social/
+sidebar: false
 ---
+
 <!-- ## XXX -->
 
 As a user, operator or developer, you can find more information about *ocelot.social* here.
