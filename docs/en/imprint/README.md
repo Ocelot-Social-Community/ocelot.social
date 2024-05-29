@@ -1,14 +1,10 @@
 ---
 home: false
-# layout: BlogHome
-icon: home
+# icon: home
 title: Imprint
 sidebar: false
-tagLine: 
-# actions:
-#   - text: Demo
-#     link: https://stage.ocelot.social/
 ---
+
 ## Responsible for the Operation of this Website
 
 busFaktor() e.V.  
@@ -19,7 +15,7 @@ Haferstr. 5c
 E-Mail: <vorstand@busfaktor.org>  
 Telefon: +49 173 622 60 91
 
-More [contact options](/en/contact/)
+More [contact options](/en/contact/).
 
 ## Contentwise Responsible Editor
 
