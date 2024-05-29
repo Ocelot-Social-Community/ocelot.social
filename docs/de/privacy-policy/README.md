@@ -1,13 +1,8 @@
 ---
 home: false
-# layout: BlogHome
-icon: home
+# icon: home
 title: Datenschutzerklärung
 sidebar: false
-tagLine: 
-# actions:
-#   - text: Demo
-#     link: https://stage.ocelot.social/
 ---
 
 Aktualisiert am 20. Mai 2024
