@@ -7,21 +7,21 @@ sidebar: false
 
 *Ocelot.social* offre une variété croissante de fonctions de mise en réseau de base et avancées qui peuvent être étendues grâce aux [dons](/fr/donate/) de la communauté.
 
-Les fonctionnalités suivantes ont été intégrées jusqu'à présent :
+Les fonctionnalités suivantes ont été intégrées jusqu’à présent :
 
 ## Utilisateurs
 
 <!-- XXX translate check: start with capital letters -->
 
-- enregistrement d'un utilisateur
-- profil de l'utilisateur
+- enregistrement d’un utilisateur
+- profil de l’utilisateur
 - créer un message
-- suivre l'utilisateur
-- bloquer l'utilisateur
-- couper le son de l'utilisateur
-- inviter l'utilisateur
+- suivre l’utilisateur
+- bloquer l’utilisateur
+- couper le son de l’utilisateur
+- inviter l’utilisateur
 - signaler un utilisateur, un message ou un commentaire
-- rôles de l'utilisateur : utilisateur, modérateur, administrateur
+- rôles de l’utilisateur : utilisateur, modérateur, administrateur
 
 ## Groupes
 
@@ -44,9 +44,9 @@ Les fonctionnalités suivantes ont été intégrées jusqu'à présent :
 <!-- XXX translate check: start with capital letters -->
 <!-- XXX translate check: why above message and here article? -->
 
-## Aperçu de l'article
+## Aperçu de l’article
 
-- aperçu (fil d'actualité)
+- aperçu (fil d’actualité)
 - filtre
 - trier
 
@@ -89,18 +89,18 @@ Les utilisateurs ayant le rôle de modérateur peuvent :
 
 <!-- XXX translate check: colon? -->
 
-Les utilisateurs ayant le rôle d'administrateur peuvent également :
+Les utilisateurs ayant le rôle d’administrateur peuvent également :
 
 <!-- XXX translate check: start with capital letters. check new differences to English and German -->
 
-- épingler des messages en haut de l'aperçu des messages (fil d'actualité)
+- épingler des messages en haut de l’aperçu des messages (fil d’actualité)
 - afficher les statistiques
-- consulter les données des utilisateurs (à l'exception des mots de passe)
+- consulter les données des utilisateurs (à l’exception des mots de passe)
 - activer la fonction de donation avec le statut de la donation
 
 ## Langues
 
-L'interface utilisateur est disponible en :
+L’interface utilisateur est disponible en :
 
 - allemand
 - anglais
@@ -125,8 +125,8 @@ Les réseaux *ocelot.social* sont disponible en tant que Progressive Web App (PW
 
 <!-- XXX translate check -->
 
-Le logiciel du réseau *ocelot.social* est disponible gratuitement – mais la maintenance et le développement ultérieur coûtent de l'argent.
-Votre don permet d'en assurer la continuité :
+Le logiciel du réseau *ocelot.social* est disponible gratuitement – mais la maintenance et le développement ultérieur coûtent de l’argent.
+Votre don permet d’en assurer la continuité :
 
 <!-- markdownlint-disable MD033 -->
 <a href="/fr/donate/">

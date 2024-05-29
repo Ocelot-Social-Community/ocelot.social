@@ -34,7 +34,7 @@ Join in and become a user of a network that runs with our software.
 - register as a user
 - add a profile picture, your approximate location and other information about yourself to your user profile
 - write readable and reader-friendly posts, add a picture and hashtags
-- comment on other users' posts
+- comment on other users’ posts
 - recommend posts that are worth reading
 - follow users
 - create a group and invite members
@@ -53,7 +53,7 @@ With more users, your network will become dynamic and diverse.
 #### Other ways to get involved
 
 Many networks are participatory networks and are grateful for your help – perhaps as a moderator?
-For more information, visit the operator's website or contact them.
+For more information, visit the operator’s website or contact them.
 
 ### Operate your own network
 
