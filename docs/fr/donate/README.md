@@ -7,7 +7,7 @@ sidebar: false
 
 *Ocelot.social* est un logiciel libre disponible gratuitement.
 
-L'association [busFaktor() e.V. (en anglais)](https://busfaktor.org/en/) coordonne et promeut la programmation de ce logiciel et s'occupe de sa maintenance.
+L’association [busFaktor() e.V. (en anglais)](https://busfaktor.org/en/) coordonne et promeut la programmation de ce logiciel et s’occupe de sa maintenance.
 Vous pouvez soutenir ce projet par un don unique ou permanent.
 Nous sommes très heureux de chaque contribution.
 
@@ -20,7 +20,7 @@ Triodos Bank N.V., Allemagne
 
 Location: 86179 Augsbourg, Allemagne
 
-### Remarques sur l'usage prévu
+### Remarques sur l’usage prévu
 
 Please be sure to include `Donner` and your e-mail address in the reason for payment so that we can contact you. The `@` sign is normally not possible for bank transfers, so write it as `“ at ”`, with space before and after and without quotation marks.
 

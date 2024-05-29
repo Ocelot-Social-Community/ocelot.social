@@ -9,7 +9,7 @@ Mise à jour le 20 mai 2024
 
 ## Protection des données
 
-Conformément au Règlement général sur la protection des données (RGPD) de l'UE, en vigueur depuis le 25 mai 2018, nous t'informons ci-dessous de la manière dont nous traitons tes données personnelles et des droits dont tu disposes vis-à-vis de nous.
+Conformément au Règlement général sur la protection des données (RGPD) de l’UE, en vigueur depuis le 25 mai 2018, nous t’informons ci-dessous de la manière dont nous traitons tes données personnelles et des droits dont tu disposes vis-à-vis de nous.
 
 ### Responsable du traitement des données
 
@@ -29,25 +29,25 @@ Courriel: <vorstand@busfaktor.org>
 
 ### Applications et services
 
-Lors de l'utilisation de notre site web, différents types de données personnelles sont traités de différentes manières. Nous t'indiquons ci-après quelles applications et quels services sont traités, quelles sont les données à caractère personnel concernées, quelle est la finalité du traitement, combien de temps les données sont conservées dans chaque cas et bien d'autres choses encore.
+Lors de l’utilisation de notre site web, différents types de données personnelles sont traités de différentes manières. Nous t’indiquons ci-après quelles applications et quels services sont traités, quelles sont les données à caractère personnel concernées, quelle est la finalité du traitement, combien de temps les données sont conservées dans chaque cas et bien d’autres choses encore.
 
 ### Site web
 
-Lors de l'utilisation de notre site web, différents types de données à caractère personnel sont traités de différentes manières. Dans ce qui suit, nous t'informons sur les types de traitement, les données personnelles concernées dans chaque cas, la finalité du traitement respectif, la durée de conservation des données dans chaque cas et bien d'autres choses encore.
+Lors de l’utilisation de notre site web, différents types de données à caractère personnel sont traités de différentes manières. Dans ce qui suit, nous t’informons sur les types de traitement, les données personnelles concernées dans chaque cas, la finalité du traitement respectif, la durée de conservation des données dans chaque cas et bien d’autres choses encore.
 
 #### Accès au site web
 
 **Purpose:** We make our website available to the public so that everyone can inform themselves about our association, its activities and offers.
 
-**Objectif :** Nous mettons notre site web à la disposition du public afin que chacun puisse s'informer sur notre association, ses activités et ses offres.
+**Objectif :** Nous mettons notre site web à la disposition du public afin que chacun puisse s’informer sur notre association, ses activités et ses offres.
 
 **Données personnelles :** Ces données ne sont pas stockées par nous, mais uniquement utilisées lorsque tu accédes à notre application web.
 
 <!-- XXX translate check: why RGPD and 6 para. without DU? -->
 
-**Base juridique :** Notre intérêt légitime à présenter notre association au public conformément à l'art. 6 para. 1 lit. f) du RGPD.
+**Base juridique :** Notre intérêt légitime à présenter notre association au public conformément à l’art. 6 para. 1 lit. f) du RGPD.
 
-**Destinataire :** Les données d'accès à votre navigateur ne peuvent être consultées que par nous en tant qu'exploitant et, le cas échéant, par notre fournisseur.
+**Destinataire :** Les données d’accès à votre navigateur ne peuvent être consultées que par nous en tant qu’exploitant et, le cas échéant, par notre fournisseur.
 
 **Transfert vers un pays tiers :** Les données ne sont pas stockées dans un pays tiers.
 
@@ -69,21 +69,21 @@ Lors de l'utilisation de notre site web, différents types de données à caract
 
 ### Tes droits
 
-La loi sur la protection des données t'accorde les droits suivants en ce qui concerne le traitement de tes données personnelles, dont tu peux lire la formulation exacte dans les articles liés du GDPR :
+La loi sur la protection des données t’accorde les droits suivants en ce qui concerne le traitement de tes données personnelles, dont tu peux lire la formulation exacte dans les articles liés du GDPR :
 
 <!-- XXX translate check: why GDPR and RGPD and 7 para. without DU? -->
 
-- Droit d'accès conformément à l'art [15 DU GDPR](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId22)
-- Droit de rectification conformément à l'art [16 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId24)
-- Droit à l'effacement conformément à l'art [17 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId25)
-- Droit à la limitation du traitement conformément à l'art [18 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId26)
-- Droit à l'information conformément à l'art [19 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId27)
-- Droit à la portabilité des données conformément à l'art [20 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId28)
-- Droit de retirer le consentement accordé conformément à l'art [7 para. 3 GDPR](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId11)
-- Droit d'opposition conformément à l'art [21 GDPR](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId30)
-- Droit de déposer une plainte conformément à l'art [77 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId102)
+- Droit d’accès conformément à l’art [15 DU GDPR](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId22)
+- Droit de rectification conformément à l’art [16 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId24)
+- Droit à l’effacement conformément à l’art [17 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId25)
+- Droit à la limitation du traitement conformément à l’art [18 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId26)
+- Droit à l’information conformément à l’art [19 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId27)
+- Droit à la portabilité des données conformément à l’art [20 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId28)
+- Droit de retirer le consentement accordé conformément à l’art [7 para. 3 GDPR](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId11)
+- Droit d’opposition conformément à l’art [21 GDPR](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId30)
+- Droit de déposer une plainte conformément à l’art [77 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId102)
 
-Veux noter que l'exercice de votre droit à l'effacement, en particulier de tes données d'enregistrement, peut avoir pour conséquence que tu ne puissies plus utiliser notre site web.
+Veux noter que l’exercice de votre droit à l’effacement, en particulier de tes données d’enregistrement, peut avoir pour conséquence que tu ne puissies plus utiliser notre site web.
 
 ### Mise à jour des informations sur la protection des données
 
