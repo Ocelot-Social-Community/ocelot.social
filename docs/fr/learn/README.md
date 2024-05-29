@@ -1,26 +1,22 @@
 ---
 home: false
-# layout: BlogHome
-icon: home
+# icon: home
 title: Apprendre
-sidebar: true
-tagLine: 
-# actions:
-#   - text: Demo
-#     link: https://stage.ocelot.social/
+sidebar: false
 ---
+
 <!-- ## XXX -->
 
-En tant qu’utilisateur, opérateur ou développeur, tu trouveras ici des informations supplémentaires sur *ocelot.social*.
+En tant qu’utilisateur, opérateur et développeur, tu peux trouver plus d’informations sur *ocelot.social* ici.
 
-### Documentation pour les Développeurs
+### Documentation pour les développeurs (en anglais)
 
 <https://docs.ocelot.social/>
 
-### Guide de l’Utilisateur
+### Guide d’utilisateur (en anglais)
 
 <https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:User-Guide>
 
-### FAQ
+### FAQ (Foire Aux Questions, en anglais)
 
 <https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:FAQ>
