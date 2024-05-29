@@ -1,14 +1,10 @@
 ---
 home: false
-# layout: BlogHome
-icon: home
+# icon: home
 title: Contact
 sidebar: false
-tagLine: 
-# actions:
-#   - text: Demo
-#     link: https://stage.ocelot.social/
 ---
+
 ## Association des développeurs
 
 busFaktor() e.V.  
