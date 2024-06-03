@@ -139,7 +139,9 @@ export default hopeTheme({
       defaultBehavior: 'defaultLocale',
       defaultLocale: '/de/',
       localeConfig: {
-        '/de/': ['de-DE', 'en'],
+        '/de/': ['de-DE', 'de'],
+        '/en/': ['en-US', 'en'],
+        '/fr/': ['fr-FR', 'fr'],
       },
       localeFallback: false,
     },
