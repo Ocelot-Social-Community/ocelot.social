@@ -28,6 +28,6 @@ Beispiel: `Spende, eva.muster at domain.de`
 
 Falls du möchtest, dass deine Spende vornehmlich der Software *ocelot.social* zugute kommt, dann gib auch dessen Namen an:
 
-Beispiel: `Spende, ocelot.social, eva.muster at domain.de`
+Beispiel: `Spende für ocelot.social, eva.muster at domain.de`
 
 [Kontaktiere uns](/de/contact/) gerne bei Fragen.

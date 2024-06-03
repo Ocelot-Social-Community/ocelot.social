@@ -5,13 +5,13 @@ title: Donate
 sidebar: false
 ---
 
-*Ocelot.social* is freely available open source software.
+*Ocelot.social* is open source software that is freely available.
 
 The association [busFaktor() e.V.](https://busfaktor.org/en/) coordinates and promotes the programming of this software and takes care of its maintenance.
-You can support this project with a one-off or permanent donation.
+You can support this project with a one-off or recurrent donation.
 We are very happy about every contribution.
 
-## Donation account
+## Account for Donations
 
 busFaktor eV  
 IBAN: DE81 5003 1000 1084 5340 01  
@@ -22,12 +22,12 @@ Location: 86179 Augsburg, Germany
 
 ### Notes on intended use
 
-Please be sure to include `Donation` and your e-mail address in the reason for payment so that we can contact you. The `@` sign is normally not possible for bank transfers, so write it as `“ at ”`, with space before and after and without quotation marks.
+Please be sure to include `Donation` and your e-mail address in the reason for payment so that we can contact you. The `@` sign is normally not possible for bank transfers, so write it as `“ at ”`, with a space before and after and without quotation marks.
 
-Example: `Donation, eva.muster at domain.de`
+Example: `Donation, john.doe at domain.com`
 
-If you would like your donation to go primarily to the *ocelot.social* software, please also enter its name:
+If you would like your donation to go primarily to the *ocelot.social* software, please also mention its name:
 
-Example: `Donation, ocelot.social, eva.muster at domain.de`
+Example: `Donation for ocelot.social, john.doe at domain.com`
 
 [Contact us](/en/contact/) if you have any questions.
