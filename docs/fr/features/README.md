@@ -11,8 +11,6 @@ Les fonctionnalités suivantes ont été intégrées jusqu’à présent :
 
 ## Utilisateurs
 
-<!-- XXX translate check: start with capital letters -->
-
 - enregistrement d’un utilisateur
 - profil de l’utilisateur
 - créer un message
@@ -25,24 +23,19 @@ Les fonctionnalités suivantes ont été intégrées jusqu’à présent :
 
 ## Groupes
 
-<!-- XXX translate check: start with capital letters -->
-
 - profil du groupe
 - visibilité : public, fermé, caché
 - rôles des utilisateurs du groupe : membre, administrateur, propriétaire
 - gestion des membres : inviter, activer, supprimer
 
-## Messages
+## Articles
 
-- types de messages : Message, événement
-- image du message
+- types d’article : Article, événement
+- image de l’article
 - éditeur étendu avec titres, styles de texte, contenu tiers intégré, listes, mentions, hashtags
 - catégories
-- langue du message (détection automatique)
+- langue d’article (détection automatique)
 - commentaires
-
-<!-- XXX translate check: start with capital letters -->
-<!-- XXX translate check: why above message and here article? -->
 
 ## Aperçu de l’article
 
@@ -51,8 +44,6 @@ Les fonctionnalités suivantes ont été intégrées jusqu’à présent :
 - trier
 
 ## Chat
-
-<!-- XXX translate check: start with capital letters -->
 
 - chat privé 1:1 : plein écran ou fenêtre latérale
 
@@ -63,9 +54,7 @@ Les fonctionnalités suivantes ont été intégrées jusqu’à présent :
 
 ## Recherche
 
-<!-- XXX translate check: start with capital letters -->
-
-- par utilisateurs, groupes, messages, événements, hashtags
+- par utilisateurs, groupes, articles, événements, hashtags
 
 ## Notifications
 
@@ -74,29 +63,21 @@ Les fonctionnalités suivantes ont été intégrées jusqu’à présent :
 
 ## Modération
 
-<!-- XXX translate check: colon? -->
-
 Les utilisateurs ayant le rôle de modérateur peuvent :
 
-<!-- XXX translate check: start with capital letters. check new differences to English and German -->
-
 - modérer
-- liste des utilisateurs, messages et commentaires signalés
-- bloquer et débloquer des utilisateurs, des messages ou des commentaires
+- afficher et modifier la liste des utilisateurs, des articles et des commentaires rapporter
+- bloquer et débloquer des utilisateurs, des articles ou des commentaires
 - journal des décisions
 
 ## Administration
 
-<!-- XXX translate check: colon? -->
-
 Les utilisateurs ayant le rôle d’administrateur peuvent également :
 
-<!-- XXX translate check: start with capital letters. check new differences to English and German -->
-
-- épingler des messages en haut de l’aperçu des messages (fil d’actualité)
+- épingler des articles en haut de l’aperçu des articles (fil d’actualité)
 - afficher les statistiques
 - consulter les données des utilisateurs (à l’exception des mots de passe)
-- activer la fonction de donation avec le statut de la donation
+- activer la fonction de donation avec le statut des dons
 
 ## Langues
 
@@ -123,10 +104,8 @@ Les réseaux *ocelot.social* sont disponible en tant que Progressive Web App (PW
 
 ## Donner
 
-<!-- XXX translate check -->
-
-Le logiciel du réseau *ocelot.social* est disponible gratuitement – mais la maintenance et le développement ultérieur coûtent de l’argent.
-Votre don permet d’en assurer la continuité :
+Le logiciel *ocelot.social* est libre d’utilisation – par contre la maintenance et le développement coûtent de l’argent.
+Soutiens son continuité par ton don :
 
 <!-- markdownlint-disable MD033 -->
 <a href="/fr/donate/">

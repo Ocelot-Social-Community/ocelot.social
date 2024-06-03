@@ -259,7 +259,7 @@ tagLine:
   </p>
   <a id="hero-button" href="/en/get-started/">
     <Button>
-      Let's go
+      Let’s go
     </Button>
   </a>
 </div>
@@ -270,11 +270,9 @@ XXX -->
 
 <h2 class="large-header">Donate</h2>
 
-<!-- XXX translate check -->
-
 <div class="center">
   <p>
-    The <i>ocelot.social</i> software is freely available – but maintenance and further development cost money.<br>
+    The <i>ocelot.social</i> software is freely available – however, maintenance and development cost money.<br>
     Help us with your donation:
   </p>
   <a href="/en/donate/">

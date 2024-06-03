@@ -11,8 +11,6 @@ The following features have been integrated so far:
 
 ## Users
 
-<!-- XXX translate check: start with capital letters -->
-
 - user registration
 - user profile
 - create post
@@ -24,8 +22,6 @@ The following features have been integrated so far:
 - user roles: user, moderator, administrator
 
 ## Groups
-
-<!-- XXX translate check: start with capital letters -->
 
 - group profile
 - visibility: public, closed, hidden
@@ -108,8 +104,8 @@ The user interface is available in:
 
 ## Donate
 
-The *ocelot.social* network software is freely available – but maintenance and further development cost money.
-Your donation supports its continuity:
+The *ocelot.social* software is freely available – however, maintenance and development cost money.
+Support its continuity with your donation:
 
 <!-- markdownlint-disable MD033 -->
 <a href="/en/donate/">

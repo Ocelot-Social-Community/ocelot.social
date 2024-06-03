@@ -1,11 +1,9 @@
 ---
 home: false
 # icon: home
-title: Entrée
+title: Commencer
 sidebar: false
 ---
-
-<!-- XXX translate check: Entrée or Commencer ? see header menu as well -->
 
 ## Essaies-le, puis installes-le
 
@@ -54,13 +52,11 @@ Tu peux configurer individuellement l’apparence du réseau à la fin de l’in
 
 ### Conditions minimales
 
-<!-- XXX translate check: capitals at line start? -->
-
-- domaine pour l’URL du réseau
+- domaine pour l’adresse URL du réseau
 - serveur de messagerie pour l’envoi de courriels (enregistrement, notifications)
 - serveur:
-  - au moins 8 Go de RAM
-  - 80 Go d’espace disque
+  - au moins 8 GB de RAM
+  - 80 GB d’espace disque
   - un cluster Kubernetes, si vous le souhaitez
 
 ## Projet communautaire

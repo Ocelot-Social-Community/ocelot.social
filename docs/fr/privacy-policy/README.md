@@ -43,8 +43,6 @@ Lors de l’utilisation de notre site web, différents types de données à cara
 
 **Données personnelles :** Ces données ne sont pas stockées par nous, mais uniquement utilisées lorsque tu accédes à notre application web.
 
-<!-- XXX translate check: why RGPD and 6 para. without DU? -->
-
 **Base juridique :** Notre intérêt légitime à présenter notre association au public conformément à l’art. 6 para. 1 lit. f) du RGPD.
 
 **Destinataire :** Les données d’accès à votre navigateur ne peuvent être consultées que par nous en tant qu’exploitant et, le cas échéant, par notre fournisseur.
@@ -69,19 +67,17 @@ Lors de l’utilisation de notre site web, différents types de données à cara
 
 ### Tes droits
 
-La loi sur la protection des données t’accorde les droits suivants en ce qui concerne le traitement de tes données personnelles, dont tu peux lire la formulation exacte dans les articles liés du GDPR :
+La loi sur la protection des données t’accorde les droits suivants en ce qui concerne le traitement de tes données personnelles, dont tu peux lire la formulation exacte dans les articles liés du RGPD :
 
-<!-- XXX translate check: why GDPR and RGPD and 7 para. without DU? -->
-
-- Droit d’accès conformément à l’art [15 DU GDPR](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId22)
-- Droit de rectification conformément à l’art [16 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId24)
-- Droit à l’effacement conformément à l’art [17 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId25)
-- Droit à la limitation du traitement conformément à l’art [18 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId26)
-- Droit à l’information conformément à l’art [19 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId27)
-- Droit à la portabilité des données conformément à l’art [20 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId28)
-- Droit de retirer le consentement accordé conformément à l’art [7 para. 3 GDPR](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId11)
-- Droit d’opposition conformément à l’art [21 GDPR](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId30)
-- Droit de déposer une plainte conformément à l’art [77 DU RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId102)
+- Droit d’accès conformément à l’art [Art. 15 RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId22)
+- Droit de rectification conformément à l’art [Art. 16 RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId24)
+- Droit à l’effacement conformément à l’art [Art. 17 RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId25)
+- Droit à la limitation du traitement conformément à l’art [Art. 18 RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId26)
+- Droit à l’information conformément à l’art [Art. 19 RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId27)
+- Droit à la portabilité des données conformément à l’art [Art. 20 RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId28)
+- Droit de retirer le consentement accordé conformément à l’art [Art. 7 para. 3 RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId11)
+- Droit d’opposition conformément à l’art [Art. 21 RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId30)
+- Droit de déposer une plainte conformément à l’art [Art. 77 RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02016R0679-20160504#tocId102)
 
 Veux noter que l’exercice de votre droit à l’effacement, en particulier de tes données d’enregistrement, peut avoir pour conséquence que tu ne puissies plus utiliser notre site web.
 

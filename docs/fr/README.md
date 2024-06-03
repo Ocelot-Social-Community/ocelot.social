@@ -19,7 +19,6 @@ tagLine:
       <img id="logo" src="/logo.svg" alt="ocelot.social" />
       <div id="slogan-container">
         <span id="slogan-1" class="slogan">Logiciel libre et open source</span>
-        <!-- XXX translate check caps -->
         <span id="slogan-2" class="slogan">pour ton réseau social</span>
       </div>
       <a href="#benefits">
@@ -31,7 +30,7 @@ tagLine:
   </div>
 </div>
 
-<h2 id="benefits" class="large-header">Pourquoi Ocelot.Social ?</h2>
+<h2 id="benefits" class="large-header">Pourquoi ocelot.social ?</h2>
 
 <div class="benefits-grid center">
   <figure>
@@ -45,7 +44,7 @@ tagLine:
     <HopeIcon icon="fa-solid fa-people-group" />
     <figcapture>
       <h3>Pour tout le monde</h3>
-      <i>Ocelot.social</i> est adapté à la société civile ainsi qu'aux organisations publiques et privées.
+      <i>Ocelot.social</i> est adapté à la société civile ainsi qu’aux organisations publiques et privées.
     </figcapture>
   </figure>
   <figure>
@@ -59,7 +58,7 @@ tagLine:
     <HopeIcon icon="fa-solid fa-gears" />
     <figcapture>
       <h3>Configurable</h3>
-      En tant qu'opérateur, tu peux personnaliser le design et les fonctions selon tes souhaits.
+      En tant qu’opérateur, tu peux personnaliser le design et les fonctions selon tes souhaits.
     </figcapture>
   </figure>
   <figure>
@@ -87,7 +86,7 @@ tagLine:
     <HopeIcon icon="fa-solid fa-scale-balanced" />
     <figcapture>
       <h3>Vos propres règles</h3>
-      Détermines toi-même les conditions d'utilisation de ton réseau.
+      Détermines toi-même les conditions d’utilisation de ton réseau.
     </figcapture>
   </figure>
   <figure>
@@ -127,9 +126,9 @@ tagLine:
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/user-profile.png" alt="Profil de l'utilisateur" />
+    <img src="../de/assets/user-profile.png" alt="Profil de l’utilisateur" />
     <figcapture>
-      Profil de l'utilisateur
+      Profil de l’utilisateur
     </figcapture>
   </figure>
   <figure>
@@ -245,24 +244,22 @@ tagLine:
   <p>
     Testes la démo en direct sur
     <a href="https://stage.ocelot.social" target="_blank">https://stage.ocelot.social</a>
-    avec les données d'accès suivantes :
+    avec les données d’accès suivantes :
   </p>
 
-  <table><thead><tr><th style="text-align:left;">Courriel</th><th style="text-align:left;">Mot de passe</th><th style="text-align:left;">Rôle de l'utilisateur</th></tr></thead><tbody><tr><td style="text-align:left;"><code>user@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">utilisateur normal</td></tr><tr><td style="text-align:left;"><code>moderator@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">modérateur</td></tr><tr><td style="text-align:left;"><code>admin@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">administrateur</td></tr></tbody></table>
+  <table><thead><tr><th style="text-align:left;">Courriel</th><th style="text-align:left;">Mot de passe</th><th style="text-align:left;">Rôle de l’utilisateur</th></tr></thead><tbody><tr><td style="text-align:left;"><code>user@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">utilisateur normal</td></tr><tr><td style="text-align:left;"><code>moderator@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">modérateur</td></tr><tr><td style="text-align:left;"><code>admin@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">administrateur</td></tr></tbody></table>
 </div>
 
 <h2 class="large-header">Commences</h2>
 
 <div class="center">
   <p>
-    <!-- XXX translate <i>Ocelot.social</i> -->
-    Tu peux héberger <i>Ocelot.social</i> sur ton propre serveur ou le faire héberger.<br>
-    Jetes un coup d'œil aux options disponibles :
+    Tu peux héberger <i>ocelot.social</i> sur ton propre serveur ou le faire héberger.<br>
+    Jetes un coup d’œil aux options disponibles :
   </p>
   <a id="hero-button" href="/fr/get-started/">
     <Button>
-      <!-- XXX translate exclamation mark with space, like deeple says. and apostrophe -->
-      C'est parti!
+      C’est parti !
     </Button>
   </a>
 </div>
@@ -273,12 +270,10 @@ XXX -->
 
 <h2 class="large-header">Faire un don</h2>
 
-<!-- XXX translate check -->
-
 <div class="center">
   <p>
-    Le logiciel <i>ocelot.social</i> est disponible gratuitement – mais la maintenance et le développement ultérieur coûtent de l'argent.<br>
-    Aidez-nous avec votre don :
+    Le logiciel <i>ocelot.social</i> est libre d’utilisation – par contre la maintenance et le développement coûtent de l’argent.<br>
+    Aides-nous avec ton don :
   </p>
   <a href="/fr/donate/">
     <Button class="donate-button">
@@ -291,6 +286,6 @@ XXX -->
 
 <div class="center">
   <p>
-    Si tu as des questions, des suggestions ou des demandes, n'hésites pas à <a href="/fr/contact/">nous contacter</a>.
+    Si tu as des questions, des suggestions ou des demandes, n’hésites pas à <a href="/fr/contact/">nous contacter</a>.
   </p>
 </div>

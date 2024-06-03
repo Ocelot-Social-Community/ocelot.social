@@ -98,7 +98,7 @@ export default hopeTheme({
           link: '/fr/features/'
         },
         {
-          text: 'Entrée',
+          text: 'Commencer',
           link: '/fr/get-started/'
         },
         {
