@@ -22,11 +22,11 @@ Lieu: 86179 Augsbourg, Allemagne
 
 ### Remarques sur l’usage prévu
 
-N'oublies pas d'indiquer `Don` et ton courriel dans le motif du paiement afin que nous puissions te contacter. Le signe `@` n'est normalement pas possible pour les virements bancaires, il faut donc l'écrire sous la forme `« at »`, avec un espace avant et après et sans guillemets.
+N’oublies pas d’indiquer `Don` et ton courriel dans le motif du paiement afin que nous puissions te contacter. Le signe `@` n’est normalement pas possible pour les virements bancaires, il faut donc l’écrire sous la forme `« at »`, avec un espace avant et après et sans guillemets.
 
 Exemple : `Don, eve.dupont at domaine.fr`
 
-Si tu souhaites que ton don aille principalement au logiciel *ocelot.social*, indiques également son nom, s'il te plaît :
+Si tu souhaites que ton don aille principalement au logiciel *ocelot.social*, indiques également son nom, s’il te plaît :
 
 Exemple : `Don pour ocelot.social, eve.dupont at domaine.fr`
 

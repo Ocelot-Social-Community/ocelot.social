@@ -75,7 +75,7 @@ Whether association, movement or institution – *ocelot.social* can be used as 
 ### Improve the network
 
 - if you have found a bug in the network, report it to our developers:
-  - [Instructions in the Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:FAQ#how-can-i-report-a-bug)
+  - [Instructions in the wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:FAQ#how-can-i-report-a-bug)
   - [Create an issue in the repository](https://github.com/Ocelot-Social-Community/Ocelot-Social/issues/new/choose)
 - if you would like to contribute good ideas and suggestions for improving the software, please [contact](/en/contact/) us
 
@@ -85,12 +85,12 @@ We are looking for users to test the new functions of the next software version 
 
 ### Do you like writing?
 
-- help write the user guide (→ [Guide in the Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:Wiki:Editor's-Guide)).
+- help write the user guide (→ [Guide in the wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:Wiki:Editor's-Guide)).
 - help maintain the communication channels of the *ocelot.social* software and our developer community [busFaktor() e.V.](https://busfaktor.org/en/) and animate them in a variety of ways
 
 ### Do you speak a foreign language?
 
-The network is available in [several languages](/en/features/#languages). If you would like to help translate, complete or improve the user interface or user [instructions in the Wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:Wiki:Editor's-Guide), please contact us.
+The network is available in [several languages](/en/features/#languages). If you would like to help translate, complete or improve the user interface or user [instructions in the wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:Wiki:Editor's-Guide), please contact us.
 
 ### Would you like to contribute to the design?
 
