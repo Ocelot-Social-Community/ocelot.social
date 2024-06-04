@@ -8,7 +8,7 @@ sidebar: false
 ## Association des développeurs
 
 busFaktor() e.V.  
-Wolfgang Huß, 2e président  
+Wolfgang Huß, vice-président  
 Haferstr. 5c  
 86179 Augsbourg, Allemagne
 

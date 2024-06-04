@@ -8,7 +8,7 @@ title: Impressum
 ## Responsable de l’exploitation de ce site Web
 
 busFaktor() e.V.  
-Wolfgang Huß, 2ème Président  
+Wolfgang Huß, vice-président  
 Haferstr. 5c  
 86179 Augsbourg, Allemagne
 

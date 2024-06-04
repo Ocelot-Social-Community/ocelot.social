@@ -16,7 +16,7 @@ Les fonctionnalités suivantes ont été intégrées jusqu’à présent :
 - créer un message
 - suivre l’utilisateur
 - bloquer l’utilisateur
-- couper le son de l’utilisateur
+- censurer l’utilisateur
 - inviter l’utilisateur
 - signaler un utilisateur, un message ou un commentaire
 - rôles de l’utilisateur : utilisateur, modérateur, administrateur

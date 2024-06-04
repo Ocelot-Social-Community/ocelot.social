@@ -37,8 +37,6 @@ Lors de l’utilisation de notre site web, différents types de données à cara
 
 #### Accès au site web
 
-**Purpose:** We make our website available to the public so that everyone can inform themselves about our association, its activities and offers.
-
 **Objectif :** Nous mettons notre site web à la disposition du public afin que chacun puisse s’informer sur notre association, ses activités et ses offres.
 
 **Données personnelles :** Ces données ne sont pas stockées par nous, mais uniquement utilisées lorsque tu accédes à notre application web.

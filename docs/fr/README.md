@@ -79,7 +79,7 @@ tagLine:
     <HopeIcon icon="home" />
     <figcapture>
       <h3>Hébergement flexible</h3>
-      Tu peux héberger votre réseau vous-même ou le faire héberger par votre fournisseur de services.
+      Tu peux héberger ton réseau toi-même ou le faire héberger par ton fournisseur de services.
     </figcapture>
   </figure>
   <figure>
@@ -102,21 +102,21 @@ tagLine:
 
 <div class="image-grid center">
   <figure>
-    <img src="../de/assets/login.png" alt="Aperçu des messages (newsfeed)" />
+    <img src="../de/assets/login.png" alt="Connexion" />
     <figcapture>
-      Aperçu des messages (newsfeed)
+      Connexion
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/newsfeed.png" alt="Post overview (newsfeed)" />
+    <img src="../de/assets/newsfeed.png" alt="Aperçu des contributions (newsfeed)" />
     <figcapture>
-      Post overview (newsfeed)
+      Aperçu des contributions (newsfeed)
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/single-post.png" alt="Message individuel" />
+    <img src="../de/assets/single-post.png" alt="Article individuel" />
     <figcapture>
-      Message individuel
+      Article individuel
     </figcapture>
   </figure>
   <figure>

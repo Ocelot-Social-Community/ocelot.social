@@ -64,12 +64,12 @@ Si tu asbesoin d’aide, nos développeurs se feront un plaisir de [t’aider](/
 ### Faire connaître le logiciel *ocelot.social*
 
 <!-- markdownlint-disable-next-line no-emphasis-as-heading -->
-*«Répandes la bonne parole !»*
+*«Répand la bonne parole !»*
 
 Qu’il s’agisse d’une association, d’un mouvement ou d’une institution, *ocelot.social* peut être utilisé comme un réseau social pour de nombreux types de groupes et d’organisations.
 
 - publies le lien vers [*ocelot.social*](https://ocelot.social) sur ton site web, ton blog ou tes réseaux sociaux
-- donnes un `Like` au logiciel *ocelot.social* sur la plateforme de comparaison [alternative.to](https://alternativeto.net/software/ocelot-social/about/)
+- donnes un `J’aime` au logiciel *ocelot.social* sur la plateforme de comparaison [alternative.to](https://alternativeto.net/software/ocelot-social/about/)
 - donnes une `Étoile` au logiciel sur la plateforme de développement [GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social)
 
 ### Améliorer le réseau
@@ -112,8 +112,8 @@ Suives notre [documentation](https://docs.ocelot.social/CONTRIBUTING.html) en an
 
 Nos [Good First Issues](https://github.com/Ocelot-Social-Community/Ocelot-Social/labels/good%20first%20issue) sur GitHub conviennent aux débutants.
 
-Nous sommes également heureux que tu consulties, commenties ou apporties des modifications au [code de programme](https://github.com/Ocelot-Social-Community/Ocelot-Social/pulls) d’autres développeurs sur GitHub.
-Ou donnez à [software on GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social) une `Étoile`.
+Nous sommes également heureux que tu consulte, commente ou apporte des modifications au [code](https://github.com/Ocelot-Social-Community/Ocelot-Social/pulls) d’autres développeurs sur GitHub.
+Ou donne une `Étoile` au [code sur GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social).
 
 Tu peux discuter avec nous sur [Discord](https://discord.gg/AJSX9DCSUA) et nous pouvons apprendre à nous connaître lors d’une session de programmation en binôme.
 
