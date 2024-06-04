@@ -195,7 +195,7 @@ tagLine:
   </a>
 </div>
 
-<h2 id="why-foss" class="large-header">Warum freie Open-Source-Software?</h2>
+<!-- <h2 id="why-foss" class="large-header">Warum freie Open-Source-Software?</h2>
 
 <div class="benefits-grid center">
   <figure>
@@ -226,7 +226,7 @@ tagLine:
       Jede Person kann etwas zu ihrem Lieblingsprogramm beitragen, jederzeit. Ich kann das Programm so verwenden, wie ich es am liebsten will.
     </figcapture>
   </figure>
-</div>
+</div> -->
 
 <h2 class="large-header">Probier es aus</h2>
 
