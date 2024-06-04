@@ -1,27 +1,27 @@
 ---
 home: false
 # icon: home
-title: Impressum
+title: Imprint
 sidebar: false
 ---
 
-## Verantwortlich für den Betrieb dieser Website
+## Responsible for the Operation of this Website
 
 busFaktor() e.V.  
-Wolfgang Huß, 2. Vorsitzender  
+Wolfgang Huß, 2nd Chairman  
 Haferstr. 5c  
-86179 Augsburg, Deutschland
+86179 Augsburg, Germany
 
 E-Mail: <vorstand@busfaktor.org>  
 Telefon: +49 173 622 60 91
 
-Weitere [Kontakmöglichkeiten](/de/contact/).
+More [contact options](/en/contact/).
 
-## Inhaltlich verantwortlicher Redakteur
+## Contentwise Responsible Editor
 
 Wolfgang Huß  
 Steinburger Straße 38  
-22527 Hamburg, Deutschland
+22527 Hamburg, Germany
 
 E-Mail: <vorstand@busfaktor.org>  
 Telefon: +49 173 622 60 91

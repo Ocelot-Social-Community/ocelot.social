@@ -1,14 +1,10 @@
 ---
 home: false
-# layout: BlogHome
-icon: home
+# icon: home
 title: Einstieg
-sidebar: true
-tagLine: 
-# actions:
-#   - text: Demo
-#     link: https://stage.ocelot.social/
+sidebar: false
 ---
+
 ## Ausprobieren, dann installieren
 
 Teste die Live-Demo auf

@@ -18,184 +18,186 @@ tagLine:
     <div class="hero-container-content">
       <img id="logo" src="/logo.svg" alt="ocelot.social" />
       <div id="slogan-container">
-        <span id="slogan-1" class="slogan">Freie Open-Source-Software</span>
-        <span id="slogan-2" class="slogan">für dein soziales Netzwerk</span>
+        <span id="slogan-1" class="slogan">Logiciel libre et open source</span>
+        <span id="slogan-2" class="slogan">pour ton réseau social</span>
       </div>
       <a href="#benefits">
         <Button class="hero-button">
-          Entdecke mehr
+          Découvrir plus
         </Button>
       </a>
     </div>
   </div>
 </div>
 
-<h2 id="benefits" class="large-header">Warum Ocelot.Social?</h2>
+<h2 id="benefits" class="large-header">Pourquoi ocelot.social ?</h2>
 
 <div class="benefits-grid center">
   <figure>
     <HopeIcon icon="fa-solid fa-face-smile" />
     <figcapture>
-      <h3>Freie Open-Source-Software</h3>
-      Du kannst die Software nutzen und weiterentwickeln.
+      <h3>Logiciel libre et gratuit</h3>
+      Tu peux utiliser et développer le logiciel.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-people-group" />
     <figcapture>
-      <h3>Für alle</h3>
-      <i>Ocelot.social</i> eignet sich für die Zivilgesellschaft sowie für staatliche und private Organisationen.
+      <h3>Pour tout le monde</h3>
+      <i>Ocelot.social</i> est adapté à la société civile ainsi qu’aux organisations publiques et privées.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-filter" />
     <figcapture>
-      <h3>Selbstbestimmtes Filtern</h3>
-      Du wählst selber, welchen Inhalt du siehst – keine undurchschaubare Auswahl.
+      <h3>Filtrage autodéterminé</h3>
+      Tu choisis le contenu que tu vois – pas de sélection impénétrable.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-gears" />
     <figcapture>
-      <h3>Konfigurierbar</h3>
-      Als Betreiber kannst du das Design und die Funktionen nach deinen Wünschen einstellen.
+      <h3>Configurable</h3>
+      En tant qu’opérateur, tu peux personnaliser le design et les fonctions selon tes souhaits.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-code" />
     <figcapture>
-      <h3>Erweiterbar</h3>
-      Neue Funktionen können hinzuprogrammiert werden, die allen zugute kommen.
+      <h3>Extensible</h3>
+      De nouvelles fonctions peuvent être ajoutées pour le bénéfice de tous.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-up-right-and-down-left-from-center" />
     <figcapture>
-      <h3>Skalierbar</h3>
-      Dank neuster Technik kannst du die Software für alle Netzwerkgrößen einsetzen.
+      <h3>Évolutif</h3>
+      Grâce à la technologie la plus récente, tu peux utiliser le logiciel pour toutes les tailles de réseau.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="home" />
     <figcapture>
-      <h3>Flexibles Hosting</h3>
-      Du kannst dein Netzwerk selber hosten oder von deinem Dienstleister hosten lassen.
+      <h3>Hébergement flexible</h3>
+      Tu peux héberger ton réseau toi-même ou le faire héberger par ton fournisseur de services.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-scale-balanced" />
     <figcapture>
-      <h3>Deine eigenen Regeln</h3>
-      Bestimme die Nutzungsbedingungen für dein Netzwerk selber.
+      <h3>Vos propres règles</h3>
+      Détermines toi-même les conditions d’utilisation de ton réseau.
     </figcapture>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-shuttle-space" />
     <figcapture>
-      <h3>Neueste Technologie</h3>
-      Die Software ist technologisch am Puls der Zeit – flexibel, zuverlässig, performant.
+      <h3>Technologie de pointe</h3>
+      Le logiciel est à la pointe de la technologie – flexible, fiable, performant.
     </figcapture>
   </figure>
 </div>
 
-<h2 id="feature-headline" class="large-header">Wichtigste Funktionen</h2>
+<h2 id="feature-headline" class="large-header">Fonctions les plus importantes</h2>
 
 <div class="image-grid center">
   <figure>
-    <img src="./assets/login.png" alt="Login" />
+    <img src="../de/assets/login.png" alt="Connexion" />
     <figcapture>
-      Login
+      Connexion
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/newsfeed.png" alt="Beitragsübersicht (Newsfeed)" />
+    <img src="../de/assets/newsfeed.png" alt="Aperçu des contributions (newsfeed)" />
     <figcapture>
-      Beitragsübersicht (Newsfeed)
+      Aperçu des contributions (newsfeed)
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/single-post.png" alt="Einzelner Beitrag" />
+    <img src="../de/assets/single-post.png" alt="Article individuel" />
     <figcapture>
-      Einzelner Beitrag
+      Article individuel
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/single-event.png" alt="Einzelne Veranstaltung" />
+    <img src="../de/assets/single-event.png" alt="Événement individuel" />
     <figcapture>
-      Einzelne Veranstaltung
+      Événement individuel
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/user-profile.png" alt="Nutzerprofil" />
+    <img src="../de/assets/user-profile.png" alt="Profil de l’utilisateur" />
     <figcapture>
-      Nutzerprofil
+      Profil de l’utilisateur
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/user-settings.png" alt="Einstellungen des Nutzerkontos" />
+    <img src="../de/assets/user-settings.png" alt="Paramètres du compte utilisateur" />
     <figcapture>
-      Einstellungen des Nutzerkontos
+      Paramètres du compte utilisateur
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/group-list.png" alt="Gruppenübersicht" />
+    <img src="../de/assets/group-list.png" alt="Aperçu du groupe" />
     <figcapture>
-      Gruppenübersicht
+      Aperçu du groupe
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/group-profile.png" alt="Gruppenprofil" />
+    <img src="../de/assets/group-profile.png" alt="Profil du groupe" />
     <figcapture>
-      Gruppenprofil
+      Profil du groupe
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/1-to-1-chat.png" alt="Eins-zu-Eins-Chat" />
+    <img src="../de/assets/1-to-1-chat.png" alt="Chat en tête-à-tête" />
     <figcapture>
-      Eins-zu-Eins-Chat
+      Chat en tête-à-tête
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/notifications.png" alt="Benachrichtigungen" />
+    <img src="../de/assets/notifications.png" alt="Notifications" />
     <figcapture>
-      Benachrichtigungen
+      Notifications
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/map.png" alt="Landkarte" />
+    <img src="../de/assets/map.png" alt="Carte" />
     <figcapture>
-      Landkarte
+      Carte
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/language-selection.png" alt="Mehrsprachigkeit" />
+    <img src="../de/assets/language-selection.png" alt="Multilinguisme" />
     <figcapture>
-      Mehrsprachigkeit
+      Multilinguisme
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/moderation.png" alt="Moderation" />
+    <img src="../de/assets/moderation.png" alt="Modération" />
     <figcapture>
-      Moderation
+      Modération
     </figcapture>
   </figure>
   <figure>
-    <img src="./assets/system-administration.png" alt="Systemverwaltung" />
+    <img src="../de/assets/system-administration.png" alt="Gestion du système" />
     <figcapture>
-      Systemverwaltung
+      Gestion du système
     </figcapture>
   </figure>
 </div>
 
 <div class="all-features">
-  <a id="hero-button" href="/de/features/">
+  <a id="hero-button" href="/fr/features/">
     <Button>
-      Alle Funktionen ansehen
+      Toutes les fonctions
     </Button>
   </a>
 </div>
 
-<!-- <h2 id="why-foss" class="large-header">Warum freie Open-Source-Software?</h2>
+<!-- XXX translate -->
+
+<!-- <h2 id="why-foss" class="large-header">Why free open source software?</h2>
 
 <div class="benefits-grid center">
   <figure>
@@ -228,7 +230,7 @@ tagLine:
   </figure>
 </div> -->
 
-<h2 class="large-header">Probier es aus</h2>
+<h2 class="large-header">Essayes-le</h2>
 
 <!--
 | E-Mail                  | Passwort | Benutzerrolle   |
@@ -240,49 +242,49 @@ tagLine:
 
 <div class="center">
   <p>
-    Teste die Live-Demo auf
+    Testes la démo en direct sur
     <a href="https://stage.ocelot.social" target="_blank">https://stage.ocelot.social</a>
-    mit den folgenden Zugangsdaten:
+    avec les données d’accès suivantes :
   </p>
 
   <table>
     <thead>
       <tr>
-        <th style="text-align:left;">E-Mail</th>
-        <th style="text-align:left;">Passwort</th>
-        <th style="text-align:left;">Benutzerrolle</th>
+        <th style="text-align:left;">Courriel</th>
+        <th style="text-align:left;">Mot de passe</th>
+        <th style="text-align:left;">Rôle de l’utilisateur</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td style="text-align:left;"><code>user@example.org</code></td>
         <td style="text-align:left;">1234</td>
-        <td style="text-align:left;">normaler Nutzer</td>
+        <td style="text-align:left;">utilisateur normal</td>
       </tr>
       <tr>
         <td style="text-align:left;"><code>moderator@example.org</code></td>
         <td style="text-align:left;">1234</td>
-        <td style="text-align:left;">Moderator</td>
+        <td style="text-align:left;">modérateur</td>
       </tr>
       <tr>
         <td style="text-align:left;"><code>admin@example.org</code></td>
         <td style="text-align:left;">1234</td>
-        <td style="text-align:left;">Administrator</td>
+        <td style="text-align:left;">administrateur</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-<h2 class="large-header">Loslegen</h2>
+<h2 class="large-header">Commence</h2>
 
 <div class="center">
   <p>
-    <i>Ocelot.social</i> kannst du auf einem eigenen Server hosten oder es hosten lassen.<br>
-    Schau dir an, welche Möglichkeiten es gibt:
+    Tu peux héberger <i>ocelot.social</i> sur ton propre serveur ou le faire héberger.<br>
+    Jetes un coup d’œil aux options disponibles :
   </p>
-  <a id="hero-button" href="/de/get-started/">
+  <a id="hero-button" href="/fr/get-started/">
     <Button>
-      Los geht’s
+      C’est parti !
     </Button>
   </a>
 </div>
@@ -291,24 +293,24 @@ tagLine:
 
 XXX -->
 
-<h2 class="large-header">Spenden</h2>
+<h2 class="large-header">Faire un don</h2>
 
 <div class="center">
   <p>
-    Die Software <i>ocelot.social</i> ist frei verfügbar – Instandhaltung und Weiterentwicklung kosten hingegen Geld.<br>
-    Hilf uns mit deiner Spende:
+    Le logiciel <i>ocelot.social</i> est libre d’utilisation – par contre la maintenance et le développement coûtent de l’argent.<br>
+    Aides-nous avec ton don :
   </p>
-  <a href="/de/donate/">
+  <a href="/fr/donate/">
     <Button class="donate-button">
-      Hier spenden
+      Faire un don
     </Button>
   </a>
 </div>
 
-<h2 class="large-header">Kontakt</h2>
+<h2 class="large-header">Contact</h2>
 
 <div class="center">
   <p>
-    Hast du Fragen, Anregungen oder Wünsche, nehme gerne <a href="/de/contact/">Kontakt</a> mit uns auf.
+    Si tu as des questions, des suggestions ou des demandes, n’hésites pas à <a href="/fr/contact/">nous contacter</a>.
   </p>
 </div>
