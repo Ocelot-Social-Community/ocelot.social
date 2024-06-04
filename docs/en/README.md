@@ -247,7 +247,32 @@ tagLine:
     with the following access data:
   </p>
 
-  <table><thead><tr><th style="text-align:left;">E-mail</th><th style="text-align:left;">Password</th><th style="text-align:left;">User role</th></tr></thead><tbody><tr><td style="text-align:left;"><code>user@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">normal user</td></tr><tr><td style="text-align:left;"><code>moderator@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">moderator</td></tr><tr><td style="text-align:left;"><code>admin@example.org</code></td><td style="text-align:left;">1234</td><td style="text-align:left;">administrator</td></tr></tbody></table>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left;">E-mail</th>
+        <th style="text-align:left;">Password</th>
+        <th style="text-align:left;">User role</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:left;"><code>user@example.org</code></td>
+        <td style="text-align:left;">1234</td>
+        <td style="text-align:left;">normal user</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;"><code>moderator@example.org</code></td>
+        <td style="text-align:left;">1234</td>
+        <td style="text-align:left;">moderator</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;"><code>admin@example.org</code></td>
+        <td style="text-align:left;">1234</td>
+        <td style="text-align:left;">administrator</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <h2 class="large-header">Get started</h2>
