@@ -275,7 +275,7 @@ tagLine:
   </table>
 </div>
 
-<h2 class="large-header">Commences</h2>
+<h2 class="large-header">Commence</h2>
 
 <div class="center">
   <p>
