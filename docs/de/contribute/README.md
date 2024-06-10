@@ -57,7 +57,7 @@ Für weitere Informationen besuche die Website des Betreibers oder kontaktiere i
 
 ### Betreibe ein eigenes Netzwerk
 
-Mit der freien Software *ocelot.social* und dem nötigen Know-How kannst du ein eigenes Netzwerk betreiben (→ [Dokumentation](https://docs.ocelot.social/deployment/), auf Englisch).
+Mit der freien Software *ocelot.social* und dem nötigen Know-How kannst du ein [eigenes Netzwerk betreiben](/de/get-started/).
 
 Benötigst du dabei Hilfe, dann [unterstützen](/de/contact/) dich unsere Entwickler gerne.
 

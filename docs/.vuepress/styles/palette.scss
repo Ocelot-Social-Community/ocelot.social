@@ -95,10 +95,14 @@ h1, h2, h3, h4 {
 }
 
 .theme-hope-content Button.donate-button {
-  background-color: $theme-color !important;
+  background-color: $theme-color;
   opacity: 0.85 !important;
   border: 0 !important;
   color: white !important;
+
+  html[data-theme="dark"] & {
+    background-color: rgba($theme-color, 0.75) !important;
+  }
 };
 
 .theme-hope-content Button.donate-button:hover {
