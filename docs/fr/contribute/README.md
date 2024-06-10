@@ -57,7 +57,7 @@ Pour plus d’informations, visites le site web de l’opérateur ou contactes-l
 
 ### Gére ton propre réseau
 
-Avec le logiciel gratuit *ocelot.social* et le savoir-faire nécessaire, tu peux gérer ton propre réseau (→ [Documentation](https://docs.ocelot.social/deployment/), en anglais).
+Avec le logiciel gratuit *ocelot.social* et le savoir-faire nécessaire, tu peux [gérer ton propre réseau](/fr/get-started/).
 
 Si tu asbesoin d’aide, nos développeurs se feront un plaisir de [t’aider](/fr/contact/).
 
