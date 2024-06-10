@@ -8,7 +8,9 @@
   "scripts": {
     "build": "vuepress build docs",
     "dev": "vuepress dev docs",
-    "test": "textlint \"*.md\" \"docs/**/*.md\""
+    "test": "npm run test:lint",
+    "test:lint": "textlint \"*.md\" \"docs/**/*.md\"",
+    "test:lint:fix": "textlint \"*.md\" \"docs/**/*.md\" --fix"
   },
   "repository": {
     "type": "git",

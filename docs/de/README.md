@@ -30,7 +30,7 @@ tagLine:
   </div>
 </div>
 
-<h2 id="benefits" class="large-header">Warum Ocelot.Social?</h2>
+<h2 id="benefits" class="large-header">Warum ocelot.social?</h2>
 
 <div class="benefits-grid center">
   <figure>

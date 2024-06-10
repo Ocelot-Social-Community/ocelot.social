@@ -14,13 +14,12 @@ Click on the area that interests you:
 
 - [Support your network](#support-your-network)
 - [Operate your own network](#operate-your-own-network)
-- [Make the *ocelot.social* software known](#make-the-ocelot-social-software-known)
+- [Promote *ocelot.social*](#promote-ocelot-social)
 - [Improve the network](#improve-the-network)
 - [Would you like to help test new functions?](#would-you-like-to-help-test-new-functions)
 - [Do you like writing?](#do-you-like-writing)
 - [Do you speak a foreign language?](#do-you-speak-a-foreign-language)
 - [Do you like organizing?](#do-you-like-organizing)
-- [Organisierst du gerne?](#organisierst-du-gerne)
 - [Help develop the software](#help-develop-the-software)
 - [Other ideas for getting involved?](#other-ideas-for-getting-involved)
 - [Donate](#donate)
@@ -57,11 +56,11 @@ For more information, visit the operator’s website or contact them.
 
 ### Operate your own network
 
-With the free software *ocelot.social* and the necessary know-how, you can run your own network (→ [Documentation](https://docs.ocelot.social/deployment/)).
+With the free software *ocelot.social* and the necessary know-how, you can run [your own network](/en/get-started/).
 
 If you need help with this, our developers will be happy to [support](/en/contact/) you.
 
-### Make the *ocelot.social* software known
+### Promote *ocelot.social*
 
 <!-- markdownlint-disable-next-line no-emphasis-as-heading -->
 *“Spread the word!”*
