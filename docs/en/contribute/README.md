@@ -1,9 +1,10 @@
 ---
 home: false
-# layout: BlogHome
 # icon: home
-title: Contribute
 sidebar: false
+lang: en-US
+title: Contribute | Ocelot.Social, software for social networks
+description: Contribute to the ocelot.social community by sharing your ideas, feedback and suggestions and by enhancing this open source software for social networks.
 ---
 
 ## How can you contribute, participate and support?

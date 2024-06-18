@@ -1,8 +1,10 @@
 ---
 home: false
 # icon: home
-title: Contact
 sidebar: false
+lang: en-US
+title: Contact | Ocelot.Social, software for social networks
+description: Have a question or feedback for ocelot.social, the free and open source software for social networks? Contact us for assistance or to share your thoughts!
 ---
 
 ## Developer Association

@@ -1,8 +1,10 @@
 ---
 home: false
 # icon: home
-title: Imprint
 sidebar: false
+lang: en-US
+title: Imprint | Ocelot.Social, software for social networks
+description: Get to know more about ocelot.social, including who we are and how to reach us. Check out our imprint for project information and contacts.
 ---
 
 ## Responsible for the Operation of this Website
