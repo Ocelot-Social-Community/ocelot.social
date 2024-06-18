@@ -1,8 +1,10 @@
 ---
 home: false
-icon: home
-title: Funktionen
+# icon: home
 sidebar: false
+lang: de-DE
+title: Funktionen | Ocelot.Social, Software für soziale Netzwerke
+description: Entdecke die vielen Funktionen von ocelot.social, einer freien, modernen und erweiterbaren Open-Source-Software für soziale Netzwerke jeder Größe.
 ---
 
 *Ocelot.social* bietet eine wachsende Vielzahl elementarer und weiterführender Netzwerkfunktionen,

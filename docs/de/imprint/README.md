@@ -1,8 +1,10 @@
 ---
 home: false
 # icon: home
-title: Impressum
 sidebar: false
+lang: de-DE
+title: Impressum | Ocelot.Social, Software für soziale Netzwerke
+description: Erfahre mehr über ocelot.social, wer wir sind und wie du uns erreichst. In unserem Impressum findest du Informationen zum Projekt sowie Kontakte.
 ---
 
 ## Verantwortlich für den Betrieb dieser Website

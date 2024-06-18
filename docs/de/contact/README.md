@@ -1,14 +1,12 @@
 ---
 home: false
-# layout: BlogHome
-icon: home
-title: Kontakt
+# icon: home
 sidebar: false
-tagLine: 
-# actions:
-#   - text: Demo
-#     link: https://stage.ocelot.social/
+lang: de-DE
+title: Kontakt | Ocelot.Social, Software für soziale Netzwerke
+description: Hast du eine Frage oder ein Feedback zu ocelot.social, der freien Open-Source-Software für soziale Netzwerke jeder Größe? Kontaktiere uns gerne!
 ---
+
 ## Entwickler-Verein
 
 busFaktor() e.V.  

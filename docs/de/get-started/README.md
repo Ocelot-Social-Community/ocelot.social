@@ -1,8 +1,10 @@
 ---
 home: false
 # icon: home
-title: Einstieg
 sidebar: false
+lang: de-DE
+title: Einstieg | Ocelot.Social, Software für soziale Netzwerke
+description: Bereit für dein eigenes soziales Netzwerk? Erfahre, wie du die ocelot.social-Software zum Selberhosten oder bei einem Anbieter deiner Wahl installierst.
 ---
 
 ## Ausprobieren, dann installieren
