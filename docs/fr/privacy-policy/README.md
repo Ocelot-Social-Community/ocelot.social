@@ -1,8 +1,10 @@
 ---
 home: false
 # icon: home
-title: Déclaration de protection des données
 sidebar: false
+lang: fr-FR
+title: Protection des données | Ocelot.Social, logiciel pour réseaux sociaux
+description: Découvres notre engagement à protéger ta vie privée sur notre site web. Veux bien lire notre déclaration de protection des données.
 ---
 
 Mise à jour le 20 mai 2024

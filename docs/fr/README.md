@@ -1,15 +1,9 @@
 ---
 home: true
-# layout: BlogHome
 icon: home
-# title: Ocelot.Social
-heroFullScreen: false
-# heroImage: /logo.svg
-# heroText: Das freie soziale Open-Source-Netzwerk für eine aktive Zivilgesellschaft.
-tagLine: 
-# actions:
-#   - text: Demo
-#     link: https://stage.ocelot.social/
+lang: fr-FR
+title: Ocelot.Social - Logiciel libre pour ton réseau social
+description: Un logiciel libre et open source avec lequel tu peux gérer un réseau social pour ton groupe - évolutif, extensible et également pour l'auto-hébergement.
 ---
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
