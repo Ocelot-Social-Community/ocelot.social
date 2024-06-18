@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: en-US
-title: Features | Ocelot.Social, software for social networks
+title: Features
 description: Discover the many functions of ocelot.social, a state-of-the-art, extensible and free open source software designed to run your social network of any size.
 ---
 

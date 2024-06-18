@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: en-US
-title: Privacy Policy | Ocelot.Social, software for social networks
+title: Privacy Policy
 description: Learn about our commitment to protecting your privacy on our website. Please read our privacy policy to understand how we handle your data.
 ---
 

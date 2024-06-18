@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: fr-FR 
-title: Fonctions | Ocelot.Social, logiciel libre pour réseaux sociaux
+title: Fonctions
 description: Découvres les nombreuses fonctions d'ocelot.social, un logiciel libre, open-source et extensible, conçu pour gérer ton réseaux sociaux de toute taille.
 ---
 

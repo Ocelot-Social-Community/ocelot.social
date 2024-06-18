@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: fr-FR
-title: Commencer | Ocelot.Social, logiciel pour réseaux sociaux
+title: Commencer
 description: Prêt à démarrer ton propre réseau social ? Apprends à installer le logiciel ocelot.social pour un auto-hébergement ou chez un fournisseur de ton choix.
 ---
 

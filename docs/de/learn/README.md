@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: de-DE
-title: Lernen | Ocelot.Social, Software für soziale Netzwerke
+title: Lernen
 description:  Erweitere dein Wissen mit den Ressourcen von ocelot.social! Entdecke die FAQs und finde die Benutzeranleitung und die Installationsanleitung der Software.
 ---
 

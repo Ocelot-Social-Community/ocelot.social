@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: en-US
-title: Donate | Ocelot.Social, software for social networks
+title: Donate
 description: Support the ocelot.social open source software by making a donation. Your contribution helps us continue to provide, maintain and enhance this software.
 ---
 

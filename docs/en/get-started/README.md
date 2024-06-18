@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: en-US
-title: Get Started | Ocelot.Social, software for social networks
+title: Get Started
 description: Ready to get started with your own social network? Learn how to install the ocelot.social software for self-hosting or at a provider of your choice.
 ---
 

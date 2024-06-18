@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: true
 lang: de-DE
-title: Mitmachen | Ocelot.Social, Software für soziale Netzwerke
+title: Mitmachen
 description: Trage zur ocelot.social-Community bei, indem du Ideen, Feedback und Vorschläge einbringst und die Open-Source-Software für soziale Netzwerke verbesserst.
 ---
 

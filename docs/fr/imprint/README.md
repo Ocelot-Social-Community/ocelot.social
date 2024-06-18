@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: fr-FR
-title: Impressum | Ocelot.Social, logiciel pour réseaux sociaux
+title: Impressum
 description: Découvres ocelot.social, qui nous sommes et comment nous joindre. Consultes cette page pour obtenir des informations sur ce projet et ses contacts.
 ---
 

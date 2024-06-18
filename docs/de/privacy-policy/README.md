@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: de-DE
-title: Datenschutz | Ocelot.Social, Software für soziale Netzwerke
+title: Datenschutz
 description: In unserer Datenschutzerklärung erfahrst du mehr über unsere Verpflichtung zum Schutz deiner Daten beim Besuch unserer Website.
 ---
 

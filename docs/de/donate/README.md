@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: de-DE
-title: Spenden | Ocelot.Social, Software für soziale Netzwerke
+title: Spenden
 description:  Unterstütze die Open-Source-Software ocelot.social durch eine Spende. Dein Beitrag hilft uns, die Software bereitzustellen, zu pflegen und zu verbessern.
 ---
 

@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: fr-FR
-title: Apprendre | Ocelot.Social, logiciel pour réseaux sociaux
+title: Apprendre
 description: Développes tes connaissances grâce aux ressources d'ocelot.social ! Explores les FAQ et trouves le guide de l'utilisateur et d'installation du logiciel.
 ---
 

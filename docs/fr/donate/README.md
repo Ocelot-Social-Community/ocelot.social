@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: fr-FR
-title: Donner | Ocelot.Social, logiciel pour réseaux sociaux
+title: Donner
 description: Soutiens le logiciel open source ocelot.social en faisant un don. Ta contribution nous aide à continuer à fournir, maintenir et améliorer ce logiciel.
 ---
 

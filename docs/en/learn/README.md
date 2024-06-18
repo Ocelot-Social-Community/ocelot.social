@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: en-US
-title: Learn | Ocelot.Social, software for social networks
+title: Learn
 description: Expand your knowledge with ocelot.social's learning resources! Explore FAQs and find a user guide and instructions on how to install the software.
 ---
 

@@ -3,7 +3,7 @@ home: false
 # icon: home
 sidebar: false
 lang: fr-FR
-title: Contribuer | Ocelot.Social, logiciel pour réseaux sociaux
+title: Contribuer
 description: Contribues à la communauté ocelot.social en partageant tes idées et suggestions et en améliorant ce logiciel libre et open source pour les réseaux sociaux.
 ---
 
