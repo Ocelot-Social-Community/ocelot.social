@@ -93,11 +93,11 @@ La red está disponible en [varios idiomas](/en/features/#languages). Si deseas 
 
 ### ¿Te gustaría contribuir al diseño?
 
-[Contáctanos](/en/contact/) para mejorar el diseño y la usabilidad de la red.
+[Contáctanos](/es/contact/) para mejorar el diseño y la usabilidad de la red.
 
 ### ¿Te gusta organizar?
 
-[Contáctanos](/en/contact/) si te gustaría…
+[Contáctanos](/es/contact/) si te gustaría…
 
 … crear conceptos para nuevas funciones,  
 … ayudar a organizar la financiación del desarrollo de nuevas funciones  
@@ -132,4 +132,3 @@ Puedes apoyarnos con una donación:
   </Button>
 </a>
 <!-- markdownlint-enable MD033 -->
-```

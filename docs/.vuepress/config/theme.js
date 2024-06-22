@@ -86,6 +86,39 @@ export default hopeTheme({
         },
       ],
     },
+    '/es/': {
+      lang: 'es', // se establecerá como el atributo lang en <html>
+      title: 'Ocelot.Social',
+      description: 'Ocelot.Social: software libre y de código abierto para crear y gestionar tu propia red social.',
+      copyright: '&copy; por <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Amigos | <a href="/en/imprint/">Aviso legal</a> | <a href="/en/privacy-policy/">Política de Privacidad</a>',
+      footer: 'Liberado bajo la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->Licencia MIT<!--]--><!----></a>.',
+      navbar: [
+        {
+          text: 'Funcionalidades',
+          link: '/es/features/'
+        },
+        {
+          text: 'Empezar',
+          link: '/es/get-started/'
+        },
+        {
+          text: 'Contribuir',
+          link: '/es/contribute/'
+        },
+        { 
+          text: 'Aprender',
+          link: '/es/learn/' ,
+        },
+        {
+          text: 'Donar',
+          link: '/es/donate/'
+        },
+        {
+          text: 'Contacto',
+          link: '/es/contact/'
+        },
+      ],
+    },
     '/fr/': {
       lang: 'fr-FR',
       title: 'Ocelot.Social',
@@ -141,6 +174,7 @@ export default hopeTheme({
       localeConfig: {
         '/de/': ['de-DE', 'de'],
         '/en/': ['en-US', 'en'],
+        '/es/': ['es-ES', 'es'],
         '/fr/': ['fr-FR', 'fr'],
       },
       localeFallback: false,
