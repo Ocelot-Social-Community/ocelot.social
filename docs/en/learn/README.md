@@ -1,11 +1,13 @@
 ---
 home: false
 # icon: home
-title: Learn
 sidebar: false
+lang: en-US
+title: Learn
+description: Expand your knowledge with ocelot.social's learning resources! Explore FAQs and find a user guide and instructions on how to install the software.
 ---
 
-<!-- ## XXX -->
+<!-- ## X -->
 
 As a user, operator or developer, you can find more information about *ocelot.social* here.
 

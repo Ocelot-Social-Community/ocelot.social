@@ -1,8 +1,10 @@
 ---
 home: false
 # icon: home
-title: Privacy Policy
 sidebar: false
+lang: en-US
+title: Privacy Policy
+description: Learn about our commitment to protecting your privacy on our website. Please read our privacy policy to understand how we handle your data.
 ---
 
 Updated on May 20, 2024

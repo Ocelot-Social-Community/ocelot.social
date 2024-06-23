@@ -1,11 +1,13 @@
 ---
 home: false
 # icon: home
-title: Lernen
 sidebar: false
+lang: de-DE
+title: Lernen
+description:  Erweitere dein Wissen mit den Ressourcen von ocelot.social! Entdecke die FAQs und finde die Benutzeranleitung und die Installationsanleitung der Software.
 ---
 
-<!-- ## XXX -->
+<!-- ## X -->
 
 Hier findest du als Nutzer, Betreiber und Entwickler weitere Informationen zu *ocelot.social*.
 

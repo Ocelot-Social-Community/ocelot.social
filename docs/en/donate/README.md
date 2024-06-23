@@ -1,8 +1,10 @@
 ---
 home: false
 # icon: home
-title: Donate
 sidebar: false
+lang: en-US
+title: Donate
+description: Support the ocelot.social open source software by making a donation. Your contribution helps us continue to provide, maintain and enhance this software.
 ---
 
 *Ocelot.social* is open source software that is freely available.

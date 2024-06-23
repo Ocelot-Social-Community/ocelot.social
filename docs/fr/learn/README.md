@@ -1,11 +1,13 @@
 ---
 home: false
 # icon: home
-title: Apprendre
 sidebar: false
+lang: fr-FR
+title: Apprendre
+description: Développes tes connaissances grâce aux ressources d'ocelot.social ! Explores les FAQ et trouves le guide de l'utilisateur et d'installation du logiciel.
 ---
 
-<!-- ## XXX -->
+<!-- ## X -->
 
 En tant qu’utilisateur, opérateur et développeur, tu peux trouver plus d’informations sur *ocelot.social* ici.
 
