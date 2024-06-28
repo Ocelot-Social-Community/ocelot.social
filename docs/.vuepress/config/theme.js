@@ -119,6 +119,7 @@ export default hopeTheme({
         },
       ],
     },
+    
     '/fr/': {
       lang: 'fr-FR',
       title: 'Ocelot.Social',
@@ -153,6 +154,7 @@ export default hopeTheme({
       ],
     }
   },
+  
   plugins: {
     blog: {
       excerptLength: 0,

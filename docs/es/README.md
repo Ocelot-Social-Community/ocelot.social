@@ -37,7 +37,7 @@ tagLine:
     <HopeIcon icon="fa-solid fa-face-smile" />
     <figcapture>
       <h3>Software libre y de código abierto</h3>
-      Puedes usar y desarrollar más la software.
+      Puedes usar y desarrollar más el software.
     </figcapture>
   </figure>
   <figure>
