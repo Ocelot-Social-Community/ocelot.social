@@ -27,11 +27,15 @@ E-mail: <vorstand@busfaktor.org>
 
 ### Aplicaciones y Servicios
 
+<!-- textlint-disable -->
 Al utilizar nuestros servicios, se procesan diferentes tipos de datos personales de manera distinta. A continuación, le informaremos sobre las aplicaciones y servicios para los cuales hay procesamiento, qué datos personales están involucrados, el propósito del procesamiento respectivo, cuánto tiempo se almacenan los datos y mucho más.
+<!-- textlint-enable -->
 
 ### Sitio Web
 
+<!-- textlint-disable -->
 Al utilizar nuestro sitio web, se procesan diferentes tipos de datos personales de diferentes maneras. A continuación, le informaremos sobre los tipos de procesamiento, qué datos personales se ven afectados en cada caso, cuál es el propósito del procesamiento respectivo, cuánto tiempo se almacenan los datos en cada caso y mucho más.
+<!-- textlint-enable -->
 
 #### Acceso al Sitio Web
 
