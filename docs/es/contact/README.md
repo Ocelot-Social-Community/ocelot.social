@@ -5,12 +5,12 @@ title: Contacto
 sidebar: false
 ---
 
-## Developer Association
+## Asociación de desarrolladores
 
 busFaktor() e.V.  
-Wolfgang Huß, 2nd chairman  
+Wolfgang Huß, 2º Presidente  
 Haferstr. 5c  
-86179 Augsburg, Germany
+86179 Augsburg, Alemania
 
 Teléfono: +49 173 622 60 91  
 Discord: <https://discord.gg/2b55aHVgpM>
