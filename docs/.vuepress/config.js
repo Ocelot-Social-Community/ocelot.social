@@ -27,6 +27,9 @@ export default defineUserConfig({
     '/en/': {
       lang: 'en-EN',
     },
+    '/es/': {
+      lang: 'es-ES',
+    },
     '/fr/': {
       lang: 'fr-FR',
     },
