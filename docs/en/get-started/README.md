@@ -1,8 +1,10 @@
 ---
 home: false
 # icon: home
-title: Get Started
 sidebar: false
+lang: en-US
+title: Get Started
+description: Ready to get started with your own social network? Learn how to install the ocelot.social software for self-hosting or at a provider of your choice.
 ---
 
 ## Try it out, then install it

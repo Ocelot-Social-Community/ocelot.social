@@ -1,9 +1,10 @@
 ---
 home: false
-# layout: BlogHome
 # icon: home
-title: Mitmachen
 sidebar: true
+lang: de-DE
+title: Mitmachen
+description: Trage zur ocelot.social-Community bei, indem du Ideen, Feedback und Vorschläge einbringst und die Open-Source-Software für soziale Netzwerke verbesserst.
 ---
 
 ## Wie kannst du beitragen, mitmachen und unterstützen?

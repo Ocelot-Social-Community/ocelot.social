@@ -2,7 +2,9 @@
 home: false
 # icon: home
 sidebar: false
+lang: fr-FR
 title: Impressum
+description: Découvres ocelot.social, qui nous sommes et comment nous joindre. Consultes cette page pour obtenir des informations sur ce projet et ses contacts.
 ---
 
 ## Responsable de l’exploitation de ce site Web
