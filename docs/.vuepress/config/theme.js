@@ -119,7 +119,39 @@ export default hopeTheme({
         },
       ],
     },
-    
+    '/eu/': {
+      lang: 'eu', // <html> etiketan lang atributoa hau izango da
+      title: 'Ocelot.Social',
+      description: 'Ocelot.Social – Zure sare sozial propioa sortzeko eta kudeatzeko software librea eta irekia.',
+      copyright: '&copy; <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Lagunak | <a href="/eu/imprint/">Inprimakia</a> | <a href="/eu/privacy-policy/">Pribatutasun Politika</a>',
+      footer: '<a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT Lizentzia</a>.',
+      navbar: [
+        {
+          text: 'Ezaugarriak',
+          link: '/eu/features/'
+        },
+        {
+          text: 'Hasi',
+          link: '/eu/get-started/'
+        },
+        {
+          text: 'Parte hartu',
+          link: '/eu/contribute/'
+        },
+        { 
+          text: 'Ikasi',
+          link: '/eu/learn/',
+        },
+        {
+          text: 'Dohaintza',
+          link: '/eu/donate/'
+        },
+        {
+          text: 'Kontaktatu',
+          link: '/eu/contact/'
+        },
+      ],
+    },
     '/fr/': {
       lang: 'fr-FR',
       title: 'Ocelot.Social',
@@ -177,6 +209,7 @@ export default hopeTheme({
         '/de/': ['de-DE', 'de'],
         '/en/': ['en-US', 'en'],
         '/es/': ['es-ES', 'es'],
+        '/eu/': ['eu-EU', 'eu'],
         '/fr/': ['fr-FR', 'fr'],
       },
       localeFallback: false,

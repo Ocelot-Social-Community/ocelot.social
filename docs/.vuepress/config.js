@@ -30,6 +30,9 @@ export default defineUserConfig({
     '/es/': {
       lang: 'es-ES',
     },
+    '/eu/': {
+      lang: 'eu-EU',
+    },
     '/fr/': {
       lang: 'fr-FR',
     },
