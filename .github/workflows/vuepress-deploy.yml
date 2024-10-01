@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938 # v4.1.7
 
     - name: Setup Node 20
-      uses: actions/setup-node@97ca147735c170fb35096b39ef17a0fc5d9270ac # v4.0.3
+      uses: actions/setup-node@aca7b64a59c0063db8564e0ffdadd3887f1cbae5 # v4.0.3
       with:
         node-version: 20
 
