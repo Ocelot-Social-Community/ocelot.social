@@ -23,7 +23,7 @@ jobs:
       #   VUEPRESS_BASE: '/ocelot.social/'
 
     - name: Deploy Vuepress to Github Pages
-      uses: crazy-max/ghaction-github-pages@08f571653184e9ff3d598bdda53ffd4ed00ed562 # v4.0.0
+      uses: crazy-max/ghaction-github-pages@fbf0a4fa4e00f45accd6cf3232368436ec06ed59 # v4.0.0
       with:
         target_branch: gh-pages
         build_dir: docs/.vuepress/dist
