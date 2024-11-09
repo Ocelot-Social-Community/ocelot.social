@@ -21,7 +21,7 @@
   },
   "homepage": "https://ocelot.social",
   "devDependencies": {
-    "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.3",
+    "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "@vuepress/bundler-vite": "^2.0.0-rc.18",
     "@vuepress/plugin-redirect": "^2.0.0-rc.60",
     "textlint": "^14.3.0",
