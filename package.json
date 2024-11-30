@@ -23,7 +23,7 @@
   "devDependencies": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "@vuepress/bundler-vite": "^2.0.0-rc.18",
-    "@vuepress/plugin-redirect": "^2.0.0-rc.60",
+    "@vuepress/plugin-redirect": "^2.0.0-rc.61",
     "textlint": "^14.3.0",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-apostrophe": "^2.0.0",
