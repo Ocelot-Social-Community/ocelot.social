@@ -1,4 +1,4 @@
-# ocelot.social Website
+# ocelot.social  Website
 
 This repository contains the Website <https://ocelot.social> utilizing `vuepress` to generate it.
 
