@@ -166,6 +166,9 @@ export default hopeTheme({
     blog: {
       excerptLength: 0,
     },
+    icon: {
+      assets: "fontawesome",
+    },
     markdownImage: {
       lazyload: true,
       mark: true,
@@ -191,5 +194,4 @@ export default hopeTheme({
       hostname: 'https://ocelot.social/'
     }
   },
-  iconAssets: "fontawesome",
 })
