@@ -169,11 +169,6 @@ export default hopeTheme({
     icon: {
       assets: "fontawesome",
     },
-    markdownImage: {
-      lazyload: true,
-      mark: true,
-      size: true,
-    },
     redirect: {
       autoLocale: true,
       defaultBehavior: 'defaultLocale',

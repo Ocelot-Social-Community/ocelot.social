@@ -1,6 +1,7 @@
-import { getDirname, path } from "vuepress/utils"
+import { getDirname, path } from 'vuepress/utils'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
 
 import meta from './config/meta'
 import theme from './config/theme'
@@ -33,5 +34,12 @@ export default defineUserConfig({
     '/fr/': {
       lang: 'fr-FR',
     },
-  }
+  },
+  plugins: [
+    markdownImagePlugin({
+      lazyload: true,
+      mark: true,
+      size: true,
+    }),
+  ],
 })
