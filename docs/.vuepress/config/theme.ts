@@ -163,9 +163,6 @@ export default hopeTheme({
   },
   
   plugins: {
-    blog: {
-      excerptLength: 0,
-    },
     icon: {
       assets: "fontawesome",
     },
