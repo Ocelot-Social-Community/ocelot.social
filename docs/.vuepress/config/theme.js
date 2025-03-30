@@ -17,6 +17,13 @@ export default hopeTheme({
     center: ["Links"],
     end: ["Language", "Repo", "Outlook", "Search"],
   },
+  markdown: {
+    align: true,
+    demo: true,
+    sub: true,
+    sup: true,
+    vPre: true,
+  },
   locales:{
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
@@ -163,13 +170,6 @@ export default hopeTheme({
       lazyload: true,
       mark: true,
       size: true,
-    },
-    mdEnhance: {
-      align: true,
-      demo: true,
-      sub: true,
-      sup: true,
-      vPre: true,
     },
     redirect: {
       autoLocale: true,
