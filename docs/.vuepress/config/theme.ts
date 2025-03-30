@@ -17,6 +17,16 @@ export default hopeTheme({
     center: ["Links"],
     end: ["Language", "Repo", "Outlook", "Search"],
   },
+  markdown: {
+    align: true,
+    demo: true,
+    imgLazyload: true,
+    imgMark: true,
+    imgSize: true,
+    sub: true,
+    sup: true,
+    vPre: true,
+  },
   locales:{
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
@@ -156,18 +166,8 @@ export default hopeTheme({
   },
   
   plugins: {
-    blog: {
-      excerptLength: 0,
-    },
-    mdEnhance: {
-      align: true,
-      demo: true,
-      imgLazyload: true,
-      imgMark: true,
-      imgSize: true,
-      sub: true,
-      sup: true,
-      vPre: true,
+    icon: {
+      assets: "fontawesome",
     },
     redirect: {
       autoLocale: true,
@@ -181,24 +181,12 @@ export default hopeTheme({
       },
       localeFallback: false,
     },
-    searchPro: {
-      indexContent: true,
-      autoSuggestions: true,
-      customFields: [
-        {
-          getter: (page) => page.frontmatter.category,
-          formatter: "Category: $content",
-        },
-        {
-          getter: (page) => page.frontmatter.tag,
-          formatter: "Tag: $content",
-        },
-      ],
+    slimsearch: {
+      indexContent: true
     },
-    seo: {
-      fallbackImage: '/logo.svg',
-      hostname: 'https://ocelot.social/'
-    }
+    // seo: {
+    //   fallBackImage: '/logo.svg',
+    //   hostname: 'https://ocelot.social/'
+    // }
   },
-  iconAssets: "fontawesome",
 })

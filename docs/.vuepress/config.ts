@@ -1,4 +1,4 @@
-import { getDirname, path } from "vuepress/utils"
+import { getDirname, path } from 'vuepress/utils'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
@@ -33,5 +33,5 @@ export default defineUserConfig({
     '/fr/': {
       lang: 'fr-FR',
     },
-  }
+  },
 })
