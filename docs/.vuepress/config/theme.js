@@ -159,12 +159,14 @@ export default hopeTheme({
     blog: {
       excerptLength: 0,
     },
+    markdownImage: {
+      lazyload: true,
+      mark: true,
+      size: true,
+    },
     mdEnhance: {
       align: true,
       demo: true,
-      imgLazyload: true,
-      imgMark: true,
-      imgSize: true,
       sub: true,
       sup: true,
       vPre: true,
