@@ -20,6 +20,9 @@ export default hopeTheme({
   markdown: {
     align: true,
     demo: true,
+    imgLazyload: true,
+    imgMark: true,
+    imgSize: true,
     sub: true,
     sup: true,
     vPre: true,
