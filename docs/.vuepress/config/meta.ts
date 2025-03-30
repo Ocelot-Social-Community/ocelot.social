@@ -1,8 +1,10 @@
+import { HeadConfig } from 'vuepress'
+
 export default {
   title: 'Ocelot.Social',
   description: 'Free and open source software to create and run your own social network',
-  author: 'busFaktor() e.V.',
+  // author: 'busFaktor() e.V.',
   head: [
-    ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1'}]
-  ],
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1' }],
+  ] as HeadConfig[],
 }
