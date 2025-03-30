@@ -181,9 +181,9 @@ export default hopeTheme({
     slimsearch: {
       indexContent: true
     },
-    seo: {
-      fallbackImage: '/logo.svg',
-      hostname: 'https://ocelot.social/'
-    }
+    // seo: {
+    //   fallBackImage: '/logo.svg',
+    //   hostname: 'https://ocelot.social/'
+    // }
   },
 })
