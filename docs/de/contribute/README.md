@@ -1,6 +1,6 @@
 ---
 home: false
-# icon: home
+article: false
 sidebar: true
 lang: de-DE
 title: Mitmachen
