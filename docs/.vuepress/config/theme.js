@@ -28,6 +28,10 @@ export default hopeTheme({
       footer: 'Unter der <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT Lizenz<!--]--><!----></a> ausgeliefert.',
       navbar: [
         {
+          text: 'News',
+          link: '/de/news/'
+        },
+        {
           text: 'Funktionen',
           link: '/de/features/'
         },
@@ -60,6 +64,10 @@ export default hopeTheme({
       copyright: '&copy; by <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Friends | <a href="/en/imprint/">Imprint</a> | <a href="/en/privacy-policy/">Privacy Policy</a>',
       footer: 'Released under the <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT License<!--]--><!----></a>.',
       navbar: [
+        {
+          text: 'News',
+          link: '/en/news/'
+        },
         {
           text: 'Features',
           link: '/en/features/'
@@ -94,6 +102,10 @@ export default hopeTheme({
       footer: 'Liberado bajo la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->Licencia MIT<!--]--><!----></a>.',
       navbar: [
         {
+          text: 'Noticias',
+          link: '/es/news/'
+        },
+        {
           text: 'Funcionalidades',
           link: '/es/features/'
         },
@@ -127,6 +139,10 @@ export default hopeTheme({
       copyright: '&copy; par <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & amis | <a href="/fr/imprint/">Mentions légales</a> | <a href="/fr/privacy-policy/">Protection des données</a>',
       footer: 'Publié sous la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->licence MIT<!--]--><!----></a>.',
       navbar: [
+        {
+          text: 'Actualités',
+          link: '/fr/news/'
+        },
         {
           text: 'Fonctionnalités',
           link: '/fr/features/'
