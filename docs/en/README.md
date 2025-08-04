@@ -1,5 +1,6 @@
 ---
 home: true
+article: false
 icon: home
 lang: en-US
 title: Ocelot.Social - Free software for your social network

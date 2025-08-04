@@ -1,6 +1,6 @@
 ---
 home: false
-# icon: home
+article: false
 sidebar: false
 lang: en-US
 title: Imprint

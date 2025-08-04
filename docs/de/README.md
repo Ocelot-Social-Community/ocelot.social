@@ -1,5 +1,6 @@
 ---
 home: true
+article: false
 icon: home
 sidebar: false
 lang: de-DE
