@@ -5,5 +5,5 @@ layout: Blog
 sidebar: false
 lang: de-DE
 title: News
-description: XXX
+description: Hier findest du alle Neuigkeiten zur Open-Source-Software ocelot.social.
 ---
