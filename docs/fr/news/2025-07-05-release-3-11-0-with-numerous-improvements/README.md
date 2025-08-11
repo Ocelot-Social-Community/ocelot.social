@@ -9,16 +9,16 @@ category:
 tag:
   - Releases
 title: "Version 3.11.0 avec de nombreuses améliorations"
-description: "Cette version du logiciel ocelot.social améliore la stabilité et l'utilisation du chat et corrige quelques bugs."
+description: "Cette version du logiciel ocelot.social améliore la stabilité et l’utilisation du chat et corrige quelques bugs."
 ---
 
-Cette version du logiciel *ocelot.social* améliore la stabilité et l'utilisation du chat.
+Cette version du logiciel *ocelot.social* améliore la stabilité et l’utilisation du chat.
 De plus, plusieurs bugs ont été corrigés.
 
-## L'essentiel en bref
+## L’essentiel en bref
 
 - Chat:
-  - Correction d'un bug dans le lecteur vidéo du navigateur Safari
+  - Correction d’un bug dans le lecteur vidéo du navigateur Safari
   - Plus de messages vides lorsque le téléchargement de fichiers échoue
   - Afficher une note textuelle lors du téléchargement de fichiers
 - Autres erreurs corrigées
