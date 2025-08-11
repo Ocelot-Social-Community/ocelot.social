@@ -1,5 +1,6 @@
 ---
 home: true
+article: false
 icon: home
 lang: fr-FR
 title: Ocelot.Social - Logiciel libre pour ton réseau social
