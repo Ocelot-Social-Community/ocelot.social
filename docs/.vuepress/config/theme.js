@@ -28,6 +28,10 @@ export default hopeTheme({
       footer: 'Unter der <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT Lizenz<!--]--><!----></a> ausgeliefert.',
       navbar: [
         {
+          text: 'News',
+          link: '/de/news/'
+        },
+        {
           text: 'Funktionen',
           link: '/de/features/'
         },
@@ -61,6 +65,10 @@ export default hopeTheme({
       footer: 'Released under the <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->MIT License<!--]--><!----></a>.',
       navbar: [
         {
+          text: 'News',
+          link: '/en/news/'
+        },
+        {
           text: 'Features',
           link: '/en/features/'
         },
@@ -87,12 +95,16 @@ export default hopeTheme({
       ],
     },
     '/es/': {
-      lang: 'es', // se establecerá como el atributo lang en <html>
+      lang: 'es-ES', // se establecerá como el atributo lang en <html>
       title: 'Ocelot.Social',
       description: 'Ocelot.Social: software libre y de código abierto para crear y gestionar tu propia red social.',
       copyright: '&copy; por <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Amigos | <a href="/en/imprint/">Aviso legal</a> | <a href="/en/privacy-policy/">Política de Privacidad</a>',
       footer: 'Liberado bajo la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->Licencia MIT<!--]--><!----></a>.',
       navbar: [
+        {
+          text: 'Noticias',
+          link: '/es/news/'
+        },
         {
           text: 'Funcionalidades',
           link: '/es/features/'
@@ -127,6 +139,10 @@ export default hopeTheme({
       copyright: '&copy; par <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & amis | <a href="/fr/imprint/">Mentions légales</a> | <a href="/fr/privacy-policy/">Protection des données</a>',
       footer: 'Publié sous la <a class="vt-link link link" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer"><!--[-->licence MIT<!--]--><!----></a>.',
       navbar: [
+        {
+          text: 'Actualités',
+          link: '/fr/news/'
+        },
         {
           text: 'Fonctionnalités',
           link: '/fr/features/'

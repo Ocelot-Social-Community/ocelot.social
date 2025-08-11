@@ -1,8 +1,10 @@
 ---
 home: false
-# icon: home
-title: Contacto
+article: false
 sidebar: false
+lang: es-ES
+title: Contacto
+description: ¿Tienes alguna pregunta o comentario sobre ocelot.social, el software libre y de código abierto para redes sociales de cualquier tamaño? ¡No dudes en ponerte en contacto con nosotros!
 ---
 
 ## Asociación de desarrolladores

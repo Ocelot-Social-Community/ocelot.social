@@ -1,8 +1,10 @@
 ---
 home: false
-# icon: home
-title: Características
+article: false
 sidebar: false
+lang: es-ES
+title: Características
+description: Descubre las numerosas funciones de ocelot.social, un software libre, moderno y ampliable de código abierto para redes sociales de cualquier tamaño.
 ---
 
 *Ocelot.social* ofrece una creciente variedad de características básicas y avanzadas de redes sociales que pueden ampliarse mediante [donaciones](/es/donate/) de la comunidad.
