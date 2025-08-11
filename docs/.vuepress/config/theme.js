@@ -95,7 +95,7 @@ export default hopeTheme({
       ],
     },
     '/es/': {
-      lang: 'es', // se establecerá como el atributo lang en <html>
+      lang: 'es-ES', // se establecerá como el atributo lang en <html>
       title: 'Ocelot.Social',
       description: 'Ocelot.Social: software libre y de código abierto para crear y gestionar tu propia red social.',
       copyright: '&copy; por <a href="https://busfaktor.org" target="_blank">busFaktor() e.V.</a> & Amigos | <a href="/en/imprint/">Aviso legal</a> | <a href="/en/privacy-policy/">Política de Privacidad</a>',

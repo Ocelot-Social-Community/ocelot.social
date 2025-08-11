@@ -1,8 +1,10 @@
 ---
 home: false
-# icon: home
-title: Donar
+article: false
 sidebar: false
+lang: es-ES
+title: Donar
+description: Apoya el software de código abierto ocelot.social con una donación. Tu contribución nos ayuda a proporcionar, mantener y mejorar el software.
 ---
 
 *Ocelot.social* es un software de código abierto que está disponible gratuitamente.

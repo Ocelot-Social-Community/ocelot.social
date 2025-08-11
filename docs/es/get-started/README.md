@@ -1,8 +1,10 @@
 ---
 home: false
-# icon: home
-title: Comenzar
+article: false
 sidebar: false
+lang: es-ES
+title: Comenzar
+description: ¿Listo para crear tu propia red social? Descubre cómo instalar el software ocelot.social para autohospedarlo o instalarlo en el proveedor que elijas.
 ---
 
 ## Pruébalo, luego instálalo

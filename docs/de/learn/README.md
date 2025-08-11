@@ -4,7 +4,7 @@ article: false
 sidebar: false
 lang: de-DE
 title: Lernen
-description:  Erweitere dein Wissen mit den Ressourcen von ocelot.social! Entdecke die FAQs und finde die Benutzeranleitung und die Installationsanleitung der Software.
+description: Erweitere dein Wissen mit den Ressourcen von ocelot.social! Entdecke die FAQs und finde die Benutzeranleitung und die Installationsanleitung der Software.
 ---
 
 <!-- ## X -->
