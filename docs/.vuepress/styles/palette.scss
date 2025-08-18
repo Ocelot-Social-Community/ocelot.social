@@ -46,9 +46,34 @@ h1, h2, h3, h4 {
   margin: 0 auto;
 }
 
+// Blog
+
 .vp-blog-hero {
   display: none;
 }
+
+// 2 columns from desktop width for article overviews
+@media (min-width: 1024px) {
+
+  #article-list,
+  .vp-article-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  #article-list>*,
+  .vp-article-list>* {
+    height: 100%;
+  }
+}
+
+// crop article image
+.page-cover img {
+  max-height: 420px !important;
+}
+
+// Button
 
 .theme-hope-content Button {
   font-size: 1.1em;
