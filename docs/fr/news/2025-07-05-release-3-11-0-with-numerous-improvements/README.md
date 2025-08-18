@@ -20,7 +20,7 @@ De plus, plusieurs bugs ont été corrigés.
 - Chat:
   - Correction d’un bug du lecteur vidéo dans le navigateur safari
   - Plus de messages vides lorsque le téléchargement de fichiers échoue
-  - Affichage d'une note textuelle lors du téléchargement de fichiers
+  - Affichage d’une note textuelle lors du téléchargement de fichiers
 - Autres erreurs corrigées
 - autres mises à jour logicielles
 
