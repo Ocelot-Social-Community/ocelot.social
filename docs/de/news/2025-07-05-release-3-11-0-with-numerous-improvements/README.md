@@ -8,7 +8,7 @@ category:
   - News
 tag:
   - Releases
-cover: /de/news/2025-07-05-release-3-11-0-with-numerous-improvements/ocelot-social-release-v3-11-0.jpg
+cover: /blog/ocelot-social-release-v3-11-0.jpg
 title: "Version 3.11.0 mit zahlreichen Verbesserungen"
 description: "Diese Version der ocelot.social-Software verbessert die Stabilität und Nutzung des Chats und behebt einige Fehler."
 ---
