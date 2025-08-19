@@ -1,10 +1,10 @@
 ---
 home: false
-# icon: home
+article: false
 sidebar: false
 lang: de-DE
 title: Datenschutz
-description: In unserer Datenschutzerklärung erfahrst du mehr über unsere Verpflichtung zum Schutz deiner Daten beim Besuch unserer Website.
+description: In unserer Datenschutzerklärung erfährst du mehr über unseren Umgang mit deinen Daten beim Besuch unserer Website.
 ---
 
 Aktualisiert am 20. Mai 2024

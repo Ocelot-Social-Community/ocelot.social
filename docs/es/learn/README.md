@@ -1,8 +1,10 @@
 ---
 home: false
-# icon: home
-title: Aprender
+article: false
 sidebar: false
+lang: es-ES
+title: Aprender
+description: ¡Amplía tus conocimientos con los recursos de ocelot.social! Descubre las preguntas frecuentes y encuentra el manual de usuario y las instrucciones de instalación del software.
 ---
 
 <!-- ## XXX -->

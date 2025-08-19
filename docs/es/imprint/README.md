@@ -1,8 +1,10 @@
 ---
 home: false
-# icon: home
-title: Aviso Legal
+article: false
 sidebar: false
+lang: es-ES
+title: Aviso Legal
+description: Descubre más sobre ocelot.social, quiénes somos y cómo puedes contactarnos. En nuestro aviso legal encontrarás información sobre el proyecto y nuestros datos de contacto.
 ---
 
 ## Responsable de la Operación de este Sitio Web

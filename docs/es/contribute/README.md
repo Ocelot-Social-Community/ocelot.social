@@ -1,9 +1,10 @@
 ---   
 home: false
-# layout: BlogHome
-# icon: home
-title: Contribuir
+article: false
 sidebar: false
+lang: es-ES
+title: Contribuir
+description: Contribuye a la comunidad ocelot.social aportando ideas, comentarios y sugerencias, y mejorando el software de código abierto para redes sociales.
 ---
 
 ## ¿Cómo puedes contribuir, participar y apoyar?

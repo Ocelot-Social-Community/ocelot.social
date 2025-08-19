@@ -1,8 +1,10 @@
 ---
 home: false
-# icon: home
-title: Política de Privacidad
+article: false
 sidebar: false
+lang: es-ES
+title: Política de Privacidad
+description: En nuestra política de privacidad encontrarás más información sobre cómo tratamos tus datos cuando visitas nuestro sitio web.
 ---
 
 Actualizado el 20 de mayo de 2024
