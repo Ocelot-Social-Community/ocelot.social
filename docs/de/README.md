@@ -191,48 +191,7 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
   </a>
 </div>
 
-<!-- <h2 id="why-foss" class="large-header">Warum freie Open-Source-Software?</h2>
-
-<div class="benefits-grid center">
-  <figure>
-    <HopeIcon icon="fa-solid" />
-    <figcapture>
-      <h3>Frei verfügbar</h3>
-      Freie Software ist für jeden Menschen jederzeit zugänglich. Dass Lizenzen ablaufen, gibt es nicht.
-    </figcapture>
-  </figure>
-  <figure>
-    <HopeIcon icon="fa-solid" />
-    <figcapture>
-      <h3>Transparent</h3>
-      Bei freier Software ist der Quellcode einsehbar. Jeder Mensch hat so die Möglichkeit nachzusehen, was im Hintergrund eines Programmes passiert.
-    </figcapture>
-  </figure>
-  <figure>
-    <HopeIcon icon="fa-solid" />
-    <figcapture>
-      <h3>Kopierbar</h3>
-      Ich kann jederzeit mit allen meinen Kolleginnen und Kollegen zusammenarbeiten. Alle können es jederzeit verwenden, ohne Einschränkungen.
-    </figcapture>
-  </figure>
-  <figure>
-    <HopeIcon icon="fa-solid" />
-    <figcapture>
-      <h3>Veränderbar</h3>
-      Jede Person kann etwas zu ihrem Lieblingsprogramm beitragen, jederzeit. Ich kann das Programm so verwenden, wie ich es am liebsten will.
-    </figcapture>
-  </figure>
-</div> -->
-
 <h2 class="large-header">Probier es aus</h2>
-
-<!--
-| E-Mail                  | Passwort | Benutzerrolle   |
-| :---                    | :---     | :---            |
-| `user@example.org`      | 1234     | normaler Nutzer |
-| `moderator@example.org` | 1234     | Moderator       |
-| `admin@example.org`     | 1234     | Administrator   |
--->
 
 <div class="center">
   <p>
@@ -286,6 +245,44 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
 <!-- ## Testimonials
 
 XXX -->
+
+<h2 class="large-header">Neuste Beiträge</h2>
+
+<script setup>
+import { computed } from 'vue'
+import { useBlogType } from '@vuepress/plugin-blog/client'
+
+// Vom Plugin vorbereitete 'news'-Liste (bereits sortiert)
+const news = useBlogType('news')
+
+// Anzahl der Cards anpassen (z. B. 3 oder 6)
+const latest = computed(() => (news.value.items || []).slice(0, 3))
+</script>
+
+<section class="latest">
+
+  <div class="cards">
+    <article v-for="a in latest" :key="a.path" class="card">
+      <a :href="a.path">
+        <img v-if="a.info.cover" :src="a.info.cover" :alt="a.info.title" />
+        <h3>{{ a.info.title }}</h3>
+      </a>
+      <p class="meta">
+        {{ new Date(a.info.date).toLocaleDateString('de-DE') }}
+      </p>
+      <p v-if="a.info.description">{{ a.info.description }}</p>
+    </article>
+  </div>
+
+  <p class="more"><a href="/de/news/">Alle News →</a></p>
+</section>
+
+<style>
+.latest { text-align: center; margin: 0 auto; max-width: 1100px; }
+.latest .cards { margin: auto 20px; padding-top: 1.5em; display: grid; gap: 1.8rem 1.2rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.latest .card img { width: 100%; height: 420px; object-fit: cover; border-radius: 8px; }
+.latest .meta { opacity: .7; font-size: .9rem; margin: .25rem 0 .5rem; }
+</style>
 
 <h2 class="large-header">Spenden</h2>
 
