@@ -22,8 +22,6 @@ const formatDate = (d) =>
 
 <template>
   <section class="mini-blog">
-    <h2 class="mini-blog__title">Neueste Artikel</h2>
-
     <div v-if="items.length" class="mini-blog__grid">
       <article v-for="post in items" :key="post.path" class="card">
         <RouterLink :to="post.path" class="card__media" aria-label="Zum Artikel">
@@ -54,21 +52,34 @@ const formatDate = (d) =>
       <p>Keine Artikel im aktuellen Locale gefunden.</p>
     </div>
 
-    <div class="mini-blog__footer">
+    <!-- <div id="hero-button" class="mini-blog__footer">
       <RouterLink :to="articleIndex" class="mini-blog__all">Alle Artikel ansehen</RouterLink>
-    </div>
+    </div> -->
+    <a id="hero-button mini-blog__footer" :href="articleIndex">
+      <Button class="mini-blog__all">
+        Alle Artikel ansehen
+      </Button>
+    </a>
   </section>
 </template>
 
 <style scoped>
 /* Abschnitt */
-.mini-blog { margin-top: 2rem; }
-.mini-blog__title { font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; }
+.mini-blog {
+  max-width: 1100px;
+  margin-top: 2rem;
+}
+.mini-blog__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
 
 /* Grid */
 .mini-blog__grid {
+  margin: auto 20px;
   display: grid;
-  gap: 1rem;
+  gap: 1.8rem 1.2rem;
   grid-template-columns: 1fr;
 }
 @media (min-width: 720px) {
