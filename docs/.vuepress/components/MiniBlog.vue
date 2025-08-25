@@ -1,28 +1,20 @@
 <script setup>
 import { computed } from "vue";
-import { useBlogType } from "vuepress-plugin-blog2/client"; // Theme Hope Blog-Plugin
-import { useRouteLocale, RouteLink } from "vuepress/client";
+import { useRouteLocale } from "vuepress/client";
+import articles from "@temp/mini-blog.articles.json"; // kommt aus dem Build-Hook
 
-// Alle Blog-Artikel (Type "article") holen
-const articles = useBlogType("article");
-
-// Aktuelles Locale ("/" oder z. B. "/de/")
 const locale = useRouteLocale();
 
-// Nur Posts unter /news/ für das aktuelle Locale
-const newsPrefix = computed(() => `${locale.value}news/`);
-
+// Nur Artikel des aktuellen Locales + Top 3
 const items = computed(() => {
-  const list = (articles.value?.items ?? [])
-    .filter((p) => p.path.startsWith(newsPrefix.value))
-    .sort((a, b) => {
-      const ta = a.info?.date ? new Date(a.info.date).getTime() : 0;
-      const tb = b.info?.date ? new Date(b.info.date).getTime() : 0;
-      return tb - ta; // neueste zuerst
-    })
-    .slice(0, 3);
-  return list;
+  const loc = locale.value || "/";
+  const list = (articles || []).filter(a => a.locale === loc);
+  return list.slice(0, 3);
 });
+
+const articleIndex = computed(() =>
+  (locale.value === "/" ? "/article/" : `${locale.value}article/`)
+);
 
 const formatDate = (d) =>
   d ? new Date(d).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" }) : "";
@@ -30,35 +22,117 @@ const formatDate = (d) =>
 
 <template>
   <section class="mini-blog">
-    <h2 class="mini-blog__title">Neueste News</h2>
+    <h2 class="mini-blog__title">Neueste Artikel</h2>
 
-    <ul class="mini-blog__list">
-      <li v-for="post in items" :key="post.path" class="mini-blog__item">
-        <RouteLink :to="post.path" class="mini-blog__link">
-          <strong class="mini-blog__headline">{{ post.info?.title }}</strong>
-          <span v-if="post.info?.date" class="mini-blog__date">— {{ formatDate(post.info.date) }}</span>
-        </RouteLink>
+    <div v-if="items.length" class="mini-blog__grid">
+      <article v-for="post in items" :key="post.path" class="card">
+        <RouterLink :to="post.path" class="card__media" aria-label="Zum Artikel">
+          <img v-if="post.cover" :src="post.cover" :alt="post.title" loading="lazy" />
+          <div v-else class="card__placeholder" aria-hidden="true"></div>
+        </RouterLink>
 
-        <div
-          v-if="post.info?.excerpt"
-          class="mini-blog__excerpt"
-          v-html="post.info.excerpt"
-        />
-      </li>
-    </ul>
+        <div class="card__body">
+          <RouterLink :to="post.path" class="card__title">
+            {{ post.title }}
+          </RouterLink>
 
-    <RouteLink :to="newsPrefix" class="mini-blog__more">Mehr News →</RouteLink>
+          <div class="card__meta">
+            <time v-if="post.date" class="card__date">{{ formatDate(post.date) }}</time>
+            <ul v-if="post.tags?.length" class="card__tags">
+              <li v-for="t in post.tags" :key="t" class="card__tag">#{{ t }}</li>
+            </ul>
+          </div>
+
+          <p v-if="post.excerpt" class="card__excerpt" v-html="post.excerpt"></p>
+
+          <RouterLink :to="post.path" class="card__more">Weiterlesen →</RouterLink>
+        </div>
+      </article>
+    </div>
+
+    <div v-else class="mini-blog__empty">
+      <p>Keine Artikel im aktuellen Locale gefunden.</p>
+    </div>
+
+    <div class="mini-blog__footer">
+      <RouterLink :to="articleIndex" class="mini-blog__all">Alle Artikel ansehen</RouterLink>
+    </div>
   </section>
 </template>
 
 <style scoped>
+/* Abschnitt */
 .mini-blog { margin-top: 2rem; }
-.mini-blog__title { font-size: 1.25rem; margin-bottom: .75rem; }
-.mini-blog__list { list-style: none; padding: 0; margin: 0; display: grid; gap: .75rem; }
-.mini-blog__item { padding: .75rem 1rem; border: 1px solid var(--vp-c-divider); border-radius: .5rem; }
-.mini-blog__link { text-decoration: none; display: inline-flex; align-items: baseline; gap: .35rem; }
-.mini-blog__headline { font-weight: 600; }
-.mini-blog__date { opacity: .7; }
-.mini-blog__excerpt { margin-top: .35rem; opacity: .9; }
-.mini-blog__more { display: inline-block; margin-top: .75rem; }
+.mini-blog__title { font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; }
+
+/* Grid */
+.mini-blog__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .mini-blog__grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider, rgba(0,0,0,.08));
+  background: var(--vp-c-bg, #fff);
+  box-shadow: var(--vp-shadow-1, 0 1px 2px rgba(0,0,0,.05));
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--vp-shadow-2, 0 8px 24px rgba(0,0,0,.12));
+  border-color: var(--vp-c-brand-1, rgba(0,0,0,.14));
+}
+
+/* Media */
+.card__media {
+  display: block;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(0,0,0,.06), rgba(0,0,0,.02));
+}
+.card__media img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+}
+.card__placeholder {
+  width: 100%; height: 100%;
+  background: repeating-linear-gradient(45deg, rgba(0,0,0,.06), rgba(0,0,0,.06) 10px, rgba(0,0,0,.03) 10px, rgba(0,0,0,.03) 20px);
+}
+
+/* Body */
+.card__body { padding: .9rem 1rem 1rem; display: grid; gap: .5rem; }
+.card__title {
+  font-weight: 700; line-height: 1.25; text-decoration: none;
+  color: var(--vp-c-text-1, inherit);
+}
+.card__title:hover { text-decoration: underline; }
+
+/* Meta */
+.card__meta { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; font-size: .875rem; }
+.card__date { opacity: .75; }
+.card__tags { display: flex; gap: .35rem; list-style: none; padding: 0; margin: 0; }
+.card__tag {
+  padding: .1rem .45rem; border-radius: 999px; font-size: .75rem;
+  background: var(--vp-c-brand-soft, rgba(0,0,0,.06)); color: var(--vp-c-brand-1, inherit);
+}
+
+/* Excerpt */
+.card__excerpt { margin: .25rem 0 0; opacity: .9; }
+
+/* Footer */
+.card__more { margin-top: .25rem; font-weight: 600; text-decoration: none; }
+.card__more:hover { text-decoration: underline; }
+.mini-blog__footer { margin-top: 1rem; }
+.mini-blog__all { text-decoration: none; font-weight: 600; }
+
+/* Empty */
+.mini-blog__empty { opacity: .8; }
 </style>
