@@ -5,6 +5,11 @@ import articles from "@temp/mini-blog.articles.json"; // kommt aus dem Build-Hoo
 
 const locale = useRouteLocale();
 
+const props =  defineProps({
+  title: { type: String},
+  showAllPostsButtonTitle: { type: String},
+});
+
 // Nur Artikel des aktuellen Locales + Top 3
 const items = computed(() => {
   const loc = locale.value || "/";
@@ -21,58 +26,62 @@ const formatDate = (d) =>
 </script>
 
 <template>
-  <section class="mini-blog">
-    <div v-if="items.length" class="mini-blog__grid">
-      <article v-for="post in items" :key="post.path" class="card">
-        <RouterLink :to="post.path" class="card__media" aria-label="Zum Artikel">
-          <img v-if="post.cover" :src="post.cover" :alt="post.title" loading="lazy" />
-          <div v-else class="card__placeholder" aria-hidden="true"></div>
-        </RouterLink>
+  <div class="mini-blog__div" v-if="items.length">
+    <h2 class="large-header">{{ title }}</h2>
 
-        <div class="card__body">
-          <RouterLink :to="post.path" class="card__title">
-            {{ post.title }}
+    <section class="mini-blog">
+      <div v-if="items.length" class="mini-blog__grid">
+        <article v-for="post in items" :key="post.path" class="card">
+          <RouterLink :to="post.path" class="card__media" aria-label="Zum Artikel">
+            <img v-if="post.cover" :src="post.cover" :alt="post.title" loading="lazy" />
+            <div v-else class="card__placeholder" aria-hidden="true"></div>
           </RouterLink>
 
-          <div class="card__meta">
-            <time v-if="post.date" class="card__date">{{ formatDate(post.date) }}</time>
-            <ul v-if="post.tags?.length" class="card__tags">
-              <li v-for="t in post.tags" :key="t" class="card__tag">#{{ t }}</li>
-            </ul>
+          <div class="card__body">
+            <RouterLink :to="post.path" class="card__title">
+              {{ post.title }}
+            </RouterLink>
+
+            <div class="card__meta">
+              <time v-if="post.date" class="card__date">{{ formatDate(post.date) }}</time>
+              <ul v-if="post.tags?.length" class="card__tags">
+                <li v-for="t in post.tags" :key="t" class="card__tag">#{{ t }}</li>
+              </ul>
+            </div>
+
+            <p v-if="post.excerpt" class="card__excerpt" v-html="post.excerpt"></p>
+
+            <RouterLink :to="post.path" class="card__more">Weiterlesen →</RouterLink>
           </div>
+        </article>
+      </div>
 
-          <p v-if="post.excerpt" class="card__excerpt" v-html="post.excerpt"></p>
+      <div v-else class="mini-blog__empty">
+        <p>Keine Artikel im aktuellen Locale gefunden.</p>
+      </div>
 
-          <RouterLink :to="post.path" class="card__more">Weiterlesen →</RouterLink>
-        </div>
-      </article>
-    </div>
-
-    <div v-else class="mini-blog__empty">
-      <p>Keine Artikel im aktuellen Locale gefunden.</p>
-    </div>
-
-    <!-- <div id="hero-button" class="mini-blog__footer">
-      <RouterLink :to="articleIndex" class="mini-blog__all">Alle Artikel ansehen</RouterLink>
-    </div> -->
-    <a id="hero-button mini-blog__footer" :href="articleIndex">
-      <Button class="mini-blog__all">
-        Alle Artikel ansehen
-      </Button>
-    </a>
-  </section>
+      <!-- <div id="hero-button" class="mini-blog__footer">
+        <RouterLink :to="articleIndex" class="mini-blog__all">Alle Artikel ansehen</RouterLink>
+      </div> -->
+      <div class="center">
+        <a id="hero-button mini-blog__footer" :href="articleIndex">
+          <Button>
+            {{ showAllPostsButtonTitle }}
+          </Button>
+        </a>
+      </div>
+    </section>
+  </div>
 </template>
 
 <style scoped>
 /* Abschnitt */
 .mini-blog {
   max-width: 1100px;
-  margin-top: 2rem;
+  margin: 2rem auto 0 auto;
 }
-.mini-blog__title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
+.mini-blog__div {
+  padding-top: 2.8em;
 }
 
 /* Grid */
@@ -83,7 +92,7 @@ const formatDate = (d) =>
   grid-template-columns: 1fr;
 }
 @media (min-width: 720px) {
-  .mini-blog__grid { grid-template-columns: repeat(3, 1fr); }
+  .mini-blog__grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* Card */
@@ -142,7 +151,6 @@ const formatDate = (d) =>
 .card__more { margin-top: .25rem; font-weight: 600; text-decoration: none; }
 .card__more:hover { text-decoration: underline; }
 .mini-blog__footer { margin-top: 1rem; }
-.mini-blog__all { text-decoration: none; font-weight: 600; }
 
 /* Empty */
 .mini-blog__empty { opacity: .8; }

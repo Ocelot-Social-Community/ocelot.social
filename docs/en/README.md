@@ -288,6 +288,11 @@ description: A free and open source software with which you can operate a social
 
 XXX -->
 
+<MiniBlog
+  :title="'Latest posts'"
+  :show-all-posts-button-title="'Show all posts'"
+/>
+
 <h2 class="large-header">Donate</h2>
 
 <div class="center">

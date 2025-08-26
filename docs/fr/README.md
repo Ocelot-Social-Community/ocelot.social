@@ -288,6 +288,11 @@ description: Un logiciel libre et open source avec lequel tu peux gérer un rés
 
 XXX -->
 
+<MiniBlog
+  :title="'Derniers articles'"
+  :show-all-posts-button-title="'Afficher tous les messages'"
+/>
+
 <h2 class="large-header">Faire un don</h2>
 
 <div class="center">

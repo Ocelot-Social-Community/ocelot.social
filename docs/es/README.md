@@ -256,6 +256,11 @@ description: "Un software libre y de código abierto con el que puedes gestionar
 
 XXX -->
 
+<MiniBlog
+  :title="'Últimas publicaciones'"
+  :show-all-posts-button-title="'Mostrar todas las publicaciones'"
+/>
+
 <h2 class="large-header">Donar</h2>
 
 <div class="center">

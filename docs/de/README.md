@@ -287,9 +287,11 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
 
 XXX -->
 
-<h2 class="large-header">Neueste Beiträge</h2>
-
-<MiniBlog />
+<MiniBlog
+   class="large-header"
+  :title="'Neueste Beiträge'"
+  :show-all-posts-button-title="'Alle Beiträge ansehen'"
+/>
 
 <h2 class="large-header">Spenden</h2>
 
