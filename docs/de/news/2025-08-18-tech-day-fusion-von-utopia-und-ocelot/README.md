@@ -9,6 +9,7 @@ category:
 tag:
   - Releases
 cover: /blog/fusion-of-utopia-and-ocelot.jpeg
+coverAlt: "Fusion von Utopia und Ocelot"
 title: "Tech-Day – Fusion von Utopia und Ocelot!?"
 description: "An diesem Tech-Day vom 21.8.2025 beleuchten wir die Frage, ob Utopia Map und ocelot.social zusammengebracht werden können. Wir freuen uns auf deine Teilnahme."
 ---

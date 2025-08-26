@@ -9,6 +9,7 @@ category:
 tag:
   - Releases
 cover: /blog/ocelot-social-release-v3-11-0.jpg
+coverAlt: "Ocelot.social Version 3.11.0"
 title: "Version 3.11.0 mit zahlreichen Verbesserungen"
 description: "Diese Version der ocelot.social-Software verbessert die Stabilität und Nutzung des Chats und behebt einige Fehler."
 ---
