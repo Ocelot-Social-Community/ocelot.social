@@ -19,7 +19,12 @@ Diese Woche findet im Rahmen des [**Tech-Days**](https://www.busfaktor.org/de/pr
 **Fusion von Utopia und Ocelot!?**  
 Referent: Anton Tranelis
 
-Am Donnerstag, den 21.8.2025, um 14 Uhr (MESZ), [**online**](https://cloud.mfwerk.de/index.php/apps/bbb/b/E794JMdzi3iQc4xE) (wird aufgezeichnet)
+Am Donnerstag, den 21.8.2025, um 14 Uhr (MESZ), **online**
+
+## Veröffentlichung
+
+- Aufzeichnung auf [Youtube](https://www.youtube.com/watch?v=NI-nAeYkmQk&list=PL5Xhli7oRz_UvRSDp61oTloWM0fc5e8Yy)
+- [Präsentation](https://hack.utopia-lab.org/s/vYs1BNmFi)
 
 ## Worum geht es?
 

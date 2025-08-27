@@ -20,7 +20,12 @@ This week, another lecture will take place as part of [**Tech Day**](https://www
 Speaker: Anton Tranelis  
 Language: German
 
-Thursday, August 21, 2025, at 2 p.m. CEST, [**online**](https://cloud.mfwerk.de/index.php/apps/bbb/b/E794JMdzi3iQc4xE) (will be recorded)
+Thursday, August 21, 2025, at 2 p.m. CEST, **online**
+
+## Publication
+
+- Recording on [YouTube](https://www.youtube.com/watch?v=NI-nAeYkmQk&list=PL5Xhli7oRz_UvRSDp61oTloWM0fc5e8Yy)
+- [Presentation](https://hack.utopia-lab.org/s/vYs1BNmFi)
 
 ## What is it about?
 
