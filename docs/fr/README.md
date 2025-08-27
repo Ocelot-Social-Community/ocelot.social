@@ -183,7 +183,7 @@ description: Un logiciel libre et open source avec lequel tu peux gérer un rés
 </div>
 
 <div class="all-features">
-  <a id="hero-button" href="/fr/features/">
+  <a href="/fr/features/">
     <Button>
       Toutes les fonctions
     </Button>
@@ -277,7 +277,7 @@ description: Un logiciel libre et open source avec lequel tu peux gérer un rés
     Tu peux héberger <i>ocelot.social</i> sur ton propre serveur ou le faire héberger.<br>
     Jetes un coup d’œil aux options disponibles :
   </p>
-  <a id="hero-button" href="/fr/get-started/">
+  <a href="/fr/get-started/">
     <Button>
       C’est parti !
     </Button>
@@ -287,6 +287,11 @@ description: Un logiciel libre et open source avec lequel tu peux gérer un rés
 <!-- ## Testimonials
 
 XXX -->
+
+<MiniBlog
+  :title="'Derniers articles'"
+  :show-all-posts-button-title="'Afficher tous les messages'"
+/>
 
 <h2 class="large-header">Faire un don</h2>
 

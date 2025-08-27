@@ -85,6 +85,7 @@ h1, h2, h3, h4 {
   border-style: solid;
   border-radius: 5px;
   padding: 12px 16px;
+  margin-top: 12px;
   cursor: grab;
 
   html[data-theme="dark"] & {
@@ -240,7 +241,7 @@ h2.large-header {
   line-height: 1.2em;
   text-align: center;
   margin-top: 0;
-  padding-top: 1.8em;
+  padding-top: 2.8em !important;
   border: 0;
 }
 

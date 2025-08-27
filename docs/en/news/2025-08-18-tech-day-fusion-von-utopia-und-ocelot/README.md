@@ -9,6 +9,7 @@ category:
 tag:
   - Releases
 cover: /blog/fusion-of-utopia-and-ocelot.jpeg
+coverAlt: "Fusion of Utopia and Ocelot"
 title: "Tech-Day – Fusion of Utopia and Ocelot!?"
 description: "On this Tech Day on August 21, 2025, we will explore the question of whether Utopia Map and ocelot.social can be brought together. We look forward to your participation."
 ---
@@ -19,7 +20,12 @@ This week, another lecture will take place as part of [**Tech Day**](https://www
 Speaker: Anton Tranelis  
 Language: German
 
-Thursday, August 21, 2025, at 2 p.m. CEST, [**online**](https://cloud.mfwerk.de/index.php/apps/bbb/b/E794JMdzi3iQc4xE) (will be recorded)
+Thursday, August 21, 2025, at 2 p.m. CEST, **online**
+
+## Publication
+
+- Recording on [YouTube](https://www.youtube.com/watch?v=NI-nAeYkmQk&list=PL5Xhli7oRz_UvRSDp61oTloWM0fc5e8Yy)
+- [Presentation](https://hack.utopia-lab.org/s/vYs1BNmFi)
 
 ## What is it about?
 

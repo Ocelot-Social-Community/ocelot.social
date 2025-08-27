@@ -184,7 +184,7 @@ description: "Un software libre y de código abierto con el que puedes gestionar
 </div>
 
 <div class="all-features">
-  <a id="hero-button" href="/es/features/">
+  <a href="/es/features/">
     <Button>
       Ver todas las funciones
     </Button>
@@ -245,7 +245,7 @@ description: "Un software libre y de código abierto con el que puedes gestionar
     Puedes alojar <i>ocelot.social</i> en tu propio servidor o hacer que lo alojen por ti.<br>
     Echa un vistazo a las opciones disponibles:
   </p>
-  <a id="hero-button" href="/es/get-started/">
+  <a href="/es/get-started/">
     <Button>
       Vamos allá
     </Button>
@@ -255,6 +255,11 @@ description: "Un software libre y de código abierto con el que puedes gestionar
 <!-- ## Testimonials
 
 XXX -->
+
+<MiniBlog
+  :title="'Últimas publicaciones'"
+  :show-all-posts-button-title="'Mostrar todas las publicaciones'"
+/>
 
 <h2 class="large-header">Donar</h2>
 
