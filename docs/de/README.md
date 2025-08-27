@@ -184,7 +184,7 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
 </div>
 
 <div class="all-features">
-  <a id="hero-button" href="/de/features/">
+  <a href="/de/features/">
     <Button>
       Alle Funktionen ansehen
     </Button>
@@ -276,7 +276,7 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
     <i>Ocelot.social</i> kannst du auf einem eigenen Server hosten oder es hosten lassen.<br>
     Schau dir an, welche Möglichkeiten es gibt:
   </p>
-  <a id="hero-button" href="/de/get-started/">
+  <a href="/de/get-started/">
     <Button>
       Los geht’s
     </Button>

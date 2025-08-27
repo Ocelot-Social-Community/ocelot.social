@@ -183,7 +183,7 @@ description: A free and open source software with which you can operate a social
 </div>
 
 <div class="all-features">
-  <a id="hero-button" href="/en/features/">
+  <a href="/en/features/">
     <Button>
       View all functions
     </Button>
@@ -277,7 +277,7 @@ description: A free and open source software with which you can operate a social
     You can host <i>ocelot.social</i> on your own server or have it hosted.<br>
     Take a look at the options available:
   </p>
-  <a id="hero-button" href="/en/get-started/">
+  <a href="/en/get-started/">
     <Button>
       Let’s go
     </Button>

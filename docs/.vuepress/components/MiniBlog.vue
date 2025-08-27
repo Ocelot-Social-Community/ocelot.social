@@ -60,11 +60,11 @@ const formatDate = (d) =>
         <p>Keine Artikel im aktuellen Locale gefunden.</p>
       </div>
 
-      <!-- <div id="hero-button" class="mini-blog__footer">
+      <!-- <div class="mini-blog__footer">
         <RouterLink :to="articleIndex" class="mini-blog__all">Alle Artikel ansehen</RouterLink>
       </div> -->
-      <div class="center">
-        <a id="hero-button mini-blog__footer" :href="articleIndex">
+      <div class="center mini-blog__footer">
+        <a :href="articleIndex">
           <Button>
             {{ showAllPostsButtonTitle }}
           </Button>
@@ -150,7 +150,9 @@ const formatDate = (d) =>
 /* Footer */
 .card__more { margin-top: .25rem; font-weight: 600; text-decoration: none; }
 .card__more:hover { text-decoration: underline; }
-.mini-blog__footer { margin-top: 1rem; }
+.mini-blog__footer {
+  margin-top: 1.0rem;
+}
 
 /* Empty */
 .mini-blog__empty { opacity: .8; }
