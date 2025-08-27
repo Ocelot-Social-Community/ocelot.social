@@ -178,9 +178,6 @@ export default hopeTheme({
     mdEnhance: {
       align: true,
       demo: true,
-      imgLazyload: true,
-      imgMark: true,
-      imgSize: true,
       sub: true,
       sup: true,
       vPre: true,
