@@ -30,5 +30,8 @@ For details see this [change log](https://github.com/Ocelot-Social-Community/Oce
 
 ## Support *ocelot.social*
 
+If you benefit from using *ocelot.social*, please help us with your support.
+Thank you very much!
+
 - [Contribute](/en/contribute/)
 - [Donate](/en/donate/)
