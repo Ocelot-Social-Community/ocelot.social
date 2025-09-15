@@ -14,7 +14,7 @@ title: "Version 3.11.0 with numerous improvements"
 description: "This version of the ocelot.social software improves the stability and usability of the chat and fixes several bugs."
 ---
 
-This version of the ocelot.social software improves the stability and usability of the chat.
+This version of the *ocelot.social* software improves the stability and usability of the chat.
 In addition, several bugs have been fixed.
 
 ## The key facts in a nutshell
