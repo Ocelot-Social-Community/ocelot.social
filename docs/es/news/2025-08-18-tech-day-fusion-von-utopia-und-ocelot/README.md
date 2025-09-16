@@ -29,7 +29,7 @@ Jueves, 21 de agosto de 2025, a las 14:00 h CEST, **en línea**.
 
 ## ¿De qué se trata?
 
-[**Utopia**](https://utopia-map.org/) y [** Ocelot**](https://ocelot.social/en/) son dos proyectos de código abierto gratuitos mantenidos y desarrollados por [**busFaktor()**](https://www.busfaktor.org/de) e [**IT4Change**](https://it4c.dev/).
+[**Utopia**](https://utopia-map.org/) y [**Ocelot**](https://ocelot.social/en/) son dos proyectos de código abierto gratuitos mantenidos y desarrollados por [**busFaktor()**](https://www.busfaktor.org/de) e [**IT4Change**](https://it4c.dev/).
 Ambos proyectos tienen objetivos similares: quieren unir a las personas y hacerlas partícipes del cambio social.
 
 Aunque ambos requieren en gran medida los mismos componentes y servicios, hasta ahora no se han compartido entre sí. Las mejoras en un proyecto no benefician al otro. Además, compiten por los mismos desarrolladores.
