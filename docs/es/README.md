@@ -258,6 +258,7 @@ XXX -->
 
 <MiniBlog
   :title="'Últimas publicaciones'"
+  :readMoreLinkTitle="'Seguir leyendo'"
   :show-all-posts-button-title="'Mostrar todas las publicaciones'"
 />
 

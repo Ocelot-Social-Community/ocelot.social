@@ -7,6 +7,7 @@ const locale = useRouteLocale();
 
 const props =  defineProps({
   title: { type: String},
+  readMoreLinkTitle: { type: String},
   showAllPostsButtonTitle: { type: String},
 });
 
@@ -51,7 +52,7 @@ const formatDate = (d) =>
 
             <p v-if="post.excerpt" class="card__excerpt" v-html="post.excerpt"></p>
 
-            <RouterLink :to="post.path" class="card__more">Weiterlesen →</RouterLink>
+            <RouterLink :to="post.path" class="card__more">{{ readMoreLinkTitle }} →</RouterLink>
           </div>
         </article>
       </div>
