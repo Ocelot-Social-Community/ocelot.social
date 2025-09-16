@@ -288,8 +288,8 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
 XXX -->
 
 <MiniBlog
-   class="large-header"
   :title="'Neueste Beiträge'"
+  :readMoreLinkTitle="'Weiterlesen'"
   :show-all-posts-button-title="'Alle Beiträge ansehen'"
 />
 
