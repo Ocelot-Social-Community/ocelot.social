@@ -16,7 +16,8 @@ description: "For quite some time now, there has been a question as to whether o
 
 Next presentation on our [**Tech Day**](https://www.busfaktor.org/de/projekte/tech-day) organized by [**busFaktor()**](https://www.busfaktor.org/de).
 
-**OAuth & OIDC**   How we get Ocelot SSO-Ready  
+**OAuth & OIDC**  
+How we get Ocelot SSO-Ready  
 Speaker: Ulf Gebhardt  
 Language: German
 
