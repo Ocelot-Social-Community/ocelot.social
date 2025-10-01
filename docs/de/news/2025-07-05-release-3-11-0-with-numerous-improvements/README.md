@@ -30,5 +30,8 @@ Alle Details findest du in diesem [Änderungsprotokoll](https://github.com/Ocelo
 
 ## Unterstütze *ocelot.social*
 
+Wenn du von der Verwendung von *ocelot.social* profitierst, hilf bitte mit deiner Unterstützung.
+Vielen Dank!
+
 - [Mitmachen](/de/contribute/)
 - [Spenden](/de/donate/)

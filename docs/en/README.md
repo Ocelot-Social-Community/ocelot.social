@@ -290,6 +290,7 @@ XXX -->
 
 <MiniBlog
   :title="'Latest posts'"
+  :readMoreLinkTitle="'Read more'"
   :show-all-posts-button-title="'Show all posts'"
 />
 

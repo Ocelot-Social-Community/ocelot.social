@@ -14,7 +14,7 @@ title: "Version 3.11.0 with numerous improvements"
 description: "This version of the ocelot.social software improves the stability and usability of the chat and fixes several bugs."
 ---
 
-This version of the ocelot.social software improves the stability and usability of the chat.
+This version of the *ocelot.social* software improves the stability and usability of the chat.
 In addition, several bugs have been fixed.
 
 ## The key facts in a nutshell
@@ -29,6 +29,9 @@ In addition, several bugs have been fixed.
 For details see this [change log](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.11.0).
 
 ## Support *ocelot.social*
+
+If you benefit from using *ocelot.social*, please help us with your support.
+Thank you very much!
 
 - [Contribute](/en/contribute/)
 - [Donate](/en/donate/)
