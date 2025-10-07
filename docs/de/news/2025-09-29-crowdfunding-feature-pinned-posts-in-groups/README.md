@@ -12,7 +12,7 @@ tag:
   - Groups
   - Posts
   - Pins
-cover: /blog/crowdfunding-feature-pinned-posts-in-groups--de.png
+cover: /blog/crowdfunding-feature-pinned-posts-in-groups--de--corrected.png
 coverAlt: "Unser erstes Crowdfunding!"
 title: "Unser erstes Crowdfunding! 🪄✨"
 description: "XXX Schon seit längerem besteht die Frage danach, ob ocelot.social mit anderen Apps über einen gemeinsamen Login verbunden werden kann."
