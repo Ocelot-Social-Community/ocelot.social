@@ -5,9 +5,9 @@ sidebar: false
 lang: es-ES
 date: 2025-08-18
 category:
-  - News
+  - Lectures
 tag:
-  - Releases
+  - Tech-Day
 cover: /blog/fusion-of-utopia-and-ocelot.jpeg
 coverAlt: "Fusión de Utopia y Ocelot"
 title: "Tech-Day – ¿¡Fusión de Utopia y Ocelot!?"

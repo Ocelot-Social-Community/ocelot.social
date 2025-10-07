@@ -5,9 +5,9 @@ sidebar: false
 lang: de-DE
 date: 2025-09-23
 category:
-  - News
+  - Lectures
 tag:
-  - Releases
+  - Tech-Day
 cover: /blog/oauth-and-oidc.png
 coverAlt: "OAuth & OIDC – Wie wir Ocelot SSO-Ready bekommen"
 title: "OAuth & OIDC – Wie wir Ocelot SSO-Ready bekommen"

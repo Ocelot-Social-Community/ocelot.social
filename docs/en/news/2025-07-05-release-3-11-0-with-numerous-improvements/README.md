@@ -5,7 +5,7 @@ sidebar: false
 lang: en-US
 date: 2025-07-05
 category:
-  - News
+  - Releases
 tag:
   - Releases
 cover: /blog/ocelot-social-release-v3-11-0.jpg
