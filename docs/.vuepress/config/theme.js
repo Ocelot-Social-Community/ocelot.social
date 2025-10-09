@@ -218,5 +218,7 @@ export default hopeTheme({
       hostname: "https://ocelot.social/",
     },
   },
-  iconAssets: "fontawesome",
+  icon: {
+    assets: "fontawesome",
+  },
 });
