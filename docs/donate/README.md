@@ -32,4 +32,4 @@ Falls du möchtest, dass deine Spende vornehmlich der Software *ocelot.social* z
 
 Beispiel: `Spende für ocelot.social, eva.muster at domain.de`
 
-[Kontaktiere uns](/de/contact/) gerne bei Fragen.
+[Kontaktiere uns](/contact/) gerne bei Fragen.
