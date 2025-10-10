@@ -24,7 +24,7 @@ export default hopeTheme({
   locales: {
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
-    "/de/": {
+    "/": {
       lang: "de-DE",
       title: "Ocelot.Social",
       description:
@@ -186,7 +186,7 @@ export default hopeTheme({
       ],
     },
   },
-  mdEnhance: {
+  markdown: {
     align: true,
     demo: true,
     sub: true,
@@ -196,19 +196,66 @@ export default hopeTheme({
 
   plugins: {
     blog: {
+      // Minimal configuration to avoid errors
       excerptLength: 0,
+      blogLocales: {
+        "/": {
+          article: "/article/",
+          category: "/category/",
+          tag: "/tag/",
+          timeline: "/timeline/",
+          star: "/star/",
+        },
+        "/en/": {
+          article: "/en/article/",
+          category: "/en/category/",
+          tag: "/en/tag/",
+          timeline: "/en/timeline/",
+          star: "/en/star/",
+        },
+        "/es/": {
+          article: "/es/article/",
+          category: "/es/category/",
+          tag: "/es/tag/",
+          timeline: "/es/timeline/",
+          star: "/es/star/",
+        },
+        "/fr/": {
+          article: "/fr/article/",
+          category: "/fr/category/",
+          tag: "/fr/tag/",
+          timeline: "/fr/timeline/",
+          star: "/fr/star/",
+        },
+      },
     },
     redirect: {
       autoLocale: true,
       defaultBehavior: "defaultLocale",
-      defaultLocale: "/de/",
+      defaultLocale: "/",
       localeConfig: {
-        "/de/": ["de-DE", "de"],
+        "/": ["de-DE", "de"],
         "/en/": ["en-US", "en"],
         "/es/": ["es-ES", "es"],
         "/fr/": ["fr-FR", "fr"],
       },
       localeFallback: false,
+      config: {
+        "/de/": "/",
+        "/de/contact/": "/contact/",
+        "/de/contribute/": "/contribute/",
+        "/de/donate/": "/donate/",
+        "/de/features/": "/features/",
+        "/de/get-started/": "/get-started/",
+        "/de/imprint/": "/imprint/",
+        "/de/learn/": "/learn/",
+        "/de/news/": "/news/",
+        "/de/privacy-policy/": "/privacy-policy/",
+        "/de/news/2025-07-05-release-3-11-0-with-numerous-improvements/": "/news/2025-07-05-release-3-11-0-with-numerous-improvements/",
+        "/de/news/2025-08-18-tech-day-fusion-von-utopia-und-ocelot/": "/news/2025-08-18-tech-day-fusion-von-utopia-und-ocelot/",
+        "/de/news/2025-09-15-release-3-12-0-published/": "/news/2025-09-15-release-3-12-0-published/",
+        "/de/news/2025-09-23-tech-day-oauth-and-oidc/": "/news/2025-09-23-tech-day-oauth-and-oidc/",
+      },
     },
     slimsearch: {
       indexContent: true,
