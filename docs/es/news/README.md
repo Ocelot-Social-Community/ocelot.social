@@ -1,7 +1,7 @@
 ---
 home: true
 article: false
-layout: BlogHome
+layout: Blog
 sidebar: false
 lang: es-ES
 title: Noticias

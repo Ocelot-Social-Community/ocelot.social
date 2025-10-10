@@ -97,85 +97,85 @@ description: A free and open source software with which you can operate a social
 
 <div class="image-grid center">
   <figure>
-    <img src="../de/assets/login.png" alt="Login" />
+    <img src="../assets/login.png" alt="Login" />
     <figcapture>
       Login
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/newsfeed.png" alt="Post overview (newsfeed)" />
+    <img src="../assets/newsfeed.png" alt="Post overview (newsfeed)" />
     <figcapture>
       Post overview (newsfeed)
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/single-post.png" alt="Individual post" />
+    <img src="../assets/single-post.png" alt="Individual post" />
     <figcapture>
       Individual post
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/single-event.png" alt="Individual event" />
+    <img src="../assets/single-event.png" alt="Individual event" />
     <figcapture>
       Individual event
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/user-profile.png" alt="User profile" />
+    <img src="../assets/user-profile.png" alt="User profile" />
     <figcapture>
       User profile
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/user-settings.png" alt="User account settings" />
+    <img src="../assets/user-settings.png" alt="User account settings" />
     <figcapture>
       User account settings
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/group-list.png" alt="Group overview" />
+    <img src="../assets/group-list.png" alt="Group overview" />
     <figcapture>
       Group overview
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/group-profile.png" alt="Group profile" />
+    <img src="../assets/group-profile.png" alt="Group profile" />
     <figcapture>
       Group profile
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/1-to-1-chat.png" alt="One-to-one chat" />
+    <img src="../assets/1-to-1-chat.png" alt="One-to-one chat" />
     <figcapture>
       One-to-one chat
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/notifications.png" alt="Notifications" />
+    <img src="../assets/notifications.png" alt="Notifications" />
     <figcapture>
       Notifications
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/map.png" alt="Map" />
+    <img src="../assets/map.png" alt="Map" />
     <figcapture>
       Map
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/language-selection.png" alt="Multilingualism" />
+    <img src="../assets/language-selection.png" alt="Multilingualism" />
     <figcapture>
       Multilingualism
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/moderation.png" alt="Moderation" />
+    <img src="../assets/moderation.png" alt="Moderation" />
     <figcapture>
       Moderation
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/system-administration.png" alt="System management" />
+    <img src="../assets/system-administration.png" alt="System management" />
     <figcapture>
       System management
     </figcapture>

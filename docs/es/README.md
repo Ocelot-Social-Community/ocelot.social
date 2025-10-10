@@ -98,85 +98,85 @@ description: "Un software libre y de código abierto con el que puedes gestionar
 
 <div class="image-grid center">
   <figure>
-    <img src="../de/assets/login.png" alt="Inicio de sesión" />
+    <img src="../assets/login.png" alt="Inicio de sesión" />
     <figcapture>
       Inicio de sesión
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/newsfeed.png" alt="Vista general de publicaciones (feed de noticias)" />
+    <img src="../assets/newsfeed.png" alt="Vista general de publicaciones (feed de noticias)" />
     <figcapture>
       Vista general de publicaciones (feed de noticias)
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/single-post.png" alt="Publicación individual" />
+    <img src="../assets/single-post.png" alt="Publicación individual" />
     <figcapture>
       Publicación individual
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/single-event.png" alt="Evento individual" />
+    <img src="../assets/single-event.png" alt="Evento individual" />
     <figcapture>
       Evento individual
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/user-profile.png" alt="Perfil de usuario" />
+    <img src="../assets/user-profile.png" alt="Perfil de usuario" />
     <figcapture>
       Perfil de usuario
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/user-settings.png" alt="Configuración de la cuenta de usuario" />
+    <img src="../assets/user-settings.png" alt="Configuración de la cuenta de usuario" />
     <figcapture>
       Configuración de la cuenta de usuario
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/group-list.png" alt="Vista general de grupos" />
+    <img src="../assets/group-list.png" alt="Vista general de grupos" />
     <figcapture>
       Vista general de grupos
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/group-profile.png" alt="Perfil del grupo" />
+    <img src="../assets/group-profile.png" alt="Perfil del grupo" />
     <figcapture>
       Perfil del grupo
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/1-to-1-chat.png" alt="Chat uno a uno" />
+    <img src="../assets/1-to-1-chat.png" alt="Chat uno a uno" />
     <figcapture>
       Chat uno a uno
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/notifications.png" alt="Notificaciones" />
+    <img src="../assets/notifications.png" alt="Notificaciones" />
     <figcapture>
       Notificaciones
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/map.png" alt="Mapa" />
+    <img src="../assets/map.png" alt="Mapa" />
     <figcapture>
       Mapa
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/language-selection.png" alt="Multilingüismo" />
+    <img src="../assets/language-selection.png" alt="Multilingüismo" />
     <figcapture>
       Multilingüismo
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/moderation.png" alt="Moderación" />
+    <img src="../assets/moderation.png" alt="Moderación" />
     <figcapture>
       Moderación
     </figcapture>
   </figure>
   <figure>
-    <img src="../de/assets/system-administration.png" alt="Administración del sistema" />
+    <img src="../assets/system-administration.png" alt="Administración del sistema" />
     <figcapture>
       Administración del sistema
     </figcapture>
