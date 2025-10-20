@@ -32,10 +32,8 @@ Ziel ist, dass Gruppenadministratoren Beiträge zu oberst auf der Beitragsliste 
 wodurch die Mitglieder diese Ankündigungen sofort sehen.
 Eine solche Funktion gibt es schon für die allgemeine Beitragsliste, jedoch nicht für Gruppen.
 
-<!-- ![So könnte ein angepinnter Beitrag auf einer Gruppenseite bald aussehen (oranger Rahmen und Banderole).](/blog/pinned-post-in-group.png) -->
-
 <figure class="blog-post-image">
-  <img src="/blog/pinned-post-in-group.png" alt="Angepinnter Beitrag auf Gruppenseite" />
+  <img src="/blog/pinned-post-in-group--de.png" alt="Angepinnter Beitrag auf Gruppenseite" />
   <figcaption class="blog-post-image-capture">
     So könnte ein angepinnter Beitrag auf einer Gruppenseite bald aussehen (oranger Rahmen und Banderole).
   </figcaption>
