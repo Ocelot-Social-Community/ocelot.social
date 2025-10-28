@@ -10,7 +10,16 @@ const __dirname = getDirname(import.meta.url)
 export default defineUserConfig({
   ...meta,
   theme,
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => tag === 'Button' || tag === 'figcaption',
+        },
+      },
+    },
+  }),
   base: process.env.VUEPRESS_BASE ? `/${process.env.VUEPRESS_BASE}/` : '/',
   alias: {
     '@theme': path.resolve(
