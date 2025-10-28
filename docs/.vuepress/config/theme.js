@@ -195,6 +195,9 @@ export default hopeTheme({
   },
 
   plugins: {
+    icon: {
+      assets: "fontawesome",
+    },
     blog: {
       // Minimal configuration to avoid errors
       excerptLength: 0,
@@ -264,8 +267,5 @@ export default hopeTheme({
       fallbackImage: "/logo.svg",
       hostname: "https://ocelot.social/",
     },
-  },
-  icon: {
-    assets: "fontawesome",
   },
 });

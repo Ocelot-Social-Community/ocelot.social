@@ -29,63 +29,63 @@ description: Un logiciel libre et open source avec lequel tu peux gérer un rés
 
 <div class="benefits-grid center">
   <figure>
-    <HopeIcon icon="fa-solid fa-face-smile" />
+    <VPIcon icon="fa-solid fa-face-smile fa-fw fa-sm" />
     <figcaption>
       <h3>Logiciel libre et gratuit</h3>
       Tu peux utiliser et développer le logiciel.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-people-group" />
+    <VPIcon icon="fa-solid fa-people-group fa-fw fa-sm" />
     <figcaption>
       <h3>Pour tout le monde</h3>
       <i>Ocelot.social</i> est adapté à la société civile ainsi qu’aux organisations publiques et privées.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-filter" />
+    <VPIcon icon="fa-solid fa-filter fa-fw fa-sm" />
     <figcaption>
       <h3>Filtrage autodéterminé</h3>
       Tu choisis le contenu que tu vois – pas de sélection impénétrable.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-gears" />
+    <VPIcon icon="fa-solid fa-gears fa-fw fa-sm" />
     <figcaption>
       <h3>Configurable</h3>
       En tant qu’opérateur, tu peux personnaliser le design et les fonctions selon tes souhaits.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-code" />
+    <VPIcon icon="fa-solid fa-code fa-fw fa-sm" />
     <figcaption>
       <h3>Extensible</h3>
       De nouvelles fonctions peuvent être ajoutées pour le bénéfice de tous.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-up-right-and-down-left-from-center" />
+    <VPIcon icon="fa-solid fa-up-right-and-down-left-from-center fa-fw fa-sm" />
     <figcaption>
       <h3>Évolutif</h3>
       Grâce à la technologie la plus récente, tu peux utiliser le logiciel pour toutes les tailles de réseau.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="home" />
+    <VPIcon icon="home fa-fw fa-sm" />
     <figcaption>
       <h3>Hébergement flexible</h3>
       Tu peux héberger ton réseau toi-même ou le faire héberger par ton fournisseur de services.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-scale-balanced" />
+    <VPIcon icon="fa-solid fa-scale-balanced fa-fw fa-sm" />
     <figcaption>
       <h3>Vos propres règles</h3>
       Détermines toi-même les conditions d’utilisation de ton réseau.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-shuttle-space" />
+    <VPIcon icon="fa-solid fa-shuttle-space fa-fw fa-sm" />
     <figcaption>
       <h3>Technologie de pointe</h3>
       Le logiciel est à la pointe de la technologie – flexible, fiable, performant.
@@ -196,28 +196,28 @@ description: Un logiciel libre et open source avec lequel tu peux gérer un rés
 
 <div class="benefits-grid center">
   <figure>
-    <HopeIcon icon="fa-solid" />
+    <VPIcon icon="fa-solid fa-fw fa-sm" />
     <figcaption>
       <h3>Frei verfügbar</h3>
       Freie Software ist für jeden Menschen jederzeit zugänglich. Dass Lizenzen ablaufen, gibt es nicht.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid" />
+    <VPIcon icon="fa-solid fa-fw fa-sm" />
     <figcaption>
       <h3>Transparent</h3>
       Bei freier Software ist der Quellcode einsehbar. Jeder Mensch hat so die Möglichkeit nachzusehen, was im Hintergrund eines Programmes passiert.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid" />
+    <VPIcon icon="fa-solid fa-fw fa-sm" />
     <figcaption>
       <h3>Kopierbar</h3>
       Ich kann jederzeit mit allen meinen Kolleginnen und Kollegen zusammenarbeiten. Alle können es jederzeit verwenden, ohne Einschränkungen.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid" />
+    <VPIcon icon="fa-solid fa-fw fa-sm" />
     <figcaption>
       <h3>Veränderbar</h3>
       Jede Person kann etwas zu ihrem Lieblingsprogramm beitragen, jederzeit. Ich kann das Programm so verwenden, wie ich es am liebsten will.

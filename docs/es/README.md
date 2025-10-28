@@ -30,63 +30,63 @@ description: "Un software libre y de código abierto con el que puedes gestionar
 
 <div class="benefits-grid center">
   <figure>
-    <HopeIcon icon="fa-solid fa-face-smile" />
+    <VPIcon icon="fa-solid fa-face-smile fa-fw fa-sm" />
     <figcaption>
       <h3>Software libre y de código abierto</h3>
       Puedes usar y desarrollar más el software.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-people-group" />
+    <VPIcon icon="fa-solid fa-people-group fa-fw fa-sm" />
     <figcaption>
       <h3>Para todos</h3>
       <i>Ocelot.social</i> es adecuado tanto para la sociedad civil como para organizaciones públicas y privadas.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-filter" />
+    <VPIcon icon="fa-solid fa-filter fa-fw fa-sm" />
     <figcaption>
       <h3>Filtrado autodeterminado</h3>
       Tú eliges qué contenido ves – sin selecciones impenetrables.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-gears" />
+    <VPIcon icon="fa-solid fa-gears fa-fw fa-sm" />
     <figcaption>
       <h3>Configurable</h3>
       Como operador, puedes personalizar el diseño y las funciones según tus deseos.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-code" />
+    <VPIcon icon="fa-solid fa-code fa-fw fa-sm" />
     <figcaption>
       <h3>Ampliable</h3>
       Se pueden añadir nuevas funciones que beneficien a todos.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-up-right-and-down-left-from-center" />
+    <VPIcon icon="fa-solid fa-up-right-and-down-left-from-center fa-fw fa-sm" />
     <figcaption>
       <h3>Escalable</h3>
       Gracias a la última tecnología, puedes usar el software para todos los tamaños de red.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="home" />
+    <VPIcon icon="home fa-fw fa-sm" />
     <figcaption>
       <h3>Alojamiento flexible</h3>
       Puedes alojar tu red tú mismo o hacer que la aloje tu proveedor de servicios.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-scale-balanced" />
+    <VPIcon icon="fa-solid fa-scale-balanced fa-fw fa-sm" />
     <figcaption>
       <h3>Tus propias reglas</h3>
       Define tú mismo los términos de uso para tu red.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-shuttle-space" />
+    <VPIcon icon="fa-solid fa-shuttle-space fa-fw fa-sm" />
     <figcaption>
       <h3>Última tecnología</h3>
       El software está a la vanguardia de la tecnología – flexible, fiable, de alto rendimiento.

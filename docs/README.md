@@ -30,63 +30,63 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
 
 <div class="benefits-grid center">
   <figure>
-    <HopeIcon icon="fa-solid fa-face-smile" />
+    <VPIcon icon="fa-solid fa-face-smile fa-fw fa-sm" />
     <figcaption>
       <h3>Freie Open-Source-Software</h3>
       Du kannst die Software nutzen und weiterentwickeln.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-people-group" />
+    <VPIcon icon="fa-solid fa-people-group fa-fw fa-sm" />
     <figcaption>
       <h3>Für alle</h3>
       <i>Ocelot.social</i> eignet sich für die Zivilgesellschaft sowie für staatliche und private Organisationen.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-filter" />
+    <VPIcon icon="fa-solid fa-filter fa-fw fa-sm" />
     <figcaption>
       <h3>Selbstbestimmtes Filtern</h3>
       Du wählst selber, welchen Inhalt du siehst – keine undurchschaubare Auswahl.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-gears" />
+    <VPIcon icon="fa-solid fa-gears fa-fw fa-sm" />
     <figcaption>
       <h3>Konfigurierbar</h3>
       Als Betreiber kannst du das Design und die Funktionen nach deinen Wünschen einstellen.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-code" />
+    <VPIcon icon="fa-solid fa-code fa-fw fa-sm" />
     <figcaption>
       <h3>Erweiterbar</h3>
       Neue Funktionen können hinzuprogrammiert werden, die allen zugute kommen.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-up-right-and-down-left-from-center" />
+    <VPIcon icon="fa-solid fa-up-right-and-down-left-from-center fa-fw fa-sm" />
     <figcaption>
       <h3>Skalierbar</h3>
       Dank neuster Technik kannst du die Software für alle Netzwerkgrößen einsetzen.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="home" />
+    <VPIcon icon="home fa-fw fa-sm" />
     <figcaption>
       <h3>Flexibles Hosting</h3>
       Du kannst dein Netzwerk selber hosten oder von deinem Dienstleister hosten lassen.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-scale-balanced" />
+    <VPIcon icon="fa-solid fa-scale-balanced fa-fw fa-sm" />
     <figcaption>
       <h3>Deine eigenen Regeln</h3>
       Bestimme die Nutzungsbedingungen für dein Netzwerk selber.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid fa-shuttle-space" />
+    <VPIcon icon="fa-solid fa-shuttle-space fa-fw fa-sm" />
     <figcaption>
       <h3>Neueste Technologie</h3>
       Die Software ist technologisch am Puls der Zeit – flexibel, zuverlässig, performant.
@@ -195,28 +195,28 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
 
 <div class="benefits-grid center">
   <figure>
-    <HopeIcon icon="fa-solid" />
+    <VPIcon icon="fa-solid fa-fw fa-sm" />
     <figcaption>
       <h3>Frei verfügbar</h3>
       Freie Software ist für jeden Menschen jederzeit zugänglich. Dass Lizenzen ablaufen, gibt es nicht.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid" />
+    <VPIcon icon="fa-solid fa-fw fa-sm" />
     <figcaption>
       <h3>Transparent</h3>
       Bei freier Software ist der Quellcode einsehbar. Jeder Mensch hat so die Möglichkeit nachzusehen, was im Hintergrund eines Programmes passiert.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid" />
+    <VPIcon icon="fa-solid fa-fw fa-sm" />
     <figcaption>
       <h3>Kopierbar</h3>
       Ich kann jederzeit mit allen meinen Kolleginnen und Kollegen zusammenarbeiten. Alle können es jederzeit verwenden, ohne Einschränkungen.
     </figcaption>
   </figure>
   <figure>
-    <HopeIcon icon="fa-solid" />
+    <VPIcon icon="fa-solid fa-fw fa-sm" />
     <figcaption>
       <h3>Veränderbar</h3>
       Jede Person kann etwas zu ihrem Lieblingsprogramm beitragen, jederzeit. Ich kann das Programm so verwenden, wie ich es am liebsten will.
