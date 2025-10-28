@@ -24,7 +24,7 @@ module.exports = {
     'doubled-spaces': true,
     'common-misspellings': {
       // Misspellings to be ignored (case-insensitive)
-      ignore: ['Exemple'],
+      ignore: ['Autor', 'Exemple'],
     },
     'write-good': false,
     'apostrophe': true,
