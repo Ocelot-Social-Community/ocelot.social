@@ -30,66 +30,66 @@ description: A free and open source software with which you can operate a social
 <div class="benefits-grid center">
   <figure>
     <HopeIcon icon="fa-solid fa-face-smile" />
-    <figcapture>
+    <figcaption>
       <h3>Free open source software</h3>
       You can use and further develop the software.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-people-group" />
-    <figcapture>
+    <figcaption>
       <h3>For everyone</h3>
       <i>Ocelot.social</i> is suitable for civil society as well as for public and private organizations.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-filter" />
-    <figcapture>
+    <figcaption>
       <h3>Self-determined filtering</h3>
       You choose what content you see – no impenetrable selection.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-gears" />
-    <figcapture>
+    <figcaption>
       <h3>Configurable</h3>
       As the operator, you can customize the design and functions according to your wishes.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-code" />
-    <figcapture>
+    <figcaption>
       <h3>Expandable</h3>
       New functions can be added that benefit everyone.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-up-right-and-down-left-from-center" />
-    <figcapture>
+    <figcaption>
       <h3>Scalable</h3>
       Thanks to the latest technology, you can use the software for all network sizes.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="home" />
-    <figcapture>
+    <figcaption>
       <h3>Flexible hosting</h3>
       You can host your network yourself or have it hosted by your service provider.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-scale-balanced" />
-    <figcapture>
+    <figcaption>
       <h3>Your own rules</h3>
       Determine the terms of use for your network yourself.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-shuttle-space" />
-    <figcapture>
+    <figcaption>
       <h3>Latest technology</h3>
       The software is at the cutting edge of technology – flexible, reliable, high-performance.
-    </figcapture>
+    </figcaption>
   </figure>
 </div>
 
@@ -98,87 +98,87 @@ description: A free and open source software with which you can operate a social
 <div class="image-grid center">
   <figure>
     <img src="../assets/login.png" alt="Login" />
-    <figcapture>
+    <figcaption>
       Login
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/newsfeed.png" alt="Post overview (newsfeed)" />
-    <figcapture>
+    <figcaption>
       Post overview (newsfeed)
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/single-post.png" alt="Individual post" />
-    <figcapture>
+    <figcaption>
       Individual post
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/single-event.png" alt="Individual event" />
-    <figcapture>
+    <figcaption>
       Individual event
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/user-profile.png" alt="User profile" />
-    <figcapture>
+    <figcaption>
       User profile
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/user-settings.png" alt="User account settings" />
-    <figcapture>
+    <figcaption>
       User account settings
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/group-list.png" alt="Group overview" />
-    <figcapture>
+    <figcaption>
       Group overview
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/group-profile.png" alt="Group profile" />
-    <figcapture>
+    <figcaption>
       Group profile
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/1-to-1-chat.png" alt="One-to-one chat" />
-    <figcapture>
+    <figcaption>
       One-to-one chat
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/notifications.png" alt="Notifications" />
-    <figcapture>
+    <figcaption>
       Notifications
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/map.png" alt="Map" />
-    <figcapture>
+    <figcaption>
       Map
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/language-selection.png" alt="Multilingualism" />
-    <figcapture>
+    <figcaption>
       Multilingualism
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/moderation.png" alt="Moderation" />
-    <figcapture>
+    <figcaption>
       Moderation
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/system-administration.png" alt="System management" />
-    <figcapture>
+    <figcaption>
       System management
-    </figcapture>
+    </figcaption>
   </figure>
 </div>
 
@@ -197,31 +197,31 @@ description: A free and open source software with which you can operate a social
 <div class="benefits-grid center">
   <figure>
     <HopeIcon icon="fa-solid" />
-    <figcapture>
+    <figcaption>
       <h3>Frei verfügbar</h3>
       Freie Software ist für jeden Menschen jederzeit zugänglich. Dass Lizenzen ablaufen, gibt es nicht.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid" />
-    <figcapture>
+    <figcaption>
       <h3>Transparent</h3>
       Bei freier Software ist der Quellcode einsehbar. Jeder Mensch hat so die Möglichkeit nachzusehen, was im Hintergrund eines Programmes passiert.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid" />
-    <figcapture>
+    <figcaption>
       <h3>Kopierbar</h3>
       Ich kann jederzeit mit allen meinen Kolleginnen und Kollegen zusammenarbeiten. Alle können es jederzeit verwenden, ohne Einschränkungen.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid" />
-    <figcapture>
+    <figcaption>
       <h3>Veränderbar</h3>
       Jede Person kann etwas zu ihrem Lieblingsprogramm beitragen, jederzeit. Ich kann das Programm so verwenden, wie ich es am liebsten will.
-    </figcapture>
+    </figcaption>
   </figure>
 </div> -->
 

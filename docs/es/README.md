@@ -31,66 +31,66 @@ description: "Un software libre y de código abierto con el que puedes gestionar
 <div class="benefits-grid center">
   <figure>
     <HopeIcon icon="fa-solid fa-face-smile" />
-    <figcapture>
+    <figcaption>
       <h3>Software libre y de código abierto</h3>
       Puedes usar y desarrollar más el software.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-people-group" />
-    <figcapture>
+    <figcaption>
       <h3>Para todos</h3>
       <i>Ocelot.social</i> es adecuado tanto para la sociedad civil como para organizaciones públicas y privadas.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-filter" />
-    <figcapture>
+    <figcaption>
       <h3>Filtrado autodeterminado</h3>
       Tú eliges qué contenido ves – sin selecciones impenetrables.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-gears" />
-    <figcapture>
+    <figcaption>
       <h3>Configurable</h3>
       Como operador, puedes personalizar el diseño y las funciones según tus deseos.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-code" />
-    <figcapture>
+    <figcaption>
       <h3>Ampliable</h3>
       Se pueden añadir nuevas funciones que beneficien a todos.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-up-right-and-down-left-from-center" />
-    <figcapture>
+    <figcaption>
       <h3>Escalable</h3>
       Gracias a la última tecnología, puedes usar el software para todos los tamaños de red.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="home" />
-    <figcapture>
+    <figcaption>
       <h3>Alojamiento flexible</h3>
       Puedes alojar tu red tú mismo o hacer que la aloje tu proveedor de servicios.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-scale-balanced" />
-    <figcapture>
+    <figcaption>
       <h3>Tus propias reglas</h3>
       Define tú mismo los términos de uso para tu red.
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <HopeIcon icon="fa-solid fa-shuttle-space" />
-    <figcapture>
+    <figcaption>
       <h3>Última tecnología</h3>
       El software está a la vanguardia de la tecnología – flexible, fiable, de alto rendimiento.
-    </figcapture>
+    </figcaption>
   </figure>
 </div>
 
@@ -99,87 +99,87 @@ description: "Un software libre y de código abierto con el que puedes gestionar
 <div class="image-grid center">
   <figure>
     <img src="../assets/login.png" alt="Inicio de sesión" />
-    <figcapture>
+    <figcaption>
       Inicio de sesión
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/newsfeed.png" alt="Vista general de publicaciones (feed de noticias)" />
-    <figcapture>
+    <figcaption>
       Vista general de publicaciones (feed de noticias)
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/single-post.png" alt="Publicación individual" />
-    <figcapture>
+    <figcaption>
       Publicación individual
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/single-event.png" alt="Evento individual" />
-    <figcapture>
+    <figcaption>
       Evento individual
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/user-profile.png" alt="Perfil de usuario" />
-    <figcapture>
+    <figcaption>
       Perfil de usuario
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/user-settings.png" alt="Configuración de la cuenta de usuario" />
-    <figcapture>
+    <figcaption>
       Configuración de la cuenta de usuario
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/group-list.png" alt="Vista general de grupos" />
-    <figcapture>
+    <figcaption>
       Vista general de grupos
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/group-profile.png" alt="Perfil del grupo" />
-    <figcapture>
+    <figcaption>
       Perfil del grupo
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/1-to-1-chat.png" alt="Chat uno a uno" />
-    <figcapture>
+    <figcaption>
       Chat uno a uno
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/notifications.png" alt="Notificaciones" />
-    <figcapture>
+    <figcaption>
       Notificaciones
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/map.png" alt="Mapa" />
-    <figcapture>
+    <figcaption>
       Mapa
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/language-selection.png" alt="Multilingüismo" />
-    <figcapture>
+    <figcaption>
       Multilingüismo
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/moderation.png" alt="Moderación" />
-    <figcapture>
+    <figcaption>
       Moderación
-    </figcapture>
+    </figcaption>
   </figure>
   <figure>
     <img src="../assets/system-administration.png" alt="Administración del sistema" />
-    <figcapture>
+    <figcaption>
       Administración del sistema
-    </figcapture>
+    </figcaption>
   </figure>
 </div>
 
