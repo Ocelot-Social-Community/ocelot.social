@@ -46,6 +46,20 @@ h1, h2, h3, h4 {
   margin: 0 auto;
 }
 
+.vp-project-home [vp-content]:not(.custom) #markdown-content {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 2rem 2.5rem;
+
+  @media (max-width: 959px) {
+    padding: 1.5rem;
+  }
+
+  @media (max-width: 719px) {
+    padding: 1rem 1.5rem;
+  }
+}
+
 // Blog
 
 .vp-blog-hero {
