@@ -40,7 +40,7 @@ h1, h2, h3, h4 {
   font-family: 'Noto Sans Bold';
 };
 
-.vp-project-home .theme-hope-content:not(.custom) {
+.vp-project-home [vp-content]:not(.custom) {
   max-width: 100%;
   padding: 0;
   margin: 0 auto;
@@ -75,7 +75,7 @@ h1, h2, h3, h4 {
 
 // Button
 
-.theme-hope-content Button {
+[vp-content] Button {
   font-size: 1.1em;
   color: var(--text-color);
   background-color: $ocelot-background-transparent;
@@ -93,7 +93,7 @@ h1, h2, h3, h4 {
   }
 }
 
-.theme-hope-content Button:hover {
+[vp-content] Button:hover {
   color: black;
   background-color: $ocelot-button-hover-background-color-light;
   border-color: $ocelot-border-color;
@@ -124,7 +124,7 @@ h1, h2, h3, h4 {
   cursor: grab;
 }
 
-.theme-hope-content Button.donate-button {
+[vp-content] Button.donate-button {
   background-color: $theme-color;
   opacity: 0.85 !important;
   border: 0 !important;
@@ -135,7 +135,7 @@ h1, h2, h3, h4 {
   }
 };
 
-.theme-hope-content Button.donate-button:hover {
+[vp-content] Button.donate-button:hover {
   opacity: 1.0 !important;
 };
 
