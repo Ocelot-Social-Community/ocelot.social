@@ -73,6 +73,19 @@ h1, h2, h3, h4 {
   max-height: 420px !important;
 }
 
+figure.blog-post-image {
+  padding-top: 25px;
+}
+
+figure.blog-post-image + p {
+  padding-top: 18px;
+}
+
+figcaption.blog-post-image-capture {
+  font-size: 0.87rem;
+  padding-top: 5px;
+}
+
 // Button
 
 .theme-hope-content Button {
