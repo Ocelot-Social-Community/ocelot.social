@@ -1,10 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 export default hopeTheme({
-  author: {
-    name: "busFaktor() e.V.",
-    url: "https://www.busfaktor.org/",
-  },
   favicon: "favicon.ico",
   logo: "/logo.svg",
   docsRepo: "https://github.com/Ocelot-Social-Community/ocelot.social",
