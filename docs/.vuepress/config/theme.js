@@ -170,22 +170,23 @@ export default hopeTheme({
       ],
     }
   },
+  mdEnhance: {
+    align: true,
+    demo: true,
+    sub: true,
+    sup: true,
+    vPre: true,
+  },
   
   plugins: {
     blog: {
       excerptLength: 0,
     },
-    mdEnhance: {
-      align: true,
-      demo: true,
-      sub: true,
-      sup: true,
-      vPre: true,
-    },
     redirect: {
       autoLocale: true,
       defaultBehavior: 'defaultLocale',
       defaultLocale: '/de/',
+
       localeConfig: {
         '/de/': ['de-DE', 'de'],
         '/en/': ['en-US', 'en'],
