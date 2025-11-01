@@ -7,7 +7,7 @@ title: Kontakt
 description: Hast du eine Frage oder ein Feedback zu ocelot.social, der freien Open-Source-Software für soziale Netzwerke jeder Größe? Kontaktiere uns gerne!
 ---
 
-## Entwickler-Verein Test
+## Entwickler-Verein TEST
 
 busFaktor() e.V.  
 Wolfgang Huß, 2. Vorsitzender  
