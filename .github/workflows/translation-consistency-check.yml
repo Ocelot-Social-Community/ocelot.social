@@ -137,17 +137,17 @@ jobs:
 
             const issueBody = `## Translation Update Required
 
-Pull Request #${prNumber} ("${prTitle}") by @${prAuthor} has been merged with documentation changes.
+            Pull Request #${prNumber} ("${prTitle}") has been merged with documentation changes.
 
-**[View Pull Request #${prNumber}](${prUrl})**
-**[View Changed Files](${prFilesUrl})**
+            **[View Pull Request #${prNumber}](${prUrl})**
+            **[View Changed Files](${prFilesUrl})**
 
-### Changed Files by Locale
+            ### Changed Files by Locale
 
-${changesSummary}
----
-**Commit**: ${context.sha}
-**Workflow Run**: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+            ${changesSummary}
+            ---
+            **Commit**: ${context.sha}
+            **Workflow Run**: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
 
             try {
               const { data: newIssue } = await github.rest.issues.create({
