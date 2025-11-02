@@ -17,7 +17,7 @@ export default hopeTheme({
     center: ["Links"],
     end: ["Language", "Repo", "Outlook", "Search"],
   },
-  locales:{
+  locales: {
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
     '/de/': {
@@ -170,22 +170,23 @@ export default hopeTheme({
       ],
     }
   },
+  mdEnhance: {
+    align: true,
+    demo: true,
+    sub: true,
+    sup: true,
+    vPre: true,
+  },
   
   plugins: {
     blog: {
       excerptLength: 0,
     },
-    mdEnhance: {
-      align: true,
-      demo: true,
-      sub: true,
-      sup: true,
-      vPre: true,
-    },
     redirect: {
       autoLocale: true,
       defaultBehavior: 'defaultLocale',
       defaultLocale: '/de/',
+
       localeConfig: {
         '/de/': ['de-DE', 'de'],
         '/en/': ['en-US', 'en'],
@@ -194,19 +195,9 @@ export default hopeTheme({
       },
       localeFallback: false,
     },
-    searchPro: {
+    slimsearch: {
       indexContent: true,
       autoSuggestions: true,
-      customFields: [
-        {
-          getter: (page) => page.frontmatter.category,
-          formatter: "Category: $content",
-        },
-        {
-          getter: (page) => page.frontmatter.tag,
-          formatter: "Tag: $content",
-        },
-      ],
     },
     seo: {
       fallbackImage: '/logo.svg',
