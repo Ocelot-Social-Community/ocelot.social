@@ -189,7 +189,6 @@ export default hopeTheme({
     sup: true,
     vPre: true,
   },
-
   plugins: {
     icon: {
       assets: "fontawesome",
@@ -232,6 +231,12 @@ export default hopeTheme({
       autoLocale: true,
       defaultBehavior: "defaultLocale",
       defaultLocale: "/",
+    },
+    redirect: {
+      autoLocale: true,
+      defaultBehavior: 'defaultLocale',
+      defaultLocale: '/de/',
+
       localeConfig: {
         "/": ["de-DE", "de"],
         "/en/": ["en-US", "en"],
@@ -258,6 +263,7 @@ export default hopeTheme({
     },
     slimsearch: {
       indexContent: true,
+      autoSuggestions: true,
     },
     seo: {
       fallbackImage: "/logo.svg",
