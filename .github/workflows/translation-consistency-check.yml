@@ -100,28 +100,39 @@ jobs:
               }
             }
 
+            const localeNames = {
+              de: 'German',
+              en: 'English',
+              es: 'Spanish',
+              fr: 'French'
+            }
+
+            const baseUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}`
+            const blobUrl = `${baseUrl}/blob/master`
+
             let changesSummary = ''
             for (const [locale, types] of Object.entries(changes)) {
               const hasChanges = types.added.length + types.modified.length + types.deleted.length > 0
               if (!hasChanges) continue
 
-              changesSummary += `#### \`/${locale}/\`\n\n`
+              const localeName = localeNames[locale] || locale.toUpperCase()
+              changesSummary += `#### In ${localeName} locale \`/${locale}/\`\n\n`
 
-              if (types.added.length > 0) {
-                changesSummary += '**Added:**\n'
-                types.added.forEach(f => changesSummary += `- \`${f}\`\n`)
+              if (types.modified.length > 0) {
+                changesSummary += '##### Modified:\n'
+                types.modified.forEach(f => changesSummary += `- [${f}](${blobUrl}/${f})\n`)
                 changesSummary += '\n'
               }
 
-              if (types.modified.length > 0) {
-                changesSummary += '**Modified:**\n'
-                types.modified.forEach(f => changesSummary += `- \`${f}\`\n`)
+              if (types.added.length > 0) {
+                changesSummary += '##### Added:\n'
+                types.added.forEach(f => changesSummary += `- [${f}](${blobUrl}/${f})\n`)
                 changesSummary += '\n'
               }
 
               if (types.deleted.length > 0) {
-                changesSummary += '**Deleted:**\n'
-                types.deleted.forEach(f => changesSummary += `- \`${f}\`\n`)
+                changesSummary += '##### Deleted:\n'
+                types.deleted.forEach(f => changesSummary += `- [${f}](${blobUrl}/${f})\n`)
                 changesSummary += '\n'
               }
             }
@@ -132,22 +143,25 @@ jobs:
             }
 
             const issueTitle = `🔧 [Refactor] Adapt Translations to recent Documentation Changes by #${prNumber}`
-            const prUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/pull/${prNumber}`
-            const prFilesUrl = `${prUrl}/files`
+            const prUrl = `${baseUrl}/pull/${prNumber}`
+            const commitUrl = `${baseUrl}/commit/${context.sha}`
+            const prTemplateUrl = `https://github.com/Ocelot-Social-Community/Ocelot-Social/blob/master/.github/PULL_REQUEST_TEMPLATE.md`
 
             const issueBody = `## Translation Update Required
 
-            Pull Request #${prNumber} ("${prTitle}") has been merged with documentation changes.
+            Pull Request **[#${prNumber} ${prTitle}](${prUrl})** has been merged with documentation changes.
 
-            **[View Pull Request #${prNumber}](${prUrl})**
-            **[View Changed Files](${prFilesUrl})**
-
-            ### Changed Files by Locale
+            ### Changes
 
             ${changesSummary}
             ---
-            **Commit**: ${context.sha}
-            **Workflow Run**: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+            ### TODO
+            - [ ] Carefully view the [changed files](${commitUrl})
+            - [ ] Decide whether translation actions need to be performed
+              - [ ] If not, close this issue with an appropriate comment
+              - [ ] Else, update the translations
+                - [ ] Use the [Pull request template](${prTemplateUrl})
+                  - [ ] Set this very issue to be fixed by the pull request`
 
             try {
               const { data: newIssue } = await github.rest.issues.create({
