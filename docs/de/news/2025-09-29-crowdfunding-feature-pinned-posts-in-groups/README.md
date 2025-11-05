@@ -18,7 +18,18 @@ title: "Unser erstes Crowdfunding! 🪄✨"
 description: "Hilf mit deiner Spende, dass in naher Zukunft Beiträge in Gruppen angepinnt werden können."
 ---
 
-Hilf mit deiner Spende, dass in naher Zukunft Beiträge in Gruppen angepinnt werden können.
+Hilf mit deiner Spende, dass Beiträge in Gruppen angepinnt werden können.
+
+### Aktueller Spendenstand — Ziel: 1.200&thinsp;€
+
+<div style="width: 100%; border: 1px solid var(--notice-c-accent-bg); border-radius: 10px; margin: 20px 0 20px 0;">
+  <div style="width: 12.5%; border-radius: 10px 0 0 10px; color: #000; background-color: var(--notice-c-accent-bg); font-size: 2em; text-align: right; padding-right: 10px;">
+    150&thinsp;€
+  </div>
+</div>
+
+Stand 5.11.2025, wird wöchentlich aktualisiert.  
+Das Crowdfunding läuft vom 5.11.2025 bis 2.1.2026.
 
 ### Worum geht es
 
@@ -28,9 +39,10 @@ Den Anfang macht eine Funktion, die dafür sorgt, dass wichtige Information in G
 
 ### Anpinnen von Beiträgen in Gruppen
 
-Ziel ist, dass Gruppenadministratoren Beiträge zu oberst auf der Beitragsliste ihrer Gruppe anpinnen können,
+Ziel ist, dass Gruppenadministratoren Beiträge zuoberst auf der Beitragsliste ihrer Gruppe anpinnen können,
 wodurch die Mitglieder diese Ankündigungen sofort sehen.
-Eine solche Funktion gibt es schon für die allgemeine Beitragsliste, jedoch nicht für Gruppen.
+Eine solche Funktion gibt es schon für die allgemeine Beitragsliste.
+Um sie für Gruppen verfügbar zu machen, muss diese Funktion deutlich erweitert und zur Qualitätssicherung mit programmatischen Tests versehen werden.
 
 <figure class="blog-post-image">
   <img src="/blog/pinned-post-in-group--de.png" alt="Angepinnter Beitrag auf Gruppenseite" />
@@ -42,16 +54,23 @@ Eine solche Funktion gibt es schon für die allgemeine Beitragsliste, jedoch nic
 ### Warum ein Crowdfunding?
 
 Der busFaktor() e.V. als Betreuer der freien Open-Source-Software *ocelot.social* ist gemeinnützig.
-Da er keine kommerziellen Interessen verfolgt, wird die Weiterentwicklung der Software rein über ehrenamtliche Arbeit, über Spenden und Mitgliedsbeiträge finanziert.
-
+Da er keine kommerziellen Interessen verfolgt, wird die Weiterentwicklung der Software rein über ehrenamtliche Arbeit, über Spenden und Mitgliedsbeiträge sowie über Aufträge der Betreiber von *ocelot.social*-Netzwerken an freie Entwickler finanziert.
 Also auch über eine Spende von dir.
+
+### Aktueller Spendenstand — Ziel: 1.200&thinsp;€
+
+<div style="width: 100%; border: 1px solid var(--notice-c-accent-bg); border-radius: 10px; margin: 20px 0 20px 0;">
+  <div style="width: 12.5%; border-radius: 10px 0 0 10px; color: #000; background-color: var(--notice-c-accent-bg); font-size: 2em; text-align: right; padding-right: 10px;">
+    150&thinsp;€
+  </div>
+</div>
+
+Stand 5.11.2025, wird wöchentlich aktualisiert.  
+Das Crowdfunding läuft vom 5.11.2025 bis 2.1.2026.
 
 ### Spenden
 
-- Spendenstand: € XXX, Spendenziel: € 1.000 (Stand 06.12.2025, wird wöchentlich aktualisiert)
-- Das Crowdfunding läuft von 01.12.2025 bis 02.01.2026.
-
-**Bitte spende an:**
+Wir freuen uns über deine Spende an:
 
 busFaktor eV  
 IBAN: DE81 5003 1000 1084 5340 01  
@@ -68,19 +87,20 @@ Gib bitte unbedingt beim Verwendungszweck `Spende` und deine E-Mail-Adresse an, 
 
 Beispiel: `Spende von eva.muster at domain.de für Crowdfunding`
 
-Spenden unter € 300 sind ohne Bescheinigung abzugsfähig.  
-Für Spenden ab € 300 stellen wir auf Anfrage gerne eine Spendenquittung aus.
+In Deutschland sind Spenden unter € 300 ohne Bescheinigung abzugsfähig.  
+In anderen Fällen stellen wir auf Anfrage gerne eine Spendenquittung aus.
 
 Für [Dauerspenden](/de/donate/) fürs Projekt sind wir empfänglich. ❤️  
-Oder [mache mit](/de/contribute/).
+Es gibt auch zahlreiche Möglichkeiten, wie du [mitmachen](/de/contribute/) kannst.
 
-### Todo XXX
+<!-- ### Todo XXX -->
 
-- finanzielles Ziel
-- Dauer
-- Crowdfunding anbieter
-- Existenz Bankkonto
-- Name des Empfängers
-- Spendenabzug und -quittung fürs Ausland
-- Was passiert, wenn es nicht erfolgreich ist.
-- E-Mail aus Verwendungszweck für zukünftige Kampangen verwenden -> Datenschutzerklärung
+<!-- - Crowdfunding anbieter -->
+<!-- - Existenz Bankkonto -->
+<!-- - Name des Empfängers -->
+<!-- - Spendenabzug und -quittung fürs Ausland -->
+<!-- - Was passiert, wenn es nicht erfolgreich ist. -->
+<!-- - E-Mail aus Verwendungszweck für zukünftige Kampangen verwenden -> Datenschutzerklärung
+  - Dankesschreiben:
+    - "Danke für deine Spende!"
+    - "Wir gehen davon aus, dass wir dich über deine E-Mail auf weitere Crowdfunding-Kampagnen aufmerksam machen dürfen. Wenn du das nicht möchtest, gib uns bitte kurz Bescheid." -->
