@@ -72,7 +72,7 @@ Das Crowdfunding läuft vom 5.11.2025 bis 2.1.2026.
 
 Wir freuen uns über deine Spende an:
 
-busFaktor eV  
+busFaktor() e.V.  
 IBAN: DE81 5003 1000 1084 5340 01  
 BIC: TRODDEF1  
 Triodos Bank N.V., Deutschland
