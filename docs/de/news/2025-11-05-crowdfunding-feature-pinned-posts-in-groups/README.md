@@ -3,7 +3,7 @@ home: false
 article: true
 sidebar: false
 lang: de-DE
-date: 2025-09-29
+date: 2025-11-05
 category:
   - Funding
   - Features
