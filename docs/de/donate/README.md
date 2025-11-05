@@ -15,7 +15,7 @@ Wir freuen uns sehr über jeden Beitrag.
 
 ## Spendenkonto
 
-busFaktor eV  
+busFaktor() e.V.  
 IBAN: DE81 5003 1000 1084 5340 01  
 BIC: TRODDEF1  
 Triodos Bank N.V., Deutschland

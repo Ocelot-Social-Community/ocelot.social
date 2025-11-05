@@ -15,7 +15,7 @@ We are very happy about every contribution.
 
 ## Account for Donations
 
-busFaktor eV  
+busFaktor() e.V.  
 IBAN: DE81 5003 1000 1084 5340 01  
 BIC: TRODDEF1  
 Triodos Bank N.V., Germany

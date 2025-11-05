@@ -179,6 +179,34 @@ export default hopeTheme({
   },
   
   plugins: {
+    notice: [
+      {
+        path: "/de/",                 // show on all pages (you can add more entries per path/locale)
+        title: "Crowdfunding 🪄✨",
+        content: "Lass uns angepinnte Beiträge in Gruppen haben. Mach mit bei unserem ersten Crowdfunding!",
+        actions: [
+          { text: "Mehr lesen", link: "/de/news/2025-09-29-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
+          { text: "Nein danke" }
+        ],
+        showOnce: true,            // don’t re-show after it’s closed
+        noticeKey: "crowdfunding-pinned-post-in-group"// bump this when you edit the message
+        // fullscreen: true,       // optional: turn it into a modal
+        // confirm: true           // optional: force clicking an action to close
+      },
+      {
+        path: "/en/",                 // show on all pages (you can add more entries per path/locale)
+        title: "Crowdfunding 🪄✨",
+        content: "Let's have pinned posts in groups. Join our first crowdfunding!",
+        actions: [
+          { text: "Read more", link: "/en/news/2025-09-29-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
+          { text: "No, thanks" }
+        ],
+        showOnce: true,            // don’t re-show after it’s closed
+        noticeKey: "crowdfunding-pinned-post-in-group"// bump this when you edit the message
+        // fullscreen: true,       // optional: turn it into a modal
+        // confirm: true           // optional: force clicking an action to close
+      }
+    ],
     blog: {
       excerptLength: 0,
     },
