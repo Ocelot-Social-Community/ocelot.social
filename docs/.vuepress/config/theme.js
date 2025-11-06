@@ -205,7 +205,33 @@ export default hopeTheme({
         noticeKey: "crowdfunding-pinned-post-in-group"// bump this when you edit the message
         // fullscreen: true,       // optional: turn it into a modal
         // confirm: true           // optional: force clicking an action to close
-      }
+      },
+      {
+        path: "/es/",                 // show on all pages (you can add more entries per path/locale)
+        title: "Financiación colectiva 🪄✨",
+        content: "¡Pongamos publicaciones fijadas en los grupos! ¡Únete a nuestra primera campaña de crowdfunding!",
+        actions: [
+          { text: "Leer más", link: "/de/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
+          { text: "No, gracias" }
+        ],
+        showOnce: true,            // don’t re-show after it’s closed
+        noticeKey: "crowdfunding-pinned-post-in-group"// bump this when you edit the message
+        // fullscreen: true,       // optional: turn it into a modal
+        // confirm: true           // optional: force clicking an action to close
+      },
+      {
+        path: "/fr/",                 // show on all pages (you can add more entries per path/locale)
+        title: "Financement participatif 🪄✨",
+        content: "Ajoutons des publications épinglées dans les groupes. Rejoignez notre première campagne de financement participatif !",
+        actions: [
+          { text: "En savoir plus", link: "/de/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
+          { text: "Non, merci" }
+        ],
+        showOnce: true,            // don’t re-show after it’s closed
+        noticeKey: "crowdfunding-pinned-post-in-group"// bump this when you edit the message
+        // fullscreen: true,       // optional: turn it into a modal
+        // confirm: true           // optional: force clicking an action to close
+      },
     ],
     blog: {
       excerptLength: 0,
