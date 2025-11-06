@@ -185,7 +185,7 @@ export default hopeTheme({
         title: "Crowdfunding 🪄✨",
         content: "Lass uns angepinnte Beiträge in Gruppen haben. Mach mit bei unserem ersten Crowdfunding!",
         actions: [
-          { text: "Mehr lesen", link: "/de/news/2025-09-29-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
+          { text: "Mehr lesen", link: "/de/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
           { text: "Nein danke" }
         ],
         showOnce: true,            // don’t re-show after it’s closed
@@ -198,7 +198,7 @@ export default hopeTheme({
         title: "Crowdfunding 🪄✨",
         content: "Let's have pinned posts in groups. Join our first crowdfunding!",
         actions: [
-          { text: "Read more", link: "/en/news/2025-09-29-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
+          { text: "Read more", link: "/de/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
           { text: "No, thanks" }
         ],
         showOnce: true,            // don’t re-show after it’s closed
