@@ -1,7 +1,7 @@
 ---
 home: true
 article: false
-layout: BlogHome
+layout: Blog
 sidebar: false
 lang: fr-FR
 title: Actualités

@@ -1,7 +1,10 @@
 import { hopeTheme } from 'vuepress-theme-hope'
 
 export default hopeTheme({
-  favicon: 'favicon.ico',
+  author: {
+    name: "busFaktor() e.V.",
+    url: "https://www.busfaktor.org/",
+  },favicon: 'favicon.ico',
   logo: '/logo.svg',
   docsRepo: 'https://github.com/Ocelot-Social-Community/ocelot.social',
   repo: 'https://github.com/Ocelot-Social-Community/Ocelot-Social',
@@ -210,6 +213,9 @@ export default hopeTheme({
     blog: {
       excerptLength: 0,
     },
+    icon: {
+      assets: 'fontawesome',
+    },
     redirect: {
       autoLocale: true,
       defaultBehavior: 'defaultLocale',
@@ -231,6 +237,5 @@ export default hopeTheme({
       fallbackImage: '/logo.svg',
       hostname: 'https://ocelot.social/'
     }
-  },
-  iconAssets: "fontawesome",
+  }
 })
