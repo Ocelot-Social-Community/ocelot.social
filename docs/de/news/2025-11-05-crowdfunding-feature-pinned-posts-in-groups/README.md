@@ -15,7 +15,7 @@ tag:
 cover: /blog/crowdfunding-feature-pinned-posts-in-groups--de--corrected.png
 coverAlt: "Unser erstes Crowdfunding!"
 title: "Unser erstes Crowdfunding! 🪄✨"
-description: "Hilf mit deiner Spende, dass in naher Zukunft Beiträge in Gruppen angepinnt werden können."
+description: "Hilf mit deiner Spende, dass Beiträge in Gruppen angepinnt werden können."
 ---
 
 Hilf mit deiner Spende, dass Beiträge in Gruppen angepinnt werden können.
