@@ -1,31 +1,3 @@
-<script setup>
-import { computed } from "vue";
-import { useRouteLocale } from "vuepress/client";
-import articles from "@temp/mini-blog.articles.json"; // kommt aus dem Build-Hook
-
-const locale = useRouteLocale();
-
-const props =  defineProps({
-  title: { type: String},
-  readMoreLinkTitle: { type: String},
-  showAllPostsButtonTitle: { type: String},
-});
-
-// Nur Artikel des aktuellen Locales + Top 3
-const items = computed(() => {
-  const loc = locale.value || "/";
-  const list = (articles || []).filter(a => a.locale === loc);
-  return list.slice(0, 3);
-});
-
-const articleIndex = computed(() =>
-  (locale.value === "/" ? "/article/" : `${locale.value}article/`)
-);
-
-const formatDate = (d) =>
-  d ? new Date(d).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" }) : "";
-</script>
-
 <template>
   <div class="mini-blog__div" v-if="items.length">
     <h2 class="large-header">{{ title }}</h2>
@@ -74,6 +46,34 @@ const formatDate = (d) =>
     </section>
   </div>
 </template>
+
+<script setup>
+import { computed } from "vue";
+import { useRouteLocale } from "vuepress/client";
+import articles from "@temp/mini-blog.articles.json"; // kommt aus dem Build-Hook
+
+const locale = useRouteLocale();
+
+const props =  defineProps({
+  title: { type: String},
+  readMoreLinkTitle: { type: String},
+  showAllPostsButtonTitle: { type: String},
+});
+
+// Nur Artikel des aktuellen Locales + Top 3
+const items = computed(() => {
+  const loc = locale.value || "/";
+  const list = (articles || []).filter(a => a.locale === loc);
+  return list.slice(0, 3);
+});
+
+const articleIndex = computed(() =>
+  (locale.value === "/" ? "/article/" : `${locale.value}article/`)
+);
+
+const formatDate = (d) =>
+  d ? new Date(d).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" }) : "";
+</script>
 
 <style scoped>
 /* Abschnitt */
