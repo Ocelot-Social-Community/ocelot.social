@@ -49,10 +49,11 @@
 
 <script setup>
 import { computed } from "vue";
-import { useRouteLocale } from "vuepress/client";
+import { usePageLang, useRouteLocale } from "vuepress/client";
 import articles from "@temp/mini-blog.articles.json"; // kommt aus dem Build-Hook
 
-const locale = useRouteLocale();
+const locale = useRouteLocale()
+const lang = usePageLang().value || 'de-DE' // Ref<string>, e.g. "de-DE" or "en-US"
 
 const props =  defineProps({
   title: { type: String},
@@ -71,9 +72,8 @@ const articleIndex = computed(() =>
   (locale.value === "/" ? "/article/" : `${locale.value}article/`)
 );
 
-// Wolle
 const formatDate = (d) =>
-  d ? new Date(d).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" }) : "";
+  d ? new Date(d).toLocaleDateString(lang, { year: "numeric", month: "short", day: "numeric" }) : "";
 </script>
 
 <style scoped>
