@@ -18,18 +18,11 @@ title: "Unser erstes Crowdfunding! 🪄✨"
 description: "Hilf mit deiner Spende, dass Beiträge in Gruppen angepinnt werden können."
 ---
 
+<!-- markdownlint-disable no-inline-html first-line-heading -->
+
 Hilf mit deiner Spende, dass Beiträge in Gruppen angepinnt werden können.
 
-### Aktueller Spendenstand — Ziel: 1.200&thinsp;€
-
-<div style="width: 100%; border: 1px solid var(--notice-c-accent-bg); border-radius: 10px; margin: 20px 0 20px 0;">
-  <div style="width: 12.5%; border-radius: 10px 0 0 10px; color: #000; background-color: var(--notice-c-accent-bg); font-size: 2em; text-align: right; padding-right: 10px;">
-    150&thinsp;€
-  </div>
-</div>
-
-Stand 5.11.2025, wird wöchentlich aktualisiert.  
-Das Crowdfunding läuft vom 5.11.2025 bis 2.1.2026.
+<DonationBar/>
 
 ### Worum geht es
 
@@ -57,16 +50,8 @@ Der busFaktor() e.V. als Betreuer der freien Open-Source-Software *ocelot.social
 Da er keine kommerziellen Interessen verfolgt, wird die Weiterentwicklung der Software rein über ehrenamtliche Arbeit, über Spenden und Mitgliedsbeiträge sowie über Aufträge der Betreiber von *ocelot.social*-Netzwerken an freie Entwickler finanziert.
 Also auch über eine Spende von dir.
 
-### Aktueller Spendenstand — Ziel: 1.200&thinsp;€
-
-<div style="width: 100%; border: 1px solid var(--notice-c-accent-bg); border-radius: 10px; margin: 20px 0 20px 0;">
-  <div style="width: 12.5%; border-radius: 10px 0 0 10px; color: #000; background-color: var(--notice-c-accent-bg); font-size: 2em; text-align: right; padding-right: 10px;">
-    150&thinsp;€
-  </div>
-</div>
-
-Stand 5.11.2025, wird wöchentlich aktualisiert.  
-Das Crowdfunding läuft vom 5.11.2025 bis 2.1.2026.
+<!-- markdownlint-disable no-duplicate-heading -->
+<DonationBar/>
 
 ### Spenden
 
