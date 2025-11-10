@@ -71,6 +71,7 @@ const articleIndex = computed(() =>
   (locale.value === "/" ? "/article/" : `${locale.value}article/`)
 );
 
+// Wolle
 const formatDate = (d) =>
   d ? new Date(d).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" }) : "";
 </script>

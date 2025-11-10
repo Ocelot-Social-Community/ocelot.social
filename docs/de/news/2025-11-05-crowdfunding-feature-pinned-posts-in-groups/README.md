@@ -22,7 +22,13 @@ description: "Hilf mit deiner Spende, dass Beiträge in Gruppen angepinnt werden
 
 Hilf mit deiner Spende, dass Beiträge in Gruppen angepinnt werden können.
 
-<DonationBar/>
+<DonationBar
+  :currentValue="150"
+  :target="1200"
+  :startDate="new Date('2025-11-05')"
+  :endDate="new Date('2026-01-02')"
+  :asOfDate="new Date('2025-11-05')"
+/>
 
 ### Worum geht es
 
@@ -51,7 +57,13 @@ Da er keine kommerziellen Interessen verfolgt, wird die Weiterentwicklung der So
 Also auch über eine Spende von dir.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar/>
+<DonationBar
+  :currentValue="150"
+  :target="1200"
+  :startDate="new Date('2025-11-05')"
+  :endDate="new Date('2026-01-02')"
+  :asOfDate="new Date('2025-11-05')"
+/>
 
 ### Spenden
 
