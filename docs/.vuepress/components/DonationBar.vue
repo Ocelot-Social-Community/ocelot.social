@@ -49,7 +49,7 @@ const title = computed(() => {
 const currentValueStr = computed(() => {
   return props.currentValue.toLocaleString(lang) + ' €' // &thinsp;€
 })
-const dateFormat = { year: "numeric", month: "short", day: "numeric" }
+const dateFormat = { year: "numeric", month: "long", day: "numeric" }
 const asOfDateStr = computed(() => {
   switch (locale) {
     case 'de':
