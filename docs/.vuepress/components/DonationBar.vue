@@ -65,7 +65,7 @@ const asOfDateStr = computed(() => {
 const timeFrameStr = computed(() => {
   switch (locale) {
     case 'de':
-      return 'Das Crowdfunding läuft vom ' + new Date(props.asOfDate).toLocaleDateString(lang, dateFormat) + ' bis ' + new Date(props.endDate).toLocaleDateString(lang, dateFormat) + '.'
+      return 'Das Crowdfunding läuft vom ' + new Date(props.startDate).toLocaleDateString(lang, dateFormat) + ' bis ' + new Date(props.endDate).toLocaleDateString(lang, dateFormat) + '.'
     case 'en':
       return 'The crowdfunding campaign will run from ' + new Date(props.startDate).toLocaleDateString(lang, dateFormat) + ', to ' + new Date(props.endDate).toLocaleDateString(lang, dateFormat) + '.'
     case 'es':
