@@ -68,29 +68,20 @@ if (props.target <= 0) {
   throwError(`[DonationBar] Prop "target" must be > 0, received: ${props.target}`)
 }
 
-const startDateRegex = /^\d{4}-\d{2}-\d{2}$/
-if (!startDateRegex.test(props.startDate)) {
-  throwError(`[DonationBar] Prop "startDate" must be in ISO 8601 format (YYYY-MM-DD), received: ${props.startDate}`)
-}
-if (isNaN(new Date(props.startDate).getTime())) {
-  throwError(`[DonationBar] Prop "startDate" has invalid date value: ${props.startDate}`)
+const ISO_DATE_REGEX = /^\d{4}-\d{2}-\d{2}$/
+
+const validateDate = (value, propName) => {
+  if (!ISO_DATE_REGEX.test(value)) {
+    throwError(`[DonationBar] Prop "${propName}" must be in ISO 8601 format (YYYY-MM-DD), received: ${value}`)
+  }
+  if (isNaN(new Date(value).getTime())) {
+    throwError(`[DonationBar] Prop "${propName}" has invalid date value: ${value}`)
+  }
 }
 
-const endDateRegex = /^\d{4}-\d{2}-\d{2}$/
-if (!endDateRegex.test(props.endDate)) {
-  throwError(`[DonationBar] Prop "endDate" must be in ISO 8601 format (YYYY-MM-DD), received: ${props.endDate}`)
-}
-if (isNaN(new Date(props.endDate).getTime())) {
-  throwError(`[DonationBar] Prop "endDate" has invalid date value: ${props.endDate}`)
-}
-
-const asOfDateRegex = /^\d{4}-\d{2}-\d{2}$/
-if (!asOfDateRegex.test(props.asOfDate)) {
-  throwError(`[DonationBar] Prop "asOfDate" must be in ISO 8601 format (YYYY-MM-DD), received: ${props.asOfDate}`)
-}
-if (isNaN(new Date(props.asOfDate).getTime())) {
-  throwError(`[DonationBar] Prop "asOfDate" has invalid date value: ${props.asOfDate}`)
-}
+validateDate(props.startDate, 'startDate')
+validateDate(props.endDate, 'endDate')
+validateDate(props.asOfDate, 'asOfDate')
 
 const title = computed(() => {
   switch (locale) {
