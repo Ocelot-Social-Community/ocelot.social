@@ -54,12 +54,6 @@ const props = defineProps({
   },
 })
 
-if (typeof props.currentValue !== 'number') {
-  throwError(`[DonationBar] Prop "currentValue" must be a number, received: ${typeof props.currentValue} (${props.currentValue})`)
-}
-if (isNaN(props.currentValue)) {
-  throwError(`[DonationBar] Prop "currentValue" must be a valid number, received: NaN`)
-}
 if (!isFinite(props.currentValue)) {
   throwError(`[DonationBar] Prop "currentValue" must be a finite number, received: ${props.currentValue}`)
 }
@@ -67,12 +61,6 @@ if (props.currentValue < 0) {
   throwError(`[DonationBar] Prop "currentValue" must be >= 0, received: ${props.currentValue}`)
 }
 
-if (typeof props.target !== 'number') {
-  throwError(`[DonationBar] Prop "target" must be a number, received: ${typeof props.target} (${props.target})`)
-}
-if (isNaN(props.target)) {
-  throwError(`[DonationBar] Prop "target" must be a valid number, received: NaN`)
-}
 if (!isFinite(props.target)) {
   throwError(`[DonationBar] Prop "target" must be a finite number, received: ${props.target}`)
 }
@@ -80,9 +68,6 @@ if (props.target <= 0) {
   throwError(`[DonationBar] Prop "target" must be > 0, received: ${props.target}`)
 }
 
-if (typeof props.startDate !== 'string') {
-  throwError(`[DonationBar] Prop "startDate" must be a string, received: ${typeof props.startDate}`)
-}
 const startDateRegex = /^\d{4}-\d{2}-\d{2}$/
 if (!startDateRegex.test(props.startDate)) {
   throwError(`[DonationBar] Prop "startDate" must be in ISO 8601 format (YYYY-MM-DD), received: ${props.startDate}`)
@@ -91,9 +76,6 @@ if (isNaN(new Date(props.startDate).getTime())) {
   throwError(`[DonationBar] Prop "startDate" has invalid date value: ${props.startDate}`)
 }
 
-if (typeof props.endDate !== 'string') {
-  throwError(`[DonationBar] Prop "endDate" must be a string, received: ${typeof props.endDate}`)
-}
 const endDateRegex = /^\d{4}-\d{2}-\d{2}$/
 if (!endDateRegex.test(props.endDate)) {
   throwError(`[DonationBar] Prop "endDate" must be in ISO 8601 format (YYYY-MM-DD), received: ${props.endDate}`)
@@ -102,9 +84,6 @@ if (isNaN(new Date(props.endDate).getTime())) {
   throwError(`[DonationBar] Prop "endDate" has invalid date value: ${props.endDate}`)
 }
 
-if (typeof props.asOfDate !== 'string') {
-  throwError(`[DonationBar] Prop "asOfDate" must be a string, received: ${typeof props.asOfDate}`)
-}
 const asOfDateRegex = /^\d{4}-\d{2}-\d{2}$/
 if (!asOfDateRegex.test(props.asOfDate)) {
   throwError(`[DonationBar] Prop "asOfDate" must be in ISO 8601 format (YYYY-MM-DD), received: ${props.asOfDate}`)
