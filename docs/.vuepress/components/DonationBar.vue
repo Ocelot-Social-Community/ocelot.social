@@ -52,110 +52,93 @@ const props = defineProps({
 if (typeof props.currentValue !== 'number') {
   const error = `[DonationBar] Prop "currentValue" must be a number, received: ${typeof props.currentValue} (${props.currentValue})`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 if (isNaN(props.currentValue)) {
   const error = `[DonationBar] Prop "currentValue" must be a valid number, received: NaN`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 if (!isFinite(props.currentValue)) {
   const error = `[DonationBar] Prop "currentValue" must be a finite number, received: ${props.currentValue}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 if (props.currentValue < 0) {
   const error = `[DonationBar] Prop "currentValue" must be >= 0, received: ${props.currentValue}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 
 if (typeof props.target !== 'number') {
   const error = `[DonationBar] Prop "target" must be a number, received: ${typeof props.target} (${props.target})`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 if (isNaN(props.target)) {
   const error = `[DonationBar] Prop "target" must be a valid number, received: NaN`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 if (!isFinite(props.target)) {
   const error = `[DonationBar] Prop "target" must be a finite number, received: ${props.target}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 if (props.target <= 0) {
   const error = `[DonationBar] Prop "target" must be > 0, received: ${props.target}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 
 if (typeof props.startDate !== 'string') {
   const error = `[DonationBar] Prop "startDate" must be a string, received: ${typeof props.startDate}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 const startDateRegex = /^\d{4}-\d{2}-\d{2}$/
 if (!startDateRegex.test(props.startDate)) {
   const error = `[DonationBar] Prop "startDate" must be in ISO 8601 format (YYYY-MM-DD), received: ${props.startDate}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 if (isNaN(new Date(props.startDate).getTime())) {
   const error = `[DonationBar] Prop "startDate" has invalid date value: ${props.startDate}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 
 if (typeof props.endDate !== 'string') {
   const error = `[DonationBar] Prop "endDate" must be a string, received: ${typeof props.endDate}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 const endDateRegex = /^\d{4}-\d{2}-\d{2}$/
 if (!endDateRegex.test(props.endDate)) {
   const error = `[DonationBar] Prop "endDate" must be in ISO 8601 format (YYYY-MM-DD), received: ${props.endDate}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 if (isNaN(new Date(props.endDate).getTime())) {
   const error = `[DonationBar] Prop "endDate" has invalid date value: ${props.endDate}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 
 if (typeof props.asOfDate !== 'string') {
   const error = `[DonationBar] Prop "asOfDate" must be a string, received: ${typeof props.asOfDate}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 const asOfDateRegex = /^\d{4}-\d{2}-\d{2}$/
 if (!asOfDateRegex.test(props.asOfDate)) {
   const error = `[DonationBar] Prop "asOfDate" must be in ISO 8601 format (YYYY-MM-DD), received: ${props.asOfDate}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 if (isNaN(new Date(props.asOfDate).getTime())) {
   const error = `[DonationBar] Prop "asOfDate" has invalid date value: ${props.asOfDate}`
   console.error(error)
-  if (typeof process !== 'undefined') process.exit(1)
   throw new Error(error)
 }
 
