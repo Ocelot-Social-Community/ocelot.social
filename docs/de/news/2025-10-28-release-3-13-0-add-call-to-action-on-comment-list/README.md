@@ -18,7 +18,7 @@ Die neue Version 3.13.0 macht es dir einfacher, das Kommentieren freizuschalten.
 
 ## Worum geht es?
 
-In eingen Fällen ist bei Beiträgen die Kommentarfunktion deaktiviert:
+In einigen Fällen ist bei Beiträgen die Kommentarfunktion deaktiviert:
 
 - Wenn du den Autor des Beitrags blockiert hast.
 - Wenn du nicht Mitglied der Gruppe bist, in welcher der Beitrag erscheint.
