@@ -30,7 +30,7 @@ Help with your donation, toenable pinning posts in groups.
   asOfDate="2025-11-17"
 />
 
-### What it's about
+### What it’s about
 
 We are now launching our first crowdfunding campaign for all users of *ocelot.social* networks and for anyone interested in promoting independent social networks.
 
@@ -38,7 +38,7 @@ We are starting with a feature that ensures that important information remains m
 
 ### Pinning posts in groups
 
-The goal is to allow group administrators to pin posts to the top of their group's post list,
+The goal is to allow group administrators to pin posts to the top of their group’s post list,
 so that members can see these announcements immediately.
 This feature already exists for the general post list.
 To make it available for groups, this feature needs to be significantly expanded and programmatic tests need to be added for quality assurance.

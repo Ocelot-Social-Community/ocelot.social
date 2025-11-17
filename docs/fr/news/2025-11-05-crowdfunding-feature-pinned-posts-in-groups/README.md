@@ -30,7 +30,7 @@ Aidez-nous à épingler des publications dans les groupes grâce à votre don.
   asOfDate="2025-11-17"
 />
 
-### De quoi s'agit-il ?
+### De quoi s’agit-il ?
 
 Pour tous les utilisateurs des réseaux *ocelot.social* et pour les personnes intéressées qui souhaitent promouvoir des réseaux sociaux indépendants, nous lançons notre première campagne de financement participatif.
 
@@ -38,10 +38,10 @@ Nous commençons par une fonctionnalité qui garantit une meilleure visibilité 
 
 ### Épingler des publications dans les groupes
 
-L'objectif est de permettre aux administrateurs de groupes d'épingler des publications en haut de la liste des publications de leur groupe,
+L’objectif est de permettre aux administrateurs de groupes d’épingler des publications en haut de la liste des publications de leur groupe,
 afin que les membres puissent voir immédiatement ces annonces.
 Une telle fonctionnalité existe déjà pour la liste générale des publications.
-Pour la rendre disponible pour les groupes, cette fonctionnalité doit être considérablement étendue et faire l'objet de tests de programmation afin d'en garantir la qualité.
+Pour la rendre disponible pour les groupes, cette fonctionnalité doit être considérablement étendue et faire l’objet de tests de programmation afin d’en garantir la qualité.
 
 <figure class="blog-post-image">
   <img src="/blog/pinned-post-in-group--en.png" alt="Publication épinglée sur la page du groupe" />
@@ -52,7 +52,7 @@ Pour la rendre disponible pour les groupes, cette fonctionnalité doit être con
 
 ### Pourquoi un financement participatif ?
 
-L'association busFaktor() e.V., qui gère le logiciel libre et open source *ocelot.social*, est une organisation à but non lucratif.
+L’association busFaktor() e.V., qui gère le logiciel libre et open source *ocelot.social*, est une organisation à but non lucratif.
 Comme elle ne poursuit aucun intérêt commercial, le développement du logiciel est financé uniquement par le travail bénévole, les dons et les cotisations des membres, ainsi que par les commandes passées par les opérateurs des réseaux *ocelot.social* à des développeurs indépendants.
 Donc aussi par vos dons.
 
@@ -67,7 +67,7 @@ Donc aussi par vos dons.
 
 ### Dons
 
-Nous serions ravis de recevoir votre don à l'adresse suivante :
+Nous serions ravis de recevoir votre don à l’adresse suivante :
 
 busFaktor() e.V.
 IBAN : DE81 5003 1000 1084 5340 01
@@ -80,7 +80,7 @@ Motif du paiement, voir ci-dessous.
 
 ### Remarques concernant le motif du paiement
 
-Veuillez impérativement indiquer "Don" comme motif du paiement et votre adresse e-mail afin que nous puissions vous contacter. Le signe "@" n'est généralement pas possible dans les virements bancaires, veuillez donc l'écrire sous la forme "at", avec un espace avant et après et sans guillemets.
+Veuillez impérativement indiquer "Don" comme motif du paiement et votre adresse e-mail afin que nous puissions vous contacter. Le signe "@" n’est généralement pas possible dans les virements bancaires, veuillez donc l’écrire sous la forme "at", avec un espace avant et après et sans guillemets.
 
 Exemple : "Don de eva.muster at domain.de pour le financement participatif"
 
