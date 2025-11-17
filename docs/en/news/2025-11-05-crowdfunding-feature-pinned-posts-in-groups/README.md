@@ -13,9 +13,9 @@ tag:
   - Posts
   - Pins
 cover: /blog/crowdfunding-feature-pinned-posts-in-groups--en--corrected.png
-coverAlt: “Our first crowdfunding campaign!”
-title: “Our first crowdfunding campaign! 🪄✨”
-description: “Help with your donation, toenable pinning posts in groups.”
+coverAlt: "Our first crowdfunding campaign!"
+title: "Our first crowdfunding campaign! 🪄✨"
+description: "Help with your donation, toenable pinning posts in groups."
 ---
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
@@ -23,8 +23,8 @@ description: “Help with your donation, toenable pinning posts in groups.”
 Help with your donation, toenable pinning posts in groups.
 
 <DonationBar
-  :currentValue=“690”
-  :target=“1200”
+  :currentValue="690"
+  :target="1200"
   startDate="2025-11-05"
   endDate="2026-01-02"
   asOfDate="2025-11-17"
@@ -58,10 +58,10 @@ This includes donations from you.
 
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar
-  :currentValue=“690”
-  :target=“1200”
+  :currentValue="690"
+  :target="1200"
   startDate="2025-11-05"
-  endDate=“2026-01-02”
+  endDate="2026-01-02"
   asOfDate="2025-11-17"
 />
 
@@ -80,9 +80,9 @@ For the purpose of use, see below.
 
 ### Notes on the purpose of use
 
-Please be sure to include “Donation” and your email address in the purpose of use so that we can contact you. The “@” symbol is not normally possible in bank transfers, so please write it as “at”, with a space before and after it and without quotation marks.
+Please be sure to include "Donation" and your email address in the purpose of use so that we can contact you. The "@" symbol is not normally possible in bank transfers, so please write it as "at", with a space before and after it and without quotation marks.
 
-Example: “Donation from eva.muster at domain.de for crowdfunding”
+Example: "Donation from eva.muster at domain.de for crowdfunding"
 
 In Germany, donations under €300 are tax-deductible without a certificate.
 In other cases, we will be happy to issue a donation receipt upon request.
