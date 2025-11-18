@@ -87,5 +87,5 @@ Example: "Donation from eva.muster at domain.de for crowdfunding"
 In Germany, donations under €300 are tax-deductible without a certificate.  
 In other cases, we will be happy to issue a donation receipt upon request.
 
-We welcome [recurring donations](/en/donate/) to the project. ❤️
+We welcome [recurring donations](/en/donate/) to the project. ❤️  
 There are also numerous ways you can [get involved](/en/contribute/).
