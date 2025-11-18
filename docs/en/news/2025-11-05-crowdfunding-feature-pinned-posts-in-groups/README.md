@@ -20,7 +20,7 @@ description: "Help with your donation, toenable pinning posts in groups."
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
 
-Help with your donation, toenable pinning posts in groups.
+Help enable pinning posts in groups with your donation.
 
 <DonationBar
   :currentValue="690"
