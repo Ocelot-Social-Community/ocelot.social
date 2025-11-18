@@ -84,7 +84,7 @@ Please be sure to include "Donation" and your email address in the purpose of us
 
 Example: "Donation from eva.muster at domain.de for crowdfunding"
 
-In Germany, donations under €300 are tax-deductible without a certificate.
+In Germany, donations under €300 are tax-deductible without a certificate.  
 In other cases, we will be happy to issue a donation receipt upon request.
 
 We welcome [recurring donations](/en/donate/) to the project. ❤️
