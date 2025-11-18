@@ -80,7 +80,7 @@ For the purpose of use, see below.
 
 ### Notes on the purpose of use
 
-Please be sure to include "Donation" and your email address in the purpose of use so that we can contact you. The "@" symbol is not normally possible in bank transfers, so please write it as "at", with a space before and after it and without quotation marks.
+Please be sure to include "Donation" and your e-mail address in the purpose of use so that we can contact you. The "@" symbol is not normally possible in bank transfers, so please write it as " at ", with a space before and after it and without quotation marks.
 
 Example: "Donation from eva.muster at domain.de for crowdfunding"
 
