@@ -209,7 +209,7 @@ export default hopeTheme({
       {
         path: "/es/",                 // show on all pages (you can add more entries per path/locale)
         title: "Financiación colectiva 🪄✨",
-        content: "¡Pongamos publicaciones fijadas en los grupos! ¡Únete a nuestra primera campaña de crowdfunding!",
+        content: "¡Pongamos publicaciones ancladas en los grupos! ¡Únete a nuestra primera campaña de crowdfunding!",
         actions: [
           { text: "Leer más", link: "/es/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
           { text: "No, gracias" }

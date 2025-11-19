@@ -15,12 +15,12 @@ tag:
 portada: /blog/crowdfunding-feature-pinned-posts-in-groups--es--corrected.png
 portadaAlt: "¡Nuestra primera campaña de crowdfunding!"
 título: "¡Nuestra primera campaña de crowdfunding! 🪄✨"
-descripción: "Ayuda con tu donación a que las publicaciones se puedan fijar en los grupos."
+descripción: "Ayuda con tu donación a que las publicaciones se puedan anclar en los grupos."
 ---
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
 
-Ayuda con tu donación a que las publicaciones se puedan fijar en los grupos.
+Ayuda con tu donación a que las publicaciones se puedan anclar en los grupos.
 
 <DonationBar
   :currentValue="690"
@@ -36,17 +36,17 @@ Para todos los usuarios de las redes *ocelot.social* y para aquellos interesados
 
 Comenzamos con una función que garantiza que la información importante permanezca más visible en los grupos.
 
-### Fijar publicaciones en grupos
+### Anclar publicaciones en grupos
 
-El objetivo es que los administradores de grupos puedan fijar publicaciones en la parte superior de la lista de publicaciones de su grupo,
+El objetivo es que los administradores de grupos puedan anclar publicaciones en la parte superior de la lista de publicaciones de su grupo,
 de modo que los miembros vean estos anuncios de inmediato.
 Esta función ya existe para la lista general de publicaciones.
 Para que esté disponible para los grupos, es necesario ampliarla considerablemente y someterla a pruebas de programación para garantizar su calidad.
 
 <figure class="blog-post-image">
-  <img src="/blog/pinned-post-in-group--en.png" alt="Publicación fijada en la página del grupo" />
+  <img src="/blog/pinned-post-in-group--en.png" alt="Publicación anclada en la página del grupo" />
   <figcaption class="blog-post-image-capture">
-    Así podría verse pronto una publicación fijada en una página de grupo (marco naranja y banda).
+    Así podría verse pronto una publicación anclada en una página de grupo (marco naranja y banda).
   </figcaption>
 </figure>
 
