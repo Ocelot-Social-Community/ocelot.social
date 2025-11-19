@@ -11,7 +11,7 @@ tag:
   - Financiación
   - Grupos
   - Publicaciones
-  - Pines
+  - Anclar
 portada: /blog/crowdfunding-feature-pinned-posts-in-groups--es--corrected.png
 portadaAlt: "¡Nuestra primera campaña de crowdfunding!"
 título: "¡Nuestra primera campaña de crowdfunding! 🪄✨"
