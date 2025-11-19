@@ -11,7 +11,7 @@ tag:
   - Financement
   - Groupes
   - Posts
-  - Pins
+  - Épingler
 cover: /blog/crowdfunding-feature-pinned-posts-in-groups--fr--corrected.png
 coverAlt: "Notre premier financement participatif !"
 title: "Notre premier financement participatif ! 🪄✨"
