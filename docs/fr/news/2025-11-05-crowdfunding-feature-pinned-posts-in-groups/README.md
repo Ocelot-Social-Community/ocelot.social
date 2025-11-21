@@ -84,7 +84,7 @@ Veuillez impérativement indiquer "Don" comme motif du paiement et votre adresse
 
 Exemple : "Don de eva.muster at domain.de pour le financement participatif"
 
-En Allemagne, les dons inférieurs à 300 € sont déductibles sans attestation.
+En Allemagne, les dons inférieurs à 300 € sont déductibles sans attestation.  
 Dans les autres cas, nous vous délivrons volontiers un reçu de don sur demande.
 
 Nous sommes ouverts aux [dons réguliers](/fr/donate/) pour le projet. ❤️  
