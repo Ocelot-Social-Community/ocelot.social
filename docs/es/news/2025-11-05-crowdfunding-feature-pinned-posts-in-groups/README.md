@@ -69,9 +69,9 @@ Es decir, también a través de tu donación.
 
 Agradecemos tu donación a:
 
-busFaktor() e.V.
-IBAN: DE81 5003 1000 1084 5340 01
-BIC: TRODDEF1
+busFaktor() e.V.  
+IBAN: DE81 5003 1000 1084 5340 01  
+BIC: TRODDEF1  
 Triodos Bank N.V., Alemania
 
 Ubicación: 86179 Augsburgo, Alemania
