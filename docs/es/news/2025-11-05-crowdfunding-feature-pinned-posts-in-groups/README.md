@@ -87,5 +87,5 @@ Ejemplo: "Donación de eva.muster at domain.de para crowdfunding".
 En Alemania, las donaciones inferiores a 300 € son deducibles sin necesidad de certificado.
 En otros casos, estaremos encantados de emitir un recibo de donación si lo solicitas.
 
-Agradecemos las [donaciones periódicas](/es/donate/) para el proyecto. ❤️
+Agradecemos las [donaciones periódicas](/es/donate/) para el proyecto. ❤️  
 También hay muchas formas de [participar](/es/contribute/).
