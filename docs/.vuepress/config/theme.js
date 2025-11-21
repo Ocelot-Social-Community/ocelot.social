@@ -198,7 +198,7 @@ export default hopeTheme({
         title: "Crowdfunding 🪄✨",
         content: "Let's have pinned posts in groups. Join our first crowdfunding!",
         actions: [
-          { text: "Read more", link: "/de/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
+          { text: "Read more", link: "/en/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
           { text: "No, thanks" }
         ],
         showOnce: true,            // don’t re-show after it’s closed
@@ -209,9 +209,9 @@ export default hopeTheme({
       {
         path: "/es/",                 // show on all pages (you can add more entries per path/locale)
         title: "Financiación colectiva 🪄✨",
-        content: "¡Pongamos publicaciones fijadas en los grupos! ¡Únete a nuestra primera campaña de crowdfunding!",
+        content: "¡Pongamos publicaciones ancladas en los grupos! ¡Únete a nuestra primera campaña de crowdfunding!",
         actions: [
-          { text: "Leer más", link: "/de/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
+          { text: "Leer más", link: "/es/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
           { text: "No, gracias" }
         ],
         showOnce: true,            // don’t re-show after it’s closed
@@ -224,7 +224,7 @@ export default hopeTheme({
         title: "Financement participatif 🪄✨",
         content: "Ajoutons des publications épinglées dans les groupes. Rejoignez notre première campagne de financement participatif !",
         actions: [
-          { text: "En savoir plus", link: "/de/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
+          { text: "En savoir plus", link: "/fr/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
           { text: "Non, merci" }
         ],
         showOnce: true,            // don’t re-show after it’s closed

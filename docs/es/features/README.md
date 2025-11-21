@@ -76,7 +76,7 @@ Los usuarios con el rol de moderador pueden:
 
 Los usuarios con el rol de administrador también pueden:
 
-- fijar publicaciones en la parte superior de la vista general de publicaciones (newsfeed)
+- anclar publicaciones en la parte superior de la vista general de publicaciones (newsfeed)
 - ver estadísticas
 - ver datos de usuario (excepto contraseñas)
 - activar la función de donación con estado de donación
