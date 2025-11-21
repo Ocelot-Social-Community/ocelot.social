@@ -87,5 +87,5 @@ Exemple : "Don de eva.muster at domain.de pour le financement participatif"
 En Allemagne, les dons inférieurs à 300 € sont déductibles sans attestation.
 Dans les autres cas, nous vous délivrons volontiers un reçu de don sur demande.
 
-Nous sommes ouverts aux [dons réguliers](/fr/donate/) pour le projet. ❤️
+Nous sommes ouverts aux [dons réguliers](/fr/donate/) pour le projet. ❤️  
 Il existe également de nombreuses façons de [participer](/fr/contribute/).
