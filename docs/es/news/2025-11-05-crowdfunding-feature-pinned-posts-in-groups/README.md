@@ -12,10 +12,10 @@ tag:
   - Grupos
   - Publicaciones
   - Anclar
-portada: /blog/crowdfunding-feature-pinned-posts-in-groups--es--corrected.png
-portadaAlt: "¡Nuestra primera campaña de crowdfunding!"
-título: "¡Nuestra primera campaña de crowdfunding! 🪄✨"
-descripción: "Ayuda con tu donación a que las publicaciones se puedan anclar en los grupos."
+cover: /blog/crowdfunding-feature-pinned-posts-in-groups--es--corrected.png
+coverAlt: "¡Nuestra primera campaña de crowdfunding!"
+title: "¡Nuestra primera campaña de crowdfunding! 🪄✨"
+description: "Ayuda con tu donación a que las publicaciones se puedan anclar en los grupos."
 ---
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
