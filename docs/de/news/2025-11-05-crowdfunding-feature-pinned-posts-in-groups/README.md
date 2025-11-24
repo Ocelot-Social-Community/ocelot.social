@@ -74,7 +74,7 @@ IBAN: DE81 5003 1000 1084 5340 01
 BIC: TRODDEF1  
 Triodos Bank N.V., Deutschland
 
-Ort: 86179 Augsburg, Deutschland
+Ort: Haferstr. 5c, 86179 Augsburg, Deutschland
 
 Verwendungszweck, siehe unten.
 
