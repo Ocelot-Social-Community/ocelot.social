@@ -12,10 +12,10 @@ tag:
   - Grupos
   - Publicaciones
   - Anclar
-portada: /blog/crowdfunding-feature-pinned-posts-in-groups--es--corrected.png
-portadaAlt: "¡Nuestra primera campaña de crowdfunding!"
-título: "¡Nuestra primera campaña de crowdfunding! 🪄✨"
-descripción: "Ayuda con tu donación a que las publicaciones se puedan anclar en los grupos."
+cover: /blog/crowdfunding-feature-pinned-posts-in-groups--es--corrected.png
+coverAlt: "¡Nuestra primera campaña de crowdfunding!"
+title: "¡Nuestra primera campaña de crowdfunding! 🪄✨"
+description: "Ayuda con tu donación a que las publicaciones se puedan anclar en los grupos."
 ---
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
@@ -27,7 +27,7 @@ Ayuda con tu donación a que las publicaciones se puedan anclar en los grupos.
   :target="1200"
   startDate="2025-11-05"
   endDate="2026-01-02"
-  asOfDate="2025-11-17"
+  asOfDate="2025-11-24"
 />
 
 ### De qué se trata
@@ -62,7 +62,7 @@ Es decir, también a través de tu donación.
   :target="1200"
   startDate="2025-11-05"
   endDate="2026-01-02"
-  asOfDate="2025-11-17"
+  asOfDate="2025-11-24"
 />
 
 ### Donaciones
@@ -74,7 +74,7 @@ IBAN: DE81 5003 1000 1084 5340 01
 BIC: TRODDEF1  
 Triodos Bank N.V., Alemania
 
-Ubicación: 86179 Augsburgo, Alemania
+Ubicación: Haferstr. 5c, 86179 Augsburgo, Alemania
 
 Finalidad, véase más abajo.
 
