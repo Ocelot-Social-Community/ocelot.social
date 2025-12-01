@@ -236,6 +236,9 @@ export default hopeTheme({
     blog: {
       excerptLength: 0,
     },
+    icon: {
+      assets: 'fontawesome'
+    },
     redirect: {
       autoLocale: true,
       defaultBehavior: 'defaultLocale',
@@ -257,6 +260,5 @@ export default hopeTheme({
       fallbackImage: '/logo.svg',
       hostname: 'https://ocelot.social/'
     }
-  },
-  iconAssets: "fontawesome",
+  }
 })
