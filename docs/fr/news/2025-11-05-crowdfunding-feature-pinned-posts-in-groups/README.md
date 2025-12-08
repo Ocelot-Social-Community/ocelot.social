@@ -23,11 +23,11 @@ description: "Aidez-nous à épingler des publications dans les groupes grâce �
 Aidez-nous à épingler des publications dans les groupes grâce à votre don.
 
 <DonationBar
-  :currentValue="690"
+  :currentValue="790"
   :target="1200"
   startDate="2025-11-05"
   endDate="2026-01-02"
-  asOfDate="2025-11-24"
+  asOfDate="2025-12-08"
 />
 
 ### De quoi s’agit-il ?
@@ -58,11 +58,11 @@ Donc aussi par vos dons.
 
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar
-  :currentValue="690"
+  :currentValue="790"
   :target="1200"
   startDate="2025-11-05"
   endDate="2026-01-02"
-  asOfDate="2025-11-24"
+  asOfDate="2025-12-08"
 />
 
 ### Dons
