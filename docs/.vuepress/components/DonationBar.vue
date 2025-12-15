@@ -6,7 +6,7 @@
     </a>
   </h3>
   <div class="donation-bar">
-    <div class="donation-bar-value" :style="{ width: (currentValue / target) * 100 + '%' }">
+    <div class="donation-bar-value" :style="{ width: ((currentValue <= target ? currentValue : target) / target) * 100 + '%' }">
       {{ currentValueStr }}
     </div>
   </div>
