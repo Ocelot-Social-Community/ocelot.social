@@ -6,8 +6,9 @@
     </a>
   </h3>
   <div class="donation-bar">
-    <div class="donation-bar-value" :style="{ width: (currentValue / target) * 100 + '%' }">
-      {{ currentValueStr }}
+    <!-- a width of 100% is a bit more as the full width of "donation-bar" one can see if we don't set "overflow: hidden;". I couldn't find how to fix -->
+    <div class="donation-bar-value" :style="{ width: ((currentValue <= target ? currentValue : target) / target) * 100 + '%' }">
+      <span class="donation-bar-value-str">{{ currentValueStr }}</span>
     </div>
   </div>
   <p>
@@ -128,6 +129,7 @@ const timeFrameStr = computed(() => {
 <style scoped>
 .donation-bar {
   width: 100%;
+  overflow: hidden;
   border: 1px solid var(--notice-c-accent-bg);
   border-radius: 10px;
   margin: 20px 0 20px 0;
@@ -140,6 +142,10 @@ const timeFrameStr = computed(() => {
   font-size: 2em;
   text-align: right;
   padding-right: 10px;
+}
+
+.donation-bar-value-str{
+  margin-right: 10px;
 }
 
 @media (max-width: 830px) {
