@@ -23,11 +23,11 @@ description: "Ayuda con tu donación a que las publicaciones se puedan anclar en
 Ayuda con tu donación a que las publicaciones se puedan anclar en los grupos.
 
 <DonationBar
-  :currentValue="690"
+  :currentValue="1330"
   :target="1200"
   startDate="2025-11-05"
   endDate="2026-01-02"
-  asOfDate="2025-11-24"
+  asOfDate="2025-12-15"
 />
 
 ### De qué se trata
@@ -58,11 +58,11 @@ Es decir, también a través de tu donación.
 
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar
-  :currentValue="690"
+  :currentValue="1330"
   :target="1200"
   startDate="2025-11-05"
   endDate="2026-01-02"
-  asOfDate="2025-11-24"
+  asOfDate="2025-12-15"
 />
 
 ### Donaciones
