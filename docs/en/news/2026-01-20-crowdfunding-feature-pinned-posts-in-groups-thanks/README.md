@@ -26,7 +26,7 @@ Your donation has helped make it possible to pin posts in groups very soon.
 
 At the beginning of November, we launched [a crowdfunding campaign](/en/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/) for a feature that ensures important information remains more visible in groups (pinned posts in groups).
 
-The donation target of € 1,200 was already reached at the end of November.
+The donation target of € 1,200 was already reached at the middle of December.
 By the end of the crowdfunding campaign, € 1,330 had been raised.
 We would like to express our sincere thanks to all donors.
 That’s really great!

@@ -26,7 +26,7 @@ Deine Spende hat geholfen, dass Beiträge sehr bald in Gruppen angepinnt werden 
 
 Anfang November starteten wir [ein Crowdfunding](/de/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/) für eine Funktion, die dafür sorgt, dass wichtige Information in Gruppen besser sichtbar bleiben (angepinnte Beiträge in Gruppen).
 
-Das Spendenziel von € 1.200 wurde bereits Ende November erreicht.
+Das Spendenziel von € 1.200 wurde bereits Mitte Dezember erreicht.
 Bis zum Ende des Crowdfundings kamen € 1.330 zusammen.
 Wir danken allen Spendern recht herzlich.
 Echt toll!
