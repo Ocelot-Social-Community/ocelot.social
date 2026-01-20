@@ -130,7 +130,7 @@ const timeFrameStr = computed(() => {
 .donation-bar {
   width: 100%;
   overflow: hidden;
-  border: 1px solid var(--notice-c-accent-bg);
+  border: 1px solid var(--vp-c-accent-bg);
   border-radius: 10px;
   margin: 20px 0 20px 0;
 }
@@ -138,7 +138,7 @@ const timeFrameStr = computed(() => {
 .donation-bar-value {
   border-radius: 10px 0 0 10px;
   color: #000;
-  background-color: var(--notice-c-accent-bg);
+  background-color: var(--vp-c-accent-bg);
   font-size: 2em;
   text-align: right;
   padding-right: 10px;
