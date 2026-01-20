@@ -27,7 +27,7 @@ Help enable pinning posts in groups with your donation.
   :target="1200"
   startDate="2025-11-05"
   endDate="2026-01-02"
-  asOfDate="2025-12-15"
+  asOfDate="2026-01-02"
 />
 
 ### What it’s about
@@ -62,7 +62,7 @@ This includes donations from you.
   :target="1200"
   startDate="2025-11-05"
   endDate="2026-01-02"
-  asOfDate="2025-12-15"
+  asOfDate="2026-01-02"
 />
 
 ### Donations

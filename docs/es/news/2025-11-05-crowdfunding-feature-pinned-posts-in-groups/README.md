@@ -27,7 +27,7 @@ Ayuda con tu donación a que las publicaciones se puedan anclar en los grupos.
   :target="1200"
   startDate="2025-11-05"
   endDate="2026-01-02"
-  asOfDate="2025-12-15"
+  asOfDate="2026-01-02"
 />
 
 ### De qué se trata
@@ -62,7 +62,7 @@ Es decir, también a través de tu donación.
   :target="1200"
   startDate="2025-11-05"
   endDate="2026-01-02"
-  asOfDate="2025-12-15"
+  asOfDate="2026-01-02"
 />
 
 ### Donaciones
