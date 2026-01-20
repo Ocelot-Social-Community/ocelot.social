@@ -22,14 +22,14 @@ description: "Your donation has helped make it possible to pin posts in groups v
 
 Your donation has helped make it possible to pin posts in groups very soon.
 
-### What it's all about
+### What it’s all about
 
 At the beginning of November, we launched [a crowdfunding campaign](/en/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/) for a feature that ensures important information remains more visible in groups (pinned posts in groups).
 
 The donation target of € 1,200 was already reached at the end of November.
 By the end of the crowdfunding campaign, € 1,330 had been raised.
 We would like to express our sincere thanks to all donors.
-That's really great!
+That’s really great!
 
 This paved the way for the development of this feature.
 It is expected to be completed in early February and will gradually be made available to users of the Ocelot networks.
