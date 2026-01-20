@@ -54,9 +54,10 @@ For the purpose of use, see below.
 
 ### Notes on the purpose of use
 
-Please be sure to include "Donation" and your e-mail address in the purpose of use so that we can contact you. The "@" symbol is not normally possible in bank transfers, so please write it as " at ", with a space before and after it and without quotation marks.
+Please be sure to include `Donation` and your e-mail address in the purpose of use so that we can contact you.
+Usually, the `@` symbol is not accepted in bank transfers, so please write it as `" at "`, with a space before and after it and without quotation marks.
 
-Example: "Donation from eva.muster at domain.de for crowdfunding"
+Example: `Donation from eva.muster at domain.de for ocelot.social`
 
 In Germany, donations under € 300 are tax-deductible without a certificate.  
 In other cases, we will be happy to issue a donation receipt upon request.

@@ -54,7 +54,7 @@ Verwendungszweck, siehe unten.
 
 ### Hinweise zum Verwendungszweck
 
-Gib bitte unbedingt beim Verwendungszweck `Spende` und deine E-Mail-Adresse an, damit wir dich kontaktieren können. Bei Überweisungen ist das `@`-Zeichen normalerweise nicht möglich, daher schreibe es als `„ at “`, mit Platz davor und dahinter und ohne Anführungszeichen.
+Gib bitte unbedingt beim Verwendungszweck `Spende` und deine E-Mail-Adresse an, damit wir dich kontaktieren können. Bei Überweisungen ist das `@`-Zeichen normalerweise nicht möglich, daher schreibe es als `„ at “`, mit Platz davor und dahinter und ohne Anführungszeichen.
 
 Beispiel: `Spende von eva.muster at domain.de für ocelot.social`
 
