@@ -291,6 +291,7 @@ XXX -->
   :title="'Neueste Beiträge'"
   :readMoreLinkTitle="'Weiterlesen'"
   :show-all-posts-button-title="'Alle Beiträge ansehen'"
+  :topArticlesCount="4"
 />
 
 <h2 class="large-header">Spenden</h2>

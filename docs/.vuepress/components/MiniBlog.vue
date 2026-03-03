@@ -56,16 +56,29 @@ const locale = useRouteLocale()
 const lang = usePageLang().value || 'de-DE' // Ref<string>, e.g. "de-DE" or "en-US"
 
 const props =  defineProps({
-  title: { type: String},
-  readMoreLinkTitle: { type: String},
-  showAllPostsButtonTitle: { type: String},
+  title: {
+    type: String,
+    required: true
+  },
+  readMoreLinkTitle: {
+    type: String,
+    required: true
+  },
+  showAllPostsButtonTitle: {
+    type: String,
+    required: true
+  },
+  topArticlesCount: {
+    type: Number,
+    required: true
+  },
 });
 
-// Nur Artikel des aktuellen Locales + Top 3
+// Nur Artikel des aktuellen Locales + Top X
 const items = computed(() => {
   const loc = locale.value || "/";
   const list = (articles || []).filter(a => a.locale === loc);
-  return list.slice(0, 3);
+  return list.slice(0, props.topArticlesCount);
 });
 
 const articleIndex = computed(() =>

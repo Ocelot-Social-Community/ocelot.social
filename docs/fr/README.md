@@ -292,6 +292,7 @@ XXX -->
   :title="'Derniers articles'"
   :readMoreLinkTitle="'Continuer la lecture'"
   :show-all-posts-button-title="'Afficher tous les messages'"
+  :topArticlesCount="4"
 />
 
 <h2 class="large-header">Faire un don</h2>

@@ -292,6 +292,7 @@ XXX -->
   :title="'Latest posts'"
   :readMoreLinkTitle="'Read more'"
   :show-all-posts-button-title="'Show all posts'"
+  :topArticlesCount="4"
 />
 
 <h2 class="large-header">Donate</h2>
