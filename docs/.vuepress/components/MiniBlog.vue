@@ -96,7 +96,10 @@ const formatDate = (d) =>
   margin: 2rem auto 0 auto;
 }
 .mini-blog__div {
-  padding-top: 2.8em;
+  padding-top: 0;
+}
+.mini-blog__div .large-header {
+  padding-top: 1em !important;
 }
 
 /* Grid */
