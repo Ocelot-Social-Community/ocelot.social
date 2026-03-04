@@ -13,19 +13,24 @@ const FALLBACK_LOCALE = 'en'
 const OTHER_LOCALES = ['de', 'es', 'fr']
 
 // ---------------------------------------------------------------------------
-// Before VuePress starts: create stub markdown files for EN articles that
-// are missing in other locales. This ensures the blog plugin picks them up
-// (it requires real files with filePathRelative).
-// Generated stubs are tracked via a manifest and cleaned up on each run.
+// Before VuePress starts: for EN articles missing in other locales, create
+// README.stub.md files with a permalink so VuePress treats them as pages.
+// These .stub.md files are gitignored.
 // ---------------------------------------------------------------------------
-const manifestPath = path.resolve(__dirname, '.generated-fallbacks.json')
-
 ;(() => {
-  // Clean up previously generated stubs
-  if (fs.existsSync(manifestPath)) {
-    const oldPaths = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'))
-    for (const p of oldPaths) {
-      if (fs.existsSync(p)) fs.rmSync(p, { recursive: true })
+  // Clean up old stubs first
+  for (const locale of OTHER_LOCALES) {
+    const localeNewsDir = path.resolve(docsDir, locale, 'news')
+    if (!fs.existsSync(localeNewsDir)) continue
+    for (const entry of fs.readdirSync(localeNewsDir, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue
+      const stubFile = path.resolve(localeNewsDir, entry.name, 'README.stub.md')
+      if (fs.existsSync(stubFile)) {
+        fs.unlinkSync(stubFile)
+        // Remove directory if now empty
+        const dir = path.resolve(localeNewsDir, entry.name)
+        if (fs.readdirSync(dir).length === 0) fs.rmdirSync(dir)
+      }
     }
   }
 
@@ -35,8 +40,6 @@ const manifestPath = path.resolve(__dirname, '.generated-fallbacks.json')
   const enSlugs = fs.readdirSync(enNewsDir, { withFileTypes: true })
     .filter((d) => d.isDirectory())
     .map((d) => d.name)
-
-  const generated = []
 
   for (const locale of OTHER_LOCALES) {
     const localeNewsDir = path.resolve(docsDir, locale, 'news')
@@ -54,14 +57,21 @@ const manifestPath = path.resolve(__dirname, '.generated-fallbacks.json')
       const enFile = path.resolve(enNewsDir, slug, 'README.md')
       if (!fs.existsSync(enFile)) continue
 
+      const enContent = fs.readFileSync(enFile, 'utf-8')
+
+      // Inject permalink into frontmatter so VuePress maps the page
+      // to the correct locale path (e.g. /fr/news/slug/)
+      const permalink = `/${locale}/news/${slug}/`
+      const stubContent = enContent.replace(
+        /^---\n/,
+        `---\npermalink: ${permalink}\n`
+      )
+
       const targetDir = path.resolve(localeNewsDir, slug)
       fs.mkdirSync(targetDir, { recursive: true })
-      fs.copyFileSync(enFile, path.resolve(targetDir, 'README.md'))
-      generated.push(targetDir)
+      fs.writeFileSync(path.resolve(targetDir, 'README.stub.md'), stubContent)
     }
   }
-
-  fs.writeFileSync(manifestPath, JSON.stringify(generated, null, 2))
 })()
 
 export default defineUserConfig({
