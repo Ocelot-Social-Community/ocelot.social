@@ -211,8 +211,7 @@ export default hopeTheme({
         title: "Financiación colectiva 🪄✨",
         content: "Creemos salas de chat para grupos. ¡Únete a nuestra campaña de crowdfunding!",
         actions: [
-          // { text: "Leer más", link: "/es/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
-          { text: "Leer más", link: "/en/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
+          { text: "Leer más", link: "/es/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
           { text: "No, gracias" }
         ],
         showOnce: true,            // don’t re-show after it’s closed
@@ -225,8 +224,7 @@ export default hopeTheme({
         title: "Financement participatif 🪄✨",
         content: "Créons des salons de discussion pour les groupes. Participez à notre financement participatif !",
         actions: [
-          // { text: "En savoir plus", link: "/fr/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
-          { text: "En savoir plus", link: "/en/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
+          { text: "En savoir plus", link: "/fr/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
           { text: "Non, merci" }
         ],
         showOnce: true,            // don’t re-show after it’s closed
