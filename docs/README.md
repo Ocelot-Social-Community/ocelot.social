@@ -1,6 +1,7 @@
 ---
-home: true
+home: false
 article: false
 sidebar: false
-title: Ocelot.Social
+navbar: false
+layout: RedirectHome
 ---
