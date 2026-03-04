@@ -11,7 +11,7 @@ tag:
   - Financement
   - Groupes
   - Chat
-cover: /blog/crowdfunding-feature-chat-for-groups--fr.png
+cover: /blog/crowdfunding-feature-chat-for-groups.png
 coverAlt: "Financement participatif pour les salles de chat de groupe"
 title: "Financement participatif pour les salles de chat de groupe 🪄✨"
 description: "Grâce à votre don, permettez aux membres d'un groupe d'avoir à l'avenir une salle de chat commune."
