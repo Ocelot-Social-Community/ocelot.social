@@ -5,11 +5,11 @@ sidebar: false
 lang: fr-FR
 date: 2026-03-03
 category:
-  - Financement
-  - Fonctionnalités
+  - Funding
+  - Features
 tag:
-  - Financement
-  - Groupes
+  - Funding
+  - Groups
   - Chat
 cover: /blog/crowdfunding-feature-chat-for-groups.png
 coverAlt: "Financement participatif pour les salles de chat de groupe"
