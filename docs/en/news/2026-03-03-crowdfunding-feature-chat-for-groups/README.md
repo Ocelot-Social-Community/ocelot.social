@@ -11,7 +11,7 @@ tag:
   - Funding
   - Groups
   - Chat
-cover: /blog/crowdfunding-feature-chat-for-groups--de.png
+cover: /blog/crowdfunding-feature-chat-for-groups.png
 coverAlt: "Crowdfunding for Group Chat Rooms"
 title: "Crowdfunding for Group Chat Rooms 🪄✨"
 description: "With your donation, you can enable the members of a group to have a shared chat room in the future."
