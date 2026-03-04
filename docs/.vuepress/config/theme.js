@@ -248,6 +248,26 @@ export default hopeTheme({
         '/fr/': ['fr-FR', 'fr'],
       },
       localeFallback: false,
+
+      // Redirect to English for pages missing in other locales
+      config: (app) => {
+        const fallback = '/en/'
+        const locales = ['/de/', '/es/', '/fr/']
+        const pagePaths = new Set(app.pages.map((p) => p.path))
+        const enPages = app.pages.filter((p) => p.path.startsWith(fallback)).map((p) => p.path)
+        const redirects = {}
+
+        for (const locale of locales) {
+          for (const enPath of enPages) {
+            const localePath = enPath.replace(fallback, locale)
+            if (!pagePaths.has(localePath)) {
+              redirects[localePath] = enPath
+            }
+          }
+        }
+
+        return redirects
+      },
     },
     slimsearch: {
       indexContent: true,

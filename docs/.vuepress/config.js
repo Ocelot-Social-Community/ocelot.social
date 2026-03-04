@@ -1,11 +1,78 @@
 import { getDirname, path } from "vuepress/utils"
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
+import fs from 'node:fs'
 
 import meta from './config/meta'
 import theme from './config/theme'
 
 const __dirname = getDirname(import.meta.url)
+const docsDir = path.resolve(__dirname, '..')
+
+const FALLBACK_LOCALE = 'en'
+const OTHER_LOCALES = ['de', 'es', 'fr']
+
+// ---------------------------------------------------------------------------
+// Before VuePress starts: for EN articles missing in other locales, create
+// README.stub.md files with a permalink so VuePress treats them as pages.
+// These .stub.md files are gitignored.
+// ---------------------------------------------------------------------------
+;(() => {
+  // Clean up old stubs first
+  for (const locale of OTHER_LOCALES) {
+    const localeNewsDir = path.resolve(docsDir, locale, 'news')
+    if (!fs.existsSync(localeNewsDir)) continue
+    for (const entry of fs.readdirSync(localeNewsDir, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue
+      const stubFile = path.resolve(localeNewsDir, entry.name, 'README.stub.md')
+      if (fs.existsSync(stubFile)) {
+        fs.unlinkSync(stubFile)
+        // Remove directory if now empty
+        const dir = path.resolve(localeNewsDir, entry.name)
+        if (fs.readdirSync(dir).length === 0) fs.rmdirSync(dir)
+      }
+    }
+  }
+
+  const enNewsDir = path.resolve(docsDir, FALLBACK_LOCALE, 'news')
+  if (!fs.existsSync(enNewsDir)) return
+
+  const enSlugs = fs.readdirSync(enNewsDir, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name)
+
+  for (const locale of OTHER_LOCALES) {
+    const localeNewsDir = path.resolve(docsDir, locale, 'news')
+    if (!fs.existsSync(localeNewsDir)) fs.mkdirSync(localeNewsDir, { recursive: true })
+
+    const existingSlugs = new Set(
+      fs.readdirSync(localeNewsDir, { withFileTypes: true })
+        .filter((d) => d.isDirectory())
+        .map((d) => d.name)
+    )
+
+    for (const slug of enSlugs) {
+      if (existingSlugs.has(slug)) continue
+
+      const enFile = path.resolve(enNewsDir, slug, 'README.md')
+      if (!fs.existsSync(enFile)) continue
+
+      const enContent = fs.readFileSync(enFile, 'utf-8')
+
+      // Inject permalink into frontmatter so VuePress maps the page
+      // to the correct locale path (e.g. /fr/news/slug/)
+      const permalink = `/${locale}/news/${slug}/`
+      const stubContent = enContent.replace(
+        /^---\n/,
+        `---\npermalink: ${permalink}\n`
+      )
+
+      const targetDir = path.resolve(localeNewsDir, slug)
+      fs.mkdirSync(targetDir, { recursive: true })
+      fs.writeFileSync(path.resolve(targetDir, 'README.stub.md'), stubContent)
+    }
+  }
+})()
 
 export default defineUserConfig({
   ...meta,

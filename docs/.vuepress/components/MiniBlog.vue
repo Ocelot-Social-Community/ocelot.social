@@ -74,11 +74,26 @@ const props =  defineProps({
   },
 });
 
-// Nur Artikel des aktuellen Locales + Top X
+const FALLBACK_LOCALE = '/en/';
+
+// Slug = path without locale prefix (e.g. "news/2025-07-05-release/")
+const slugOf = (a) => a.path.replace(a.locale, '');
+
+// Articles for current locale + EN fallback for missing ones
 const items = computed(() => {
   const loc = locale.value || "/";
-  const list = (articles || []).filter(a => a.locale === loc);
-  return list.slice(0, props.topArticlesCount);
+  const all = articles || [];
+
+  const localeArticles = all.filter(a => a.locale === loc);
+  const localeSlugs = new Set(localeArticles.map(slugOf));
+
+  const fallbacks = loc === FALLBACK_LOCALE
+    ? []
+    : all.filter(a => a.locale === FALLBACK_LOCALE && !localeSlugs.has(slugOf(a)));
+
+  return [...localeArticles, ...fallbacks]
+    .sort((a, b) => (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0))
+    .slice(0, props.topArticlesCount);
 });
 
 const articleIndex = computed(() =>
