@@ -1,0 +1,41 @@
+name: Check English Article Availability
+
+on: [push, pull_request]
+
+jobs:
+  check-english-articles:
+    name: Every article must have an English version
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for missing English articles
+        run: |
+          missing=0
+
+          for locale_dir in docs/de/news docs/es/news docs/fr/news; do
+            [ -d "$locale_dir" ] || continue
+            locale=$(echo "$locale_dir" | cut -d/ -f2)
+
+            for slug_dir in "$locale_dir"/*/; do
+              [ -d "$slug_dir" ] || continue
+              slug=$(basename "$slug_dir")
+              en_file="docs/en/news/$slug/README.md"
+
+              if [ ! -f "$en_file" ]; then
+                echo "::error::Missing English article: $en_file (exists in $locale)"
+                missing=$((missing + 1))
+              fi
+            done
+          done
+
+          if [ "$missing" -gt 0 ]; then
+            echo ""
+            echo "Found $missing article(s) without an English version."
+            echo "Every article must have an English translation in docs/en/news/."
+            exit 1
+          fi
+
+          echo "All articles have an English version."
