@@ -51,7 +51,7 @@ Resumen generado por IA de las versiones [3.14.0](https://github.com/Ocelot-Soci
 ### Features
 
 - Group Pins — Las publicaciones se pueden fijar en grupos (#9034)
-- Comando de creación de administrador para producción (#9057)
+- Commando de creación de administrador para producción (#9057)
 - Script de BD para desactivar notificaciones (#9131)
 - Integración de CodeRabbit para revisiones de PR (#9194)
 
