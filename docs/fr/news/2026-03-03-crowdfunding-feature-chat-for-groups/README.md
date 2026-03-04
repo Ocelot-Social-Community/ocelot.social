@@ -66,9 +66,9 @@ Donc aussi par votre don.
   asOfDate="2026-03-13"
 />
 
-## Dons
+### Dons
 
-Nous serions ravis de recevoir votre don à l'adresse suivante :
+Nous serions ravis de recevoir votre don à l’adresse suivante :
 
 busFaktor() e.V.  
 IBAN : DE81 5003 1000 1084 5340 01  
@@ -79,9 +79,9 @@ Lieu : Haferstr. 5c, 86179 Augsbourg, Allemagne
 
 Motif du paiement, voir ci-dessous.
 
-## Remarques concernant le motif du paiement
+### Remarques concernant le motif du paiement
 
-Veuillez impérativement indiquer "Don" comme motif du paiement et votre adresse e-mail afin que nous puissions vous contacter. Le signe "@" n'est généralement pas possible dans les virements bancaires, veuillez donc l'écrire sous la forme "at", avec un espace avant et après et sans guillemets.
+Veuillez impérativement indiquer "Don" comme motif du paiement et votre adresse e-mail afin que nous puissions vous contacter. Le signe "@" n’est généralement pas possible dans les virements bancaires, veuillez donc l’écrire sous la forme "at", avec un espace avant et après et sans guillemets.
 
 Exemple : "Don de eva.muster at domain.de pour le financement participatif"
 
@@ -90,15 +90,3 @@ Dans les autres cas, nous vous délivrons volontiers un reçu de don sur demande
 
 Nous sommes ouverts aux [dons réguliers](/fr/donate/) pour le projet. ❤️  
 Il existe également de nombreuses façons de [participer](/fr/contribute/).
-
-<!-- ### Todo XXX -->
-
-<!-- - Crowdfunding anbieter -->
-<!-- - Existenz Bankkonto -->
-<!-- - Name des Empfängers -->
-<!-- - Spendenabzug und -quittung fürs Ausland -->
-<!-- - Was passiert, wenn es nicht erfolgreich ist. -->
-<!-- - E-Mail aus Verwendungszweck für zukünftige Kampangen verwenden -> Datenschutzerklärung
-  - Dankesschreiben:
-    - "Danke für deine Spende!"
-    - "Wir gehen davon aus, dass wir dich über deine E-Mail auf weitere Crowdfunding-Kampagnen aufmerksam machen dürfen. Wenn du das nicht möchtest, gib uns bitte kurz Bescheid." -->

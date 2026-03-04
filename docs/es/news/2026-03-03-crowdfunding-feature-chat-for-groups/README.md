@@ -90,15 +90,3 @@ En otros casos, estaremos encantados de emitir un recibo de donación si lo soli
 
 Agradecemos las [donaciones periódicas](/es/donate/) para el proyecto. ❤️  
 También hay muchas formas de [participar](/es/contribute/).
-
-<!-- ### Todo XXX -->
-
-<!-- - Crowdfunding anbieter -->
-<!-- - Existenz Bankkonto -->
-<!-- - Name des Empfängers -->
-<!-- - Spendenabzug und -quittung fürs Ausland -->
-<!-- - Was passiert, wenn es nicht erfolgreich ist. -->
-<!-- - E-Mail aus Verwendungszweck für zukünftige Kampangen verwenden -> Datenschutzerklärung
-  - Dankesschreiben:
-    - "Danke für deine Spende!"
-    - "Wir gehen davon aus, dass wir dich über deine E-Mail auf weitere Crowdfunding-Kampagnen aufmerksam machen dürfen. Wenn du das nicht möchtest, gib uns bitte kurz Bescheid." -->
