@@ -45,7 +45,7 @@ El objetivo de este crowdfunding es introducir salas de chat de grupo para que l
 Para ello, se ampliará el chat individual existente y se dotará de pruebas de software para garantizar su calidad.
 
 <figure class="blog-post-image">
-  <img src="/blog/group-chat-rooms--es.png" alt="Sala de chat de grupo en una página de grupo" />
+  <img src="/blog/group-chat-rooms--de.png" alt="Sala de chat de grupo en una página de grupo" />
   <figcaption class="blog-post-image-capture">
     Así podría verse una sala de chat de grupo en un grupo.
   </figcaption>
@@ -81,9 +81,9 @@ Finalidad, véase más abajo.
 
 ## Indicaciones sobre la finalidad
 
-Es imprescindible que indiques "Donación" en el concepto y tu dirección de correo electrónico para que podamos ponernos en contacto contigo. En las transferencias bancarias, normalmente no es posible utilizar el símbolo "@", por lo que debes escribirlo como "at", con un espacio delante y detrás y sin comillas.
+Es imprescindible que indiques `Donación` en el concepto y tu dirección de correo electrónico para que podamos ponernos en contacto contigo. En las transferencias bancarias, normalmente no es posible utilizar el símbolo `@`, por lo que debes escribirlo como `" at "`, con un espacio delante y detrás y sin comillas.
 
-Ejemplo: "Donación de eva.muster at domain.de para crowdfunding".
+Ejemplo: `Donación de eva.muster at domain.de para crowdfunding`
 
 En Alemania, las donaciones inferiores a 300 € son deducibles sin necesidad de certificado.  
 En otros casos, estaremos encantados de emitir un recibo de donación si lo solicitas.

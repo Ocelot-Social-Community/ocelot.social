@@ -45,7 +45,7 @@ L’objectif de ce financement participatif est d’introduire des salles de cha
 Pour ce faire, le chat individuel existent sera étendu et doté de tests logiciels pour en garantir la qualité.
 
 <figure class="blog-post-image">
-  <img src="/blog/group-chat-rooms--fr.png" alt="Salle de chat de groupe sur une page de groupe" />
+  <img src="/blog/group-chat-rooms--de.png" alt="Salle de chat de groupe sur une page de groupe" />
   <figcaption class="blog-post-image-capture">
     Voici à quoi pourrait ressembler une salle de chat de groupe dans un groupe.
   </figcaption>
@@ -81,9 +81,9 @@ Motif du paiement, voir ci-dessous.
 
 ### Remarques concernant le motif du paiement
 
-Veuillez impérativement indiquer "Don" comme motif du paiement et votre adresse e-mail afin que nous puissions vous contacter. Le signe "@" n’est généralement pas possible dans les virements bancaires, veuillez donc l’écrire sous la forme "at", avec un espace avant et après et sans guillemets.
+Veuillez impérativement indiquer `Don` comme motif du paiement et votre adresse e-mail afin que nous puissions vous contacter. Le signe `@` n’est généralement pas possible dans les virements bancaires, veuillez donc l’écrire sous la forme `" at "`, avec un espace avant et après et sans guillemets.
 
-Exemple : "Don de eva.muster at domain.de pour le financement participatif"
+Exemple : `Don de eva.muster at domain.de pour le financement participatif`
 
 En Allemagne, les dons inférieurs à 300 € sont déductibles sans attestation.  
 Dans les autres cas, nous vous délivrons volontiers un reçu de don sur demande.
