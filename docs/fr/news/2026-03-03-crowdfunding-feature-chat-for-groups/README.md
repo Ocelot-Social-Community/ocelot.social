@@ -19,7 +19,7 @@ description: "Grâce à votre don, permettez aux membres d'un groupe d'avoir à 
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
 
-Grâce à votre don, permettez aux membres d'un groupe d'avoir à l'avenir une salle de chat commune.
+Grâce à votre don, permettez aux membres d’un groupe d’avoir à l’avenir une salle de chat commune.
 
 <DonationBar
   :currentValue="1000"
@@ -29,7 +29,7 @@ Grâce à votre don, permettez aux membres d'un groupe d'avoir à l'avenir une s
   asOfDate="2026-03-13"
 />
 
-## De quoi s'agit-il ?
+## De quoi s’agit-il ?
 
 Notre [premier financement participatif](/fr/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/) pendant les fêtes de Noël et du Nouvel An a été un grand succès.
 La nouvelle fonctionnalité est déjà développée, de sorte que dans tous les réseaux *ocelot.social*, les publications peuvent désormais être épinglées dans les groupes.
@@ -38,11 +38,11 @@ Nous lançons maintenant notre deuxième campagne.
 
 ## Salles de chat de groupe
 
-Jusqu'à présent, les membres d'un groupe ne pouvaient communiquer qu'à travers des publications et des commentaires, ainsi que par des chats individuels.
+Jusqu’à présent, les membres d’un groupe ne pouvaient communiquer qu’à travers des publications et des commentaires, ainsi que par des chats individuels.
 
-L'objectif de ce financement participatif est d'introduire des salles de chat de groupe afin que les membres puissent communiquer entre eux indépendamment des publications et que tous puissent voir ce qui a été écrit.
+L’objectif de ce financement participatif est d’introduire des salles de chat de groupe afin que les membres puissent communiquer entre eux indépendamment des publications et que tous puissent voir ce qui a été écrit.
 
-Pour ce faire, le chat individuel existant sera étendu et doté de tests logiciels pour en garantir la qualité.
+Pour ce faire, le chat individuel existent sera étendu et doté de tests logiciels pour en garantir la qualité.
 
 <figure class="blog-post-image">
   <img src="/blog/group-chat-rooms--fr.png" alt="Salle de chat de groupe sur une page de groupe" />
@@ -53,7 +53,7 @@ Pour ce faire, le chat individuel existant sera étendu et doté de tests logici
 
 ## Pourquoi un financement participatif ?
 
-L'association busFaktor() e.V., qui gère le logiciel libre et open source *ocelot.social*, est une organisation à but non lucratif.
+L’association busFaktor() e.V., qui gère le logiciel libre et open source *ocelot.social*, est une organisation à but non lucratif.
 Comme elle ne poursuit aucun intérêt commercial, le développement du logiciel est financé uniquement par le travail bénévole, les dons et les cotisations des membres, ainsi que par les commandes passées par les opérateurs des réseaux *ocelot.social* à des développeurs indépendants.
 Donc aussi par votre don.
 
