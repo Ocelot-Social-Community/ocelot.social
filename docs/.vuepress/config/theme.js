@@ -179,60 +179,62 @@ export default hopeTheme({
   },
   
   plugins: {
-    // notice: [
-    //   {
-    //     path: "/de/",                 // show on all pages (you can add more entries per path/locale)
-    //     title: "Crowdfunding 🪄✨",
-    //     content: "Lass uns angepinnte Beiträge in Gruppen haben. Mach mit bei unserem ersten Crowdfunding!",
-    //     actions: [
-    //       { text: "Mehr lesen", link: "/de/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
-    //       { text: "Nein danke" }
-    //     ],
-    //     showOnce: true,            // don’t re-show after it’s closed
-    //     noticeKey: "crowdfunding-pinned-post-in-group"// bump this when you edit the message
-    //     // fullscreen: true,       // optional: turn it into a modal
-    //     // confirm: true           // optional: force clicking an action to close
-    //   },
-    //   {
-    //     path: "/en/",                 // show on all pages (you can add more entries per path/locale)
-    //     title: "Crowdfunding 🪄✨",
-    //     content: "Let's have pinned posts in groups. Join our first crowdfunding!",
-    //     actions: [
-    //       { text: "Read more", link: "/en/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
-    //       { text: "No, thanks" }
-    //     ],
-    //     showOnce: true,            // don’t re-show after it’s closed
-    //     noticeKey: "crowdfunding-pinned-post-in-group"// bump this when you edit the message
-    //     // fullscreen: true,       // optional: turn it into a modal
-    //     // confirm: true           // optional: force clicking an action to close
-    //   },
-    //   {
-    //     path: "/es/",                 // show on all pages (you can add more entries per path/locale)
-    //     title: "Financiación colectiva 🪄✨",
-    //     content: "¡Pongamos publicaciones ancladas en los grupos! ¡Únete a nuestra primera campaña de crowdfunding!",
-    //     actions: [
-    //       { text: "Leer más", link: "/es/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
-    //       { text: "No, gracias" }
-    //     ],
-    //     showOnce: true,            // don’t re-show after it’s closed
-    //     noticeKey: "crowdfunding-pinned-post-in-group"// bump this when you edit the message
-    //     // fullscreen: true,       // optional: turn it into a modal
-    //     // confirm: true           // optional: force clicking an action to close
-    //   },
-    //   {
-    //     path: "/fr/",                 // show on all pages (you can add more entries per path/locale)
-    //     title: "Financement participatif 🪄✨",
-    //     content: "Ajoutons des publications épinglées dans les groupes. Rejoignez notre première campagne de financement participatif !",
-    //     actions: [
-    //       { text: "En savoir plus", link: "/fr/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups/", type: "primary" },
-    //       { text: "Non, merci" }
-    //     ],
-    //     showOnce: true,            // don’t re-show after it’s closed
-    //     noticeKey: "crowdfunding-pinned-post-in-group"// bump this when you edit the message
-    //     // fullscreen: true,       // optional: turn it into a modal
-    //     // confirm: true           // optional: force clicking an action to close
-    //   },
-    // ],
+    notice: [
+      {
+        path: "/de/",                 // show on all pages (you can add more entries per path/locale)
+        title: "Crowdfunding 🪄✨",
+        content: "Lass uns Chaträume für Gruppen haben. Mach mit bei unserem Crowdfunding!",
+        actions: [
+          { text: "Mehr lesen", link: "/de/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
+          { text: "Nein danke" }
+        ],
+        showOnce: true,            // don’t re-show after it’s closed
+        noticeKey: "crowdfunding-feature-chat-for-groups"// bump this when you edit the message
+        // fullscreen: true,       // optional: turn it into a modal
+        // confirm: true           // optional: force clicking an action to close
+      },
+      {
+        path: "/en/",                 // show on all pages (you can add more entries per path/locale)
+        title: "Crowdfunding 🪄✨",
+        content: "Let's have chat rooms for groups. Join our crowdfunding campaign!",
+        actions: [
+          { text: "Read more", link: "/en/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
+          { text: "No, thanks" }
+        ],
+        showOnce: true,            // don’t re-show after it’s closed
+        noticeKey: "crowdfunding-feature-chat-for-groups"// bump this when you edit the message
+        // fullscreen: true,       // optional: turn it into a modal
+        // confirm: true           // optional: force clicking an action to close
+      },
+      {
+        path: "/es/",                 // show on all pages (you can add more entries per path/locale)
+        title: "Financiación colectiva 🪄✨",
+        content: "Creemos salas de chat para grupos. ¡Únete a nuestra campaña de crowdfunding!",
+        actions: [
+          // { text: "Leer más", link: "/es/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
+          { text: "Leer más", link: "/en/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
+          { text: "No, gracias" }
+        ],
+        showOnce: true,            // don’t re-show after it’s closed
+        noticeKey: "crowdfunding-feature-chat-for-groups"// bump this when you edit the message
+        // fullscreen: true,       // optional: turn it into a modal
+        // confirm: true           // optional: force clicking an action to close
+      },
+      {
+        path: "/fr/",                 // show on all pages (you can add more entries per path/locale)
+        title: "Financement participatif 🪄✨",
+        content: "Créons des salons de discussion pour les groupes. Participez à notre financement participatif !",
+        actions: [
+          // { text: "En savoir plus", link: "/fr/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
+          { text: "En savoir plus", link: "/en/news/2026-03-03-crowdfunding-feature-chat-for-groups/", type: "primary" },
+          { text: "Non, merci" }
+        ],
+        showOnce: true,            // don’t re-show after it’s closed
+        noticeKey: "crowdfunding-feature-chat-for-groups"// bump this when you edit the message
+        // fullscreen: true,       // optional: turn it into a modal
+        // confirm: true           // optional: force clicking an action to close
+      },
+    ],
     blog: {
       excerptLength: 0,
     },

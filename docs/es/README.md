@@ -260,6 +260,7 @@ XXX -->
   :title="'Últimas publicaciones'"
   :readMoreLinkTitle="'Seguir leyendo'"
   :show-all-posts-button-title="'Mostrar todas las publicaciones'"
+  :topArticlesCount="4"
 />
 
 <h2 class="large-header">Donar</h2>
