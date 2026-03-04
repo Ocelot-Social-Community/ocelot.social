@@ -52,6 +52,14 @@ h1, h2, h3, h4 {
   display: none;
 }
 
+.vp-article-type-wrapper {
+  display: none;
+}
+
+.blog-page-wrapper {
+  padding-top: 1rem;
+}
+
 // 2 columns from desktop width for article overviews
 @media (min-width: 1024px) {
 
