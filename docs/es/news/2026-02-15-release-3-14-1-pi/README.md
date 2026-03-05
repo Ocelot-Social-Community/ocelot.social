@@ -9,7 +9,7 @@ category:
 tag:
   - Releases
   - Vue 3
-  - Grupos
+  - Groups
 cover: /blog/ocelot-social-release-v3-14-1-pi.jpg
 coverAlt: "Ocelot.social Versión 3.14.1 – Pi"
 title: "Ocelot.social Pi (3.14.1) ya está aquí – Fijar publicaciones en grupos"
