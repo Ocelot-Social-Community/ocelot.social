@@ -163,6 +163,12 @@ description: Un logiciel libre et open source avec lequel tu peux gérer un rés
     </figcapture>
   </figure>
   <figure>
+    <img src="../de/assets/invitations.png" alt="Invitations (réseau, groupes)" />
+    <figcapture>
+      Invitations (réseau, groupes)
+    </figcapture>
+  </figure>
+  <figure>
     <img src="../de/assets/language-selection.png" alt="Multilinguisme" />
     <figcapture>
       Multilinguisme

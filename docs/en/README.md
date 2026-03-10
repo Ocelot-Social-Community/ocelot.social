@@ -163,6 +163,12 @@ description: A free and open source software with which you can operate a social
     </figcapture>
   </figure>
   <figure>
+    <img src="../de/assets/invitations.png" alt="Invitations (network, groups)" />
+    <figcapture>
+      Invitations (network, groups)
+    </figcapture>
+  </figure>
+  <figure>
     <img src="../de/assets/language-selection.png" alt="Multilingualism" />
     <figcapture>
       Multilingualism

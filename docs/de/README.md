@@ -164,6 +164,12 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
     </figcapture>
   </figure>
   <figure>
+    <img src="./assets/invitations.png" alt="Einladungen (Netzwerk, Gruppen)" />
+    <figcapture>
+      Einladungen (Netzwerk, Gruppen)
+    </figcapture>
+  </figure>
+  <figure>
     <img src="./assets/language-selection.png" alt="Mehrsprachigkeit" />
     <figcapture>
       Mehrsprachigkeit
