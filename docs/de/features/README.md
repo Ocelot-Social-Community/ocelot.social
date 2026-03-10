@@ -30,6 +30,7 @@ Folgende Features sind bisher verfügbar:
 - Sichtbarkeit: öffentlich, geschlossen, versteckt
 - Benutzerrollen der Gruppe: Mitglied, Administrator, Inhaber
 - Mitglieder verwalten: einladen, freischalten, löschen
+- Inhaber, Administrator: Beitrag in Beitragsübersicht (Gruppen-Feed) oben anpinnen
 
 ## Beiträge
 

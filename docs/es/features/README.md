@@ -29,6 +29,7 @@ Las siguientes características se han integrado hasta ahora:
 - visibilidad: público, cerrado, oculto
 - roles de usuario en el grupo: miembro, administrador, propietario
 - gestionar miembros: invitar, activar, eliminar
+- Propietario, administrador: fijar la publicación en la vista general de publicaciones (feed del grupo) en la parte superior
 
 ## Publicaciones
 
