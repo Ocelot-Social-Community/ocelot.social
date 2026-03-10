@@ -29,6 +29,7 @@ Les fonctionnalités suivantes ont été intégrées jusqu’à présent :
 - visibilité : public, fermé, caché
 - rôles des utilisateurs du groupe : membre, administrateur, propriétaire
 - gestion des membres : inviter, activer, supprimer
+- Propriétaire, administrateur : épingler la publication dans l’aperçu des publications (fil d’actualité du groupe) en haut
 
 ## Articles
 

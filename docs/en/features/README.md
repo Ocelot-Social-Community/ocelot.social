@@ -29,6 +29,7 @@ The following features have been integrated so far:
 - visibility: public, closed, hidden
 - group user roles: member, administrator, owner
 - manage members: invite, activate, delete
+- Owner, administrator: Pin post to top of post overview (group feed)
 
 ## Posts
 

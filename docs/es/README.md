@@ -164,6 +164,12 @@ description: "Un software libre y de código abierto con el que puedes gestionar
     </figcapture>
   </figure>
   <figure>
+    <img src="../de/assets/invitations.png" alt="Invitaciones (red, grupos)" />
+    <figcapture>
+      Invitaciones (red, grupos)
+    </figcapture>
+  </figure>
+  <figure>
     <img src="../de/assets/language-selection.png" alt="Multilingüismo" />
     <figcapture>
       Multilingüismo
