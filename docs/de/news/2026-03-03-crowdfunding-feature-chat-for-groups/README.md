@@ -40,7 +40,7 @@ Jetzt starten wir unsere zweite Kampagne.
 
 Bisher konnten sich die Mitglieder einer Gruppe nur über Beiträge und Beitragskommentare sowie über Eins-zu-Eins-Chats austauschen.
 
-Ziel dieses Crowdfunding ist, Gruppen-Chaträume einzuführen, damit die Mitglieder unabhängig von Beiträgen miteinander kommunizieren können und alle sehen, was geschrieben wurde.
+Ziel dieses Crowdfundings ist, Gruppen-Chaträume einzuführen, damit die Mitglieder unabhängig von Beiträgen miteinander kommunizieren können und alle sehen, was geschrieben wurde.
 
 Der bestehende Eins-zu-Eins-Chat soll dafür ausgebaut und zur Qualitätssicherung mit Software-Tests versehen werden.
 
