@@ -73,7 +73,7 @@ const items = [
       es: 'Salas de chat para grupos para que los miembros puedan comunicarse en tiempo real.',
       fr: 'Salons de discussion pour les groupes afin que les membres puissent communiquer en temps réel.',
     },
-    status: 'in-progress',
+    status: 'done',
     issues: [],
   },
   {
@@ -90,7 +90,7 @@ const items = [
       es: 'Migración del frontend a Vue 3 para un mejor rendimiento y preparación para el futuro.',
       fr: 'Migration du frontend vers Vue 3 pour de meilleures performances et une pérennité assurée.',
     },
-    status: 'planned',
+    status: 'in-progress',
     issues: [6384],
   },
   {
