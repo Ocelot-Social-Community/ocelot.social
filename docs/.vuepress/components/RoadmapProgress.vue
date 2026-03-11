@@ -343,10 +343,11 @@ const connectorStyle = (index) => {
   position: absolute;
   left: 24px;
   transform: translateX(-50%);
-  bottom: 0;
-  height: 20px;
+  bottom: -28px;
+  height: 48px;
   width: 3px;
   background: #eab308;
+  z-index: 1;
 }
 
 .roadmap-station {
