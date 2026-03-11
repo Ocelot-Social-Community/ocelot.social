@@ -333,7 +333,7 @@ const connectorStyle = (index) => {
 .roadmap-content {
   grid-column: 2;
   grid-row: 1;
-  padding: 16px 16px 24px 0;
+  padding: 14px 16px 24px 0;
 }
 
 .roadmap-content-header {
