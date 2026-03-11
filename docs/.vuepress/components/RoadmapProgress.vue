@@ -13,6 +13,16 @@
     </div>
 
     <div class="roadmap-timeline">
+      <!-- Drei Punkte: es wurde bereits viel umgesetzt -->
+      <div class="roadmap-past">
+        <div class="roadmap-past-dots">
+          <span class="roadmap-past-dot"></span>
+          <span class="roadmap-past-dot"></span>
+          <span class="roadmap-past-dot"></span>
+        </div>
+        <span class="roadmap-past-label">{{ t.previouslyCompleted }}</span>
+      </div>
+
       <div
         v-for="(item, index) in items"
         :key="item.id"
@@ -72,6 +82,23 @@ const items = [
   {
     id: 1,
     title: {
+      de: 'Angepinnte Beiträge in Gruppen',
+      en: 'Pinned Posts in Groups',
+      es: 'Publicaciones fijadas en grupos',
+      fr: 'Publications épinglées dans les groupes',
+    },
+    description: {
+      de: 'Wichtige Beiträge können in Gruppen oben angepinnt werden, damit sie sichtbar bleiben.',
+      en: 'Important posts can be pinned to the top of groups so they stay visible.',
+      es: 'Las publicaciones importantes se pueden fijar en la parte superior de los grupos para que permanezcan visibles.',
+      fr: 'Les publications importantes peuvent être épinglées en haut des groupes pour rester visibles.',
+    },
+    status: 'done',
+    issues: [6233],
+  },
+  {
+    id: 2,
+    title: {
       de: 'Gruppen-Chat',
       en: 'Group Chat',
       es: 'Chat de grupo',
@@ -83,25 +110,8 @@ const items = [
       es: 'Salas de chat para grupos para que los miembros puedan comunicarse en tiempo real.',
       fr: 'Salons de discussion pour les groupes afin que les membres puissent communiquer en temps réel.',
     },
-    status: 'done',
-    issues: [],
-  },
-  {
-    id: 2,
-    title: {
-      de: 'Vue 2 → Vue 3 Migration',
-      en: 'Vue 2 → Vue 3 Migration',
-      es: 'Migración de Vue 2 → Vue 3',
-      fr: 'Migration Vue 2 → Vue 3',
-    },
-    description: {
-      de: 'Migration des Frontends auf Vue 3 für bessere Performance und Zukunftssicherheit.',
-      en: 'Migration of the frontend to Vue 3 for better performance and future-proofing.',
-      es: 'Migración del frontend a Vue 3 para un mejor rendimiento y preparación para el futuro.',
-      fr: 'Migration du frontend vers Vue 3 pour de meilleures performances et une pérennité assurée.',
-    },
     status: 'in-progress',
-    issues: [6384],
+    issues: [],
   },
   {
     id: 3,
@@ -188,13 +198,30 @@ const items = [
     status: 'planned',
     issues: [2198, 4965],
   },
+  {
+    id: 8,
+    title: {
+      de: 'Vue 2 → Vue 3 Migration',
+      en: 'Vue 2 → Vue 3 Migration',
+      es: 'Migración de Vue 2 → Vue 3',
+      fr: 'Migration Vue 2 → Vue 3',
+    },
+    description: {
+      de: 'Migration des Frontends auf Vue 3 für bessere Performance und Zukunftssicherheit.',
+      en: 'Migration of the frontend to Vue 3 for better performance and future-proofing.',
+      es: 'Migración del frontend a Vue 3 para un mejor rendimiento y preparación para el futuro.',
+      fr: 'Migration du frontend vers Vue 3 pour de meilleures performances et une pérennité assurée.',
+    },
+    status: 'planned',
+    issues: [6384],
+  },
 ]
 
 const i18n = {
-  de: { done: 'Erledigt', inProgress: 'In Arbeit', planned: 'Geplant' },
-  en: { done: 'Done', inProgress: 'In Progress', planned: 'Planned' },
-  es: { done: 'Completado', inProgress: 'En curso', planned: 'Planificado' },
-  fr: { done: 'Terminé', inProgress: 'En cours', planned: 'Planifié' },
+  de: { done: 'Erledigt', inProgress: 'In Arbeit', planned: 'Geplant', previouslyCompleted: 'Bereits umgesetzt …' },
+  en: { done: 'Done', inProgress: 'In Progress', planned: 'Planned', previouslyCompleted: 'Previously completed …' },
+  es: { done: 'Completado', inProgress: 'En curso', planned: 'Planificado', previouslyCompleted: 'Ya completado …' },
+  fr: { done: 'Terminé', inProgress: 'En cours', planned: 'Planifié', previouslyCompleted: 'Déjà réalisé …' },
 }
 
 const t = i18n[locale] || i18n.de
@@ -266,6 +293,60 @@ const connectorStyle = (index) => {
 .roadmap-timeline {
   position: relative;
   padding-left: 0;
+}
+
+/* === Drei Punkte: vorherige Umsetzungen === */
+.roadmap-past {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: -12px;
+  padding-left: 12px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.roadmap-past-dots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 24px;
+}
+
+.roadmap-past-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #eab308;
+  opacity: 0.5;
+}
+
+.roadmap-past-dot:nth-child(2) {
+  opacity: 0.7;
+}
+
+.roadmap-past-dot:nth-child(3) {
+  opacity: 0.9;
+}
+
+.roadmap-past-label {
+  font-size: 0.85em;
+  color: var(--vp-c-text);
+  opacity: 0.6;
+  font-style: italic;
+}
+
+/* Verbindungslinie von den Punkten zum ersten Eintrag */
+.roadmap-past::after {
+  content: '';
+  position: absolute;
+  left: 24px;
+  transform: translateX(-50%);
+  bottom: 0;
+  height: 20px;
+  width: 3px;
+  background: #eab308;
 }
 
 .roadmap-station {
@@ -443,6 +524,15 @@ strong.roadmap-content-title {
    ========================================== */
 
 /* Vor der Animation: alles unsichtbar */
+.roadmap-past {
+  opacity: 0;
+}
+
+.roadmap--animated .roadmap-past {
+  animation: contentFadeIn 0.4s ease forwards;
+  animation-delay: 0.1s;
+}
+
 .roadmap-station .roadmap-marker,
 .roadmap-station .roadmap-content {
   opacity: 0;
