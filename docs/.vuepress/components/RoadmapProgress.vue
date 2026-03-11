@@ -61,7 +61,7 @@
       </div>
 
       <!-- Drei Punkte am Ende: weitere geplante Features -->
-      <div v-if="hasMorePlanned" class="roadmap-future roadmap-expandable" @click="expandFuture">
+      <div v-if="hasMorePlanned" class="roadmap-future roadmap-expandable" @click="expandFuture" :style="{ '--i': items.length - 1 }">
         <div class="roadmap-future-dots">
           <span class="roadmap-future-dot"></span>
           <span class="roadmap-future-dot"></span>
@@ -512,7 +512,7 @@ strong.roadmap-content-title {
 
 .roadmap--animated .roadmap-future {
   animation: contentFadeIn 0.3s ease forwards;
-  animation-delay: 0.3s;
+  animation-delay: calc(0.85s + var(--i, 0) * 0.5s);
 }
 
 .roadmap-station .roadmap-marker,
@@ -680,5 +680,10 @@ strong.roadmap-content-title {
              markerGlow 0.7s ease forwards,
              inProgressPulse 2s ease-in-out 0.7s infinite;
   animation-delay: calc(var(--i) * 0.04s), calc(var(--i) * 0.04s), calc(var(--i) * 0.04s + 0.6s);
+}
+
+.roadmap--expanded.roadmap--animated .roadmap-future {
+  animation: contentFadeIn 0.6s ease forwards;
+  animation-delay: calc(var(--i, 0) * 0.04s + 0.7s);
 }
 </style>
