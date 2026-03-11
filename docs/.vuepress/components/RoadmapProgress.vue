@@ -20,7 +20,7 @@
         :class="'roadmap-station--' + item.status"
       >
         <!-- Durchgehende Linie von diesem Marker zum nächsten -->
-        <div v-if="index < items.length - 1" class="roadmap-connector" :class="'roadmap-connector--' + connectorColor(index)"></div>
+        <div v-if="index < items.length - 1" class="roadmap-connector" :style="connectorStyle(index)"></div>
 
         <!-- Station-Marker -->
         <div class="roadmap-marker" :class="'roadmap-marker--' + item.status">
@@ -199,13 +199,17 @@ const statusLabel = (status) => {
 }
 
 // Farbe der Verbindungslinie zwischen Station[index] und Station[index+1]
-const connectorColor = (index) => {
-  const current = items[index].status
-  const next = items[index + 1].status
-  if (current === 'done' && next === 'done') return 'done'
-  if (current === 'done' && next === 'in-progress') return 'to-active'
-  if (current === 'in-progress') return 'from-active'
-  return 'planned'
+const statusColor = {
+  'done': '#eab308',
+  'in-progress': '#6366f1',
+  'planned': '#059669',
+}
+
+const connectorStyle = (index) => {
+  const from = statusColor[items[index].status]
+  const to = statusColor[items[index + 1].status]
+  if (from === to) return { background: from }
+  return { background: `linear-gradient(to bottom, ${from}, ${to})` }
 }
 </script>
 
@@ -273,13 +277,6 @@ const connectorColor = (index) => {
   bottom: -28px;
   width: 3px;
   z-index: 1;
-}
-
-.roadmap-connector--done,
-.roadmap-connector--to-active,
-.roadmap-connector--from-active,
-.roadmap-connector--planned {
-  background: #34d399;
 }
 
 /* === Marker === */
