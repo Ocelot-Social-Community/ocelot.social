@@ -302,6 +302,7 @@ const connectorColor = (index) => {
 
 .roadmap-marker--done {
   background: #059669;
+  border: 3px solid #059669;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
@@ -309,6 +310,7 @@ const connectorColor = (index) => {
 
 .roadmap-marker--in-progress {
   background: #6366f1;
+  border: 3px solid #6366f1;
   box-shadow: 0 0 0 5px rgba(99, 102, 241, 0.2);
 }
 
