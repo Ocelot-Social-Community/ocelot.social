@@ -397,13 +397,6 @@ const connectorColor = (index) => {
   text-decoration: underline;
 }
 
-/* === Hervorhebung der aktiven Station === */
-.roadmap-station--in-progress .roadmap-content {
-  padding-left: 4px;
-  border-left: 3px solid rgba(99, 102, 241, 0.3);
-  border-radius: 4px;
-  margin-left: -4px;
-}
 
 /* === Responsive === */
 @media (max-width: 600px) {
