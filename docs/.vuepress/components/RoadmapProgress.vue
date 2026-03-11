@@ -359,7 +359,7 @@ const connectorStyle = (index) => {
 strong.roadmap-content-title {
   font-size: 1.15em;
   font-weight: 800;
-  color: var(--vp-c-text-1, #213547);
+  color: var(--vp-c-text);
 }
 
 .roadmap-content-badge {
@@ -389,7 +389,8 @@ strong.roadmap-content-title {
 .roadmap-content-description {
   margin: 6px 0 0 0;
   font-size: 0.9em;
-  color: var(--vp-c-text-2, #666);
+  color: var(--vp-c-text);
+  opacity: 0.75;
   line-height: 1.6;
 }
 
