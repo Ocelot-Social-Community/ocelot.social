@@ -238,7 +238,7 @@ const connectorColor = (index) => {
 }
 
 .roadmap-legend-dot--done {
-  background: #059669;
+  background: #eab308;
 }
 
 .roadmap-legend-dot--in-progress {
@@ -246,7 +246,7 @@ const connectorColor = (index) => {
 }
 
 .roadmap-legend-dot--planned {
-  background: #86efac;
+  background: #059669;
 }
 
 /* === Timeline === */
@@ -301,8 +301,8 @@ const connectorColor = (index) => {
 }
 
 .roadmap-marker--done {
-  background: #059669;
-  border: 3px solid #059669;
+  background: #eab308;
+  border: 3px solid #eab308;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
@@ -329,7 +329,7 @@ const connectorColor = (index) => {
 
 .roadmap-marker--planned {
   background: var(--vp-c-bg, #fff);
-  border: 3px solid #86efac;
+  border: 3px solid #059669;
 }
 
 /* === Inhalt === */
@@ -361,8 +361,8 @@ const connectorColor = (index) => {
 }
 
 .roadmap-content-badge--done {
-  background: #d1fae5;
-  color: #065f46;
+  background: #fef9c3;
+  color: #854d0e;
 }
 
 .roadmap-content-badge--in-progress {
@@ -371,8 +371,8 @@ const connectorColor = (index) => {
 }
 
 .roadmap-content-badge--planned {
-  background: #ecfdf5;
-  color: #047857;
+  background: #d1fae5;
+  color: #065f46;
 }
 
 .roadmap-content-description {
