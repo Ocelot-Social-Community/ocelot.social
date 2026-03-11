@@ -820,25 +820,25 @@ strong.roadmap-content-title {
 
 /* === Expanded: Animation ohne lange Verzögerung === */
 .roadmap--expanded.roadmap--animated .roadmap-station .roadmap-marker {
-  animation: markerPop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
-             markerGlow 0.6s ease forwards;
-  animation-delay: calc(var(--i) * 0.08s), calc(var(--i) * 0.08s);
+  animation: markerPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
+             markerGlow 0.7s ease forwards;
+  animation-delay: calc(var(--i) * 0.04s), calc(var(--i) * 0.04s);
 }
 
 .roadmap--expanded.roadmap--animated .roadmap-station .roadmap-content {
-  animation: contentFadeIn 0.5s ease forwards;
-  animation-delay: calc(var(--i) * 0.08s);
+  animation: contentFadeIn 0.6s ease forwards;
+  animation-delay: calc(var(--i) * 0.04s);
 }
 
 .roadmap--expanded.roadmap--animated .roadmap-station .roadmap-connector {
-  animation: lineGrow 0.5s ease forwards;
-  animation-delay: calc(var(--i) * 0.08s + 0.1s);
+  animation: lineGrow 0.6s ease forwards;
+  animation-delay: calc(var(--i) * 0.04s + 0.1s);
 }
 
 .roadmap--expanded.roadmap--animated .roadmap-station--in-progress .roadmap-marker {
-  animation: markerPop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
-             markerGlow 0.6s ease forwards,
-             inProgressPulse 2s ease-in-out 0.6s infinite;
-  animation-delay: calc(var(--i) * 0.08s), calc(var(--i) * 0.08s), calc(var(--i) * 0.08s + 0.5s);
+  animation: markerPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
+             markerGlow 0.7s ease forwards,
+             inProgressPulse 2s ease-in-out 0.7s infinite;
+  animation-delay: calc(var(--i) * 0.04s), calc(var(--i) * 0.04s), calc(var(--i) * 0.04s + 0.6s);
 }
 </style>
