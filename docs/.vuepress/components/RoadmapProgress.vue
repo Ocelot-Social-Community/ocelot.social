@@ -1,5 +1,5 @@
 <template>
-  <div class="roadmap">
+  <div class="roadmap" :class="{ 'roadmap--animated': animated }">
     <div class="roadmap-legend">
       <span class="roadmap-legend-item">
         <span class="roadmap-legend-dot roadmap-legend-dot--done"></span> {{ t.done }}
@@ -18,8 +18,9 @@
         :key="item.id"
         class="roadmap-station"
         :class="'roadmap-station--' + item.status"
+        :style="{ '--i': index }"
       >
-        <!-- Durchgehende Linie von diesem Marker zum nächsten -->
+        <!-- Verbindungslinie zum nächsten Punkt -->
         <div v-if="index < items.length - 1" class="roadmap-connector" :style="connectorStyle(index)"></div>
 
         <!-- Station-Marker -->
@@ -53,10 +54,19 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from "vue"
 import { useRouteLocale } from "vuepress/client"
 
 const stripSlashes = s => s.replace(/^\/+|\/+$/g, '')
 const locale = stripSlashes(useRouteLocale().value) || 'de'
+
+const animated = ref(false)
+
+onMounted(() => {
+  requestAnimationFrame(() => {
+    animated.value = true
+  })
+})
 
 const items = [
   {
@@ -198,7 +208,6 @@ const statusLabel = (status) => {
   }
 }
 
-// Farbe der Verbindungslinie zwischen Station[index] und Station[index+1]
 const statusColor = {
   'done': '#eab308',
   'in-progress': '#6366f1',
@@ -208,8 +217,8 @@ const statusColor = {
 const connectorStyle = (index) => {
   const from = statusColor[items[index].status]
   const to = statusColor[items[index + 1].status]
-  if (from === to) return { background: from }
-  return { background: `linear-gradient(to bottom, ${from}, ${to})` }
+  if (from === to) return { '--conn-color': from }
+  return { '--conn-from': from, '--conn-to': to }
 }
 </script>
 
@@ -268,7 +277,7 @@ const connectorStyle = (index) => {
   min-height: 80px;
 }
 
-/* === Verbindungslinie zwischen Stationen === */
+/* === Verbindungslinie === */
 .roadmap-connector {
   position: absolute;
   left: 12px;
@@ -277,6 +286,7 @@ const connectorStyle = (index) => {
   bottom: -28px;
   width: 3px;
   z-index: 1;
+  background: var(--conn-color, linear-gradient(to bottom, var(--conn-from), var(--conn-to)));
 }
 
 /* === Marker === */
@@ -397,6 +407,97 @@ strong.roadmap-content-title {
   text-decoration: underline;
 }
 
+/* ==========================================
+   Animation: Punkte poppen auf, Linie zieht
+   ========================================== */
+
+/* Vor der Animation: alles unsichtbar */
+.roadmap-station .roadmap-marker,
+.roadmap-station .roadmap-content {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.roadmap-station .roadmap-connector {
+  transform: translateX(-50%) scaleY(0);
+  transform-origin: top center;
+}
+
+/* Nach mounted: Animation starten */
+/* Timing pro Station: Marker poppt auf, Linie zieht, nächster Marker poppt */
+/* Station i: marker bei 0.3 + i*0.5s, connector bei 0.3 + i*0.5 + 0.15s */
+
+.roadmap--animated .roadmap-station .roadmap-marker {
+  animation: markerPop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
+             markerGlow 0.5s ease calc(0.3s + var(--i) * 0.5s) forwards;
+  animation-delay: calc(0.3s + var(--i) * 0.5s);
+}
+
+/* Content fliegt mit dem Marker ein */
+.roadmap--animated .roadmap-station .roadmap-content {
+  animation: contentFadeIn 0.4s ease forwards;
+  animation-delay: calc(0.3s + var(--i) * 0.5s);
+}
+
+/* Linie zieht sich nach unten */
+.roadmap--animated .roadmap-station .roadmap-connector {
+  animation: lineGrow 0.4s ease forwards;
+  animation-delay: calc(0.45s + var(--i) * 0.5s);
+}
+
+@keyframes markerPop {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes markerGlow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 16px 6px rgba(255, 255, 255, 0.4);
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+
+@keyframes contentFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes lineGrow {
+  0% {
+    transform: translateX(-50%) scaleY(0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(-50%) scaleY(1);
+    opacity: 1;
+  }
+}
+
+/* Nach Animation: in-progress-Marker behält seinen box-shadow */
+.roadmap--animated .roadmap-marker--in-progress {
+  box-shadow: 0 0 0 5px rgba(99, 102, 241, 0.2);
+}
 
 /* === Responsive === */
 @media (max-width: 600px) {
@@ -411,9 +512,30 @@ strong.roadmap-content-title {
   strong.roadmap-content-title {
     font-size: 1.05em;
   }
+}
 
-  .roadmap-station--in-progress .roadmap-content {
-    padding-left: 4px;
+/* Reduced motion: keine Animation */
+@media (prefers-reduced-motion: reduce) {
+  .roadmap-station .roadmap-marker,
+  .roadmap-station .roadmap-content {
+    opacity: 1;
+    transform: none;
+  }
+
+  .roadmap-station .roadmap-connector {
+    transform: translateX(-50%) scaleY(1);
+  }
+
+  .roadmap--animated .roadmap-station .roadmap-marker,
+  .roadmap--animated .roadmap-station .roadmap-content,
+  .roadmap--animated .roadmap-station .roadmap-connector {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .roadmap--animated .roadmap-station .roadmap-connector {
+    transform: translateX(-50%);
   }
 }
 </style>
