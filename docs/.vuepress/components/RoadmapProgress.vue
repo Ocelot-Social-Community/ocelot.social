@@ -1,5 +1,5 @@
 <template>
-  <div class="roadmap" :class="{ 'roadmap--animated': animated }">
+  <div class="roadmap" :class="{ 'roadmap--animated': animated, 'roadmap--expanded': showAllPast || showAllFuture }">
     <div class="roadmap-legend">
       <span class="roadmap-legend-item">
         <span class="roadmap-legend-dot roadmap-legend-dot--done"></span> {{ t.done }}
@@ -256,19 +256,19 @@ const allPlanned = allItems.filter(i => i.status === 'planned')
 const hiddenPastCount = computed(() => Math.max(0, allDone.length - 1))
 const hasHiddenPast = computed(() => hiddenPastCount.value > 0 && !showAllPast.value)
 
+// Basis-Anzahl Planned ohne Expansion
+const basePlannedCount = MAX_VISIBLE - 1 - allInProgress.slice(0, 1).length
+
 const items = computed(() => {
   const done = showAllPast.value ? allDone : allDone.slice(-1)
   const inProgress = allInProgress.slice(0, 1)
-  const maxPlanned = showAllFuture.value ? allPlanned.length : MAX_VISIBLE - done.length - inProgress.length
+  const maxPlanned = showAllFuture.value ? allPlanned.length : basePlannedCount
   return [...done, ...inProgress, ...allPlanned.slice(0, maxPlanned)]
 })
 
 const hasMorePlanned = computed(() => {
   if (showAllFuture.value) return false
-  const done = showAllPast.value ? allDone : allDone.slice(-1)
-  const inProgress = allInProgress.slice(0, 1)
-  const remaining = MAX_VISIBLE - done.length - inProgress.length
-  return allPlanned.length > remaining
+  return allPlanned.length > basePlannedCount
 })
 
 const expandPast = () => { showAllPast.value = true }
@@ -671,8 +671,8 @@ strong.roadmap-content-title {
 }
 
 .roadmap--animated .roadmap-future {
-  animation: contentFadeIn 0.4s ease forwards;
-  animation-delay: calc(0.6s + 7 * 0.5s);
+  animation: contentFadeIn 0.3s ease forwards;
+  animation-delay: 0.3s;
 }
 
 .roadmap-station .roadmap-marker,
@@ -816,5 +816,29 @@ strong.roadmap-content-title {
   .roadmap--animated .roadmap-station .roadmap-connector {
     transform: translateX(-50%);
   }
+}
+
+/* === Expanded: Animation ohne lange Verzögerung === */
+.roadmap--expanded.roadmap--animated .roadmap-station .roadmap-marker {
+  animation: markerPop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
+             markerGlow 0.6s ease forwards;
+  animation-delay: calc(var(--i) * 0.08s), calc(var(--i) * 0.08s);
+}
+
+.roadmap--expanded.roadmap--animated .roadmap-station .roadmap-content {
+  animation: contentFadeIn 0.5s ease forwards;
+  animation-delay: calc(var(--i) * 0.08s);
+}
+
+.roadmap--expanded.roadmap--animated .roadmap-station .roadmap-connector {
+  animation: lineGrow 0.5s ease forwards;
+  animation-delay: calc(var(--i) * 0.08s + 0.1s);
+}
+
+.roadmap--expanded.roadmap--animated .roadmap-station--in-progress .roadmap-marker {
+  animation: markerPop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
+             markerGlow 0.6s ease forwards,
+             inProgressPulse 2s ease-in-out 0.6s infinite;
+  animation-delay: calc(var(--i) * 0.08s), calc(var(--i) * 0.08s), calc(var(--i) * 0.08s + 0.5s);
 }
 </style>
