@@ -14,7 +14,7 @@
 
     <div class="roadmap-timeline">
       <!-- Drei Punkte: es wurde bereits viel umgesetzt -->
-      <div class="roadmap-past">
+      <div v-if="hasHiddenPast" class="roadmap-past roadmap-expandable" @click="expandPast">
         <div class="roadmap-past-dots">
           <span class="roadmap-past-dot"></span>
           <span class="roadmap-past-dot"></span>
@@ -61,7 +61,7 @@
       </div>
 
       <!-- Drei Punkte am Ende: weitere geplante Features -->
-      <div v-if="hasMorePlanned" class="roadmap-future">
+      <div v-if="hasMorePlanned" class="roadmap-future roadmap-expandable" @click="expandFuture">
         <div class="roadmap-future-dots">
           <span class="roadmap-future-dot"></span>
           <span class="roadmap-future-dot"></span>
@@ -246,21 +246,33 @@ const allItems = [
 
 const MAX_VISIBLE = 7
 
+const showAllPast = ref(false)
+const showAllFuture = ref(false)
+
+const allDone = allItems.filter(i => i.status === 'done')
+const allInProgress = allItems.filter(i => i.status === 'in-progress')
+const allPlanned = allItems.filter(i => i.status === 'planned')
+
+const hiddenPastCount = computed(() => Math.max(0, allDone.length - 1))
+const hasHiddenPast = computed(() => hiddenPastCount.value > 0 && !showAllPast.value)
+
 const items = computed(() => {
-  const done = allItems.filter(i => i.status === 'done').slice(-1)
-  const inProgress = allItems.filter(i => i.status === 'in-progress').slice(0, 1)
-  const planned = allItems.filter(i => i.status === 'planned')
-  const remaining = MAX_VISIBLE - done.length - inProgress.length
-  return [...done, ...inProgress, ...planned.slice(0, remaining)]
+  const done = showAllPast.value ? allDone : allDone.slice(-1)
+  const inProgress = allInProgress.slice(0, 1)
+  const maxPlanned = showAllFuture.value ? allPlanned.length : MAX_VISIBLE - done.length - inProgress.length
+  return [...done, ...inProgress, ...allPlanned.slice(0, maxPlanned)]
 })
 
 const hasMorePlanned = computed(() => {
-  const planned = allItems.filter(i => i.status === 'planned')
-  const done = allItems.filter(i => i.status === 'done').slice(-1)
-  const inProgress = allItems.filter(i => i.status === 'in-progress').slice(0, 1)
+  if (showAllFuture.value) return false
+  const done = showAllPast.value ? allDone : allDone.slice(-1)
+  const inProgress = allInProgress.slice(0, 1)
   const remaining = MAX_VISIBLE - done.length - inProgress.length
-  return planned.length > remaining
+  return allPlanned.length > remaining
 })
+
+const expandPast = () => { showAllPast.value = true }
+const expandFuture = () => { showAllFuture.value = true }
 
 const i18n = {
   de: { done: 'Erledigt', inProgress: 'In Arbeit', planned: 'Geplant', previouslyCompleted: 'Bereits umgesetzt …', morePlanned: '… und weitere geplant' },
