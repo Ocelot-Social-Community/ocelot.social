@@ -343,8 +343,9 @@ const connectorStyle = (index) => {
   gap: 10px;
 }
 
-.roadmap-content-title {
-  font-size: 1.05em;
+strong.roadmap-content-title {
+  font-size: 1.15em;
+  font-weight: 800;
   color: var(--vp-c-text-1, #213547);
 }
 
@@ -407,8 +408,8 @@ const connectorStyle = (index) => {
     padding: 8px 0 20px 0;
   }
 
-  .roadmap-content-title {
-    font-size: 0.95em;
+  strong.roadmap-content-title {
+    font-size: 1.05em;
   }
 
   .roadmap-station--in-progress .roadmap-content {
