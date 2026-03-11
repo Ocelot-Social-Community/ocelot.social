@@ -36,6 +36,10 @@ export default hopeTheme({
           link: '/de/features/'
         },
         {
+          text: 'Roadmap',
+          link: '/de/roadmap/'
+        },
+        {
           text: 'Einstieg',
           link: '/de/get-started/'
         },
@@ -71,6 +75,10 @@ export default hopeTheme({
         {
           text: 'Features',
           link: '/en/features/'
+        },
+        {
+          text: 'Roadmap',
+          link: '/en/roadmap/'
         },
         {
           text: 'Get Started',
@@ -110,6 +118,10 @@ export default hopeTheme({
           link: '/es/features/'
         },
         {
+          text: 'Roadmap',
+          link: '/es/roadmap/'
+        },
+        {
           text: 'Empezar',
           link: '/es/get-started/'
         },
@@ -146,6 +158,10 @@ export default hopeTheme({
         {
           text: 'Fonctionnalités',
           link: '/fr/features/'
+        },
+        {
+          text: 'Roadmap',
+          link: '/fr/roadmap/'
         },
         {
           text: 'Commencer',
