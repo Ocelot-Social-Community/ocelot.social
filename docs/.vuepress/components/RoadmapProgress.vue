@@ -275,12 +275,14 @@ const connectorStyle = (index) => {
   grid-template-rows: auto;
   column-gap: 20px;
   min-height: 80px;
+  margin-left: -12px;
+  padding-left: 12px;
 }
 
 /* === Verbindungslinie === */
 .roadmap-connector {
   position: absolute;
-  left: 12px;
+  left: 24px;
   transform: translateX(-50%);
   top: 28px;
   bottom: -28px;
@@ -406,6 +408,42 @@ strong.roadmap-content-title {
 
 .roadmap-content-issues a:hover {
   text-decoration: underline;
+}
+
+/* === Hover: Hintergrund über gesamte Zeile + Marker-Puls === */
+.roadmap-station {
+  cursor: default;
+  border-radius: 10px;
+  transition: background-color 0.25s ease;
+}
+
+.roadmap-station:hover .roadmap-marker {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: scale(1.25);
+}
+
+.roadmap-station--done:hover {
+  background-color: rgba(234, 179, 8, 0.1);
+}
+
+.roadmap-station--done:hover .roadmap-marker {
+  box-shadow: 0 0 12px 4px rgba(234, 179, 8, 0.35);
+}
+
+.roadmap-station--in-progress:hover {
+  background-color: rgba(99, 102, 241, 0.1);
+}
+
+.roadmap-station--in-progress:hover .roadmap-marker {
+  box-shadow: 0 0 12px 4px rgba(99, 102, 241, 0.35);
+}
+
+.roadmap-station--planned:hover {
+  background-color: rgba(5, 150, 105, 0.1);
+}
+
+.roadmap-station--planned:hover .roadmap-marker {
+  box-shadow: 0 0 12px 4px rgba(5, 150, 105, 0.35);
 }
 
 /* ==========================================
