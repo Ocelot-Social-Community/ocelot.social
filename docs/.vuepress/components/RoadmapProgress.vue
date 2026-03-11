@@ -2,13 +2,13 @@
   <div class="roadmap" :class="{ 'roadmap--animated': animated, 'roadmap--expanded': showAllPast || showAllFuture }">
     <div class="roadmap-legend">
       <span class="roadmap-legend-item">
-        <span class="roadmap-legend-dot roadmap-legend-dot--done"></span> {{ t.done }}
+        <span class="roadmap-legend-dot roadmap-legend-dot--done"></span> {{ labelDone }}
       </span>
       <span class="roadmap-legend-item">
-        <span class="roadmap-legend-dot roadmap-legend-dot--in-progress"></span> {{ t.inProgress }}
+        <span class="roadmap-legend-dot roadmap-legend-dot--in-progress"></span> {{ labelInProgress }}
       </span>
       <span class="roadmap-legend-item">
-        <span class="roadmap-legend-dot roadmap-legend-dot--planned"></span> {{ t.planned }}
+        <span class="roadmap-legend-dot roadmap-legend-dot--planned"></span> {{ labelPlanned }}
       </span>
     </div>
 
@@ -20,7 +20,7 @@
           <span class="roadmap-past-dot"></span>
           <span class="roadmap-past-dot"></span>
         </div>
-        <span class="roadmap-past-label">{{ t.previouslyCompleted }}</span>
+        <span class="roadmap-past-label">{{ labelPreviouslyCompleted }}</span>
       </div>
 
       <div
@@ -42,12 +42,12 @@
         <!-- Inhalt -->
         <div class="roadmap-content">
           <div class="roadmap-content-header">
-            <strong class="roadmap-content-title">{{ item.title[locale] }}</strong>
+            <strong class="roadmap-content-title">{{ item.title }}</strong>
             <span class="roadmap-content-badge" :class="'roadmap-content-badge--' + item.status">
               {{ statusLabel(item.status) }}
             </span>
           </div>
-          <p class="roadmap-content-description">{{ item.description[locale] }}</p>
+          <p class="roadmap-content-description">{{ item.description }}</p>
           <div v-if="item.issues && item.issues.length" class="roadmap-content-issues">
             <a
               v-for="issue in item.issues"
@@ -67,7 +67,7 @@
           <span class="roadmap-future-dot"></span>
           <span class="roadmap-future-dot"></span>
         </div>
-        <span class="roadmap-future-label">{{ t.morePlanned }}</span>
+        <span class="roadmap-future-label">{{ labelMorePlanned }}</span>
       </div>
     </div>
   </div>
@@ -75,10 +75,15 @@
 
 <script setup>
 import { ref, computed, onMounted } from "vue"
-import { useRouteLocale } from "vuepress/client"
 
-const stripSlashes = s => s.replace(/^\/+|\/+$/g, '')
-const locale = stripSlashes(useRouteLocale().value) || 'de'
+const props = defineProps({
+  items: { type: Array, required: true },
+  labelDone: { type: String, required: true },
+  labelInProgress: { type: String, required: true },
+  labelPlanned: { type: String, required: true },
+  labelPreviouslyCompleted: { type: String, required: true },
+  labelMorePlanned: { type: String, required: true },
+})
 
 const animated = ref(false)
 
@@ -88,207 +93,42 @@ onMounted(() => {
   })
 })
 
-const allItems = [
-  {
-    id: 0,
-    title: {
-      de: 'Verbesserte Benachrichtigungen',
-      en: 'Improved Notifications',
-      es: 'Notificaciones mejoradas',
-      fr: 'Notifications améliorées',
-    },
-    description: {
-      de: 'Mehr Benachrichtigungstypen und erweiterte Benachrichtigungsfunktionen für eine bessere Nutzererfahrung.',
-      en: 'More notification types and enhanced notification features for a better user experience.',
-      es: 'Más tipos de notificaciones y funciones mejoradas para una mejor experiencia de usuario.',
-      fr: 'Plus de types de notifications et des fonctionnalités améliorées pour une meilleure expérience utilisateur.',
-    },
-    status: 'done',
-    issues: [],
-  },
-  {
-    id: 1,
-    title: {
-      de: 'Angepinnte Beiträge in Gruppen',
-      en: 'Pinned Posts in Groups',
-      es: 'Publicaciones fijadas en grupos',
-      fr: 'Publications épinglées dans les groupes',
-    },
-    description: {
-      de: 'Wichtige Beiträge können in Gruppen oben angepinnt werden, damit sie sichtbar bleiben.',
-      en: 'Important posts can be pinned to the top of groups so they stay visible.',
-      es: 'Las publicaciones importantes se pueden fijar en la parte superior de los grupos para que permanezcan visibles.',
-      fr: 'Les publications importantes peuvent être épinglées en haut des groupes pour rester visibles.',
-    },
-    status: 'done',
-    issues: [6233],
-  },
-  {
-    id: 2,
-    title: {
-      de: 'Gruppen-Chat',
-      en: 'Group Chat',
-      es: 'Chat de grupo',
-      fr: 'Chat de groupe',
-    },
-    description: {
-      de: 'Chaträume für Gruppen, damit Mitglieder in Echtzeit miteinander kommunizieren können.',
-      en: 'Chat rooms for groups so members can communicate with each other in real time.',
-      es: 'Salas de chat para grupos para que los miembros puedan comunicarse en tiempo real.',
-      fr: 'Salons de discussion pour les groupes afin que les membres puissent communiquer en temps réel.',
-    },
-    status: 'in-progress',
-    issues: [],
-  },
-  {
-    id: 3,
-    title: {
-      de: 'Veranstaltungen verbessern',
-      en: 'Improve Events',
-      es: 'Mejorar eventos',
-      fr: 'Améliorer les événements',
-    },
-    description: {
-      de: 'Erweiterte Veranstaltungsfunktionen wie Teilnehmerlisten, Kalenderintegration und Erinnerungen.',
-      en: 'Enhanced event features such as attendee lists, calendar integration, and reminders.',
-      es: 'Funciones avanzadas de eventos como listas de asistentes, integración de calendario y recordatorios.',
-      fr: 'Fonctionnalités avancées pour les événements : listes de participants, intégration de calendrier et rappels.',
-    },
-    status: 'planned',
-    issues: [],
-  },
-  {
-    id: 4,
-    title: {
-      de: 'SSO / LDAP / SAML',
-      en: 'SSO / LDAP / SAML',
-      es: 'SSO / LDAP / SAML',
-      fr: 'SSO / LDAP / SAML',
-    },
-    description: {
-      de: 'Single Sign-On-Anbindung für Organisationen mit bestehender Benutzerverwaltung.',
-      en: 'Single sign-on integration for organizations with existing user management.',
-      es: 'Integración de inicio de sesión único para organizaciones con gestión de usuarios existente.',
-      fr: 'Intégration de l\'authentification unique pour les organisations disposant d\'une gestion des utilisateurs existante.',
-    },
-    status: 'planned',
-    issues: [3200],
-  },
-  {
-    id: 5,
-    title: {
-      de: 'Push-Benachrichtigungen',
-      en: 'Push Notifications',
-      es: 'Notificaciones push',
-      fr: 'Notifications push',
-    },
-    description: {
-      de: 'Sofortige Benachrichtigungen auf dem Gerät bei neuen Beiträgen, Kommentaren oder Nachrichten.',
-      en: 'Instant notifications on your device for new posts, comments, or messages.',
-      es: 'Notificaciones instantáneas en el dispositivo para nuevas publicaciones, comentarios o mensajes.',
-      fr: 'Notifications instantanées sur l\'appareil pour les nouvelles publications, commentaires ou messages.',
-    },
-    status: 'planned',
-    issues: [4327],
-  },
-  {
-    id: 6,
-    title: {
-      de: 'Gruppenverwaltung (Löschung, Moderation)',
-      en: 'Group Management (Deletion, Moderation)',
-      es: 'Gestión de grupos (eliminación, moderación)',
-      fr: 'Gestion des groupes (suppression, modération)',
-    },
-    description: {
-      de: 'Erweiterte Verwaltungsfunktionen für Gruppen, einschließlich Löschung und Moderationswerkzeuge.',
-      en: 'Advanced management features for groups, including deletion and moderation tools.',
-      es: 'Funciones avanzadas de gestión de grupos, incluyendo eliminación y herramientas de moderación.',
-      fr: 'Fonctionnalités avancées de gestion des groupes, y compris la suppression et les outils de modération.',
-    },
-    status: 'planned',
-    issues: [5388, 7702],
-  },
-  {
-    id: 7,
-    title: {
-      de: 'Beitrags-Sichtbarkeit & Entwürfe',
-      en: 'Post Visibility & Drafts',
-      es: 'Visibilidad de publicaciones y borradores',
-      fr: 'Visibilité des publications et brouillons',
-    },
-    description: {
-      de: 'Beiträge als Entwurf speichern und die Sichtbarkeit einzelner Beiträge steuern.',
-      en: 'Save posts as drafts and control the visibility of individual posts.',
-      es: 'Guardar publicaciones como borradores y controlar la visibilidad de publicaciones individuales.',
-      fr: 'Enregistrer des publications comme brouillons et contrôler la visibilité des publications individuelles.',
-    },
-    status: 'planned',
-    issues: [2198, 4965],
-  },
-  {
-    id: 8,
-    title: {
-      de: 'Vue 2 → Vue 3 Migration',
-      en: 'Vue 2 → Vue 3 Migration',
-      es: 'Migración de Vue 2 → Vue 3',
-      fr: 'Migration Vue 2 → Vue 3',
-    },
-    description: {
-      de: 'Migration des Frontends auf Vue 3 für bessere Performance und Zukunftssicherheit.',
-      en: 'Migration of the frontend to Vue 3 for better performance and future-proofing.',
-      es: 'Migración del frontend a Vue 3 para un mejor rendimiento y preparación para el futuro.',
-      fr: 'Migration du frontend vers Vue 3 pour de meilleures performances et une pérennité assurée.',
-    },
-    status: 'planned',
-    issues: [6384],
-  },
-]
-
 const MAX_VISIBLE = 7
 
 const showAllPast = ref(false)
 const showAllFuture = ref(false)
 
-const allDone = allItems.filter(i => i.status === 'done')
-const allInProgress = allItems.filter(i => i.status === 'in-progress')
-const allPlanned = allItems.filter(i => i.status === 'planned')
+const allDone = computed(() => props.items.filter(i => i.status === 'done'))
+const allInProgress = computed(() => props.items.filter(i => i.status === 'in-progress'))
+const allPlanned = computed(() => props.items.filter(i => i.status === 'planned'))
 
-const hiddenPastCount = computed(() => Math.max(0, allDone.length - 1))
+const hiddenPastCount = computed(() => Math.max(0, allDone.value.length - 1))
 const hasHiddenPast = computed(() => hiddenPastCount.value > 0 && !showAllPast.value)
 
 // Basis-Anzahl Planned ohne Expansion
-const basePlannedCount = MAX_VISIBLE - 1 - allInProgress.slice(0, 1).length
+const basePlannedCount = computed(() => MAX_VISIBLE - 1 - Math.min(1, allInProgress.value.length))
 
 const items = computed(() => {
-  const done = showAllPast.value ? allDone : allDone.slice(-1)
-  const inProgress = allInProgress.slice(0, 1)
-  const maxPlanned = showAllFuture.value ? allPlanned.length : basePlannedCount
-  return [...done, ...inProgress, ...allPlanned.slice(0, maxPlanned)]
+  const done = showAllPast.value ? allDone.value : allDone.value.slice(-1)
+  const inProgress = allInProgress.value.slice(0, 1)
+  const maxPlanned = showAllFuture.value ? allPlanned.value.length : basePlannedCount.value
+  return [...done, ...inProgress, ...allPlanned.value.slice(0, maxPlanned)]
 })
 
 const hasMorePlanned = computed(() => {
   if (showAllFuture.value) return false
-  return allPlanned.length > basePlannedCount
+  return allPlanned.value.length > basePlannedCount.value
 })
 
 const expandPast = () => { showAllPast.value = true }
 const expandFuture = () => { showAllFuture.value = true }
 
-const i18n = {
-  de: { done: 'Erledigt', inProgress: 'In Arbeit', planned: 'Geplant', previouslyCompleted: 'Bereits umgesetzt …', morePlanned: '… und weitere geplant' },
-  en: { done: 'Done', inProgress: 'In Progress', planned: 'Planned', previouslyCompleted: 'Previously completed …', morePlanned: '… and more planned' },
-  es: { done: 'Completado', inProgress: 'En curso', planned: 'Planificado', previouslyCompleted: 'Ya completado …', morePlanned: '… y más planificado' },
-  fr: { done: 'Terminé', inProgress: 'En cours', planned: 'Planifié', previouslyCompleted: 'Déjà réalisé …', morePlanned: '… et d\'autres prévus' },
-}
-
-const t = i18n[locale] || i18n.de
-
 const statusLabel = (status) => {
   switch (status) {
-    case 'done': return t.done
-    case 'in-progress': return t.inProgress
-    case 'planned': return t.planned
-    default: return t.planned
+    case 'done': return props.labelDone
+    case 'in-progress': return props.labelInProgress
+    case 'planned': return props.labelPlanned
+    default: return props.labelPlanned
   }
 }
 
