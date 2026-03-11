@@ -90,6 +90,23 @@ onMounted(() => {
 
 const allItems = [
   {
+    id: 0,
+    title: {
+      de: 'Verbesserte Benachrichtigungen',
+      en: 'Improved Notifications',
+      es: 'Notificaciones mejoradas',
+      fr: 'Notifications améliorées',
+    },
+    description: {
+      de: 'Mehr Benachrichtigungstypen und erweiterte Benachrichtigungsfunktionen für eine bessere Nutzererfahrung.',
+      en: 'More notification types and enhanced notification features for a better user experience.',
+      es: 'Más tipos de notificaciones y funciones mejoradas para una mejor experiencia de usuario.',
+      fr: 'Plus de types de notifications et des fonctionnalités améliorées pour une meilleure expérience utilisateur.',
+    },
+    status: 'done',
+    issues: [],
+  },
+  {
     id: 1,
     title: {
       de: 'Angepinnte Beiträge in Gruppen',
