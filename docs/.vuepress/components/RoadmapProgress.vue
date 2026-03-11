@@ -360,6 +360,7 @@ const connectorStyle = (index) => {
   gap: 16px;
   margin-left: -12px;
   padding-left: 12px;
+  padding-top: 12px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -395,6 +396,35 @@ const connectorStyle = (index) => {
   font-style: italic;
 }
 
+/* === Klickbare Dots === */
+.roadmap-expandable {
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.25s ease;
+}
+
+.roadmap-expandable:hover {
+  background-color: rgba(128, 128, 128, 0.08);
+}
+
+.roadmap-past.roadmap-expandable:hover {
+  background-color: rgba(234, 179, 8, 0.1);
+}
+
+.roadmap-future.roadmap-expandable:hover {
+  background-color: rgba(5, 150, 105, 0.1);
+}
+
+.roadmap-expandable:hover .roadmap-past-label,
+.roadmap-expandable:hover .roadmap-future-label {
+  opacity: 0.85;
+}
+
+.roadmap-expandable:hover .roadmap-past-dot,
+.roadmap-expandable:hover .roadmap-future-dot {
+  opacity: 1;
+}
+
 /* Verbindungslinie von den Punkten zum ersten Eintrag */
 .roadmap-past::after {
   content: '';
@@ -416,6 +446,7 @@ const connectorStyle = (index) => {
   margin-left: -12px;
   padding-left: 12px;
   padding-top: 20px;
+  padding-bottom: 12px;
   position: relative;
 }
 
