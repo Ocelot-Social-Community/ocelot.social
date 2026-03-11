@@ -1,44 +1,58 @@
 <template>
-  <div class="roadmap-container">
-    <h3 id="roadmap-progress" tabindex="-1">
-      <a class="header-anchor" href="#roadmap-progress">
-        <span>{{ progressTitle }}</span>
-      </a>
-    </h3>
-    <div class="roadmap-bar">
-      <div class="roadmap-bar-value" :style="{ width: (completedCount / totalCount) * 100 + '%' }">
-        <span class="roadmap-bar-text">{{ completedCount }} / {{ totalCount }}</span>
-      </div>
+  <div class="roadmap">
+    <div class="roadmap-legend">
+      <span class="roadmap-legend-item">
+        <span class="roadmap-legend-dot roadmap-legend-dot--done"></span> {{ t.done }}
+      </span>
+      <span class="roadmap-legend-item">
+        <span class="roadmap-legend-dot roadmap-legend-dot--in-progress"></span> {{ t.inProgress }}
+      </span>
+      <span class="roadmap-legend-item">
+        <span class="roadmap-legend-dot roadmap-legend-dot--planned"></span> {{ t.planned }}
+      </span>
     </div>
-    <div class="roadmap-items">
-      <div v-for="item in items" :key="item.id" class="roadmap-item" :class="'roadmap-item--' + item.status">
-        <span class="roadmap-item-icon">{{ statusIcon(item.status) }}</span>
-        <div class="roadmap-item-content">
-          <div class="roadmap-item-header">
-            <strong>{{ item.title[locale] }}</strong>
-            <span class="roadmap-item-status">{{ statusLabel(item.status) }}</span>
-            <div v-if="item.issues && item.issues.length" class="roadmap-item-issues">
-              <a
-                v-for="issue in item.issues"
-                :key="issue"
-                :href="'https://github.com/Ocelot-Social-Community/Ocelot-Social/issues/' + issue"
-                target="_blank"
-                rel="noopener noreferrer"
-              >#{{ issue }}</a>
-            </div>
+
+    <div class="roadmap-timeline">
+      <div
+        v-for="(item, index) in items"
+        :key="item.id"
+        class="roadmap-station"
+        :class="'roadmap-station--' + item.status"
+      >
+        <!-- Durchgehende Linie von diesem Marker zum nächsten -->
+        <div v-if="index < items.length - 1" class="roadmap-connector" :class="'roadmap-connector--' + connectorColor(index)"></div>
+
+        <!-- Station-Marker -->
+        <div class="roadmap-marker" :class="'roadmap-marker--' + item.status">
+          <span v-if="item.status === 'done'" class="roadmap-marker-icon">&#10003;</span>
+          <span v-else-if="item.status === 'in-progress'" class="roadmap-marker-pulse"></span>
+        </div>
+
+        <!-- Inhalt -->
+        <div class="roadmap-content">
+          <div class="roadmap-content-header">
+            <strong class="roadmap-content-title">{{ item.title[locale] }}</strong>
+            <span class="roadmap-content-badge" :class="'roadmap-content-badge--' + item.status">
+              {{ statusLabel(item.status) }}
+            </span>
           </div>
-          <p class="roadmap-item-description">{{ item.description[locale] }}</p>
+          <p class="roadmap-content-description">{{ item.description[locale] }}</p>
+          <div v-if="item.issues && item.issues.length" class="roadmap-content-issues">
+            <a
+              v-for="issue in item.issues"
+              :key="issue"
+              :href="'https://github.com/Ocelot-Social-Community/Ocelot-Social/issues/' + issue"
+              target="_blank"
+              rel="noopener noreferrer"
+            >#{{ issue }}</a>
+          </div>
         </div>
       </div>
     </div>
-    <p class="roadmap-legend">
-      {{ legendDone }} · {{ legendInProgress }} · {{ legendPlanned }}
-    </p>
   </div>
 </template>
 
 <script setup>
-import { computed } from "vue"
 import { useRouteLocale } from "vuepress/client"
 
 const stripSlashes = s => s.replace(/^\/+|\/+$/g, '')
@@ -166,60 +180,14 @@ const items = [
   },
 ]
 
-const totalCount = items.length
-const completedCount = computed(() => items.filter(i => i.status === 'done').length)
-
 const i18n = {
-  de: {
-    progressTitle: 'Fortschritt',
-    done: 'Erledigt',
-    inProgress: 'In Arbeit',
-    planned: 'Geplant',
-    legendDone: '✅ Erledigt',
-    legendInProgress: '🔄 In Arbeit',
-    legendPlanned: '📋 Geplant',
-  },
-  en: {
-    progressTitle: 'Progress',
-    done: 'Done',
-    inProgress: 'In Progress',
-    planned: 'Planned',
-    legendDone: '✅ Done',
-    legendInProgress: '🔄 In Progress',
-    legendPlanned: '📋 Planned',
-  },
-  es: {
-    progressTitle: 'Progreso',
-    done: 'Completado',
-    inProgress: 'En curso',
-    planned: 'Planificado',
-    legendDone: '✅ Completado',
-    legendInProgress: '🔄 En curso',
-    legendPlanned: '📋 Planificado',
-  },
-  fr: {
-    progressTitle: 'Progression',
-    done: 'Terminé',
-    inProgress: 'En cours',
-    planned: 'Planifié',
-    legendDone: '✅ Terminé',
-    legendInProgress: '🔄 En cours',
-    legendPlanned: '📋 Planifié',
-  },
+  de: { done: 'Erledigt', inProgress: 'In Arbeit', planned: 'Geplant' },
+  en: { done: 'Done', inProgress: 'In Progress', planned: 'Planned' },
+  es: { done: 'Completado', inProgress: 'En curso', planned: 'Planificado' },
+  fr: { done: 'Terminé', inProgress: 'En cours', planned: 'Planifié' },
 }
 
 const t = i18n[locale] || i18n.de
-
-const progressTitle = t.progressTitle
-
-const statusIcon = (status) => {
-  switch (status) {
-    case 'done': return '✅'
-    case 'in-progress': return '🔄'
-    case 'planned': return '📋'
-    default: return '📋'
-  }
-}
 
 const statusLabel = (status) => {
   switch (status) {
@@ -230,136 +198,236 @@ const statusLabel = (status) => {
   }
 }
 
-const legendDone = t.legendDone
-const legendInProgress = t.legendInProgress
-const legendPlanned = t.legendPlanned
+// Farbe der Verbindungslinie zwischen Station[index] und Station[index+1]
+const connectorColor = (index) => {
+  const current = items[index].status
+  const next = items[index + 1].status
+  if (current === 'done' && next === 'done') return 'done'
+  if (current === 'done' && next === 'in-progress') return 'to-active'
+  if (current === 'in-progress') return 'from-active'
+  return 'planned'
+}
 </script>
 
 <style scoped>
-.roadmap-container {
-  margin: 1rem 0;
+.roadmap {
+  margin: 1.5rem 0;
 }
 
-.roadmap-bar {
-  width: 100%;
-  overflow: hidden;
-  border: 1px solid var(--vp-c-accent-bg);
-  border-radius: 10px;
-  margin: 20px 0;
-  background: var(--vp-c-bg-alt, #f5f5f5);
-}
-
-.roadmap-bar-value {
-  border-radius: 10px 0 0 10px;
-  color: #000;
-  background-color: var(--vp-c-accent-bg);
-  font-size: 1.5em;
-  text-align: right;
-  padding: 4px 10px;
-  min-width: 60px;
-}
-
-.roadmap-bar-text {
-  margin-right: 10px;
-}
-
-.roadmap-items {
+/* === Legende === */
+.roadmap-legend {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin: 24px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+  font-size: 0.9em;
 }
 
-.roadmap-item {
+.roadmap-legend-item {
   display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 14px 18px;
-  border-radius: 8px;
-  border: 1px solid var(--vp-c-border, #e2e2e3);
-  background: var(--vp-c-bg, #fff);
-  transition: box-shadow 0.2s;
+  align-items: center;
+  gap: 6px;
+  color: var(--vp-c-text-2, #666);
 }
 
-.roadmap-item:hover {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-
-.roadmap-item--done {
-  border-left: 4px solid #10b981;
-}
-
-.roadmap-item--in-progress {
-  border-left: 4px solid #f59e0b;
-}
-
-.roadmap-item--planned {
-  border-left: 4px solid #9ca3af;
-}
-
-.roadmap-item-icon {
-  font-size: 1.3em;
+.roadmap-legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
   flex-shrink: 0;
-  margin-top: 2px;
 }
 
-.roadmap-item-content {
+.roadmap-legend-dot--done {
+  background: #10b981;
+}
+
+.roadmap-legend-dot--in-progress {
+  background: #f59e0b;
+}
+
+.roadmap-legend-dot--planned {
+  background: #d1d5db;
+}
+
+/* === Timeline === */
+.roadmap-timeline {
+  position: relative;
+  padding-left: 0;
+}
+
+.roadmap-station {
+  position: relative;
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  min-height: 80px;
+}
+
+/* === Verbindungslinie zwischen Stationen === */
+.roadmap-connector {
+  position: absolute;
+  left: 11px;
+  top: 28px;
+  bottom: -28px;
+  width: 3px;
+  z-index: 1;
+}
+
+.roadmap-connector--done {
+  background: #10b981;
+}
+
+.roadmap-connector--to-active {
+  background: linear-gradient(to bottom, #10b981, #f59e0b);
+}
+
+.roadmap-connector--from-active {
+  background: linear-gradient(to bottom, #f59e0b, #d1d5db);
+}
+
+.roadmap-connector--planned {
+  background: #d1d5db;
+}
+
+/* === Marker === */
+.roadmap-marker {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: start;
+  margin-top: 16px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
   display: flex;
-  flex-direction: column;
-  gap: 4px;
-  flex: 1;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  flex-shrink: 0;
 }
 
-.roadmap-item-header {
+.roadmap-marker--done {
+  background: #10b981;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.roadmap-marker--in-progress {
+  background: #f59e0b;
+  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.25);
+}
+
+.roadmap-marker-pulse {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: 0.7; }
+}
+
+.roadmap-marker--planned {
+  background: var(--vp-c-bg, #fff);
+  border: 3px solid #d1d5db;
+}
+
+/* === Inhalt === */
+.roadmap-content {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 10px 16px 24px 0;
+}
+
+.roadmap-content-header {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 8px;
+  gap: 10px;
 }
 
-.roadmap-item-description {
-  margin: 4px 0 0 0;
+.roadmap-content-title {
+  font-size: 1.05em;
+  color: var(--vp-c-text-1, #213547);
+}
+
+.roadmap-content-badge {
+  font-size: 0.75em;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.roadmap-content-badge--done {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.roadmap-content-badge--in-progress {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.roadmap-content-badge--planned {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.roadmap-content-description {
+  margin: 6px 0 0 0;
   font-size: 0.9em;
   color: var(--vp-c-text-2, #666);
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
-.roadmap-item-status {
-  font-size: 0.85em;
-  padding: 2px 8px;
-  border-radius: 4px;
-  background: var(--vp-c-bg-alt, #f5f5f5);
-  color: var(--vp-c-text-2, #666);
-}
-
-.roadmap-item-issues {
+.roadmap-content-issues {
   display: flex;
-  gap: 6px;
-  font-size: 0.85em;
+  gap: 8px;
+  margin-top: 6px;
+  font-size: 0.82em;
 }
 
-.roadmap-item-issues a {
+.roadmap-content-issues a {
   color: var(--vp-c-accent-bg);
   text-decoration: none;
+  font-weight: 500;
 }
 
-.roadmap-item-issues a:hover {
+.roadmap-content-issues a:hover {
   text-decoration: underline;
 }
 
-.roadmap-legend {
-  font-size: 0.9em;
-  color: var(--vp-c-text-2, #666);
-  margin-top: 16px;
+/* === Hover-Effekt auf der aktiven Station === */
+.roadmap-station--in-progress .roadmap-content {
+  padding-left: 4px;
+  border-left: 3px solid rgba(245, 158, 11, 0.3);
+  border-radius: 4px;
+  margin-left: -4px;
 }
 
+/* === Responsive === */
 @media (max-width: 600px) {
-  .roadmap-item {
-    padding: 10px 12px;
+  .roadmap-station {
+    column-gap: 14px;
   }
 
-  .roadmap-bar-value {
-    font-size: 1.1em;
+  .roadmap-content {
+    padding: 8px 0 20px 0;
+  }
+
+  .roadmap-content-title {
+    font-size: 0.95em;
+  }
+
+  .roadmap-station--in-progress .roadmap-content {
+    padding-left: 4px;
   }
 }
 </style>
