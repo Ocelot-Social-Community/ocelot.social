@@ -238,15 +238,15 @@ const connectorColor = (index) => {
 }
 
 .roadmap-legend-dot--done {
-  background: #10b981;
+  background: #059669;
 }
 
 .roadmap-legend-dot--in-progress {
-  background: #f59e0b;
+  background: #6366f1;
 }
 
 .roadmap-legend-dot--planned {
-  background: #d1d5db;
+  background: #86efac;
 }
 
 /* === Timeline === */
@@ -267,27 +267,19 @@ const connectorColor = (index) => {
 /* === Verbindungslinie zwischen Stationen === */
 .roadmap-connector {
   position: absolute;
-  left: 11px;
+  left: 12px;
+  transform: translateX(-50%);
   top: 28px;
   bottom: -28px;
   width: 3px;
   z-index: 1;
 }
 
-.roadmap-connector--done {
-  background: #10b981;
-}
-
-.roadmap-connector--to-active {
-  background: linear-gradient(to bottom, #10b981, #f59e0b);
-}
-
-.roadmap-connector--from-active {
-  background: linear-gradient(to bottom, #f59e0b, #d1d5db);
-}
-
+.roadmap-connector--done,
+.roadmap-connector--to-active,
+.roadmap-connector--from-active,
 .roadmap-connector--planned {
-  background: #d1d5db;
+  background: #34d399;
 }
 
 /* === Marker === */
@@ -299,6 +291,7 @@ const connectorColor = (index) => {
   width: 24px;
   height: 24px;
   border-radius: 50%;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -308,15 +301,15 @@ const connectorColor = (index) => {
 }
 
 .roadmap-marker--done {
-  background: #10b981;
+  background: #059669;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
 }
 
 .roadmap-marker--in-progress {
-  background: #f59e0b;
-  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.25);
+  background: #6366f1;
+  box-shadow: 0 0 0 5px rgba(99, 102, 241, 0.2);
 }
 
 .roadmap-marker-pulse {
@@ -329,12 +322,12 @@ const connectorColor = (index) => {
 
 @keyframes pulse {
   0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.4); opacity: 0.7; }
+  50% { transform: scale(1.3); opacity: 0.6; }
 }
 
 .roadmap-marker--planned {
   background: var(--vp-c-bg, #fff);
-  border: 3px solid #d1d5db;
+  border: 3px solid #86efac;
 }
 
 /* === Inhalt === */
@@ -371,13 +364,13 @@ const connectorColor = (index) => {
 }
 
 .roadmap-content-badge--in-progress {
-  background: #fef3c7;
-  color: #92400e;
+  background: #e0e7ff;
+  color: #4338ca;
 }
 
 .roadmap-content-badge--planned {
-  background: #f3f4f6;
-  color: #6b7280;
+  background: #ecfdf5;
+  color: #047857;
 }
 
 .roadmap-content-description {
@@ -404,10 +397,10 @@ const connectorColor = (index) => {
   text-decoration: underline;
 }
 
-/* === Hover-Effekt auf der aktiven Station === */
+/* === Hervorhebung der aktiven Station === */
 .roadmap-station--in-progress .roadmap-content {
   padding-left: 4px;
-  border-left: 3px solid rgba(245, 158, 11, 0.3);
+  border-left: 3px solid rgba(99, 102, 241, 0.3);
   border-radius: 4px;
   margin-left: -4px;
 }
