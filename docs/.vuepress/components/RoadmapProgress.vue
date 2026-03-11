@@ -26,7 +26,7 @@
         <!-- Station-Marker -->
         <div class="roadmap-marker" :class="'roadmap-marker--' + item.status">
           <span v-if="item.status === 'done'" class="roadmap-marker-icon">&#10003;</span>
-          <span v-else-if="item.status === 'in-progress'" class="roadmap-marker-pulse"></span>
+          <svg v-else-if="item.status === 'in-progress'" class="roadmap-marker-svg" viewBox="0 0 512 512" fill="#fff"><path d="M352 320c88.4 0 160-71.6 160-160c0-15.3-2.2-30.1-6.2-44.2c-3.1-10.8-16.4-13.2-24.3-5.3l-76.8 76.8c-3 3-7.1 4.7-11.3 4.7H336c-8.8 0-16-7.2-16-16v-57.4c0-4.2 1.7-8.3 4.7-11.3l76.8-76.8c7.9-7.9 5.4-21.2-5.3-24.3C382.1 2.2 367.3 0 352 0C263.6 0 192 71.6 192 160c0 19.1 3.4 37.5 9.5 54.5L19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9l181.6-181.6c17 6.2 35.4 9.5 54.5 9.5zM80 456c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg>
         </div>
 
         <!-- Inhalt -->
@@ -323,18 +323,9 @@ const connectorStyle = (index) => {
   box-shadow: 0 0 0 5px rgba(99, 102, 241, 0.2);
 }
 
-.roadmap-marker-pulse {
+.roadmap-marker-svg {
   width: 10px;
   height: 10px;
-  border-radius: 50%;
-  background: #fff;
-  animation: pulse 2s ease-in-out infinite;
-  margin: auto;
-}
-
-@keyframes pulse {
-  0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.3); opacity: 0.6; }
 }
 
 .roadmap-marker--planned {
@@ -534,9 +525,25 @@ strong.roadmap-content-title {
   }
 }
 
-/* Nach Animation: in-progress-Marker behält seinen box-shadow */
-.roadmap--animated .roadmap-marker--in-progress {
-  box-shadow: 0 0 0 5px rgba(99, 102, 241, 0.2);
+/* Nach Einblend-Animation: in-progress pulsiert dauerhaft */
+.roadmap--animated .roadmap-station--in-progress .roadmap-marker {
+  animation:
+    markerPop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
+    markerGlow 0.5s ease forwards,
+    inProgressPulse 2s ease-in-out 1s infinite;
+  animation-delay:
+    calc(0.3s + var(--i) * 0.5s),
+    calc(0.3s + var(--i) * 0.5s),
+    calc(0.8s + var(--i) * 0.5s);
+}
+
+@keyframes inProgressPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 5px rgba(99, 102, 241, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 0 9px rgba(99, 102, 241, 0.35);
+  }
 }
 
 /* === Responsive === */
