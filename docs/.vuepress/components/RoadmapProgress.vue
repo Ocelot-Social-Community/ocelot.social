@@ -31,7 +31,7 @@
         :style="{ '--i': index }"
       >
         <!-- Verbindungslinie zum nächsten Punkt -->
-        <div v-if="index < items.length - 1" class="roadmap-connector" :style="connectorStyle(index)"></div>
+        <div v-if="index < items.length - 1 || (index === items.length - 1 && hasMorePlanned)" class="roadmap-connector" :style="index < items.length - 1 ? connectorStyle(index) : { '--conn-color': '#059669' }"></div>
 
         <!-- Station-Marker -->
         <div class="roadmap-marker" :class="'roadmap-marker--' + item.status">
@@ -58,6 +58,16 @@
             >#{{ issue }}</a>
           </div>
         </div>
+      </div>
+
+      <!-- Drei Punkte am Ende: weitere geplante Features -->
+      <div v-if="hasMorePlanned" class="roadmap-future">
+        <div class="roadmap-future-dots">
+          <span class="roadmap-future-dot"></span>
+          <span class="roadmap-future-dot"></span>
+          <span class="roadmap-future-dot"></span>
+        </div>
+        <span class="roadmap-future-label">{{ t.morePlanned }}</span>
       </div>
     </div>
   </div>
@@ -227,11 +237,19 @@ const items = computed(() => {
   return [...done, ...inProgress, ...planned.slice(0, remaining)]
 })
 
+const hasMorePlanned = computed(() => {
+  const planned = allItems.filter(i => i.status === 'planned')
+  const done = allItems.filter(i => i.status === 'done').slice(-1)
+  const inProgress = allItems.filter(i => i.status === 'in-progress').slice(0, 1)
+  const remaining = MAX_VISIBLE - done.length - inProgress.length
+  return planned.length > remaining
+})
+
 const i18n = {
-  de: { done: 'Erledigt', inProgress: 'In Arbeit', planned: 'Geplant', previouslyCompleted: 'Bereits umgesetzt …' },
-  en: { done: 'Done', inProgress: 'In Progress', planned: 'Planned', previouslyCompleted: 'Previously completed …' },
-  es: { done: 'Completado', inProgress: 'En curso', planned: 'Planificado', previouslyCompleted: 'Ya completado …' },
-  fr: { done: 'Terminé', inProgress: 'En cours', planned: 'Planifié', previouslyCompleted: 'Déjà réalisé …' },
+  de: { done: 'Erledigt', inProgress: 'In Arbeit', planned: 'Geplant', previouslyCompleted: 'Bereits umgesetzt …', morePlanned: '… und weitere geplant' },
+  en: { done: 'Done', inProgress: 'In Progress', planned: 'Planned', previouslyCompleted: 'Previously completed …', morePlanned: '… and more planned' },
+  es: { done: 'Completado', inProgress: 'En curso', planned: 'Planificado', previouslyCompleted: 'Ya completado …', morePlanned: '… y más planificado' },
+  fr: { done: 'Terminé', inProgress: 'En cours', planned: 'Planifié', previouslyCompleted: 'Déjà réalisé …', morePlanned: '… et d\'autres prévus' },
 }
 
 const t = i18n[locale] || i18n.de
@@ -359,6 +377,49 @@ const connectorStyle = (index) => {
   width: 3px;
   background: #eab308;
   z-index: 1;
+}
+
+/* === Drei Punkte am Ende: weitere geplante Features === */
+.roadmap-future {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: -12px;
+  padding-left: 12px;
+  padding-top: 20px;
+  position: relative;
+}
+
+
+.roadmap-future-dots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 24px;
+}
+
+.roadmap-future-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #059669;
+  opacity: 0.9;
+}
+
+.roadmap-future-dot:nth-child(2) {
+  opacity: 0.7;
+}
+
+.roadmap-future-dot:nth-child(3) {
+  opacity: 0.5;
+}
+
+.roadmap-future-label {
+  font-size: 0.85em;
+  color: var(--vp-c-text);
+  opacity: 0.6;
+  font-style: italic;
 }
 
 .roadmap-station {
@@ -543,6 +604,15 @@ strong.roadmap-content-title {
 .roadmap--animated .roadmap-past {
   animation: contentFadeIn 0.4s ease forwards;
   animation-delay: 0.1s;
+}
+
+.roadmap-future {
+  opacity: 0;
+}
+
+.roadmap--animated .roadmap-future {
+  animation: contentFadeIn 0.4s ease forwards;
+  animation-delay: calc(0.6s + 7 * 0.5s);
 }
 
 .roadmap-station .roadmap-marker,
