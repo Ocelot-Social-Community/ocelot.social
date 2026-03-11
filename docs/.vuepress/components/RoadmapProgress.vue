@@ -327,6 +327,7 @@ const connectorStyle = (index) => {
   border-radius: 50%;
   background: #fff;
   animation: pulse 2s ease-in-out infinite;
+  margin: auto;
 }
 
 @keyframes pulse {
