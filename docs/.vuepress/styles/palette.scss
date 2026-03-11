@@ -60,6 +60,11 @@ h1, h2, h3, h4 {
   padding-top: 1rem;
 }
 
+// Remove theme margins – let grid gap handle spacing
+.vp-article-wrapper {
+  margin: 0 !important;
+}
+
 // 2 columns from desktop width for article overviews
 @media (min-width: 1024px) {
 
@@ -70,9 +75,33 @@ h1, h2, h3, h4 {
     gap: 1.25rem;
   }
 
-  #article-list>*,
-  .vp-article-list>* {
+  // Stretch wrapper + card to fill grid cell
+  .vp-article-wrapper {
+    display: flex;
     height: 100%;
+  }
+
+  .vp-article-wrapper > .vp-article-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  // Push metadata to bottom of card
+  .vp-article-wrapper > .vp-article-item > .vp-article-hr,
+  .vp-article-wrapper > .vp-article-item > .page-info {
+    margin-top: auto;
+  }
+}
+
+// Single column: consistent gap
+@media (max-width: 1023px) {
+
+  #article-list,
+  .vp-article-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
   }
 }
 
