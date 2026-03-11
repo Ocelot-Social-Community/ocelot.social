@@ -64,7 +64,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue"
+import { ref, computed, onMounted } from "vue"
 import { useRouteLocale } from "vuepress/client"
 
 const stripSlashes = s => s.replace(/^\/+|\/+$/g, '')
@@ -78,7 +78,7 @@ onMounted(() => {
   })
 })
 
-const items = [
+const allItems = [
   {
     id: 1,
     title: {
@@ -217,6 +217,16 @@ const items = [
   },
 ]
 
+const MAX_VISIBLE = 7
+
+const items = computed(() => {
+  const done = allItems.filter(i => i.status === 'done').slice(-1)
+  const inProgress = allItems.filter(i => i.status === 'in-progress').slice(0, 1)
+  const planned = allItems.filter(i => i.status === 'planned')
+  const remaining = MAX_VISIBLE - done.length - inProgress.length
+  return [...done, ...inProgress, ...planned.slice(0, remaining)]
+})
+
 const i18n = {
   de: { done: 'Erledigt', inProgress: 'In Arbeit', planned: 'Geplant', previouslyCompleted: 'Bereits umgesetzt …' },
   en: { done: 'Done', inProgress: 'In Progress', planned: 'Planned', previouslyCompleted: 'Previously completed …' },
@@ -242,8 +252,9 @@ const statusColor = {
 }
 
 const connectorStyle = (index) => {
-  const from = statusColor[items[index].status]
-  const to = statusColor[items[index + 1].status]
+  const list = items.value
+  const from = statusColor[list[index].status]
+  const to = statusColor[list[index + 1].status]
   if (from === to) return { '--conn-color': from }
   return { '--conn-from': from, '--conn-to': to }
 }
