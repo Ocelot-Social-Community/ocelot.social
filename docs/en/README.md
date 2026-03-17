@@ -233,16 +233,7 @@ description: A free and open source software with which you can operate a social
 
 <h2 class="large-header">Try it out</h2>
 
-<DemoLogin
-  label-intro-before="Test the live demo at"
-  label-intro-after="with the following access data:"
-  label-email="E-mail"
-  label-password="Password"
-  label-role="User role"
-  label-user-role="normal user"
-  label-moderator-role="moderator"
-  label-admin-role="administrator"
-/>
+<DemoLogin />
 
 <h2 class="large-header">Get started</h2>
 

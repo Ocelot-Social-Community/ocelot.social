@@ -10,17 +10,7 @@ description: Ready to get started with your own social network? Learn how to ins
 ## Try it out, then install it
 
 <!-- markdownlint-disable MD033 -->
-<DemoLogin
-  :centered="false"
-  label-intro-before="Test the live demo at"
-  label-intro-after="with the following access data:"
-  label-email="E-mail"
-  label-password="Password"
-  label-role="User role"
-  label-user-role="normal user"
-  label-moderator-role="moderator"
-  label-admin-role="administrator"
-/>
+<DemoLogin :centered="false" />
 <!-- markdownlint-enable MD033 -->
 
 ## Hosting on a server

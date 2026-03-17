@@ -10,17 +10,7 @@ description: Prêt à démarrer ton propre réseau social ? Apprends à installe
 ## Essaies-le, puis installes-le
 
 <!-- markdownlint-disable MD033 -->
-<DemoLogin
-  :centered="false"
-  label-intro-before="Testes la démo en direct sur"
-  label-intro-after="avec les données d’accès suivantes :"
-  label-email="Courriel"
-  label-password="Mot de passe"
-  label-role="Rôle de l’utilisateur"
-  label-user-role="utilisateur normal"
-  label-moderator-role="modérateur"
-  label-admin-role="administrateur"
-/>
+<DemoLogin :centered="false" />
 <!-- markdownlint-enable MD033 -->
 
 ## Hébergement sur un serveur

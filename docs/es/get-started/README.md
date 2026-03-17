@@ -10,17 +10,7 @@ description: ¿Listo para crear tu propia red social? Descubre cómo instalar el
 ## Pruébalo, luego instálalo
 
 <!-- markdownlint-disable MD033 -->
-<DemoLogin
-  :centered="false"
-  label-intro-before="Prueba la demo en vivo en"
-  label-intro-after="con los siguientes datos de acceso:"
-  label-email="Correo electrónico"
-  label-password="Contraseña"
-  label-role="Rol de usuario"
-  label-user-role="usuario normal"
-  label-moderator-role="moderador"
-  label-admin-role="administrador"
-/>
+<DemoLogin :centered="false" />
 <!-- markdownlint-enable MD033 -->
 
 ## Hospedaje en un servidor

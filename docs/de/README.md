@@ -232,16 +232,7 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
 
 <h2 class="large-header">Probier es aus</h2>
 
-<DemoLogin
-  label-intro-before="Teste die Live-Demo auf"
-  label-intro-after="mit den folgenden Zugangsdaten:"
-  label-email="E-Mail"
-  label-password="Passwort"
-  label-role="Benutzerrolle"
-  label-user-role="normaler Nutzer"
-  label-moderator-role="Moderator"
-  label-admin-role="Administrator"
-/>
+<DemoLogin />
 
 <h2 class="large-header">Loslegen</h2>
 

@@ -199,16 +199,7 @@ description: "Un software libre y de código abierto con el que puedes gestionar
 
 <h2 class="large-header">Pruébalo</h2>
 
-<DemoLogin
-  label-intro-before="Prueba la demo en vivo en"
-  label-intro-after="con los siguientes datos de acceso:"
-  label-email="E-mail"
-  label-password="Contraseña"
-  label-role="Rol de usuario"
-  label-user-role="usuario normal"
-  label-moderator-role="moderador"
-  label-admin-role="administrador"
-/>
+<DemoLogin />
 
 <h2 class="large-header">Comienza</h2>
 

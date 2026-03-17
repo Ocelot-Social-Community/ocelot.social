@@ -233,16 +233,7 @@ description: Un logiciel libre et open source avec lequel tu peux gérer un rés
 
 <h2 class="large-header">Essayes-le</h2>
 
-<DemoLogin
-  label-intro-before="Testes la démo en direct sur"
-  label-intro-after="avec les données d’accès suivantes :"
-  label-email="Courriel"
-  label-password="Mot de passe"
-  label-role="Rôle de l’utilisateur"
-  label-user-role="utilisateur normal"
-  label-moderator-role="modérateur"
-  label-admin-role="administrateur"
-/>
+<DemoLogin />
 
 <h2 class="large-header">Commence</h2>
 
