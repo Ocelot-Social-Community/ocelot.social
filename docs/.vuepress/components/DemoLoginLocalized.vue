@@ -6,6 +6,7 @@
       {{ t.introAfter }}
     </p>
 
+    <div class="table-scroll">
     <table>
       <thead>
         <tr>
@@ -32,6 +33,7 @@
         </tr>
       </tbody>
     </table>
+    </div>
   </div>
 </template>
 
@@ -89,3 +91,9 @@ const i18n = {
 const locale = useRouteLocale()
 const t = computed(() => i18n[locale.value] ?? i18n["/en/"])
 </script>
+
+<style scoped>
+.table-scroll {
+  overflow-x: auto;
+}
+</style>
