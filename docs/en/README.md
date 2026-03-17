@@ -233,7 +233,7 @@ description: A free and open source software with which you can operate a social
 
 <h2 class="large-header">Try it out</h2>
 
-<DemoLogin />
+<DemoLoginLocalized />
 
 <h2 class="large-header">Get started</h2>
 

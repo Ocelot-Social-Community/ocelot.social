@@ -10,7 +10,7 @@ description: Ready to get started with your own social network? Learn how to ins
 ## Try it out, then install it
 
 <!-- markdownlint-disable MD033 -->
-<DemoLogin :centered="false" />
+<DemoLoginLocalized :centered="false" />
 <!-- markdownlint-enable MD033 -->
 
 ## Hosting on a server

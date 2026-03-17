@@ -10,7 +10,7 @@ description: ¿Listo para crear tu propia red social? Descubre cómo instalar el
 ## Pruébalo, luego instálalo
 
 <!-- markdownlint-disable MD033 -->
-<DemoLogin :centered="false" />
+<DemoLoginLocalized :centered="false" />
 <!-- markdownlint-enable MD033 -->
 
 ## Hospedaje en un servidor

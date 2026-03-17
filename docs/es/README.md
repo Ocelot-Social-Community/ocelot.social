@@ -199,7 +199,7 @@ description: "Un software libre y de código abierto con el que puedes gestionar
 
 <h2 class="large-header">Pruébalo</h2>
 
-<DemoLogin />
+<DemoLoginLocalized />
 
 <h2 class="large-header">Comienza</h2>
 

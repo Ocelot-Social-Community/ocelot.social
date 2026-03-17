@@ -10,7 +10,7 @@ description: Bereit für dein eigenes soziales Netzwerk? Erfahre, wie du die oce
 ## Ausprobieren, dann installieren
 
 <!-- markdownlint-disable MD033 -->
-<DemoLogin :centered="false" />
+<DemoLoginLocalized :centered="false" />
 <!-- markdownlint-enable MD033 -->
 
 ## Hosting auf einem Server

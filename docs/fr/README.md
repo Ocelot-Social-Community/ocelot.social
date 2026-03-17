@@ -233,7 +233,7 @@ description: Un logiciel libre et open source avec lequel tu peux gérer un rés
 
 <h2 class="large-header">Essayes-le</h2>
 
-<DemoLogin />
+<DemoLoginLocalized />
 
 <h2 class="large-header">Commence</h2>
 

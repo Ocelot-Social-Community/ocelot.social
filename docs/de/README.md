@@ -232,7 +232,7 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
 
 <h2 class="large-header">Probier es aus</h2>
 
-<DemoLogin />
+<DemoLoginLocalized />
 
 <h2 class="large-header">Loslegen</h2>
 

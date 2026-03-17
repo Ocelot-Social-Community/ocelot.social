@@ -10,7 +10,7 @@ description: Prêt à démarrer ton propre réseau social ? Apprends à installe
 ## Essaies-le, puis installes-le
 
 <!-- markdownlint-disable MD033 -->
-<DemoLogin :centered="false" />
+<DemoLoginLocalized :centered="false" />
 <!-- markdownlint-enable MD033 -->
 
 ## Hébergement sur un serveur
