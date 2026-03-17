@@ -199,50 +199,7 @@ description: "Un software libre y de código abierto con el que puedes gestionar
 
 <h2 class="large-header">Pruébalo</h2>
 
-<!--
-| E-Mail                  | Passwort | Benutzerrolle   |
-| :---                    | :---     | :---            |
-| `user@example.org`      | 1234     | normaler Nutzer |
-| `moderator@example.org` | 1234     | Moderator       |
-| `admin@example.org`     | 1234     | Administrator   |
--->
-
-<div class="center">
-  <p>
-    Prueba la demostración en vivo en
-    <a href="https://stage.ocelot.social" target="_blank">https://stage.ocelot.social</a>
-    con los siguientes datos de acceso:
-  </p>
-
-  <table>
-    <thead>
-      <tr>
-        <th style="text-align:left;">E-mail</th>
-        <th style="text-align:left;">Contraseña</th>
-        <th style="text-align:left;">Rol de usuario</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="text-align:left;"><code>user@example.org</code></td>
-        <td style="text-align:left;">1234
-
-</td>
-        <td style="text-align:left;">usuario normal</td>
-      </tr>
-      <tr>
-        <td style="text-align:left;"><code>moderator@example.org</code></td>
-        <td style="text-align:left;">1234</td>
-        <td style="text-align:left;">moderador</td>
-      </tr>
-      <tr>
-        <td style="text-align:left;"><code>admin@example.org</code></td>
-        <td style="text-align:left;">1234</td>
-        <td style="text-align:left;">administrador</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<DemoLoginLocalized />
 
 <h2 class="large-header">Comienza</h2>
 
