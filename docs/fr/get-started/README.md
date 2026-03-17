@@ -9,15 +9,9 @@ description: Prêt à démarrer ton propre réseau social ? Apprends à installe
 
 ## Essaies-le, puis installes-le
 
-Testes la démo en direct à l’adresse
-[https://stage.ocelot.social](https://stage.ocelot.social)
-avec les données d’accès suivantes :
-
-| Courriel                | Mot de passe | Rôle de l’utilisateur |
-| :---                    | :---         | :---                  |
-| `user@example.org`      | 1234         | utilisateur normal    |
-| `moderator@example.org` | 1234         | modérateur            |
-| `admin@example.org`     | 1234         | administrateur        |
+<!-- markdownlint-disable MD033 -->
+<DemoLoginLocalized :centered="false" />
+<!-- markdownlint-enable MD033 -->
 
 ## Hébergement sur un serveur
 

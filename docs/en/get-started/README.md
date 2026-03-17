@@ -9,15 +9,9 @@ description: Ready to get started with your own social network? Learn how to ins
 
 ## Try it out, then install it
 
-Test the live demo at
-[https://stage.ocelot.social](https://stage.ocelot.social)
-with the following access data:
-
-| E-mail                  | Password | User role     |
-| :---                    | :---     | :---          |
-| `user@example.org`      | 1234     | normal user   |
-| `moderator@example.org` | 1234     | moderator     |
-| `admin@example.org`     | 1234     | administrator |
+<!-- markdownlint-disable MD033 -->
+<DemoLoginLocalized :centered="false" />
+<!-- markdownlint-enable MD033 -->
 
 ## Hosting on a server
 
