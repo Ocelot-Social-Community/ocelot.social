@@ -232,48 +232,16 @@ description: Eine freie Open-Source-Software, mit der du ein soziales Netzwerk f
 
 <h2 class="large-header">Probier es aus</h2>
 
-<!--
-| E-Mail                  | Passwort | Benutzerrolle   |
-| :---                    | :---     | :---            |
-| `user@example.org`      | 1234     | normaler Nutzer |
-| `moderator@example.org` | 1234     | Moderator       |
-| `admin@example.org`     | 1234     | Administrator   |
--->
-
-<div class="center">
-  <p>
-    Teste die Live-Demo auf
-    <a href="https://stage.ocelot.social" target="_blank">https://stage.ocelot.social</a>
-    mit den folgenden Zugangsdaten:
-  </p>
-
-  <table>
-    <thead>
-      <tr>
-        <th style="text-align:left;">E-Mail</th>
-        <th style="text-align:left;">Passwort</th>
-        <th style="text-align:left;">Benutzerrolle</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="text-align:left;"><code>user@example.org</code></td>
-        <td style="text-align:left;">1234</td>
-        <td style="text-align:left;">normaler Nutzer</td>
-      </tr>
-      <tr>
-        <td style="text-align:left;"><code>moderator@example.org</code></td>
-        <td style="text-align:left;">1234</td>
-        <td style="text-align:left;">Moderator</td>
-      </tr>
-      <tr>
-        <td style="text-align:left;"><code>admin@example.org</code></td>
-        <td style="text-align:left;">1234</td>
-        <td style="text-align:left;">Administrator</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<DemoLogin
+  label-intro-before="Teste die Live-Demo auf"
+  label-intro-after="mit den folgenden Zugangsdaten:"
+  label-email="E-Mail"
+  label-password="Passwort"
+  label-role="Benutzerrolle"
+  label-user-role="normaler Nutzer"
+  label-moderator-role="Moderator"
+  label-admin-role="Administrator"
+/>
 
 <h2 class="large-header">Loslegen</h2>
 

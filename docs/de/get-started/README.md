@@ -9,15 +9,19 @@ description: Bereit für dein eigenes soziales Netzwerk? Erfahre, wie du die oce
 
 ## Ausprobieren, dann installieren
 
-Teste die Live-Demo auf
-[https://stage.ocelot.social](https://stage.ocelot.social)
-mit den folgenden Zugangsdaten:
-
-| E-Mail                  | Passwort | Benutzerrolle   |
-| :---                    | :---     | :---            |
-| `user@example.org`      | 1234     | normaler Nutzer |
-| `moderator@example.org` | 1234     | Moderator       |
-| `admin@example.org`     | 1234     | Administrator   |
+<!-- markdownlint-disable MD033 -->
+<DemoLogin
+  :centered="false"
+  label-intro-before="Teste die Live-Demo auf"
+  label-intro-after="mit den folgenden Zugangsdaten:"
+  label-email="E-Mail"
+  label-password="Passwort"
+  label-role="Benutzerrolle"
+  label-user-role="normaler Nutzer"
+  label-moderator-role="Moderator"
+  label-admin-role="Administrator"
+/>
+<!-- markdownlint-enable MD033 -->
 
 ## Hosting auf einem Server
 

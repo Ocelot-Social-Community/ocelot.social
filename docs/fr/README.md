@@ -233,48 +233,16 @@ description: Un logiciel libre et open source avec lequel tu peux gérer un rés
 
 <h2 class="large-header">Essayes-le</h2>
 
-<!--
-| E-Mail                  | Passwort | Benutzerrolle   |
-| :---                    | :---     | :---            |
-| `user@example.org`      | 1234     | normaler Nutzer |
-| `moderator@example.org` | 1234     | Moderator       |
-| `admin@example.org`     | 1234     | Administrator   |
--->
-
-<div class="center">
-  <p>
-    Testes la démo en direct sur
-    <a href="https://stage.ocelot.social" target="_blank">https://stage.ocelot.social</a>
-    avec les données d’accès suivantes :
-  </p>
-
-  <table>
-    <thead>
-      <tr>
-        <th style="text-align:left;">Courriel</th>
-        <th style="text-align:left;">Mot de passe</th>
-        <th style="text-align:left;">Rôle de l’utilisateur</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="text-align:left;"><code>user@example.org</code></td>
-        <td style="text-align:left;">1234</td>
-        <td style="text-align:left;">utilisateur normal</td>
-      </tr>
-      <tr>
-        <td style="text-align:left;"><code>moderator@example.org</code></td>
-        <td style="text-align:left;">1234</td>
-        <td style="text-align:left;">modérateur</td>
-      </tr>
-      <tr>
-        <td style="text-align:left;"><code>admin@example.org</code></td>
-        <td style="text-align:left;">1234</td>
-        <td style="text-align:left;">administrateur</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<DemoLogin
+  label-intro-before="Testes la démo en direct sur"
+  label-intro-after="avec les données d’accès suivantes :"
+  label-email="Courriel"
+  label-password="Mot de passe"
+  label-role="Rôle de l’utilisateur"
+  label-user-role="utilisateur normal"
+  label-moderator-role="modérateur"
+  label-admin-role="administrateur"
+/>
 
 <h2 class="large-header">Commence</h2>
 
