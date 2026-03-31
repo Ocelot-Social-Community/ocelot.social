@@ -3,7 +3,7 @@ home: false
 article: false
 sidebar: false
 lang: de-DE
-title: Einstieg
+title: Loslegen
 description: Bereit für dein eigenes soziales Netzwerk? Erfahre, wie du die ocelot.social-Software zum Selberhosten oder bei einem Anbieter deiner Wahl installierst.
 ---
 
