@@ -22,11 +22,11 @@ description: "Ermögliche mit deiner Spende, dass zukünftig die Mitglieder eine
 Ermögliche mit deiner Spende, dass zukünftig die Mitglieder einer Gruppe einen gemeinsamen Chatraum haben.
 
 <DonationBar
-  :currentValue="1570"
+  :currentValue="1680"
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
-  asOfDate="2026-03-22"
+  asOfDate="2026-03-31"
 />
 
 ## Worum geht es
@@ -59,11 +59,11 @@ Also auch über eine Spende von dir.
 
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar
-  :currentValue="1570"
+  :currentValue="1680"
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
-  asOfDate="2026-03-22"
+  asOfDate="2026-03-31"
 />
 
 ## Spenden
