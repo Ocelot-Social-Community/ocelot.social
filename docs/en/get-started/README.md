@@ -28,7 +28,7 @@ Further information at → [Installation](#installation)
 You can have the software hosted by a hoster of your choice.
 The [busFaktor() e.V.](https://busfaktor.org/en/) will be happy to advise you.
 
-## Install it
+## Install it yourself
 
 You can install and run the free open source software *ocelot.social* in various ways, sorted by difficulty:
 
