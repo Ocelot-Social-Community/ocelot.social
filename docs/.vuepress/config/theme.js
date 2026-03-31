@@ -40,7 +40,7 @@ export default hopeTheme({
           link: '/de/roadmap/'
         },
         {
-          text: 'Einstieg',
+          text: 'Loslegen',
           link: '/de/get-started/'
         },
         {

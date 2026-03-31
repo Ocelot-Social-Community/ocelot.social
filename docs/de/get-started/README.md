@@ -3,17 +3,17 @@ home: false
 article: false
 sidebar: false
 lang: de-DE
-title: Einstieg
+title: Loslegen
 description: Bereit für dein eigenes soziales Netzwerk? Erfahre, wie du die ocelot.social-Software zum Selberhosten oder bei einem Anbieter deiner Wahl installierst.
 ---
 
-## Ausprobieren, dann installieren
+## Ausprobieren
 
 <!-- markdownlint-disable MD033 -->
 <DemoLoginLocalized :centered="false" />
 <!-- markdownlint-enable MD033 -->
 
-## Hosting auf einem Server
+## Hosting auswählen
 
 ### Selber hosten
 
@@ -28,7 +28,7 @@ Weitere Informationen unter → [Installation](#installation)
 Du kannst die Software von einem Hoster deiner Wahl hosten lassen.  
 Der [busFaktor() e.V.](https://busfaktor.org/de/) berät dich gerne.
 
-## Installation
+## Selber installieren
 
 Die freie Open-Source-Software *ocelot.social* kannst du auf verschiedene Arten installieren und betreiben, nach Schwierigkeit sortiert:
 
@@ -56,7 +56,7 @@ Das Erscheinungsbild des Netzwerks kannst du zum Ende der Installation individue
   - 80 GB Festplattenspeicher
   - einen Kubernetes-Cluster, falls gewünscht
 
-## Community-Projekt
+## Mitmachen
 
-*Ocelot.social* ist ein wachsendes Projekt einer engagierten Gemeinschaft und wird durch zahlreiche Spender finanziert.
-Wir freuen uns auch über deine [Beteiligung](/de/contribute/).
+*Ocelot.social* ist ein wachsendes Community-Projekt einer engagierten Gemeinschaft und wird durch zahlreiche Spender finanziert.
+Wir freuen uns auch über dein [Mitmachen](/de/contribute/).

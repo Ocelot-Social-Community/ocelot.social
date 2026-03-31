@@ -7,13 +7,13 @@ title: Comenzar
 description: ¿Listo para crear tu propia red social? Descubre cómo instalar el software ocelot.social para autohospedarlo o instalarlo en el proveedor que elijas.
 ---
 
-## Pruébalo, luego instálalo
+## Pruébalo
 
 <!-- markdownlint-disable MD033 -->
 <DemoLoginLocalized :centered="false" />
 <!-- markdownlint-enable MD033 -->
 
-## Hospedaje en un servidor
+## Seleccionar alojamiento
 
 ### Hospédalo tú mismo
 
@@ -28,7 +28,7 @@ Más información en → [Instalación](#installation)
 Puedes hacer que la aplicación sea hospedada por un proveedor de tu elección.
 [busFaktor() e.V.](https://busfaktor.org/en/) estará encantado de asesorarte.
 
-## Instalación
+## Instalarlo tú mismo
 
 Puedes instalar y ejecutar el software libre y de código abierto *ocelot.social* de varias maneras, ordenadas por dificultad:
 
@@ -56,7 +56,7 @@ Puedes configurar la apariencia de la red de manera individual al final de la in
   - 80 GB de espacio en disco duro
   - un clúster de Kubernetes, si se desea
 
-## Proyecto comunitario
+## Contribuir
 
-*Ocelot.social* es un proyecto en crecimiento de una comunidad comprometida y se financia mediante numerosos donantes.
-También estamos contentos con tu [participación](/es/contribute/).
+*Ocelot.social* es un proyecto comunitario en crecimiento de una comunidad comprometida y se financia mediante numerosos donantes.
+También nos encantaría que [colaboraras](/de/contribute/).
