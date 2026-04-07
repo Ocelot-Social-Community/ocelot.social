@@ -22,11 +22,11 @@ description: "Grâce à votre don, permettez aux membres d'un groupe d'avoir à 
 Grâce à votre don, permettez aux membres d’un groupe d’avoir à l’avenir une salle de chat commune.
 
 <DonationBar
-  :currentValue="1680"
+  :currentValue="1700"
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
-  asOfDate="2026-03-31"
+  asOfDate="2026-04-07"
 />
 
 ## De quoi s’agit-il ?
@@ -59,11 +59,11 @@ Donc aussi par votre don.
 
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar
-  :currentValue="1680"
+  :currentValue="1700"
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
-  asOfDate="2026-03-31"
+  asOfDate="2026-04-07"
 />
 
 ### Dons
