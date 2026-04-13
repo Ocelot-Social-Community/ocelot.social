@@ -167,9 +167,6 @@ const timeFrameStr = computed(() => {
   margin-right: 10px;
 }
 
-.extended-notice {
-  color: var(--vp-c-accent);
-}
 
 @media (max-width: 830px) {
   .donation-bar-value {
