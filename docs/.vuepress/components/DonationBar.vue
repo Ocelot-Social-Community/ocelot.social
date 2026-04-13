@@ -125,10 +125,10 @@ const extendedUntilDateStr = computed(() => {
   if (!props.extendedUntilDate) return ''
   const date = new Date(props.extendedUntilDate).toLocaleDateString(lang, dateFormat)
   switch (locale) {
-    case 'de': return 'Verlängert bis ' + date + '.'
-    case 'en': return 'Extended until ' + date + '.'
-    case 'es': return 'Extendido hasta el ' + date + '.'
-    case 'fr': return 'Prolongé jusqu\'au ' + date + '.'
+    case 'de': return '⚠️ Verlängert bis ' + date + '.'
+    case 'en': return '⚠️ Extended until ' + date + '.'
+    case 'es': return '⚠️ Extendido hasta el ' + date + '.'
+    case 'fr': return '⚠️ Prolongé jusqu\'au ' + date + '.'
   }
 })
 const timeFrameStr = computed(() => {
