@@ -26,6 +26,7 @@ Grâce à votre don, permettez aux membres d’un groupe d’avoir à l’avenir
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
+  asOfDate="2026-04-13"
   asOfDate="2026-04-07"
 />
 
@@ -63,6 +64,7 @@ Donc aussi par votre don.
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
+  asOfDate="2026-04-13"
   asOfDate="2026-04-07"
 />
 

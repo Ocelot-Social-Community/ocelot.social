@@ -26,6 +26,7 @@ With your donation, you can enable the members of a group to have a shared chat 
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
+  asOfDate="2026-04-13"
   asOfDate="2026-04-07"
 />
 
@@ -63,6 +64,7 @@ This includes donations from you.
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
+  asOfDate="2026-04-13"
   asOfDate="2026-04-07"
 />
 
