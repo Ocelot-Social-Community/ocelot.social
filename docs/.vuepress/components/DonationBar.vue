@@ -15,6 +15,10 @@
     {{ asOfDateStr }}
     <br/>
     {{ timeFrameStr }}
+    <template v-if="props.extendedUntilDate">
+      <br/>
+      <strong class="extended-notice">{{ extendedUntilDateStr }}</strong>
+    </template>
   </p>
 </template>
 
@@ -53,6 +57,10 @@ const props = defineProps({
     type: String,
     required: true
   },
+  extendedUntilDate: {
+    type: String,
+    default: null
+  },
 })
 
 if (!isFinite(props.currentValue)) {
@@ -83,6 +91,7 @@ const validateDate = (value, propName) => {
 validateDate(props.startDate, 'startDate')
 validateDate(props.endDate, 'endDate')
 validateDate(props.asOfDate, 'asOfDate')
+if (props.extendedUntilDate) validateDate(props.extendedUntilDate, 'extendedUntilDate')
 
 const title = computed(() => {
   switch (locale) {
@@ -110,6 +119,16 @@ const asOfDateStr = computed(() => {
       return 'Situación a ' + new Date(props.asOfDate).toLocaleDateString(lang, dateFormat) + ', se actualiza semanalmente.'
     case 'fr':
       return 'Situation au ' + new Date(props.asOfDate).toLocaleDateString(lang, dateFormat) + ', mise à jour hebdomadaire.'
+  }
+})
+const extendedUntilDateStr = computed(() => {
+  if (!props.extendedUntilDate) return ''
+  const date = new Date(props.extendedUntilDate).toLocaleDateString(lang, dateFormat)
+  switch (locale) {
+    case 'de': return '⚠️ Verlängert bis ' + date + '.'
+    case 'en': return '⚠️ Extended until ' + date + '.'
+    case 'es': return '⚠️ Extendido hasta el ' + date + '.'
+    case 'fr': return '⚠️ Prolongé jusqu\'au ' + date + '.'
   }
 })
 const timeFrameStr = computed(() => {
@@ -147,6 +166,7 @@ const timeFrameStr = computed(() => {
 .donation-bar-value-str{
   margin-right: 10px;
 }
+
 
 @media (max-width: 830px) {
   .donation-bar-value {

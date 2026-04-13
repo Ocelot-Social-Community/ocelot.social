@@ -26,7 +26,8 @@ Ermögliche mit deiner Spende, dass zukünftig die Mitglieder einer Gruppe einen
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
-  asOfDate="2026-04-07"
+  asOfDate="2026-04-13"
+  extendedUntilDate="2026-04-26"
 />
 
 ## Worum geht es
@@ -63,7 +64,8 @@ Also auch über eine Spende von dir.
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
-  asOfDate="2026-04-07"
+  asOfDate="2026-04-13"
+  extendedUntilDate="2026-04-26"
 />
 
 ## Spenden
