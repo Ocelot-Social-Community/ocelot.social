@@ -27,7 +27,7 @@ With your donation, you can enable the members of a group to have a shared chat 
   startDate="2026-03-13"
   endDate="2026-04-12"
   asOfDate="2026-04-13"
-  asOfDate="2026-04-07"
+  extendedUntilDate="2026-04-26"
 />
 
 ## What it’s about
@@ -65,7 +65,7 @@ This includes donations from you.
   startDate="2026-03-13"
   endDate="2026-04-12"
   asOfDate="2026-04-13"
-  asOfDate="2026-04-07"
+  extendedUntilDate="2026-04-26"
 />
 
 ## Donations
