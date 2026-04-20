@@ -22,11 +22,11 @@ description: "With your donation, you can enable the members of a group to have 
 With your donation, you can enable the members of a group to have a shared chat room in the future.
 
 <DonationBar
-  :currentValue="2000"
+  :currentValue="2100"
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
-  asOfDate="2026-04-14"
+  asOfDate="2026-04-20"
   extendedUntilDate="2026-04-26"
 />
 
@@ -60,11 +60,11 @@ This includes donations from you.
 
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar
-  :currentValue="2000"
+  :currentValue="2100"
   :target="2500"
   startDate="2026-03-13"
   endDate="2026-04-12"
-  asOfDate="2026-04-14"
+  asOfDate="2026-04-20"
   extendedUntilDate="2026-04-26"
 />
 
