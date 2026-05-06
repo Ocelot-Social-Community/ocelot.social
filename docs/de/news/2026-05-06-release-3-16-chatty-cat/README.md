@@ -12,15 +12,15 @@ tag:
   - Groups
 cover: /blog/ocelot-social-release-v3-16-chatty-cat.jpg
 coverAlt: "Ocelot.social Version 3.16 – Chatty Cat"
-title: "Ocelot.social Chatty Cat (3.16) ist da – Gruppen-Chaträume"
-description: "Mit *ocelot.social* Chatty Cat (3.16) erhält jede Gruppe einen eigenen Chatraum, indem sich die Mitglieder der Gruppe austauschen können."
+title: "Ocelot.social 3.16 Chatty Cat ist da – Gruppen-Chaträume"
+description: "Mit *ocelot.social* 3.16 Chatty Cat erhält jede Gruppe einen eigenen Chatraum, indem sich die Mitglieder der Gruppe austauschen können."
 ---
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
 
 ## Highlight: Gruppen-Chaträume
 
-Mit *ocelot.social* Chatty Cat (3.16) erhält jede Gruppe einen eigenen Chatraum, indem sich die Mitglieder der Gruppe austauschen können.
+Mit *ocelot.social* 3.16 Chatty Cat erhält jede Gruppe einen eigenen Chatraum, indem sich die Mitglieder der Gruppe austauschen können.
 Diese können nun unabhängig von Beiträgen miteinander kommunizieren und alle sehen, was geschrieben wurde.
 
 Dies wurde dank der Spenden im Rahmen unseres [zweiten Crowdfundings](/de/news/2026-03-03-crowdfunding-feature-chat-for-groups/) ermöglicht.

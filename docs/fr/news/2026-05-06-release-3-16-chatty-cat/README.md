@@ -12,15 +12,15 @@ tag:
   - Groups
 cover: /blog/ocelot-social-release-v3-16-chatty-cat.jpg
 coverAlt: "Ocelot.social Version 3.16 – Chatty Cat"
-title: "Ocelot.social Chatty Cat (3.16) est là – Salons de discussion dans les groupes"
-description: "Avec ocelot.social Chatty Cat (3.16), chaque groupe dispose de son propre salon de discussion où les membres du groupe peuvent échanger entre eux."
+title: "Ocelot.social 3.16 Chatty Cat est là – Salons de discussion dans les groupes"
+description: "Avec ocelot.social 3.16 Chatty Cat, chaque groupe dispose de son propre salon de discussion où les membres du groupe peuvent échanger entre eux."
 ---
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
 
 ## Point fort : Salons de discussion dans les groupes
 
-Avec *ocelot.social* Chatty Cat (3.16), chaque groupe dispose de son propre salon de discussion où les membres du groupe peuvent échanger entre eux.
+Avec *ocelot.social* 3.16 Chatty Cat, chaque groupe dispose de son propre salon de discussion où les membres du groupe peuvent échanger entre eux.
 Ils peuvent désormais communiquer indépendamment des publications et tout le monde peut voir ce qui a été écrit.
 
 Cela a été rendu possible grâce aux dons de notre [deuxième campagne de financement participatif](/fr/news/2026-03-03-crowdfunding-feature-chat-for-groups/).

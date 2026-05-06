@@ -12,15 +12,15 @@ tag:
   - Groups
 cover: /blog/ocelot-social-release-v3-16-chatty-cat.jpg
 coverAlt: "Ocelot.social Version 3.16 – Chatty Cat"
-title: "Ocelot.social Chatty Cat (3.16) is here – Group Chat Rooms"
-description: "With ocelot.social Chatty Cat (3.16), every group gets its own chat room where group members can communicate with each other."
+title: "Ocelot.social 3.16 Chatty Cat is here – Group Chat Rooms"
+description: "With ocelot.social 3.16 Chatty Cat, every group gets its own chat room where group members can communicate with each other."
 ---
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
 
 ## Highlight: Group Chat Rooms
 
-With *ocelot.social* Chatty Cat (3.16), every group gets its own chat room where group members can communicate with each other.
+With *ocelot.social* 3.16 Chatty Cat, every group gets its own chat room where group members can communicate with each other.
 They can now communicate independently of posts, and everyone can see what has been written.
 
 This was made possible thanks to donations from our [second crowdfunding campaign](/en/news/2026-03-03-crowdfunding-feature-chat-for-groups/).
