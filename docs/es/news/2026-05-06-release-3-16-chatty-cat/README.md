@@ -50,7 +50,6 @@ Esto fue posible gracias a las donaciones de nuestra [segunda campaña de crowdf
 - Fallos en el chat
 - Recuento de publicaciones incorrecto en algunos perfiles
 - Fallos en redes sociales
-- Mapa: fallo con publicaciones fijadas sin ubicación
 
 ## Bajo el capó
 

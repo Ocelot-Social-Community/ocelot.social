@@ -50,7 +50,6 @@ A huge thank you to everyone who supported this – without you, this update wou
 - Chat malfunctions
 - Occasionally incorrect post count on profile pages
 - Social media malfunctions
-- Map: crash with pinned posts without location
 
 ## Under the Hood
 

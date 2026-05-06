@@ -50,7 +50,6 @@ Un immense merci à tous ceux qui ont soutenu cela – sans vous, cette mise à 
 - Dysfonctionnements du chat
 - Nombre de publications incorrect sur certaines pages de profil
 - Dysfonctionnements des réseaux sociaux
-- Carte : crash avec des publications épinglées sans localisation
 
 ## Sous le capot
 

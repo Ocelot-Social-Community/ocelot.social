@@ -51,7 +51,6 @@ Ein riesiges Dankeschön an alle, die dieses unterstützt haben – ohne euch g�
 - Fehlfunktionen des Chats
 - teilweise fehlerhafte Beitragsanzahl auf Profilseiten
 - Fehlfunktionen bei Sozialen Medien
-- Karte: Crash bei angehefteten Beiträgen ohne Standort
 
 ## Technisches unter der Haube
 
