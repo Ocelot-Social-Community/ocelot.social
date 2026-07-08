@@ -30,7 +30,7 @@ Dieses Release dreht sich vor allem um ein ausgebautes Rollen-, Berechtigungs- u
 - **Rollen & Berechtigungen als neues Fundament** – inklusive feiner abgestufter Permissions
 - **Dynamische Netzwerk-Policies** – Einstellungen lassen sich Schritt für Schritt anpassen, ohne neuen Deploy
 - **Policy-Gating direkt in der Oberfläche** – Funktionen erscheinen nur dort, wo sie erlaubt sind
-- **Sauberere Fehlerbehandlung** – gesperrte Zugriffe melden jetzt korrekt „unauthorised" statt eines internen Serverfehlers
+- **Sauberere Fehlerbehandlung** – gesperrte Zugriffe melden jetzt korrekt „unauthorised” statt eines internen Serverfehlers
 
 ## Neue Funktionen
 
