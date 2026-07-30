@@ -15,7 +15,7 @@ tag:
   - Public
   - Draft
   - Visibility
-cover: /blog/XXX
+cover: /blog/crowdfunding-public-content.png
 coverAlt: "Crowdfunding für öffentliche Beiträge und Beitragsentwürfe"
 title: "Crowdfunding für öffentliche Beiträge und Beitragsentwürfe 🪄✨"
 description: "Ermögliche mit deiner Spende, dass Beiträge öffentlich sein oder als Entwurf gespeichert werden können."
@@ -34,11 +34,11 @@ Ermögliche mit deiner Spende, dass Beiträge öffentlich sein oder als Entwurf 
   extendedUntilDate=""
 />
 
-## Worum geht es
+## Worum geht es?
 
-Um Beiträge auch für Nichtmitglieder sichtbar zu machen und dadurch mehr Reichweite zu gewinnen, XXX
-
-Mit dem neuen Crowdfunding soll XXX.
+Mit unserem neuen Crowdfunding wollen wir es *ocelot.social*-Netzwerken und deren Nutzern ermöglichen, mehr Reichweite zu erhalten.
+Autoren sollen wählen können, ob ihre Beiträge auch von unangemeldeten Besuchern gesehen werden dürfen.
+Durch einen Entwurfsmodus soll zudem der Komfort für Autoren verbessert werden.
 
 Damit knüpfen wir an das [letzte Crowdunding](/de/news/2026-03-03-crowdfunding-feature-chat-for-groups/) an, das dank großzügiger Spenden unserer Community *Gruppen-Chaträume* ermöglichte, die mittlerweile allen Nutzern zur Verfügung stehen.
 
@@ -46,13 +46,22 @@ Damit knüpfen wir an das [letzte Crowdunding](/de/news/2026-03-03-crowdfunding-
 
 Bisher konnten die Beiträge nur von Mitgliedern gesehen werden.
 
-Ziel dieses Crowdfundings ist, XXX.
+Ziel dieses Crowdfundings ist, die Reichweite von Beiträgen zu erhöhen und dadurch auch die Netzwerke, welche *ocelot.social*-Software nutzen, bekannter zu machen.
 
-Der bestehende Eins-zu-Eins-Chat soll dafür ausgebaut und zur Qualitätssicherung mit Software-Tests versehen werden.
+Dazu sollen folgende Funktionen umgesetzt werden:
+
+- Nutzer können wählen, ob ihr Beitrag nur Netzwerk-intern oder öffentlich (außerhalb des Netzwerks) sichtbar sein soll.
+- Gruppeninhaber können wählen, welche Mitglieder ihre Beiträge außerhalb der Gruppe sichtbar machen können.
+- Beiträge sind für Suchmaschinen optimiert.
+- Unangemeldete Besucher werden zum Anmelden oder Registrieren eingeladen, wenn sie nicht auf Inhalte zugreifen können.
+- Betreiber können sowohl die Sichtbarkeit von Beiträgen und Kommentaren als auch die Zugriffsberechtigung unangemeldeter Besucher verwalten.
 
 ## Entwurfsmodus
 
-XXX
+Aktuell können unfertige Beiträge nicht als Entwurf gespeichert werden.
+
+Dieses Crowdfunding soll es ermöglichen, Beiträge als Entwürfe zu speichern und wieder zu editieren.
+Dies dient auch der Vorbereitung, dass Beiträge in Zukunft zeitgesteuert veröffentlicht werden können.
 
 ## Warum ein Crowdfunding?
 
