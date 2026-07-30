@@ -5,11 +5,11 @@
       <span>{{ title }}</span>
     </a>
   </h3>
-  <div class="donation-bar">
-    <!-- a width of 100% is a bit more as the full width of "donation-bar" one can see if we don't set "overflow: hidden;". I couldn't find how to fix -->
-    <div class="donation-bar-value" :style="{ width: ((currentValue <= target ? currentValue : target) / target) * 100 + '%' }">
-      <span class="donation-bar-value-str">{{ currentValueStr }}</span>
+  <div class="donation-bar-wrapper">
+    <div class="donation-bar-fill" :style="{ width: barWidthStr }">
+      <span v-if="!isSmall" class="donation-bar-label">{{ currentValueStr }}</span>
     </div>
+    <span v-if="isSmall" class="donation-bar-label donation-bar-label--outside">{{ currentValueStr }}</span>
   </div>
   <p>
     {{ asOfDateStr }}
@@ -108,6 +108,8 @@ const title = computed(() => {
 const currentValueStr = computed(() => {
   return props.currentValue.toLocaleString(lang) + ' €' // &thinsp;€
 })
+const barWidthStr = computed(() => Math.min((props.currentValue / props.target) * 100, 100) + '%')
+const isSmall = computed(() => props.currentValue / props.target < 0.2)
 const dateFormat = { year: "numeric", month: "long", day: "numeric" }
 const asOfDateStr = computed(() => {
   switch (locale) {
@@ -146,39 +148,53 @@ const timeFrameStr = computed(() => {
 </script>
 
 <style scoped>
-.donation-bar {
+.donation-bar-wrapper {
+  display: flex;
+  align-items: stretch;
   width: 100%;
   overflow: hidden;
   border: 1px solid var(--vp-c-accent-bg);
   border-radius: 10px;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
+  min-height: 2.5em;
 }
 
-.donation-bar-value {
-  border-radius: 10px 0 0 10px;
-  color: #000;
+.donation-bar-fill {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
   background-color: var(--vp-c-accent-bg);
+}
+
+.donation-bar-label {
   font-size: 2em;
-  text-align: right;
-  padding-right: 10px;
+  color: #000;
+  white-space: nowrap;
+  padding: 0 10px;
 }
 
-.donation-bar-value-str{
-  margin-right: 10px;
+.donation-bar-label--outside {
+  display: flex;
+  align-items: center;
+  color: var(--vp-c-text-1);
 }
-
 
 @media (max-width: 830px) {
-  .donation-bar-value {
+  .donation-bar-wrapper {
+    min-height: 2em;
+  }
+  .donation-bar-label {
     font-size: 1.5em;
-    padding-right: 6px;
   }
 }
 
 @media (max-width: 600px) {
-  .donation-bar-value {
+  .donation-bar-wrapper {
+    min-height: 1.5em;
+  }
+  .donation-bar-label {
     font-size: 1em;
-    padding-right: 4px;
   }
 }
 </style>
