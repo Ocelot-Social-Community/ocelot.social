@@ -96,7 +96,7 @@ Verwendungszweck, siehe unten.
 
 Gib bitte unbedingt beim Verwendungszweck `Spende` und deine E-Mail-Adresse an, damit wir dich kontaktieren können. Bei Überweisungen ist das `@`-Zeichen normalerweise nicht möglich, daher schreibe es als `„ at “`, mit Platz davor und dahinter und ohne Anführungszeichen.
 
-Beispiel: `Spende von eva.muster at domain.de für Crowdfunding`
+Beispiel: `Spende von eva.muster at domain.de für Crowdfunding`
 
 In Deutschland sind Spenden unter € 300 ohne Bescheinigung abzugsfähig.  
 In anderen Fällen stellen wir auf Anfrage gerne eine Spendenquittung aus.

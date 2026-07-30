@@ -94,9 +94,9 @@ Finalidad, véase más abajo.
 
 ## Indicaciones sobre la finalidad
 
-Es imprescindible que indiques `Donación` en el concepto y tu dirección de correo electrónico para que podamos ponernos en contacto contigo. En las transferencias bancarias, normalmente no es posible utilizar el símbolo `@`, por lo que debes escribirlo como `" at "`, con un espacio delante y detrás y sin comillas.
+Es imprescindible que indiques `Donación` en el concepto y tu dirección de correo electrónico para que podamos ponernos en contacto contigo. En las transferencias bancarias, normalmente no es posible utilizar el símbolo `@`, por lo que debes escribirlo como `" at "`, con un espacio delante y detrás y sin comillas.
 
-Ejemplo: `Donación de eva.muster at domain.de para crowdfunding`
+Ejemplo: `Donación de eva.muster at domain.de para crowdfunding`
 
 En Alemania, las donaciones inferiores a 300 € son deducibles sin necesidad de certificado.  
 En otros casos, estaremos encantados de emitir un recibo de donación si lo solicitas.

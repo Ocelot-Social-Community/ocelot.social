@@ -94,9 +94,9 @@ Motif du paiement, voir ci-dessous.
 
 ## Remarques concernant le motif du paiement
 
-Veuillez impérativement indiquer `Don` comme motif du paiement et votre adresse e-mail afin que nous puissions vous contacter. Le signe `@` n’est généralement pas possible dans les virements bancaires, veuillez donc l’écrire sous la forme `" at "`, avec un espace avant et après et sans guillemets.
+Veuillez impérativement indiquer `Don` comme motif du paiement et votre adresse e-mail afin que nous puissions vous contacter. Le signe `@` n’est généralement pas possible dans les virements bancaires, veuillez donc l’écrire sous la forme `" at "`, avec un espace avant et après et sans guillemets.
 
-Exemple : `Don de eva.muster at domain.de pour le financement participatif`
+Exemple : `Don de eva.muster at domain.de pour le financement participatif`
 
 En Allemagne, les dons inférieurs à 300 € sont déductibles sans attestation.  
 Dans les autres cas, nous vous délivrons volontiers un reçu de don sur demande.
