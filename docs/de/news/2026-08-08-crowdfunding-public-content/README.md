@@ -26,8 +26,8 @@ description: "Ermögliche mit deiner Spende, dass Beiträge öffentlich sein ode
 Ermögliche mit deiner Spende, dass Beiträge öffentlich sein oder als Entwurf gespeichert werden können.
 
 <DonationBar
-  :currentValue="0"
-  :target="3000"
+  :currentValue="1000"
+  :target="5500"
   startDate="2026-08-08"
   endDate="2026-09-05"
   asOfDate="2026-08-08"
@@ -71,8 +71,8 @@ Also auch über eine Spende von dir.
 
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar
-  :currentValue="0"
-  :target="3000"
+  :currentValue="1000"
+  :target="5500"
   startDate="2026-08-08"
   endDate="2026-09-05"
   asOfDate="2026-08-08"

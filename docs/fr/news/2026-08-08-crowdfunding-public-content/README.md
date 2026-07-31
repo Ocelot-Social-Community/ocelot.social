@@ -26,8 +26,8 @@ description: "Permettez avec votre don que les publications puissent être publi
 Permettez avec votre don que les publications puissent être publiques ou sauvegardées comme brouillons.
 
 <DonationBar
-  :currentValue="0"
-  :target="3000"
+  :currentValue="1000"
+  :target="5500"
   startDate="2026-08-08"
   endDate="2026-09-05"
   asOfDate="2026-08-08"
@@ -71,8 +71,8 @@ Donc aussi par votre don.
 
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar
-  :currentValue="0"
-  :target="3000"
+  :currentValue="1000"
+  :target="5500"
   startDate="2026-08-08"
   endDate="2026-09-05"
   asOfDate="2026-08-08"

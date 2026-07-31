@@ -26,8 +26,8 @@ description: "Enable with your donation that posts can be public or saved as dra
 Enable with your donation that posts can be public or saved as drafts.
 
 <DonationBar
-  :currentValue="0"
-  :target="3000"
+  :currentValue="1000"
+  :target="5500"
   startDate="2026-08-08"
   endDate="2026-09-05"
   asOfDate="2026-08-08"
@@ -71,8 +71,8 @@ This includes donations from you.
 
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar
-  :currentValue="0"
-  :target="3000"
+  :currentValue="1000"
+  :target="5500"
   startDate="2026-08-08"
   endDate="2026-09-05"
   asOfDate="2026-08-08"
