@@ -8,8 +8,8 @@ category:
   - Releases
 tag:
   - Releases
-  - Video
-  - Groups
+  - Vidéo
+  - Groupes
   - Permissions
 cover: /blog/ocelot-social-release-v3-17.png
 coverAlt: "Ocelot.social Version 3.17 – Live Cat"

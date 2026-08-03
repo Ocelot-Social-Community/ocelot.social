@@ -5,13 +5,13 @@ sidebar: false
 lang: de-DE
 date: 2026-01-20
 category:
-  - Funding
-  - Features
+  - Finanzierung
+  - Funktionen
 tag:
-  - Funding
-  - Groups
-  - Posts
-  - Pins
+  - Finanzierung
+  - Gruppen
+  - Beiträge
+  - Anpinnen
 cover: /blog/crowdfunding-feature-pinned-posts-in-groups-success.png
 coverAlt: "Danke fürs erfolgreiche erste Crowdfunding!"
 title: "Danke fürs erfolgreiche erste Crowdfunding! 💫"

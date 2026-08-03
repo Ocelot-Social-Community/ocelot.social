@@ -5,13 +5,13 @@ sidebar: false
 lang: de-DE
 date: 2025-11-05
 category:
-  - Funding
-  - Features
+  - Finanzierung
+  - Funktionen
 tag:
-  - Funding
-  - Groups
-  - Posts
-  - Pins
+  - Finanzierung
+  - Gruppen
+  - Beiträge
+  - Anpinnen
 cover: /blog/crowdfunding-feature-pinned-posts-in-groups--de--corrected.png
 coverAlt: "Unser erstes Crowdfunding!"
 title: "Unser erstes Crowdfunding! 🪄✨"

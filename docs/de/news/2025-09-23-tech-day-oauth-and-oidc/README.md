@@ -5,7 +5,7 @@ sidebar: false
 lang: de-DE
 date: 2025-09-23
 category:
-  - Lectures
+  - Vorträge
 tag:
   - Tech-Day
 cover: /blog/oauth-and-oidc.png

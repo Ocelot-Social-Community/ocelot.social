@@ -5,7 +5,7 @@ sidebar: false
 lang: de-DE
 date: 2025-08-18
 category:
-  - Lectures
+  - Vorträge
 tag:
   - Tech-Day
 cover: /blog/fusion-of-utopia-and-ocelot.jpeg

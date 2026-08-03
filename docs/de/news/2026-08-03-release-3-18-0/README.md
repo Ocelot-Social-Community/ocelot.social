@@ -9,7 +9,7 @@ category:
 tag:
   - Releases
   - Branding
-  - Profile
+  - Profil
   - Gruppen
   - Administration
 cover: /blog/ocelot-social-release-v3-18.png

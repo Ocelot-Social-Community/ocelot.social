@@ -9,9 +9,9 @@ category:
 tag:
   - Releases
   - Branding
-  - Profile
-  - Groups
-  - Administration
+  - Perfil
+  - Grupos
+  - Administración
 cover: /blog/ocelot-social-release-v3-18.png
 coverAlt: "Ocelot.social Versión 3.18.0"
 title: "Nueva versión – Ocelot.Social v3.18.0"
