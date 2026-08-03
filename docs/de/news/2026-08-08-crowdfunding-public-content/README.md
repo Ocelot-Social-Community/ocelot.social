@@ -5,16 +5,16 @@ sidebar: false
 lang: de-DE
 date: 2026-08-08
 category:
-  - Funding
-  - Features
+  - Finanzierung
+  - Funktionen
 tag:
-  - Funding
-  - Posts
-  - Article
-  - Events
-  - Public
-  - Draft
-  - Visibility
+  - Finanzierung
+  - Beiträge
+  - Artikel
+  - Veranstaltungen
+  - Öffentlich
+  - Entwurf
+  - Sichtbarkeit
 cover: /blog/crowdfunding-public-content.png
 coverAlt: "Crowdfunding für öffentliche Beiträge und Beitragsentwürfe"
 title: "Crowdfunding für öffentliche Beiträge und Beitragsentwürfe 🪄✨"

@@ -9,7 +9,7 @@ category:
 tag:
   - Releases
   - Chat
-  - Groups
+  - Grupos
 cover: /blog/ocelot-social-release-v3-16-chatty-cat.jpg
 coverAlt: "Ocelot.social Versión 3.16 – Chatty Cat"
 title: "Ocelot.social 3.16 Chatty Cat ya está aquí – Salas de chat en grupos"

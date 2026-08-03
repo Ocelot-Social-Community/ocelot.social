@@ -8,9 +8,9 @@ category:
   - Releases
 tag:
   - Releases
-  - Video
-  - Groups
-  - Permissions
+  - Vídeo
+  - Grupos
+  - Permisos
 cover: /blog/ocelot-social-release-v3-17.png
 coverAlt: "Ocelot.social Versión 3.17 – Live Cat"
 title: "Ocelot.social 3.17 Live Cat ya está aquí – Videoconferencias en grupos y más control"

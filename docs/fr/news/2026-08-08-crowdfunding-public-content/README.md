@@ -5,16 +5,16 @@ sidebar: false
 lang: fr-FR
 date: 2026-08-08
 category:
-  - Funding
-  - Features
+  - Financement
+  - Fonctionnalités
 tag:
-  - Funding
+  - Financement
   - Posts
   - Article
-  - Events
+  - Événements
   - Public
-  - Draft
-  - Visibility
+  - Brouillon
+  - Visibilité
 cover: /blog/crowdfunding-public-content.png
 coverAlt: "Financement participatif pour les publications publiques et les brouillons"
 title: "Financement participatif pour les publications publiques et les brouillons 🪄✨"

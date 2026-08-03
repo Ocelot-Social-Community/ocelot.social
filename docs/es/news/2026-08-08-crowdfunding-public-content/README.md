@@ -5,16 +5,16 @@ sidebar: false
 lang: es-ES
 date: 2026-08-08
 category:
-  - Funding
-  - Features
+  - Financiación
+  - Funciones
 tag:
-  - Funding
-  - Posts
-  - Article
-  - Events
-  - Public
-  - Draft
-  - Visibility
+  - Financiación
+  - Publicaciones
+  - Artículo
+  - Eventos
+  - Público
+  - Borrador
+  - Visibilidad
 cover: /blog/crowdfunding-public-content.png
 coverAlt: "Crowdfunding para publicaciones públicas y borradores"
 title: "Crowdfunding para publicaciones públicas y borradores 🪄✨"
