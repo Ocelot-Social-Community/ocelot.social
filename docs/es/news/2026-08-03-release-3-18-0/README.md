@@ -15,49 +15,78 @@ tag:
 cover: /blog/ocelot-social-release-v3-18.png
 coverAlt: "Ocelot.social Versión 3.18.0"
 title: "Nueva versión – Ocelot.Social v3.18.0"
-description: "La versión 3.18.0 trae un sistema de branding completamente nuevo: los operadores de red componen ahora su apariencia directamente en la administración, sin un nuevo despliegue. Además, llegan perfiles renovados con lista de grupos y filtros, así como funciones que se pueden desactivar."
+description: "La versión 3.18.0 trae mejoras y novedades para usuarios y operadores de redes ocelot.social. Los usuarios obtienen una lista de sus grupos en su página de perfil y mejores indicaciones para crear publicaciones. Los operadores pueden ahora configurar funciones y partes del aspecto de su red directamente."
 ---
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
 
-La versión 3.18.0 trae un sistema de branding completamente nuevo: los operadores de red componen ahora su apariencia directamente en la administración, sin un nuevo despliegue.
-Además, llegan perfiles de usuario renovados con lista de grupos y filtros, así como funciones que se pueden desactivar por red.
+La versión 3.18.0 trae mejoras y novedades para usuarios y operadores de redes ocelot.social. Los usuarios obtienen una lista de sus grupos en su página de perfil y mejores indicaciones para crear publicaciones. Los operadores pueden ahora configurar funciones y partes del aspecto de su red directamente.
 
-## Destacado: el nuevo sistema de branding
+Aquí encontrarás más información sobre las novedades, con un [punto destacado](#destacado-introducción-del-nuevo-sistema-de-branding) para los operadores de red.
 
-Hasta ahora, la apariencia de una red estaba integrada de forma fija en su configuración – cada cambio significaba una nueva compilación. A partir de la v3.18.0, el branding es un paquete propio que se resuelve en tiempo de ejecución. 💚
+## Lista de grupos en el perfil de usuario
 
-- **El branding como paquete propio** – el esquema, los valores por defecto y su resolución están en un único lugar que comparten el backend y la webapp. Valores como los límites de grupo, los metadatos, los logotipos, los menús o los colores del tema ya no pueden divergir.
-- **Paquetes de branding en lugar de configuración fija** – una marca se compila en un archivo y se carga en la red en funcionamiento.
-- **Composición en la administración** – un paquete completo sirve de base, mientras que áreas concretas (logotipos, tema, menú, textos …) se pueden sobrescribir de forma independiente o restablecer a los valores por defecto del framework.
-- **Traducciones propias por marca** – se pueden sobrescribir archivos de idioma completos o áreas concretas de una funcionalidad.
-- **Comprobación del esquema** – si un paquete de branding no encaja con la versión en ejecución, se avisa en lugar de fallar en silencio.
-- **La página de mantenimiento y los correos** usan ahora el mismo branding que el resto de la red.
+<figure class="blog-post-image">
+  <img src="/blog/release-3.18-user-profile-group-list--en.png" alt="Lista de grupos en el perfil de usuario" />
+  <figcaption class="blog-post-image-capture">
+    En la parte inferior izquierda de la página de perfil de usuario: la nueva lista de grupos.
+  </figcaption>
+</figure>
 
-## Perfiles y grupos
+En la página de perfil del usuario ahora es visible una lista de sus grupos (puede desactivarse).
+Además, se ha optimizado el diseño y la funcionalidad de estas listas, también en los perfiles de grupo.
 
-- 👥 **Lista de grupos en el perfil de usuario** – solo se muestra lo que permiten los ajustes de privacidad
-- 🔍 **Filtros para las listas de seguidores y la lista de grupos** – encuentra rápidamente a quién o qué buscas, incluso en listas largas
-- ✨ **Perfil de usuario renovado** – una presentación más ordenada del perfil y sus listas de seguidores
-- 💬 **Popover de grupos en el teaser de usuario** – ver la pertenencia a grupos de un vistazo
+## Vista previa del perfil
+
+<figure class="blog-post-image">
+  <img src="/blog/release-3.18-user-profile-group-overlay--en.png" alt="Vista previa del perfil de grupo" />
+  <figcaption class="blog-post-image-capture">
+    Vista previa de un perfil de grupo.
+  </figcaption>
+</figure>
+
+Al pasar el cursor sobre un nombre de usuario o de grupo aparece ahora una vista previa renovada del perfil, también para los grupos.
+
+## Destacado: introducción del nuevo sistema de branding
+
+Hasta ahora, los operadores no podían personalizar por sí mismos el aspecto de una red.
+Para cualquier cambio dependían de un administrador del servidor.
+Con la nueva versión se ha puesto la primera piedra fundamental para poder modificar el diseño y otros ajustes en vivo por cuenta propia. 💚
+
+<figure class="blog-post-image">
+  <img src="/blog/release-3.18-settings-branding--en.png" alt="Ajustes de branding" />
+  <figcaption class="blog-post-image-capture">
+    En los ajustes se pueden seleccionar los brandings disponibles y en el futuro también modificarlos directamente.
+  </figcaption>
+</figure>
+
+Descripción detallada para los interesados técnicos:
+
+- *El branding como paquete propio* – el esquema, los valores por defecto y su resolución están en un único lugar que comparten el backend y la webapp. Valores como los límites de grupo, los metadatos, los logotipos, los menús o los colores del tema ya no pueden divergir.
+- *Paquetes de branding en lugar de configuración fija* – una marca se compila en un archivo y se carga en la red en funcionamiento.
+- *Composición en la administración* – un paquete completo sirve de base, mientras que áreas concretas (logotipos, tema, menú, textos …) se pueden sobrescribir de forma independiente o restablecer a los valores por defecto del framework.
+- *Traducciones propias por marca* – se pueden sobrescribir archivos de idioma completos o áreas concretas de una funcionalidad.
+- *Comprobación del esquema* – si un paquete de branding no encaja con la versión en ejecución, se avisa en lugar de fallar en silencio.
+- *La página de mantenimiento y los correos* usan ahora el mismo branding que el resto de la red.
 
 ## Para operadores de red
 
-- 🚫 **Los grupos se pueden desactivar** – las redes sin la función de grupos ahora la ocultan por completo
-- 🔗 **Los enlaces a redes sociales se pueden desactivar** – enlazar perfiles externos es opcional
-- 🏷️ **Renombrar roles** – los roles se pueden adaptar al lenguaje de vuestra propia comunidad
-- ⚠️ **Conflictos de edición** – los cambios simultáneos en roles y políticas se detectan y resuelven limpiamente en lugar de sobrescribirse entre sí
+- 🚫 *Los grupos se pueden desactivar* – las redes sin la función de grupos ahora la ocultan por completo
+- 🔗 *Los enlaces a redes sociales se pueden desactivar* – enlazar perfiles externos es opcional
+- 🏷️ *Renombrar roles* – los roles se pueden adaptar al lenguaje de vuestra propia comunidad
+- ⚠️ *Conflictos de edición* – los cambios simultáneos en roles y políticas se detectan y resuelven limpiamente en lugar de sobrescribirse entre sí
 - 🔧 La pestaña de configuración del sistema vuelve a funcionar correctamente
 
 ## Para desarrolladores
 
-- 📖 **Documentación de la API** – la interfaz GraphQL está ahora documentada
+- 📖 *Documentación de la API* – la interfaz GraphQL está ahora documentada
 - 🧪 Mayor cobertura de tests en la webapp y una cadena de CI propia para el paquete de branding
 
 ## Errores corregidos
 
 - Los avatares de vídeo se muestran correctamente y su navegación está reparada
 - Campos de ubicación y sus menús corregidos, textos de ayuda duplicados eliminados
+- Las listas en las páginas de perfil se filtran correctamente
 - Añadidos tiempos de espera en SSR y validación de los identificadores de marca
 - Archivo Docker de la webapp y resolución de caché reparados
 
