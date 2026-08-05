@@ -14,50 +14,79 @@ tag:
   - Administration
 cover: /blog/ocelot-social-release-v3-18.png
 coverAlt: "Ocelot.social Version 3.18.0"
-title: "Neuer Release – Ocelot.Social v3.18.0"
-description: "Version 3.18.0 bringt ein komplett neues Branding-System: Netzwerk-Betreiber stellen ihr Erscheinungsbild jetzt direkt in der Administration zusammen – ohne neues Deployment. Dazu kommen überarbeitete Profile mit Gruppenliste und Filtern sowie abschaltbare Funktionen."
+title: "Neues Release – Ocelot.Social v3.18.0"
+description: "Die Version 3.18.0 bringt Verbesserungen und Erleichterungen für Nutzer und Betreiber von ocelot.social-Netzwerken. Nutzer erhalten eine Liste ihrer Gruppen auf ihrer Profilseite und bessere Hinweise, um das Erstellen von Beiträgen zu erleichtern. Betreiber können nun Funktionen und Teile des Erscheinungsbildes ihres Netzwerks direkt konfigurieren."
 ---
 
 <!-- markdownlint-disable no-inline-html first-line-heading -->
 
-Version 3.18.0 bringt ein komplett neues Branding-System: Netzwerk-Betreiber stellen ihr Erscheinungsbild jetzt direkt in der Administration zusammen – ohne neues Deployment.
-Dazu kommen überarbeitete Nutzerprofile mit Gruppenliste und Filtern sowie Funktionen, die sich pro Netzwerk abschalten lassen.
+Die Version 3.18.0 bringt Verbesserungen und Erleichterungen für Nutzer und Betreiber von ocelot.social-Netzwerken. Nutzer erhalten eine Liste ihrer Gruppen auf ihrer Profilseite und bessere Hinweise, um das Erstellen von Beiträgen zu erleichtern. Betreiber können nun Funktionen und Teile des Erscheinungsbildes ihres Netzwerks direkt konfigurieren.
 
-## Highlight: Das neue Branding-System
+Hier erfährst du mehr zu den Neuerungen mit einem [Highlight](#highlight-einfuhrung-des-neuen-branding-systems) für Netzwerkbetreiber.
 
-Bisher war das Erscheinungsbild eines Netzwerks fest in dessen Konfiguration eingebaut – jede Änderung bedeutete einen neuen Build. Ab v3.18.0 ist Branding ein eigenständiges Paket und wird zur Laufzeit aufgelöst. 💚
+## Liste der Gruppen des Nutzers auf seiner Profilseite
 
-- **Branding als eigenes Paket** – Schema, Standardwerte und Auflösung liegen an einer Stelle, die Backend und Webapp gemeinsam nutzen. Werte wie Gruppen-Limits, Metadaten, Logos, Menüs oder Theme-Farben können nicht mehr auseinanderlaufen.
-- **Branding-Pakete statt fester Konfiguration** – ein Brand wird zu einem Archiv gebaut und ins laufende Netzwerk eingespielt.
-- **Zusammenstellen in der Administration** – ein komplettes Paket dient als Basis, einzelne Bereiche (Logos, Theme, Menü, Texte …) lassen sich unabhängig davon überschreiben oder auf die Framework-Standards zurücksetzen.
-- **Eigene Übersetzungen pro Brand** – ganze Sprachdateien oder einzelne Feature-Bereiche können überschrieben werden.
-- **Schema-Prüfung** – passt ein Branding-Paket nicht zur laufenden Version, wird das gemeldet, statt still zu brechen.
-- **Wartungsseite und E-Mails** nutzen jetzt dasselbe Branding wie der Rest des Netzwerks.
+<figure class="blog-post-image">
+  <img src="/blog/release-3.18-user-profile-group-list--de.png" alt="Nutzerprofil-Gruppenliste" />
+  <figcaption class="blog-post-image-capture">
+    Unten links auf der Nutzerprofileseite die neue Gruppenliste.
+  </figcaption>
+</figure>
 
-## Profile & Gruppen
+Auf der Profilseite des Nutzers ist nun eine Liste seiner Gruppen sichtbar (kann ausgeschaltet werden).
+Zudem wurde das Design und die Funktion dieser Listen, auch auf den Gruppenprofilen, optimiert.
 
-- 👥 **Gruppenliste im Nutzerprofil** – sichtbar wird nur, was die Privatsphäre-Einstellungen erlauben
-- 🔍 **Filter für Folge- und Gruppenlisten** – auch bei vielen Einträgen schnell finden, wen oder was man sucht
-- ✨ **Überarbeitetes Nutzerprofil** – aufgeräumte Darstellung von Profil und Folgelisten
-- 💬 **Gruppen-Popover am Nutzer-Teaser** – Gruppenzugehörigkeit direkt im Vorbeigehen sehen
+## Profilvorschau
+
+<figure class="blog-post-image">
+  <img src="/blog/release-3.18-user-profile-group-overlay--de.png" alt="Gruppenprofilvorschau" />
+  <figcaption class="blog-post-image-capture">
+    Vorschau eines Gruppenprofils.
+  </figcaption>
+</figure>
+
+Beim Drüberhalten des Mauszeigers über einen Nutzer- oder Gruppennamen erscheint eine überarbeitete Vorschau des Profils, neu auch bei Gruppen.
+
+## Highlight: Einführung des neuen Branding-Systems
+
+Bisher konnten Betreiber das Erscheinungsbild eines Netzwerks nicht selber anpassen.
+Für Änderungen waren sie auf einen Server-Administrator angewiesen.
+Mit der neuen Version ist der erste große Stein gelegt, um das Design und weitere Einstellungen selber live zu verändern. 💚
+
+<figure class="blog-post-image">
+  <img src="/blog/release-3.18-settings-branding--de.png" alt="Branding-Einstellung" />
+  <figcaption class="blog-post-image-capture">
+    In der Einstellung können Verfügbaren Brandings ausgewählt und in Zukunft angepasst werden.
+  </figcaption>
+</figure>
+
+Detailbeschreibung für technisch Interessierte:
+
+- *Branding als eigenes Paket* – Schema, Standardwerte und Auflösung liegen an einer Stelle, die Backend und Webapp gemeinsam nutzen. Werte wie Gruppen-Limits, Metadaten, Logos, Menüs oder Theme-Farben können nicht mehr auseinanderlaufen.
+- *Branding-Pakete statt fester Konfiguration* – ein Brand wird zu einem Archiv gebaut und ins laufende Netzwerk eingespielt.
+- *Zusammenstellen in der Administration* – ein komplettes Paket dient als Basis, einzelne Bereiche (Logos, Theme, Menü, Texte …) lassen sich unabhängig davon überschreiben oder auf die Framework-Standards zurücksetzen.
+- *Eigene Übersetzungen pro Brand* – ganze Sprachdateien oder einzelne Feature-Bereiche können überschrieben werden.
+- *Schema-Prüfung* – passt ein Branding-Paket nicht zur laufenden Version, wird das gemeldet, statt still zu brechen.
+- *Wartungsseite und E-Mails* nutzen jetzt dasselbe Branding wie der Rest des Netzwerks.
 
 ## Für Netzwerk-Betreiber
 
-- 🚫 **Gruppen abschaltbar** – Netzwerke ohne Gruppenfunktion blenden sie jetzt vollständig aus
-- 🔗 **Social-Media-Links abschaltbar** – die Verlinkung externer Profile ist optional
-- 🏷️ **Rollen umbenennen** – Rollen lassen sich an die Sprache der eigenen Community anpassen
-- ⚠️ **Konflikte beim Bearbeiten** – gleichzeitige Änderungen an Rollen und Policies werden erkannt und sauber aufgelöst, statt sich gegenseitig zu überschreiben
+- 🚫 *Gruppen abschaltbar* – Netzwerke ohne Gruppenfunktion blenden sie jetzt vollständig aus
+- 🔗 *Social-Media-Links abschaltbar* – die Verlinkung externer Profile ist optional
+- 🏷️ *Rollen umbenennen* – Rollen lassen sich an die Sprache der eigenen Community anpassen
+- ⚠️ *Konflikte beim Bearbeiten* – gleichzeitige Änderungen an Rollen und Policies werden erkannt und sauber aufgelöst, statt sich gegenseitig zu überschreiben
 - 🔧 Der System-Konfigurations-Tab funktioniert wieder korrekt
 
 ## Für Entwickler
 
-- 📖 **API-Dokumentation** – die GraphQL-Schnittstelle ist jetzt dokumentiert
+- 📖 *API-Dokumentation* – die GraphQL-Schnittstelle ist jetzt dokumentiert
 - 🧪 Höhere Testabdeckung in der Webapp und eine eigene CI-Strecke für das Branding-Paket
 
 ## Behobene Fehler
 
 - Video-Avatare werden korrekt dargestellt, Navigation dazu gefixt
 - Standortfelder und deren Menüs korrigiert, doppelte Hinweistexte entfernt
+- Listen auf Profilseiten werden richtig gefiltert.
 - SSR-Timeouts ergänzt und Brand-IDs werden validiert
 - Docker-Datei der Webapp und Cache-Auflösung repariert
 
