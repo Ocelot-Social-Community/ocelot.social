@@ -26,12 +26,12 @@ description: "Enable with your donation that posts can be public or saved as dra
 Enable with your donation that posts can be public or saved as drafts.
 
 <DonationBar
-  :currentValue="1500"
+  :currentValue="1520"
   :target="5500"
   startDate="2026-08-08"
   endDate="2026-09-05"
-  asOfDate="2026-09-06"
-  extendedUntilDate="2026-09-20"
+  asOfDate="2026-09-22"
+  extendedUntilDate="2026-10-04"
 />
 
 ## What it’s about
@@ -71,12 +71,12 @@ This includes donations from you.
 
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar
-  :currentValue="1500"
+  :currentValue="1520"
   :target="5500"
   startDate="2026-08-08"
   endDate="2026-09-05"
-  asOfDate="2026-09-06"
-  extendedUntilDate="2026-09-20"
+  asOfDate="2026-09-22"
+  extendedUntilDate="2026-10-04"
 />
 
 ## Donations
