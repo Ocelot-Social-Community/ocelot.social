@@ -26,11 +26,11 @@ description: "Permite con tu donación que las publicaciones puedan ser pública
 Permite con tu donación que las publicaciones puedan ser públicas o guardarse como borradores.
 
 <DonationBar
-  :currentValue="1520"
+  :currentValue="1770"
   :target="5500"
   startDate="2026-08-08"
   endDate="2026-09-05"
-  asOfDate="2026-09-22"
+  asOfDate="2026-09-27"
   extendedUntilDate="2026-10-04"
 />
 
@@ -71,11 +71,11 @@ Es decir, también a través de tu donación.
 
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar
-  :currentValue="1520"
+  :currentValue="1770"
   :target="5500"
   startDate="2026-08-08"
   endDate="2026-09-05"
-  asOfDate="2026-09-22"
+  asOfDate="2026-09-27"
   extendedUntilDate="2026-10-04"
 />
 
