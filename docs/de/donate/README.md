@@ -13,14 +13,11 @@ Der Verein [busFaktor() e.V.](https://busfaktor.org/de/) koordiniert und förder
 Mit einer Einmal- oder Dauerspende kannst du dieses Projekt unterstützen.
 Wir freuen uns sehr über jeden Beitrag.
 
+Neue Funktionen finanzieren wir auch über [Crowdfundings](/de/crowdfunding/).
+
 ## Spendenkonto
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Deutschland
-
-Ort: Haferstr. 5c, 86179 Augsburg, Deutschland
+<BankAccount />
 
 ### Hinweise zum Verwendungszweck
 

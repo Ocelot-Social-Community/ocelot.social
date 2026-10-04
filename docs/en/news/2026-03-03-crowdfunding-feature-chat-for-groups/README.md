@@ -21,14 +21,7 @@ description: "With your donation, you can enable the members of a group to have 
 
 With your donation, you can enable the members of a group to have a shared chat room in the future.
 
-<DonationBar
-  :currentValue="2500"
-  :target="2500"
-  startDate="2026-03-13"
-  endDate="2026-04-12"
-  asOfDate="2026-04-27"
-  extendedUntilDate="2026-04-26"
-/>
+<DonationBar campaign="chat-for-groups" />
 
 ## What it’s about
 
@@ -59,25 +52,13 @@ Since it has no commercial interests, the further development of the software is
 This includes donations from you.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar
-  :currentValue="2500"
-  :target="2500"
-  startDate="2026-03-13"
-  endDate="2026-04-12"
-  asOfDate="2026-04-27"
-  extendedUntilDate="2026-04-26"
-/>
+<DonationBar campaign="chat-for-groups" />
 
 ## Donations
 
 We welcome your donation to:
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Germany
-
-Location: Haferstr. 5c, 86179 Augsburg, Germany
+<BankAccount />
 
 For the purpose of use, see below.
 

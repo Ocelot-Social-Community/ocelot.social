@@ -25,14 +25,7 @@ description: "Enable with your donation that posts can be public or saved as dra
 
 Enable with your donation that posts can be public or saved as drafts.
 
-<DonationBar
-  :currentValue="1770"
-  :target="5500"
-  startDate="2026-08-08"
-  endDate="2026-09-05"
-  asOfDate="2026-09-27"
-  extendedUntilDate="2026-10-04"
-/>
+<DonationBar campaign="public-content" />
 
 ## What it’s about
 
@@ -70,25 +63,13 @@ Since it has no commercial interests, the further development of the software is
 This includes donations from you.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar
-  :currentValue="1770"
-  :target="5500"
-  startDate="2026-08-08"
-  endDate="2026-09-05"
-  asOfDate="2026-09-27"
-  extendedUntilDate="2026-10-04"
-/>
+<DonationBar campaign="public-content" />
 
 ## Donations
 
 We welcome your donation to:
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Germany
-
-Location: Haferstr. 5c, 86179 Augsburg, Germany
+<BankAccount />
 
 For the purpose of use, see below.
 

@@ -43,12 +43,7 @@ Informationen dazu findest du bald hier auf dieser Website.
 
 Auch außerhalb der Crowdfundings kannst du die Weiterentwicklung und Pflege der *ocelot.social*-Software gerne mit deiner Spende unterstützen:
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Deutschland
-
-Ort: Haferstr. 5c, 86179 Augsburg, Deutschland
+<BankAccount />
 
 Verwendungszweck, siehe unten.
 

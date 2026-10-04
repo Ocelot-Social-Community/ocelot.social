@@ -1,5 +1,32 @@
 import { hopeTheme } from 'vuepress-theme-hope'
 
+import { campaignStatus, latestCampaign, toIsoDate } from '../crowdfunding.js'
+
+const CROWDFUNDING_NOTICE = {
+  de: { title: 'Crowdfunding 🪄✨', content: 'Mach mit bei unserem aktuellen Crowdfunding!', more: 'Mehr lesen', dismiss: 'Nein danke' },
+  en: { title: 'Crowdfunding 🪄✨', content: 'Join our current crowdfunding campaign!', more: 'Read more', dismiss: 'No, thanks' },
+  es: { title: 'Financiación colectiva 🪄✨', content: '¡Únete a nuestra campaña de crowdfunding actual!', more: 'Leer más', dismiss: 'No, gracias' },
+  fr: { title: 'Financement participatif 🪄✨', content: 'Participez à notre financement participatif actuel !', more: 'En savoir plus', dismiss: 'Non, merci' },
+}
+
+// Shown on all pages while the latest campaign is running (as of build time).
+// The notice key changes with the campaign, so a dismissed notice reappears
+// for the next one.
+const crowdfundingNotices = () => {
+  if (campaignStatus(latestCampaign, toIsoDate(new Date())) !== 'running') return []
+  return Object.entries(CROWDFUNDING_NOTICE).map(([locale, text]) => ({
+    path: `/${locale}/`,
+    title: text.title,
+    content: text.content,
+    actions: [
+      { text: text.more, link: `/${locale}/crowdfunding/`, type: 'primary' },
+      { text: text.dismiss },
+    ],
+    showOnce: true,
+    noticeKey: `crowdfunding-${latestCampaign.id}`,
+  }))
+}
+
 export default hopeTheme({
   favicon: 'favicon.ico',
   logo: '/logo.svg',
@@ -195,60 +222,7 @@ export default hopeTheme({
   },
   
   plugins: {
-    notice: [
-      {
-        path: "/de/",                 // show on all pages (you can add more entries per path/locale)
-        title: "Crowdfunding 🪄✨",
-        content: "Ermögliche öffentliche Beiträge und Entwürfe. Mach mit bei unserem Crowdfunding!",
-        actions: [
-          { text: "Mehr lesen", link: "/de/news/2026-08-08-crowdfunding-public-content/", type: "primary" },
-          { text: "Nein danke" }
-        ],
-        showOnce: true,            // don’t re-show after it’s closed
-        noticeKey: "crowdfunding-public-content"// bump this when you edit the message
-        // fullscreen: true,       // optional: turn it into a modal
-        // confirm: true           // optional: force clicking an action to close
-      },
-      {
-        path: "/en/",                 // show on all pages (you can add more entries per path/locale)
-        title: "Crowdfunding 🪄✨",
-        content: "Enable public posts and drafts. Join our crowdfunding campaign!",
-        actions: [
-          { text: "Read more", link: "/en/news/2026-08-08-crowdfunding-public-content/", type: "primary" },
-          { text: "No, thanks" }
-        ],
-        showOnce: true,            // don’t re-show after it’s closed
-        noticeKey: "crowdfunding-public-content"// bump this when you edit the message
-        // fullscreen: true,       // optional: turn it into a modal
-        // confirm: true           // optional: force clicking an action to close
-      },
-      {
-        path: "/es/",                 // show on all pages (you can add more entries per path/locale)
-        title: "Financiación colectiva 🪄✨",
-        content: "Permite publicaciones públicas y borradores. ¡Únete a nuestra campaña de crowdfunding!",
-        actions: [
-          { text: "Leer más", link: "/es/news/2026-08-08-crowdfunding-public-content/", type: "primary" },
-          { text: "No, gracias" }
-        ],
-        showOnce: true,            // don’t re-show after it’s closed
-        noticeKey: "crowdfunding-public-content"// bump this when you edit the message
-        // fullscreen: true,       // optional: turn it into a modal
-        // confirm: true           // optional: force clicking an action to close
-      },
-      {
-        path: "/fr/",                 // show on all pages (you can add more entries per path/locale)
-        title: "Financement participatif 🪄✨",
-        content: "Permettez les publications publiques et les brouillons. Participez à notre financement participatif !",
-        actions: [
-          { text: "En savoir plus", link: "/fr/news/2026-08-08-crowdfunding-public-content/", type: "primary" },
-          { text: "Non, merci" }
-        ],
-        showOnce: true,            // don’t re-show after it’s closed
-        noticeKey: "crowdfunding-public-content"// bump this when you edit the message
-        // fullscreen: true,       // optional: turn it into a modal
-        // confirm: true           // optional: force clicking an action to close
-      },
-    ],
+    notice: crowdfundingNotices(),
     blog: {
       excerptLength: 0,
     },

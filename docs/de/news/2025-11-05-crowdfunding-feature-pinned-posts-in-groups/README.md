@@ -22,13 +22,7 @@ description: "Hilf mit deiner Spende, dass Beiträge in Gruppen angepinnt werden
 
 Hilf mit deiner Spende, dass Beiträge in Gruppen angepinnt werden können.
 
-<DonationBar
-  :currentValue="1330"
-  :target="1200"
-  startDate="2025-11-05"
-  endDate="2026-01-02"
-  asOfDate="2026-01-02"
-/>
+<DonationBar campaign="pinned-posts-in-groups" />
 
 ### Worum geht es
 
@@ -57,24 +51,13 @@ Da er keine kommerziellen Interessen verfolgt, wird die Weiterentwicklung der So
 Also auch über eine Spende von dir.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar
-  :currentValue="1330"
-  :target="1200"
-  startDate="2025-11-05"
-  endDate="2026-01-02"
-  asOfDate="2026-01-02"
-/>
+<DonationBar campaign="pinned-posts-in-groups" />
 
 ### Spenden
 
 Wir freuen uns über deine Spende an:
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Deutschland
-
-Ort: Haferstr. 5c, 86179 Augsburg, Deutschland
+<BankAccount />
 
 Verwendungszweck, siehe unten.
 

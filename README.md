@@ -50,6 +50,22 @@ $ npm test:lint
 $ npm test:lint:fix
 ```
 
+## Crowdfunding
+
+All campaign data (target, amount raised, dates) and the bank account live in `docs/.vuepress/crowdfunding.js` — the single source of truth. Titles, descriptions and covers come from the announcement posts. Posts and pages only reference it:
+
+```md
+<DonationBar campaign="public-content" />
+<BankAccount />
+```
+
+- **Weekly update:** set `raised` and `asOf` of the running campaign.
+- **Extension:** set `extendedUntil`.
+- **New campaign:** write the announcement post in all locales (cover must be a `.png`) and prepend an entry to `campaigns`.
+
+The landing page `/<locale>/crowdfunding/` lists the latest campaign and all previous ones, and the site notice is shown automatically while the latest campaign is running (as of build time).
+The latest campaign’s cover is published under a stable URL for external sites: `/crowdfunding/current.png` (German) and `/crowdfunding/current--<locale>.png`.
+
 <!-- ## Deploy
 
 You can use the webhook template `webhook.conf.template` and the `deploy.sh` script in `.github/webhooks/` for an automatic deployment from a (github) webhook.

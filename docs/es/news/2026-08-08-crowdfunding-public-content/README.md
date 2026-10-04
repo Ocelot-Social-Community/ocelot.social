@@ -25,14 +25,7 @@ description: "Permite con tu donación que las publicaciones puedan ser pública
 
 Permite con tu donación que las publicaciones puedan ser públicas o guardarse como borradores.
 
-<DonationBar
-  :currentValue="1770"
-  :target="5500"
-  startDate="2026-08-08"
-  endDate="2026-09-05"
-  asOfDate="2026-09-27"
-  extendedUntilDate="2026-10-04"
-/>
+<DonationBar campaign="public-content" />
 
 ## De qué se trata
 
@@ -70,25 +63,13 @@ Dado que no persigue intereses comerciales, el desarrollo del software se financ
 Es decir, también a través de tu donación.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar
-  :currentValue="1770"
-  :target="5500"
-  startDate="2026-08-08"
-  endDate="2026-09-05"
-  asOfDate="2026-09-27"
-  extendedUntilDate="2026-10-04"
-/>
+<DonationBar campaign="public-content" />
 
 ## Donaciones
 
 Agradecemos tu donación a:
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Alemania
-
-Ubicación: Haferstr. 5c, 86179 Augsburgo, Alemania
+<BankAccount />
 
 Finalidad, véase más abajo.
 

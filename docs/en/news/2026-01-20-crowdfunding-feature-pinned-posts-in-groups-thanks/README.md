@@ -43,12 +43,7 @@ You will find information about this here on this website soon.
 
 Even outside of crowdfunding campaigns, you are welcome to support the further development and maintenance of the *ocelot.social* software with your donation:
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Germany
-
-Location: Haferstr. 5c, 86179 Augsburg, Germany
+<BankAccount />
 
 For the purpose of use, see below.
 
