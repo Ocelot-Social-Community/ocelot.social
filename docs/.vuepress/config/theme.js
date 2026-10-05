@@ -79,6 +79,10 @@ export default hopeTheme({
           link: '/de/learn/' ,
         },
         {
+          text: 'Crowdfunding',
+          link: '/de/crowdfunding/'
+        },
+        {
           text: 'Spenden',
           link: '/de/donate/'
         },
@@ -118,6 +122,10 @@ export default hopeTheme({
         { 
           text: 'Learn',
           link: '/en/learn/' ,
+        },
+        {
+          text: 'Crowdfunding',
+          link: '/en/crowdfunding/'
         },
         {
           text: 'Donate',
@@ -161,6 +169,10 @@ export default hopeTheme({
           link: '/es/learn/' ,
         },
         {
+          text: 'Crowdfunding',
+          link: '/es/crowdfunding/'
+        },
+        {
           text: 'Donar',
           link: '/es/donate/'
         },
@@ -201,6 +213,10 @@ export default hopeTheme({
         { 
           text: 'Apprendre',
           link: '/fr/learn/' ,
+        },
+        {
+          text: 'Financement participatif',
+          link: '/fr/crowdfunding/'
         },
         {
           text: 'Donner',
