@@ -22,13 +22,7 @@ description: "Aidez-nous à épingler des publications dans les groupes grâce �
 
 Aidez-nous à épingler des publications dans les groupes grâce à votre don.
 
-<DonationBar
-  :currentValue="1330"
-  :target="1200"
-  startDate="2025-11-05"
-  endDate="2026-01-02"
-  asOfDate="2026-01-02"
-/>
+<DonationBar campaign="pinned-posts-in-groups" />
 
 ### De quoi s’agit-il ?
 
@@ -57,24 +51,13 @@ Comme elle ne poursuit aucun intérêt commercial, le développement du logiciel
 Donc aussi par vos dons.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar
-  :currentValue="1330"
-  :target="1200"
-  startDate="2025-11-05"
-  endDate="2026-01-02"
-  asOfDate="2026-01-02"
-/>
+<DonationBar campaign="pinned-posts-in-groups" />
 
 ### Dons
 
 Nous serions ravis de recevoir votre don à l’adresse suivante :
 
-busFaktor() e.V.  
-IBAN : DE81 5003 1000 1084 5340 01  
-BIC : TRODDEF1  
-Triodos Bank N.V., Allemagne
-
-Lieu : Haferstr. 5c, 86179 Augsbourg, Allemagne
+<BankAccount />
 
 Motif du paiement, voir ci-dessous.
 

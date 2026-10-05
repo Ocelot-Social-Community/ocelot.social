@@ -5,12 +5,76 @@ import fs from 'node:fs'
 
 import meta from './config/meta'
 import theme from './config/theme'
+import { campaigns, latestCampaign, toIsoDate, validateCampaigns } from './crowdfunding.js'
 
 const __dirname = getDirname(import.meta.url)
 const docsDir = path.resolve(__dirname, '..')
 
 const FALLBACK_LOCALE = 'en'
 const OTHER_LOCALES = ['de', 'es', 'fr']
+const DEFAULT_LOCALE = 'de'
+
+// ---------------------------------------------------------------------------
+// Crowdfunding: enrich the campaigns from `crowdfunding.js` with title,
+// description and cover of their announcement posts per locale, and publish
+// the latest campaign's cover under a stable URL for external sites:
+// `/crowdfunding/current.png` (default locale) and
+// `/crowdfunding/current--<locale>.png`.
+// ---------------------------------------------------------------------------
+const crowdfundingPlugin = () => {
+  const locales = [FALLBACK_LOCALE, ...OTHER_LOCALES]
+  const findPage = (app, locale, slug) => {
+    const pagePath = `/${locale}/news/${slug}/`
+    const page = app.pages.find((p) => p.path === pagePath)
+    if (!page) throw new Error(`[crowdfunding] Post not found: ${pagePath}`)
+    return page
+  }
+
+  return {
+    name: 'crowdfunding',
+    onInitialized() {
+      validateCampaigns()
+    },
+    async onPrepared(app) {
+      const data = {
+        builtAt: toIsoDate(new Date()),
+        campaigns: campaigns.map((campaign) => ({
+          ...campaign,
+          locales: Object.fromEntries(
+            locales.map((locale) => {
+              const page = findPage(app, locale, campaign.post)
+              const thanksPage = campaign.thanksPost && findPage(app, locale, campaign.thanksPost)
+              return [
+                locale,
+                {
+                  title: page.title,
+                  description: page.frontmatter.description || '',
+                  cover: page.frontmatter.cover || null,
+                  path: page.path,
+                  thanksPath: thanksPage ? thanksPage.path : null,
+                },
+              ]
+            }),
+          ),
+        })),
+      }
+      await app.writeTemp('crowdfunding.campaigns.json', JSON.stringify(data, null, 2))
+    },
+    onGenerated(app) {
+      const targetDir = app.dir.dest('crowdfunding')
+      fs.mkdirSync(targetDir, { recursive: true })
+      for (const locale of locales) {
+        const { cover } = findPage(app, locale, latestCampaign.post).frontmatter
+        if (!cover || path.extname(cover) !== '.png') {
+          throw new Error(`[crowdfunding] Cover of "${latestCampaign.post}" (${locale}) must be a .png, received: ${cover}`)
+        }
+        const source = app.dir.dest(cover.replace(/^\//, ''))
+        fs.copyFileSync(source, path.resolve(targetDir, `current--${locale}.png`))
+        if (locale === DEFAULT_LOCALE) fs.copyFileSync(source, path.resolve(targetDir, 'current.png'))
+      }
+    },
+  }
+}
 
 // ---------------------------------------------------------------------------
 // Before VuePress starts: for EN articles missing in other locales, create
@@ -133,5 +197,6 @@ export default defineUserConfig({
         await app.writeTemp("mini-blog.articles.json", JSON.stringify(rows, null, 2));
       },
     },
+    crowdfundingPlugin(),
   ],
 })

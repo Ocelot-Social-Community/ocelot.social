@@ -21,14 +21,7 @@ description: "Ermögliche mit deiner Spende, dass zukünftig die Mitglieder eine
 
 Ermögliche mit deiner Spende, dass zukünftig die Mitglieder einer Gruppe einen gemeinsamen Chatraum haben.
 
-<DonationBar
-  :currentValue="2500"
-  :target="2500"
-  startDate="2026-03-13"
-  endDate="2026-04-12"
-  asOfDate="2026-04-27"
-  extendedUntilDate="2026-04-26"
-/>
+<DonationBar campaign="chat-for-groups" />
 
 ## Worum geht es
 
@@ -59,25 +52,13 @@ Da er keine kommerziellen Interessen verfolgt, wird die Weiterentwicklung der So
 Also auch über eine Spende von dir.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar
-  :currentValue="2500"
-  :target="2500"
-  startDate="2026-03-13"
-  endDate="2026-04-12"
-  asOfDate="2026-04-27"
-  extendedUntilDate="2026-04-26"
-/>
+<DonationBar campaign="chat-for-groups" />
 
 ## Spenden
 
 Wir freuen uns über deine Spende an:
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Deutschland
-
-Ort: Haferstr. 5c, 86179 Augsburg, Deutschland
+<BankAccount />
 
 Verwendungszweck, siehe unten.
 

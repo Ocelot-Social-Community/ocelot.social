@@ -25,14 +25,7 @@ description: "Ermögliche mit deiner Spende, dass Beiträge öffentlich sein ode
 
 Ermögliche mit deiner Spende, dass Beiträge öffentlich sein oder als Entwurf gespeichert werden können.
 
-<DonationBar
-  :currentValue="1770"
-  :target="5500"
-  startDate="2026-08-08"
-  endDate="2026-09-05"
-  asOfDate="2026-09-27"
-  extendedUntilDate="2026-10-04"
-/>
+<DonationBar campaign="public-content" />
 
 ## Worum geht es?
 
@@ -70,25 +63,13 @@ Da er keine kommerziellen Interessen verfolgt, wird die Weiterentwicklung der So
 Also auch über eine Spende von dir.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar
-  :currentValue="1770"
-  :target="5500"
-  startDate="2026-08-08"
-  endDate="2026-09-05"
-  asOfDate="2026-09-27"
-  extendedUntilDate="2026-10-04"
-/>
+<DonationBar campaign="public-content" />
 
 ## Spenden
 
 Wir freuen uns über deine Spende an:
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Deutschland
-
-Ort: Haferstr. 5c, 86179 Augsburg, Deutschland
+<BankAccount />
 
 Verwendungszweck, siehe unten.
 

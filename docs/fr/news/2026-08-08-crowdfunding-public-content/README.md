@@ -25,14 +25,7 @@ description: "Permettez avec votre don que les publications puissent être publi
 
 Permettez avec votre don que les publications puissent être publiques ou sauvegardées comme brouillons.
 
-<DonationBar
-  :currentValue="1770"
-  :target="5500"
-  startDate="2026-08-08"
-  endDate="2026-09-05"
-  asOfDate="2026-09-27"
-  extendedUntilDate="2026-10-04"
-/>
+<DonationBar campaign="public-content" />
 
 ## De quoi s’agit-il ?
 
@@ -70,25 +63,13 @@ Comme elle ne poursuit aucun intérêt commercial, le développement du logiciel
 Donc aussi par votre don.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar
-  :currentValue="1770"
-  :target="5500"
-  startDate="2026-08-08"
-  endDate="2026-09-05"
-  asOfDate="2026-09-27"
-  extendedUntilDate="2026-10-04"
-/>
+<DonationBar campaign="public-content" />
 
 ## Dons
 
 Nous serions ravis de recevoir votre don à l’adresse suivante :
 
-busFaktor() e.V.  
-IBAN : DE81 5003 1000 1084 5340 01  
-BIC : TRODDEF1  
-Triodos Bank N.V., Allemagne
-
-Lieu : Haferstr. 5c, 86179 Augsbourg, Allemagne
+<BankAccount />
 
 Motif du paiement, voir ci-dessous.
 

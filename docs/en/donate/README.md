@@ -13,14 +13,11 @@ The association [busFaktor() e.V.](https://busfaktor.org/en/) coordinates and pr
 You can support this project with a one-off or recurrent donation.
 We are very happy about every contribution.
 
+We also finance new features through [crowdfunding campaigns](/en/crowdfunding/).
+
 ## Account for Donations
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Germany
-
-Location: Haferstr. 5c, 86179 Augsburg, Germany
+<BankAccount />
 
 ### Notes on intended use
 

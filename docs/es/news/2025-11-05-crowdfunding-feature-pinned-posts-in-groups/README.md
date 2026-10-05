@@ -22,13 +22,7 @@ description: "Ayuda con tu donación a que las publicaciones se puedan anclar en
 
 Ayuda con tu donación a que las publicaciones se puedan anclar en los grupos.
 
-<DonationBar
-  :currentValue="1330"
-  :target="1200"
-  startDate="2025-11-05"
-  endDate="2026-01-02"
-  asOfDate="2026-01-02"
-/>
+<DonationBar campaign="pinned-posts-in-groups" />
 
 ### De qué se trata
 
@@ -57,24 +51,13 @@ Dado que no persigue intereses comerciales, el desarrollo del software se financ
 Es decir, también a través de tu donación.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar
-  :currentValue="1330"
-  :target="1200"
-  startDate="2025-11-05"
-  endDate="2026-01-02"
-  asOfDate="2026-01-02"
-/>
+<DonationBar campaign="pinned-posts-in-groups" />
 
 ### Donaciones
 
 Agradecemos tu donación a:
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Alemania
-
-Ubicación: Haferstr. 5c, 86179 Augsburgo, Alemania
+<BankAccount />
 
 Finalidad, véase más abajo.
 

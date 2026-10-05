@@ -21,14 +21,7 @@ description: "Grâce à votre don, permettez aux membres d'un groupe d'avoir à 
 
 Grâce à votre don, permettez aux membres d’un groupe d’avoir à l’avenir une salle de chat commune.
 
-<DonationBar
-  :currentValue="2500"
-  :target="2500"
-  startDate="2026-03-13"
-  endDate="2026-04-12"
-  asOfDate="2026-04-27"
-  extendedUntilDate="2026-04-26"
-/>
+<DonationBar campaign="chat-for-groups" />
 
 ## De quoi s’agit-il ?
 
@@ -59,25 +52,13 @@ Comme elle ne poursuit aucun intérêt commercial, le développement du logiciel
 Donc aussi par votre don.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar
-  :currentValue="2500"
-  :target="2500"
-  startDate="2026-03-13"
-  endDate="2026-04-12"
-  asOfDate="2026-04-27"
-  extendedUntilDate="2026-04-26"
-/>
+<DonationBar campaign="chat-for-groups" />
 
 ### Dons
 
 Nous serions ravis de recevoir votre don à l’adresse suivante :
 
-busFaktor() e.V.  
-IBAN : DE81 5003 1000 1084 5340 01  
-BIC : TRODDEF1  
-Triodos Bank N.V., Allemagne
-
-Lieu : Haferstr. 5c, 86179 Augsbourg, Allemagne
+<BankAccount />
 
 Motif du paiement, voir ci-dessous.
 

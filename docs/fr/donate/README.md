@@ -13,14 +13,11 @@ L’association [busFaktor() e.V. (en anglais)](https://busfaktor.org/en/) coord
 Tu peux soutenir ce projet par un don unique ou permanent.
 Nous sommes très heureux de chaque contribution.
 
+Nous finançons aussi de nouvelles fonctionnalités par des [campagnes de financement participatif](/fr/crowdfunding/).
+
 ## Compte de dons
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Allemagne
-
-Lieu: Haferstr. 5c, 86179 Augsbourg, Allemagne
+<BankAccount />
 
 ### Remarques sur l’usage prévu
 

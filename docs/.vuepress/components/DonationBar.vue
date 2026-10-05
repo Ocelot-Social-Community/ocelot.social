@@ -1,6 +1,6 @@
 <template>
   <!-- similar to markdown "### X" -->
-  <h3 id="current-donation-total" tabindex="-1">
+  <h3 v-if="showTitle" id="current-donation-total" tabindex="-1">
     <a class="header-anchor" href="#current-donation-total">
       <span>{{ title }}</span>
     </a>
@@ -15,7 +15,7 @@
     {{ asOfDateStr }}
     <br/>
     {{ timeFrameStr }}
-    <template v-if="props.extendedUntilDate">
+    <template v-if="data.extendedUntilDate">
       <br/>
       <strong class="extended-notice">{{ extendedUntilDateStr }}</strong>
     </template>
@@ -26,106 +26,70 @@
 import { computed } from "vue"
 import { usePageLang, useRouteLocale } from "vuepress/client"
 
+import { findCampaign } from "../crowdfunding.js"
+
 const stripSlashes = s => s.replace(/^\/+|\/+$/g, '');
 
 const locale = stripSlashes(useRouteLocale().value) || 'de'
 const lang = usePageLang().value || 'de-DE'
 
-const throwError = (message) => {
-  console.error(message)
-  throw new Error(message)
-}
-
 const props = defineProps({
-  currentValue: {
-    type: Number,
-    required: true
-  },
-  target: {
-    type: Number,
-    required: true
-  },
-  startDate: {
+  // id of a campaign in crowdfunding.js
+  campaign: {
     type: String,
     required: true
   },
-  endDate: {
-    type: String,
-    required: true
-  },
-  asOfDate: {
-    type: String,
-    required: true
-  },
-  extendedUntilDate: {
-    type: String,
-    default: null
+  showTitle: {
+    type: Boolean,
+    default: true
   },
 })
 
-if (!isFinite(props.currentValue)) {
-  throwError(`[DonationBar] Prop "currentValue" must be a finite number, received: ${props.currentValue}`)
-}
-if (props.currentValue < 0) {
-  throwError(`[DonationBar] Prop "currentValue" must be >= 0, received: ${props.currentValue}`)
-}
-
-if (!isFinite(props.target)) {
-  throwError(`[DonationBar] Prop "target" must be a finite number, received: ${props.target}`)
-}
-if (props.target <= 0) {
-  throwError(`[DonationBar] Prop "target" must be > 0, received: ${props.target}`)
-}
-
-const ISO_DATE_REGEX = /^\d{4}-\d{2}-\d{2}$/
-
-const validateDate = (value, propName) => {
-  if (!ISO_DATE_REGEX.test(value)) {
-    throwError(`[DonationBar] Prop "${propName}" must be in ISO 8601 format (YYYY-MM-DD), received: ${value}`)
+const data = computed(() => {
+  const c = findCampaign(props.campaign)
+  return {
+    currentValue: c.raised,
+    target: c.target,
+    startDate: c.start,
+    endDate: c.end,
+    asOfDate: c.asOf,
+    extendedUntilDate: c.extendedUntil || null,
   }
-  if (isNaN(new Date(value).getTime())) {
-    throwError(`[DonationBar] Prop "${propName}" has invalid date value: ${value}`)
-  }
-}
-
-validateDate(props.startDate, 'startDate')
-validateDate(props.endDate, 'endDate')
-validateDate(props.asOfDate, 'asOfDate')
-if (props.extendedUntilDate) validateDate(props.extendedUntilDate, 'extendedUntilDate')
+})
 
 const title = computed(() => {
   switch (locale) {
     case 'de':
-      return 'Aktueller Spendenstand — Ziel: ' + props.target.toLocaleString(lang) + ' €' // &thinsp;€
+      return 'Aktueller Spendenstand — Ziel: ' + data.value.target.toLocaleString(lang) + ' €' // &thinsp;€
     case 'en':
-      return 'Current donation total — Target: ' + props.target.toLocaleString(lang) + ' €' // &thinsp;€
+      return 'Current donation total — Target: ' + data.value.target.toLocaleString(lang) + ' €' // &thinsp;€
     case 'es':
-      return 'Saldo actual de donaciones — Objetivo: ' + props.target.toLocaleString(lang) + ' €' // &thinsp;€
+      return 'Saldo actual de donaciones — Objetivo: ' + data.value.target.toLocaleString(lang) + ' €' // &thinsp;€
     case 'fr':
-      return 'Montant actuel des dons — Objectif : ' + props.target.toLocaleString(lang) + ' €' // &thinsp;€
+      return 'Montant actuel des dons — Objectif : ' + data.value.target.toLocaleString(lang) + ' €' // &thinsp;€
   }
 })
 const currentValueStr = computed(() => {
-  return props.currentValue.toLocaleString(lang) + ' €' // &thinsp;€
+  return data.value.currentValue.toLocaleString(lang) + ' €' // &thinsp;€
 })
-const barWidthStr = computed(() => Math.min((props.currentValue / props.target) * 100, 100) + '%')
-const isSmall = computed(() => props.currentValue / props.target < 0.2)
+const barWidthStr = computed(() => Math.min((data.value.currentValue / data.value.target) * 100, 100) + '%')
+const isSmall = computed(() => data.value.currentValue / data.value.target < 0.2)
 const dateFormat = { year: "numeric", month: "long", day: "numeric" }
 const asOfDateStr = computed(() => {
   switch (locale) {
     case 'de':
-      return 'Stand ' + new Date(props.asOfDate).toLocaleDateString(lang, dateFormat) + ', wird wöchentlich aktualisiert.'
+      return 'Stand ' + new Date(data.value.asOfDate).toLocaleDateString(lang, dateFormat) + ', wird wöchentlich aktualisiert.'
     case 'en':
-      return 'As of ' + new Date(props.asOfDate).toLocaleDateString(lang, dateFormat) + ', updated weekly.'
+      return 'As of ' + new Date(data.value.asOfDate).toLocaleDateString(lang, dateFormat) + ', updated weekly.'
     case 'es':
-      return 'Situación a ' + new Date(props.asOfDate).toLocaleDateString(lang, dateFormat) + ', se actualiza semanalmente.'
+      return 'Situación a ' + new Date(data.value.asOfDate).toLocaleDateString(lang, dateFormat) + ', se actualiza semanalmente.'
     case 'fr':
-      return 'Situation au ' + new Date(props.asOfDate).toLocaleDateString(lang, dateFormat) + ', mise à jour hebdomadaire.'
+      return 'Situation au ' + new Date(data.value.asOfDate).toLocaleDateString(lang, dateFormat) + ', mise à jour hebdomadaire.'
   }
 })
 const extendedUntilDateStr = computed(() => {
-  if (!props.extendedUntilDate) return ''
-  const date = new Date(props.extendedUntilDate).toLocaleDateString(lang, dateFormat)
+  if (!data.value.extendedUntilDate) return ''
+  const date = new Date(data.value.extendedUntilDate).toLocaleDateString(lang, dateFormat)
   switch (locale) {
     case 'de': return '⚠️ Verlängert bis ' + date + '.'
     case 'en': return '⚠️ Extended until ' + date + '.'
@@ -136,13 +100,13 @@ const extendedUntilDateStr = computed(() => {
 const timeFrameStr = computed(() => {
   switch (locale) {
     case 'de':
-      return 'Das Crowdfunding läuft vom ' + new Date(props.startDate).toLocaleDateString(lang, dateFormat) + ' bis ' + new Date(props.endDate).toLocaleDateString(lang, dateFormat) + '.'
+      return 'Das Crowdfunding läuft vom ' + new Date(data.value.startDate).toLocaleDateString(lang, dateFormat) + ' bis ' + new Date(data.value.endDate).toLocaleDateString(lang, dateFormat) + '.'
     case 'en':
-      return 'The crowdfunding campaign will run from ' + new Date(props.startDate).toLocaleDateString(lang, dateFormat) + ', to ' + new Date(props.endDate).toLocaleDateString(lang, dateFormat) + '.'
+      return 'The crowdfunding campaign will run from ' + new Date(data.value.startDate).toLocaleDateString(lang, dateFormat) + ', to ' + new Date(data.value.endDate).toLocaleDateString(lang, dateFormat) + '.'
     case 'es':
-      return 'La campaña de crowdfunding estará activa desde el ' + new Date(props.startDate).toLocaleDateString(lang, dateFormat) + ' hasta el ' + new Date(props.endDate).toLocaleDateString(lang, dateFormat) + '.'
+      return 'La campaña de crowdfunding estará activa desde el ' + new Date(data.value.startDate).toLocaleDateString(lang, dateFormat) + ' hasta el ' + new Date(data.value.endDate).toLocaleDateString(lang, dateFormat) + '.'
     case 'fr':
-      return 'Le financement participatif se déroulera du ' + new Date(props.startDate).toLocaleDateString(lang, dateFormat) + ' au ' + new Date(props.endDate).toLocaleDateString(lang, dateFormat) + '.'
+      return 'Le financement participatif se déroulera du ' + new Date(data.value.startDate).toLocaleDateString(lang, dateFormat) + ' au ' + new Date(data.value.endDate).toLocaleDateString(lang, dateFormat) + '.'
   }
 })
 </script>

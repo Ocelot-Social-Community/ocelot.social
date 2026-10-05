@@ -22,13 +22,7 @@ description: "Help with your donation, toenable pinning posts in groups."
 
 Help enable pinning posts in groups with your donation.
 
-<DonationBar
-  :currentValue="1330"
-  :target="1200"
-  startDate="2025-11-05"
-  endDate="2026-01-02"
-  asOfDate="2026-01-02"
-/>
+<DonationBar campaign="pinned-posts-in-groups" />
 
 ### What it’s about
 
@@ -57,24 +51,13 @@ Since it has no commercial interests, the further development of the software is
 This includes donations from you.
 
 <!-- markdownlint-disable no-duplicate-heading -->
-<DonationBar
-  :currentValue="1330"
-  :target="1200"
-  startDate="2025-11-05"
-  endDate="2026-01-02"
-  asOfDate="2026-01-02"
-/>
+<DonationBar campaign="pinned-posts-in-groups" />
 
 ### Donations
 
 We welcome your donation to:
 
-busFaktor() e.V.  
-IBAN: DE81 5003 1000 1084 5340 01  
-BIC: TRODDEF1  
-Triodos Bank N.V., Germany
-
-Location: Haferstr. 5c, 86179 Augsburg, Germany
+<BankAccount />
 
 For the purpose of use, see below.
 
