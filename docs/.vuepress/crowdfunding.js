@@ -25,8 +25,8 @@ export const campaigns = [
     raised: 1770,
     start: '2026-08-08',
     end: '2026-09-05',
-    extendedUntil: '2026-10-04',
-    asOf: '2026-09-27',
+    extendedUntil: '2026-10-18',
+    asOf: '2026-10-06',
   },
   {
     id: 'chat-for-groups',
