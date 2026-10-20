@@ -22,7 +22,7 @@ description: "Avec ocelot.social 3.21 « Pack Leader », chaque groupe reçoit s
 
 Avec *ocelot.social* 3.21 « Pack Leader », de simples noms de rôles deviennent un véritable système de droits pour les groupes. Ce que la version 3.20 avait déjà préparé est désormais entièrement câblé : dans chaque groupe, ce ne sont plus les noms de rôles ou le type de groupe qui décident, mais des droits concrets, attribués individuellement. 💚
 
-Tu trouveras le détail dans cet article, y compris les corrections de la version 3.21.1, sortie juste après.
+Tu trouveras le détail dans cet article, y compris les corrections des versions 3.21.1 et 3.21.2, sorties juste après.
 
 ## En vedette : la gestion des droits de groupe
 
@@ -58,7 +58,7 @@ Merci d’annoncer ce changement à ta communauté et d’orienter les personnes
 
 Par ailleurs : un rôle d’administration personnalisé sans les droits de participation d’une personne utilisatrice ordinaire (par exemple, un rôle qui ne peut que supprimer des comptes) ne pouvait auparavant agir sur personne. La hiérarchie entre personnes utilisatrices est désormais classée uniquement selon le niveau d’autorité, et un refus en indique la raison.
 
-## Corrections de la 3.20.0 à la 3.21.1
+## Corrections de la 3.20.0 à la 3.21.2
 
 - Les lieux au nom traduit n’étaient à tort plus acceptés dans une interface non anglaise
 - Les aperçus de liens sans image fonctionnent de nouveau
@@ -66,6 +66,12 @@ Par ailleurs : un rôle d’administration personnalisé sans les droits de part
 - Une erreur serveur s’affichait à tort en visitant des pages sans le droit nécessaire
 - L’indication concernant un droit de groupe plafonné par le réseau nomme désormais le droit réseau manquant
 - Une page de groupe suit désormais un changement des droits réseau de la personne qui la consulte, sans rechargement
+- Deux corrections sur les nouveaux droits de groupe : les droits réseau ne s’appliquent dans un groupe qu’après y être « entré », et un rôle disposant de `role.manage` ne peut désormais gérer que les rôles qu’il surclasse ou possède
+- Plusieurs lacunes dans les notifications corrigées : les membres et partenaires de discussion sans adresse e-mail reçoivent de nouveau leurs notifications, une personne qui a cessé de suivre sa propre publication entend malgré tout parler des mentions dans ses commentaires, et les nouvelles publications d’un groupe ou de personnes suivies arrivent désormais en direct dans le menu de notifications
+- Le blocage est désormais plus fiable : il met fin automatiquement au suivi mutuel, les personnes bloquées ne reçoivent plus de notification pour les nouvelles publications, et suivre à nouveau attend la levée du blocage
+- L’inscription et les événements enregistrent désormais le lieu réellement sélectionné, au lieu de reprendre automatiquement le premier résultat de recherche Mapbox
+- Un appel vidéo que tout le monde a quitté reste désormais correctement à 0 participant
+- Quelques corrections plus modestes : le « afficher plus » des descriptions de groupe, le filtre de notifications redémarre sur la première page, et un avatar nouvellement importé apparaît immédiatement dans le menu
 
 ## Sous le capot
 
@@ -75,6 +81,8 @@ Par ailleurs : un rôle d’administration personnalisé sans les droits de part
 - Les suggestions de mentions et de hashtags sont interrogées pendant la saisie, au lieu d’être toutes chargées à l’avance
 - La CI sur master est ignorée lorsque la file de fusion a déjà testé ce même commit
 - Les images de base Docker Hub passent désormais par `mirror.gcr.io` au lieu d’être récupérées directement
+- La webapp sert désormais le CSS sous forme de fichiers mis en cache au lieu de l’intégrer dans chaque page, ce qui raccourcit les temps de chargement
+- Le service worker charge désormais Workbox depuis l’origine propre de l’instance plutôt que depuis jsdelivr, et la production ne sert plus de page d’accueil GraphQL : les deux réduisent ce qui est chargé depuis des tiers
 
 ## Pour les développeurs
 
@@ -93,7 +101,7 @@ Si tu fais tourner ton propre client contre l’API, la suppression de `groupTyp
 
 ## Journal des modifications complet
 
-Tu trouveras tous les détails dans le [journal des modifications](https://github.com/Ocelot-Social-Community/Ocelot-Social/blob/master/CHANGELOG.md), ainsi que dans les notes de version de la [3.21.0](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.0) et de la [3.21.1](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.1).
+Tu trouveras tous les détails dans le [journal des modifications](https://github.com/Ocelot-Social-Community/Ocelot-Social/blob/master/CHANGELOG.md), ainsi que dans les notes de version de la [3.21.0](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.0), de la [3.21.1](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.1) et de la [3.21.2](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.2).
 
 ## Et ensuite ?
 
