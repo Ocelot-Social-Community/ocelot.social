@@ -22,7 +22,7 @@ description: "Mit ocelot.social 3.21 „Pack Leader” bekommt jede Gruppe ein e
 
 Mit *ocelot.social* 3.21 „Pack Leader” wird aus losen Rollen-Namen ein echtes Rechtesystem für Gruppen. Was die Version 3.20 bereits vorbereitet hat, ist jetzt vollständig verdrahtet: In jeder Gruppe entscheiden nicht mehr Rollen-Namen oder der Gruppentyp, sondern konkrete, einzeln vergebene Rechte. 💚
 
-Die Details findest du in diesem Beitrag, inklusive der Korrekturen aus dem direkt nachgeschobenen Release 3.21.1.
+Die Details findest du in diesem Beitrag, inklusive der Korrekturen aus den direkt nachgeschobenen Releases 3.21.1 und 3.21.2.
 
 ## Highlight: Gruppenrechteverwaltung
 
@@ -58,7 +58,7 @@ Bitte kündige das deiner Community an und verweise auf *Einstellungen → Daten
 
 Außerdem: Eine benutzerdefinierte Admin-Rolle ohne die Teilnahme-Rechte eines gewöhnlichen Nutzers (zum Beispiel eine, die nur Konten löschen darf) konnte bisher gegen niemanden mehr etwas tun. Die Rangfolge zwischen Nutzern richtet sich jetzt ausschließlich nach Befugnis, und eine Ablehnung nennt den Grund.
 
-## Fehlerkorrekturen in 3.20.0 bis 3.21.1
+## Fehlerkorrekturen in 3.20.0 bis 3.21.2
 
 - Orte mit übersetztem Namen wurden in einer nicht-englischen Oberfläche fälschlich abgelehnt.
 - Linkvorschauen ohne Bild funktionieren wieder.
@@ -66,6 +66,12 @@ Außerdem: Eine benutzerdefinierte Admin-Rolle ohne die Teilnahme-Rechte eines g
 - Fälschlich angezeigter Server-Fehler beim Besuch von Seiten bei fehlender Berechtigung.
 - Der Hinweis zu einem vom Netzwerk begrenzten Gruppenrecht nennt jetzt das fehlende Netzwerkrecht.
 - Eine Gruppenseite reagiert jetzt ohne Neuladen auf eine Änderung der Netzwerkrechte des Betrachters.
+- Zwei Fehler bei den neuen Gruppenrechten behoben: Netzwerkrechte wirken in einer Gruppe erst nach dem „Einsteigen”, und eine Rolle mit dem Recht `role.manage` kann nur noch Rollen verwalten, die ihr untergeordnet sind oder ihr gehören.
+- Mehrere Benachrichtigungslücken geschlossen: Mitglieder und Chatpartner ohne E-Mail-Adresse erhalten ihre Benachrichtigungen wieder, wer eine eigene Diskussion nicht mehr beobachtet hört trotzdem von Erwähnungen in deren Kommentaren, und neue Beiträge in Gruppen und von gefolgten Personen erscheinen jetzt live im Benachrichtigungsmenü.
+- Blockieren funktioniert jetzt zuverlässiger: beendet automatisch das gegenseitige Folgen, blockierte Personen erhalten keine Benachrichtigungen über neue Beiträge mehr, und ein erneutes Folgen wartet auf die Entblockung.
+- Registrierung und Veranstaltungen speichern jetzt den tatsächlich ausgewählten Ort, statt automatisch das erste Mapbox-Suchergebnis zu übernehmen.
+- Ein Videoanruf, den alle verlassen haben, bleibt jetzt korrekt bei 0 Teilnehmern.
+- Weitere kleinere Korrekturen: „mehr anzeigen” bei Gruppenbeschreibungen, der Benachrichtigungsfilter startet wieder auf der ersten Seite, und ein neu hochgeladenes Profilbild erscheint sofort im Menü.
 
 ## Unter der Haube
 
@@ -75,6 +81,8 @@ Außerdem: Eine benutzerdefinierte Admin-Rolle ohne die Teilnahme-Rechte eines g
 - Erwähnungs- und Hashtag-Vorschläge werden während des Tippens abgefragt statt vorab komplett geladen zu werden.
 - Continuous Integration (CI) auf `master` wird übersprungen, wo die Merge-Queue denselben Commit bereits getestet hat.
 - Docker-Hub-Basis-Images laufen jetzt über `mirror.gcr.io` statt direkt.
+- Die Webapp liefert CSS jetzt als zwischenspeicherbare Dateien statt es auf jeder Seite einzubetten – das verkürzt die Ladezeit.
+- Der Service Worker lädt Workbox jetzt von der eigenen Instanz statt von jsdelivr, und in Produktion gibt es keine GraphQL-Startseite mehr – beides lädt weniger von Drittanbietern nach.
 
 ## Für Entwickler
 
@@ -93,7 +101,7 @@ Wenn du einen eigenen Client gegen die API betreibst, sind die Entfernung von `g
 
 ## Vollständiges Änderungsprotokoll
 
-Alle Details findest du im [Changelog](https://github.com/Ocelot-Social-Community/Ocelot-Social/blob/master/CHANGELOG.md) sowie in den Release-Notes zu [3.21.0](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.0) und [3.21.1](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.1).
+Alle Details findest du im [Changelog](https://github.com/Ocelot-Social-Community/Ocelot-Social/blob/master/CHANGELOG.md) sowie in den Release-Notes zu [3.21.0](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.0), [3.21.1](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.1) und [3.21.2](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.2).
 
 ## Was kommt als Nächstes?
 

@@ -22,7 +22,7 @@ description: "With ocelot.social 3.21 “Pack Leader”, every group gets its ow
 
 With *ocelot.social* 3.21 “Pack Leader”, loose role names become an actual rights system for groups. What version 3.20 already prepared is now fully wired up: inside every group, it’s no longer role names or the group type that decide what you can do, but concrete, individually granted rights. 💚
 
-You’ll find the details in this post, including the fixes from the follow-up release 3.21.1, which landed right after.
+You’ll find the details in this post, including the fixes from the follow-up releases 3.21.1 and 3.21.2, which landed right after.
 
 ## Highlight: Group Rights Management
 
@@ -58,7 +58,7 @@ Please announce this to your community and point users to *Settings → Privacy*
 
 Also: a custom admin role without the participation rights of a plain user (say, one that may only delete accounts) could previously act on nobody. The hierarchy between users is now ranked by authority only, and a refusal now says why.
 
-## Fixes in 3.20.0 through 3.21.1
+## Fixes in 3.20.0 through 3.21.2
 
 - Places with a translated name were wrongly refused in a non-English UI.
 - Link previews without an image work again.
@@ -66,6 +66,12 @@ Also: a custom admin role without the participation rights of a plain user (say,
 - A server error wrongly shown when visiting pages without the required permission.
 - The hint for a group right the network caps now names the missing network right.
 - A group page now follows a change to the viewer’s network rights without a reload.
+- Two fixes to the new group rights: network rights now only take effect in a group after “stepping into” it, and a role holding `role.manage` can now only manage roles it outranks or owns.
+- Several notification gaps closed: members and chat partners without an e-mail address get their notifications again, a post author who stopped observing their own post still hears about mentions in its comments, and new posts in a group and from people you follow now reach the notification menu live.
+- Blocking is now more reliable: it ends following in both directions automatically, blocked people no longer get notified about new posts, and following again waits for an unblock.
+- Registration and events now store the place you actually picked, instead of automatically taking Mapbox’s top search result.
+- A video call that everybody has left now correctly stays at 0 participants.
+- A few smaller fixes: “show more” on group descriptions, the notifications filter starts on the first page again, and a newly uploaded avatar shows up in the menu right away.
 
 ## Under the Hood
 
@@ -75,6 +81,8 @@ Also: a custom admin role without the participation rights of a plain user (say,
 - Mention and hashtag suggestions are queried while typing instead of being fully loaded up front.
 - Continuous integration (CI) on `master` is skipped where the merge queue already tested the same commit.
 - Docker Hub base images now go through `mirror.gcr.io` instead of being pulled directly.
+- The webapp now serves CSS as cacheable files instead of inlining it on every page – shortening load times.
+- The service worker now loads Workbox from the instance’s own origin instead of jsdelivr, and production no longer serves a GraphQL landing page – both load less from third parties.
 
 ## For Developers
 
@@ -93,7 +101,7 @@ If you run your own client against the API, the removal of `groupType` and the n
 
 ## Full Changelog
 
-You’ll find all the details in the [changelog](https://github.com/Ocelot-Social-Community/Ocelot-Social/blob/master/CHANGELOG.md), as well as in the release notes for [3.21.0](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.0) and [3.21.1](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.1).
+You’ll find all the details in the [changelog](https://github.com/Ocelot-Social-Community/Ocelot-Social/blob/master/CHANGELOG.md), as well as in the release notes for [3.21.0](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.0), [3.21.1](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.1) and [3.21.2](https://github.com/Ocelot-Social-Community/Ocelot-Social/releases/tag/3.21.2).
 
 ## What’s Next?
 
