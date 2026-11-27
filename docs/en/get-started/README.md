@@ -21,7 +21,7 @@ You can host *ocelot.social* yourself.
 To do this, you need extensive IT expertise.
 If you have any questions, we at [busFaktor() e.V.](https://busfaktor.org/en/) will be happy to help you.
 
-Further information at → [Installation](#installation)
+Further information at → [Installation](#install-it-yourself)
 
 ### Have it hosted
 

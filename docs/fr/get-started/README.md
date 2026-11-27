@@ -21,7 +21,7 @@ Tu peux héberger toi-même Ocelot.social.
 Pour ce faire, il faut une grande expertise informatique.
 Si tu as des questions, [busFaktor() e.V. (en anglais)](https://busfaktor.org/en/) se fera un plaisir de t’aider.
 
-Plus d’informations sur → [Installation (en anglais)](#installation)
+Plus d’informations sur → [Installation (en anglais)](#l-installer-soi-meme)
 
 ### Faire héberger le logiciel
 

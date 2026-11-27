@@ -2,6 +2,7 @@
 home: true
 article: false
 icon: home
+sidebar: false
 lang: en-US
 title: Ocelot.Social - Free software for your social network
 description: A free and open source software with which you can operate a social network for your group - scalable, expandable and also for self-hosting.

@@ -22,7 +22,7 @@ description: "La version 3.18.0 apporte des améliorations et des nouveautés po
 
 La version 3.18.0 apporte des améliorations et des nouveautés pour les utilisateurs et les opérateurs de réseaux ocelot.social. Les utilisateurs obtiennent une liste de leurs groupes sur leur page de profil et de meilleures indications pour créer des publications. Les opérateurs peuvent désormais configurer des fonctionnalités et des aspects de l’apparence de leur réseau directement.
 
-Vous trouverez ici plus d’informations sur les nouveautés, avec un point fort pour les opérateurs de réseau.
+Vous trouverez ici plus d’informations sur les nouveautés, avec un [point fort](#point-fort-le-nouveau-systeme-de-branding) pour les opérateurs de réseau.
 
 ## Liste des groupes sur le profil utilisateur
 

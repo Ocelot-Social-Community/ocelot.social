@@ -22,7 +22,7 @@ description: "La versión 3.18.0 trae mejoras y novedades para usuarios y operad
 
 La versión 3.18.0 trae mejoras y novedades para usuarios y operadores de redes ocelot.social. Los usuarios obtienen una lista de sus grupos en su página de perfil y mejores indicaciones para crear publicaciones. Los operadores pueden ahora configurar funciones y partes del aspecto de su red directamente.
 
-Aquí encontrarás más información sobre las novedades, con un [punto destacado](#destacado-introducción-del-nuevo-sistema-de-branding) para los operadores de red.
+Aquí encontrarás más información sobre las novedades, con un [punto destacado](#destacado-introduccion-del-nuevo-sistema-de-branding) para los operadores de red.
 
 ## Lista de grupos en el perfil de usuario
 
