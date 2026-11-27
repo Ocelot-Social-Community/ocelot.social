@@ -91,7 +91,7 @@ Nous recherchons des utilisateurs pour tester les nouvelles fonctions de la proc
 
 ### Tu parles une langue étrangère ?
 
-Le réseau est disponible en [plusieurs langues](/fr/features/#languages). Si tu souhaites contribuer à traduire, compléter ou améliorer l’interface utilisateur ou les [instructions d’utilisation du wiki (en anglais)](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:Wiki:Editor's-Guide), contactes-nous s.t.p..
+Le réseau est disponible en [plusieurs langues](/fr/features/#langues). Si tu souhaites contribuer à traduire, compléter ou améliorer l’interface utilisateur ou les [instructions d’utilisation du wiki (en anglais)](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:Wiki:Editor's-Guide), contactes-nous s.t.p..
 
 ### Tu souhaites contribuer à la conception ?
 

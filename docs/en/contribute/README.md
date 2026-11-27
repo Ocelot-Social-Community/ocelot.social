@@ -20,6 +20,7 @@ Click on the area that interests you:
 - [Would you like to help test new functions?](#would-you-like-to-help-test-new-functions)
 - [Do you like writing?](#do-you-like-writing)
 - [Do you speak a foreign language?](#do-you-speak-a-foreign-language)
+- [Would you like to contribute to the design?](#would-you-like-to-contribute-to-the-design)
 - [Do you like organizing?](#do-you-like-organizing)
 - [Help develop the software](#help-develop-the-software)
 - [Other ideas for getting involved?](#other-ideas-for-getting-involved)

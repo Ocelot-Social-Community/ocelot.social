@@ -21,7 +21,7 @@ description: Bereit für dein eigenes soziales Netzwerk? Erfahre, wie du die oce
 Dafür benötigst du umfangreiche Fachkenntnis in der IT.  
 Bei Fragen helfen wir dir vom [busFaktor() e.V.](https://busfaktor.org/de/) gerne weiter.
 
-Weitere Informationen unter → [Installation](#installation)
+Weitere Informationen unter → [Installation](#selber-installieren)
 
 ### Hosten lassen
 
