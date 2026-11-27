@@ -1,4 +1,4 @@
----   
+---
 home: false
 article: false
 sidebar: false
@@ -17,12 +17,13 @@ Haz clic en el área que te interese:
 - [Opera tu propia red](#opera-tu-propia-red)
 - [Promociona *ocelot.social*](#promociona-ocelot-social)
 - [Mejora la red](#mejora-la-red)
-- [¿Te gustaría ayudar a probar nuevas funciones?](#te-gustaría-ayudar-a-probar-nuevas-funciones)
-- [¿Te gusta escribir?](#te-gusta-escribir)
-- [¿Hablas un idioma extranjero?](#hablas-un-idioma-extranjero)
-- [¿Te gusta organizar?](#te-gusta-organizar)
+- [¿Te gustaría ayudar a probar nuevas funciones?](#¿te-gustaria-ayudar-a-probar-nuevas-funciones)
+- [¿Te gusta escribir?](#¿te-gusta-escribir)
+- [¿Hablas un idioma extranjero?](#¿hablas-un-idioma-extranjero)
+- [¿Te gustaría contribuir al diseño?](#¿te-gustaria-contribuir-al-diseno)
+- [¿Te gusta organizar?](#¿te-gusta-organizar)
 - [Ayuda a desarrollar el software](#ayuda-a-desarrollar-el-software)
-- [¿Otras ideas para involucrarte?](#otras-ideas-para-involucrarte)
+- [¿Otras ideas para involucrarte?](#¿otras-ideas-para-involucrarte)
 - [Donar](#donar)
 
 ### Apoya tu red
@@ -90,7 +91,7 @@ Estamos buscando usuarios para probar las nuevas funciones de la próxima versi�
 
 ### ¿Hablas un idioma extranjero?
 
-La red está disponible en [varios idiomas](/en/features/#languages). Si deseas ayudar a traducir, completar o mejorar la interfaz de usuario o las [instrucciones en el wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:Wiki:Editor's-Guide), por favor contáctanos.
+La red está disponible en [varios idiomas](/es/features/#idiomas). Si deseas ayudar a traducir, completar o mejorar la interfaz de usuario o las [instrucciones en el wiki](https://github.com/Ocelot-Social-Community/Ocelot-Social/wiki/en:Wiki:Editor's-Guide), por favor contáctanos.
 
 ### ¿Te gustaría contribuir al diseño?
 

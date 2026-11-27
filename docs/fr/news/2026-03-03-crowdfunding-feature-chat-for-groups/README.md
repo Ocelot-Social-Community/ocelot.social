@@ -54,7 +54,7 @@ Donc aussi par votre don.
 <!-- markdownlint-disable no-duplicate-heading -->
 <DonationBar campaign="chat-for-groups" />
 
-### Dons
+## Dons
 
 Nous serions ravis de recevoir votre don à l’adresse suivante :
 
@@ -62,7 +62,7 @@ Nous serions ravis de recevoir votre don à l’adresse suivante :
 
 Motif du paiement, voir ci-dessous.
 
-### Remarques concernant le motif du paiement
+## Remarques concernant le motif du paiement
 
 Veuillez impérativement indiquer `Don` comme motif du paiement et votre adresse e-mail afin que nous puissions vous contacter. Le signe `@` n’est généralement pas possible dans les virements bancaires, veuillez donc l’écrire sous la forme `" at "`, avec un espace avant et après et sans guillemets.
 

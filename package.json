@@ -10,6 +10,7 @@
     "dev": "vuepress dev docs",
     "test": "npm run test:lint",
     "test:lint": "textlint \"*.md\" \"docs/**/*.md\"",
+    "test:translations": "node scripts/check-translations.mjs",
     "test:lint:fix": "textlint \"*.md\" \"docs/**/*.md\" --fix"
   },
   "repository": {
@@ -21,6 +22,7 @@
   },
   "homepage": "https://ocelot.social",
   "devDependencies": {
+    "@mdit-vue/shared": "^2.1.4",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "@vuepress/bundler-vite": "^2.0.0-rc.18",
     "@vuepress/plugin-redirect": "2.0.0-rc.66",

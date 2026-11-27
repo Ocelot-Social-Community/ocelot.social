@@ -50,6 +50,16 @@ $ npm test:lint
 $ npm test:lint:fix
 ```
 
+### Translations
+
+Every page exists in `docs/de/`, `docs/en/`, `docs/es/` and `docs/fr/`. A news article needs an English version only: the build shows it in place of a missing translation. The versions of a page must share their structure, so the check fails on a heading, link, image or front matter key that one language has and another lacks, and on a link to an anchor or page that does not exist. Wording is not compared: a typo fix or a rephrasing in one language passes.
+
+```bash
+npm run test:translations
+```
+
+On a pull request the check also warns about a page changed in some languages only: update the others if the meaning changed.
+
 ## Crowdfunding
 
 All campaign data (target, amount raised, dates) and the bank account live in `docs/.vuepress/crowdfunding.js` — the single source of truth. Titles, descriptions and covers come from the announcement posts. Posts and pages only reference it:

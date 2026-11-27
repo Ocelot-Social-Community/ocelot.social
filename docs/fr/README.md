@@ -2,6 +2,7 @@
 home: true
 article: false
 icon: home
+sidebar: false
 lang: fr-FR
 title: Ocelot.Social - Logiciel libre pour ton réseau social
 description: Un logiciel libre et open source avec lequel tu peux gérer un réseau social pour ton groupe - évolutif, extensible et également pour l'auto-hébergement.
